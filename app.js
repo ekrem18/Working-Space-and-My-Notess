@@ -1,3 +1,4 @@
+//?promise SYNTAX 
 // const myPromise = new Promeise((resolve,reject)=>{
 //     let condition;
     
@@ -8,8 +9,8 @@
 //     }
 // })
 
-// //************************************ */
-//  //*JS Timing , Event ve http isteklerinde asenkron çalışıyor
+//? *********************************** */
+    //*JS Timing , Event ve http isteklerinde asenkron çalışıyor. Aşağıdaki örnekte de senkron çalışan kod asenkronu bekelmez. 
 
 console.log("Ekrem");
 setTimeout( ()=>{
