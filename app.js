@@ -16,3 +16,5 @@ console.log("Ekrem");
 setTimeout( ()=>{
     console.log("sanane")},2000);
 console.log("Yılmaztürk");
+
+//? ******************************** CALL BACK training
