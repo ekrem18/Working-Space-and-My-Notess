@@ -7,3 +7,6 @@ const myPromise = new Promeise((resolve,reject)=>{
         reject("value is not logged");
     }
 })
+
+//************************************ */
+ //*JS Timing , Event ve http isteklerinde asenkron çalışıyor
