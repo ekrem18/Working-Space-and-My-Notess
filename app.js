@@ -17,4 +17,5 @@ setTimeout( ()=>{
     console.log("sanane")},2000);
 console.log("Yılmaztürk");
 
-//? ******************************** CALL BACK training
+//? ******************************** COIN APP NOTES ********************************
+//class seçerken arada boşluk bıraknıca child seçiliyor.Çoklu seçimler için hatrılatma..
