@@ -35,3 +35,5 @@ console.log("Yılmaztürk");
 //+ m1.js dosyasına ek olarak , m2.js dosyası içerisinde yazdığın fonksiyonu export ederek m1.de kullanma durumu kabaca.
 //+ module async çalışan bir yapı. Module kullanmak için lişve server gerekiyor. 
 //+ <script type="module">
+//+ değişkenler de export-import işlemine tabi tutulabilir.
+//+ import edilecek js module yapıda olmalı
