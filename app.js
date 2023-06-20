@@ -27,4 +27,5 @@ console.log("Yılmaztürk");
 //+ APPEND vs APPENCHILD : appendchild da sadece obje verebilirken append de ise inner html ve obje verebilirz
 
 //? ********************************* JS Object Literals ********************************
-//+
+//+ inheritence işlemlerde birbirinden türeme durumu olduğu için torunda kullanmadığımız ve fakat dedede belirttiğimiz özellikleri kullanabiliyoruz.
+//+ 
