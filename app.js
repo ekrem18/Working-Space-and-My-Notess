@@ -28,4 +28,5 @@ console.log("Yılmaztürk");
 
 //? ********************************* JS Object Literals ********************************
 //+ inheritence işlemlerde birbirinden türeme durumu olduğu için torunda kullanmadığımız ve fakat dedede belirttiğimiz özellikleri kullanabiliyoruz.
+//+ inheritence ise extends ederek elde edileblir."class Magazine extends Book{ dfdjfısdj" gibi..
 //+ 
