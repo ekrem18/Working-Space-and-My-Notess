@@ -38,5 +38,5 @@ console.log("Yılmaztürk");
 //+ değişkenler de export-import işlemine tabi tutulabilir.
 //+ import edilecek js module yapıda olmalı
 //+ "export default" her module de sadece birtane olabilir. normal export istediğin kadar yapabilirsin
-//+ "export default" ile gönderileni  ''' import fonksiyon from  "mymodule.js" ''' gibi yazılıyor. süsülü vs kullanılmıyor. dolayısıyla export default ile gelenin adının bir önemi yok çünkü birtane geliyor. ANCAAAK, nrmal export için isimn önemli....
+//+ "export default" ile gönderileni  ''' import fonksiyon from  "mymodule.js" ''' gibi yazılıyor. süsülü vs kullanılmıyor. dolayısıyla export default ile gelenin adının bir önemi yok çünkü birtane geliyor. ANCAAAK, nrmal (named) export için isimn önemli....
 //+ 
