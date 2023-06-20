@@ -31,5 +31,7 @@ console.log("Yılmaztürk");
 //+ inheritence ise extends ederek elde edileblir."class Magazine extends Book{ dfdjfısdj" gibi..
 //+ ***POLYMORPHISM*** Polymorphism, bir degisken, fonksiyon veya nesnenin çoklu sekiller alabilmesini tanimlayan bir nesne-yonelimli programlama teknigidir. Polymorphism, genellikle Overloading ve Overriding gibi alt kavramlar ile bilinir.
 
-//? *********************************** MODULES ************************************************
+//? ***********************************ES6 MODULES ************************************************
 //+ m1.js dosyasına ek olarak , m2.js dosyası içerisinde yazdığın fonksiyonu export ederek m1.de kullanma durumu kabaca.
+//+ module async çalışan bir yapı. Module kullanmak için lişve server gerekiyor. 
+//+ <script type="module">
