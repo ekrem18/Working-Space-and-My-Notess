@@ -8,6 +8,7 @@
 //         reject("value is NOT succeeded");
 //     }
 // })
+
 function createPromise() {                        // createPromise adında bir func tranımladım. buna reslo ve reje. parametrelerini girdim. Aşağıda da çağırıyorum
     return new Promise((resolve, reject))=> {
             if (check) {
@@ -18,13 +19,16 @@ function createPromise() {                        // createPromise adında bir f
             }
         }};
 
-createPromise()
+createPromise()                     //burda çağırmamızın sebebi yularıdaki gibi oldsuğu sürece promise döner bi işe  yaramaöz. somutlaştyırıyoruz
  .then((response) => {
     clg(response);
  })
  .catch((error) => {
     clg(error)}) 
 .finally(() => console.log("her zaman çalışır"));
+
+// ---------------------------/
+
 
 
 //* PROMISE devamı
