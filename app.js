@@ -1,21 +1,43 @@
 //?promise SYNTAX 
-// const myPromise = new Promeise((resolve,reject)=>{
-//     let condition;
-    
-//     if(condition is met){
-//         resolve("value is logged");
+//  let check = true;
+//* const myPromise = new Promise((resolve,reject)=>{
+//      
+//     if(check){
+//         resolve("value is succeeded");       state = "fulfilled" olarak gelir
 //     }else {
-//         reject("value is not logged");
+//         reject("value is NOT succeeded");
 //     }
 // })
+function createPromise() {                        // createPromise adında bir func tranımladım. buna reslo ve reje. parametrelerini girdim. Aşağıda da çağırıyorum
+    return new Promise((resolve, reject))=> {
+            if (check) {
+                resolve("value is succeeded");
+                state = "fulfilled";
+            } else {
+                reject("value is NOT succeeded");
+            }
+        }};
 
-//? *********************************** */
+createPromise()
+ .then((response) => {
+    clg(response);
+ })
+ .catch((error) => {
+    clg(error)}) 
+.finally(() => console.log("her zaman çalışır"));
+
+
+//* PROMISE devamı
+//+ 
+
+//? *************** SYNC & ASYNC     ******************** */
 //* JS Timing , Event ve http isteklerinde asenkron çalışıyor. Aşağıdaki örnekte de senkron çalışan kod asenkronu bekelmez. 
+// console.log("Ekrem");
+// setTimeout( ()=>{
+//     console.log("sanane")},2000);
+// console.log("Yılmaztürk");
 
-console.log("Ekrem");
-setTimeout( ()=>{
-    console.log("sanane")},2000);
-console.log("Yılmaztürk");
+
 
 //? ******************************** COIN APP NOTES ********************************
 //+ class seçerken arada boşluk bıraknıca child seçiliyor.Çoklu seçimler için hatrılatma.. 
@@ -39,4 +61,3 @@ console.log("Yılmaztürk");
 //+ import edilecek js module yapıda olmalı
 //+ "export default" her module de sadece birtane olabilir. normal export istediğin kadar yapabilirsin
 //+ "export default" ile gönderileni  ''' import fonksiyon from  "mymodule.js" ''' gibi yazılıyor. süsülü vs kullanılmıyor. dolayısıyla export default ile gelenin adının bir önemi yok çünkü birtane geliyor. ANCAAAK, nrmal (named) export için isimn önemli....
-//+ 
