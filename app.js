@@ -70,5 +70,5 @@ createPromise()                     //burda çağırmamızın sebebi yularıdaki
 
 //? *********************************** REACT ************************************************
 //+ Javascript kütüphanesidir. Developed at 2011. 
-//+ DOM manipulation ı azalttığı için daha hzılı ve akıcı bir sisten sağlar
-//+ 
+//+ DOM manipulation ı azalttığı için daha hzılı ve akıcı bir sistem sağlar. VIRTUAL DOM diye bir sistem kullanıyor.
+//+ Virtual DOM; DOM un kopyası. kopya alırken de 2 kopya alıyor. "Shadow DOM". Değişiklikleri Virtual DOM a yazıyor ve hemen DOM'a aktarmıyor. Bir önceki kopy av eupdate edilmiş kopya arasındaki farkı bulan bir algoritmayla farkları güncelliyor. Bunlar RAM üzerinde olduğu için hızlı oluyor. 
