@@ -67,3 +67,6 @@ createPromise()                     //burda çağırmamızın sebebi yularıdaki
 //+ import edilecek js module yapıda olmalı
 //+ "export default" her module de sadece birtane olabilir. normal export istediğin kadar yapabilirsin
 //+ "export default" ile gönderileni  ''' import fonksiyon from  "mymodule.js" ''' gibi yazılıyor. süsülü vs kullanılmıyor. dolayısıyla export default ile gelenin adının bir önemi yok çünkü birtane geliyor. ANCAAAK, nrmal (named) export için isimn önemli....
+
+//? *********************************** REACT ************************************************
+//+ Javascript kütüphanesidir. Developed at 2011. 
