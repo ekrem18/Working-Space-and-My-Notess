@@ -70,3 +70,5 @@ createPromise()                     //burda çağırmamızın sebebi yularıdaki
 
 //? *********************************** REACT ************************************************
 //+ Javascript kütüphanesidir. Developed at 2011. 
+//+ DOM manipulation ı azalttığı için daha hzılı ve akıcı bir sisten sağlar
+//+ 
