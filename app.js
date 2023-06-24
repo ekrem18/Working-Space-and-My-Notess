@@ -9,23 +9,23 @@
 //     }
 // })
 
-function createPromise() {                        // createPromise adında bir func tranımladım. buna reslo ve reje. parametrelerini girdim. Aşağıda da çağırıyorum
-    return new Promise((resolve, reject))=> {
-            if (check) {
-                resolve("value is succeeded");
-                state = "fulfilled";
-            } else {
-                reject("value is NOT succeeded");
-            }
-        }};
+// function createPromise() {                        // createPromise adında bir func tranımladım. buna reslo ve reje. parametrelerini girdim. Aşağıda da çağırıyorum
+//     return new Promise((resolve, reject))=> {
+//             if (check) {
+//                 resolve("value is succeeded");
+//                 state = "fulfilled";
+//             } else {
+//                 reject("value is NOT succeeded");
+//             }
+//         }};
 
-createPromise()                     //burda çağırmamızın sebebi yularıdaki gibi oldsuğu sürece promise döner bi işe  yaramaöz. somutlaştyırıyoruz
- .then((response) => {
-    clg(response);
- })
- .catch((error) => {
-    clg(error)}) 
-.finally(() => console.log("her zaman çalışır"));
+// createPromise()                     //burda çağırmamızın sebebi yularıdaki gibi oldsuğu sürece promise döner bi işe  yaramaöz. somutlaştyırıyoruz
+//  .then((response) => {
+//     clg(response);
+//  })
+//  .catch((error) => {
+//     clg(error)}) 
+// .finally(() => console.log("her zaman çalışır"));
 
 // ---------------------------/
 
@@ -72,3 +72,4 @@ createPromise()                     //burda çağırmamızın sebebi yularıdaki
 //+ Javascript kütüphanesidir. Developed at 2011. 
 //+ DOM manipulation ı azalttığı için daha hzılı ve akıcı bir sistem sağlar. VIRTUAL DOM diye bir sistem kullanıyor.
 //+ Virtual DOM; DOM un kopyası. kopya alırken de 2 kopya alıyor. "Shadow DOM". Değişiklikleri Virtual DOM a yazıyor ve hemen DOM'a aktarmıyor. Bir önceki kopy av eupdate edilmiş kopya arasındaki farkı bulan bir algoritmayla farkları güncelliyor. Bunlar RAM üzerinde olduğu için hızlı oluyor. 
+//+ projeye js gibi uzantılardan farklı olarqak terminalden ulaşabiliyoruz.
