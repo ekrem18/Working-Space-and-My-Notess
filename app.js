@@ -78,4 +78,5 @@
 //+ Component pamaretresi PROPS tur. 
 //+ Comp.ler içerisindeki kodları tek halde göndermeye çalışıyor. Alt alta h1 p vs yazınca çevirmede skntı yaşıyor. Bunu aşmak için <> </> boş fragment le sarmallıyoruz. Yani sekmemin etiketi div ise örneğin <div> </div> gibi.
 //+ JSX içerisinde JS penceresi açmak istersen {} kullanıyoruz.
-//+ 
+//+ çift süslü ile key, value  yapısı  şeklinde inline olarak CSS ile style verilebilir
+//+ yapı içeirisnde yeni bir değişken oluşitararak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
