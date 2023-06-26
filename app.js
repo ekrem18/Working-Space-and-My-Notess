@@ -74,3 +74,4 @@
 //+ Virtual DOM; DOM un kopyası. kopya alırken de 2 kopya alıyor. "Shadow DOM". Değişiklikleri Virtual DOM a yazıyor ve hemen DOM'a aktarmıyor. Bir önceki kopy av eupdate edilmiş kopya arasındaki farkı bulan bir algoritmayla farkları güncelliyor. Bunlar RAM üzerinde olduğu için hızlı oluyor. 
 //+ projeye js gibi uzantılardan farklı olarqak terminalden ulaşabiliyoruz.
 //+ inner HTML olmadan JS içinde doğrudan JSX dediğimiz; görüntüsü func.a benzeyen JS-HTML karışımı olan bir blok giriyoruz. Kısaca COMPONENTS
+//+  COMPONENT yazılıosa baş harfi büyük olacak.
