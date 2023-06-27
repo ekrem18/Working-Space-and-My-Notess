@@ -81,4 +81,4 @@
 //+  çift süslü ile key, value  yapısı  şeklinde inline olarak CSS ile style verilebilir
 //+  yapı içeirisnde yeni bir değişken oluşitararak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
 //+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Resmi import edip süslü içerisinde bir değişken gibi çağpırıyoruz. İSTİSNASI public klasörüdür. public klasörü içerisindeki imajı import etmeden de çağırabiliriz. public kalsörü ana dizin formatında gibi. 
-//+  
+//+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
