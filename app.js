@@ -36,10 +36,10 @@
 
 //? *************** SYNC & ASYNC     ******************** */
 //* JS Timing , Event ve http isteklerinde asenkron çalışıyor. Aşağıdaki örnekte de senkron çalışan kod asenkronu bekelmez. 
-// console.log("Ekrem");
+// console.log("Ekrm");
 // setTimeout( ()=>{
 //     console.log("sanane")},2000);
-// console.log("Yılmaztürk");
+// console.log("Yılmaztrk");
 
 
 
