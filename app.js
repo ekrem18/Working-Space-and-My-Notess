@@ -78,6 +78,7 @@
 //+  COMPONENT yazılıosa baş harfi büyük olacak.
 //+  Component pamaretresi PROPS tur. 
 //+  Comp.ler içerisindeki kodları tek halde göndermeye çalışıyor. Alt alta h1 p vs yazınca çevirmede skntı yaşıyor. Bunu aşmak için <> </> boş fragment le sarmallıyoruz. Ya da  sekmemin etiketi div ise örneğin <div> </div> gibi.
+//+  Her COMP içinde bir return barındırıyor. Bu return den sonra JSX kodumuzu yazıp fonk oluşturuyoruz.
 //+  JSX içerisinde JS penceresi açmak istersen {} kullanıyoruz.
 //+  çift süslü ile key-value  yapısı şeklinde inline olarak CSS ile style verilebilir
 //+  yapı içeirisnde yeni bir değişken oluşturarak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
