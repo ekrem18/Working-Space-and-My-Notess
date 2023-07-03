@@ -93,4 +93,5 @@
 //+  {props.name} diyerek name değişkenini atamış oluyorum.
 //?  3.DERS 
 //+  Aynı seviyede iki component yani sibling e import edilecek farklı props lar varsa ayrı ayrı import etmektense bir üst compt. e import edilerek oradan çekilir. "Props Drilling"
+//+  JSX de etikete class vermek istiyorsam className vermeliyiz. hatırlatma
 //+  
