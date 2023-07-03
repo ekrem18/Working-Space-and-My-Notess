@@ -87,7 +87,7 @@
 //+  inline CSS benzeri bir yapı da değişken tanımlayarak style işlmei yapmaktır. Ör: bütün p lere etki edecek bir işlem olsun istiyorum. const parStyle diyerek örneğin fontSize, textAlign gibi değerler belirledim. Sonra aşağıda p içerisinde style etiketi ile style ={parStyle} yaparak işi kolaylaştırıyorum. Bu değişkenler global olabilecğei gibi harici bir dosyadan da alınabilir.!
 //+  CSS dosyaları doğrudan import edilir export edilmelerine gerek yoktur.
 //+  yapı içeirisnde yeni bir değişken oluşturarak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
-//+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Resmi import edip süslü içerisinde bir değişken gibi çağpırıyoruz. İSTİSNASI public klasörüdür. public klasörü içerisindeki imajı import etmeden de çağırabiliriz. public kalsörü ana dizin formatında gibi. 
+//+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Dahili vübir resim eklemek için import apmak gereklidir. Ancak, public kalsöründeki resimler importsuz bir şekilde erişilebilir.
 //+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
 //+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
 //+  
