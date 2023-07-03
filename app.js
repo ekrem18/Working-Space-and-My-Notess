@@ -94,4 +94,7 @@
 //?  3.DERS 
 //+  Aynı seviyede iki component yani sibling e import edilecek farklı props lar varsa ayrı ayrı import etmektense bir üst compt. e import edilerek oradan çekilir. "Props Drilling"
 //+  JSX de etikete class vermek istiyorsam className vermeliyiz. hatırlatma
+//+  CSS dosyasını hazırlayıp istediğimiz jsx dosyasına gidip impot ediyoruz.
+//+  Module CSS ile derlenmiş Javascript vari bir dosya elde ediyoruz. Objeye dönüyor diyebilirz.
+//+  Objeleri classlara çevirirken yeniden isimlendirip, unique hale getirmek için kendi bir değer basıyor ki CSS de girdiğimiz değerler birbirine girmesin- çakışmasın. 
 //+  
