@@ -84,6 +84,8 @@
 //+  "export const Fonk" diye bir Comp.i export etme yöntemi NAMED export'tur. import ederken import {Fonk} diye çağırmalısın. süslü içine almazsan hata verir.
 //+  "export default" yalnızca bir kere yapılabilir.
 //+  Inline CSS yapıyorsak style attribute kullanılarak çift süslü ile key-value yapısı şeklinde style verilebilir. Key'ler camelCase şekline yazılırken, value lar tırnak içerisinde.
+//+  inline CSS benzeri bir yapı da değişken tanımlayarak style işlmei yapmaktır. Ör: bütün p lere etki edecek bir işlem olsun istiyorum. const parStyle diyerek örneğin fontSize, textAlign gibi değerler belirledim. Sonra aşağıda p içerisinde style etiketi ile style ={parStyle} yaparak işi kolaylaştırıyorum. Bu değişkenler global olabilecğei gibi harici bir dosyadan da alınabilir.!
+//+  CSS dosyaları doğrudan import edilir export edilmelerine gerek yoktur.
 //+  yapı içeirisnde yeni bir değişken oluşturarak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
 //+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Resmi import edip süslü içerisinde bir değişken gibi çağpırıyoruz. İSTİSNASI public klasörüdür. public klasörü içerisindeki imajı import etmeden de çağırabiliriz. public kalsörü ana dizin formatında gibi. 
 //+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
