@@ -70,16 +70,16 @@
 
 //? *********************************** REACT ************************************************
 //+  Javascript kütüphanesidir. Developed at 2011. 
-//+  DOM manipulation ı azalttığı için daha hzılı ve akıcı bir sistem sağlar. VIRTUAL DOM diye bir sistem kullanıyor.
+//+  DOM manipulation ı azalttığı için daha hızlı ve akıcı bir sistem sağlar. VIRTUAL DOM diye bir sistem kullanıyor.
 //+  Virtual DOM; DOM un kopyası. kopya alırken de 2 kopya alıyor. "Shadow DOM". Değişiklikleri Virtual DOM a yazıyor ve hemen DOM'a aktarmıyor. Bir önceki kopy av eupdate edilmiş kopya arasındaki farkı bulan bir algoritmayla farkları güncelliyor. Bunlar RAM üzerinde olduğu için hızlı oluyor. 
-//+  projeye js gibi uzantılardan farklı olarqak terminalden ulaşabiliyoruz.
+//+  projeye js gibi uzantılardan farklı olarak terminalden ulaşabiliyoruz.
 //+  inner HTML olmadan JS içinde doğrudan JSX dediğimiz; görüntüsü func.a benzeyen JS-HTML karışımı olan bir blok giriyoruz. Kısaca COMPONENTS
 //+  COMPONENT yazılıosa baş harfi büyük olacak.
 //+  Component pamaretresi PROPS tur. 
 //+  Comp.ler içerisindeki kodları tek halde göndermeye çalışıyor. Alt alta h1 p vs yazınca çevirmede skntı yaşıyor. Bunu aşmak için <> </> boş fragment le sarmallıyoruz. Yani sekmemin etiketi div ise örneğin <div> </div> gibi.
 //+  JSX içerisinde JS penceresi açmak istersen {} kullanıyoruz.
-//+  çift süslü ile key, value  yapısı  şeklinde inline olarak CSS ile style verilebilir
-//+  yapı içeirisnde yeni bir değişken oluşitararak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
+//+  çift süslü ile key-value  yapısı şeklinde inline olarak CSS ile style verilebilir
+//+  yapı içeirisnde yeni bir değişken oluşturarak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
 //+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Resmi import edip süslü içerisinde bir değişken gibi çağpırıyoruz. İSTİSNASI public klasörüdür. public klasörü içerisindeki imajı import etmeden de çağırabiliriz. public kalsörü ana dizin formatında gibi. 
 //+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
-//+  PROPS paren ttan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
+//+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
