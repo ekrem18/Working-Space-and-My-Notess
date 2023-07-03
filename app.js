@@ -73,7 +73,8 @@
 //+  DOM manipulation ı azalttığı için daha hızlı ve akıcı bir sistem sağlar. VIRTUAL DOM diye bir sistem kullanıyor.
 //+  Virtual DOM; DOM un kopyası. kopya alırken de 2 kopya alıyor. "Shadow DOM". Değişiklikleri Virtual DOM a yazıyor ve hemen DOM'a aktarmıyor. Bir önceki kopy av eupdate edilmiş kopya arasındaki farkı bulan bir algoritmayla farkları güncelliyor. Bunlar RAM üzerinde olduğu için hızlı oluyor. 
 //+  projeye js gibi uzantılardan farklı olarak terminalden ulaşabiliyoruz.
-//+  inner HTML olmadan JS içinde doğrudan JSX dediğimiz; görüntüsü func.a benzeyen JS-HTML karışımı olan bir blok giriyoruz. Kısaca COMPONENTS
+//+  inner HTML olmadan JS içinde doğrudan JSX dediğimiz; görüntüsü func.a benzeyen JS-HTML karışımı olan bir blok giriyoruz. bunların da çocukları COMPONENTS
+//+  COMP. aslında özetle; JS fonksiyonu ama bir return'e sahip. ve JSX döndürüyor.
 //+  COMPONENT yazılıosa baş harfi büyük olacak.
 //+  Component pamaretresi PROPS tur. 
 //+  Comp.ler içerisindeki kodları tek halde göndermeye çalışıyor. Alt alta h1 p vs yazınca çevirmede skntı yaşıyor. Bunu aşmak için <> </> boş fragment le sarmallıyoruz. Yani sekmemin etiketi div ise örneğin <div> </div> gibi.
@@ -83,3 +84,4 @@
 //+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Resmi import edip süslü içerisinde bir değişken gibi çağpırıyoruz. İSTİSNASI public klasörüdür. public klasörü içerisindeki imajı import etmeden de çağırabiliriz. public kalsörü ana dizin formatında gibi. 
 //+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
 //+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
+//+  
