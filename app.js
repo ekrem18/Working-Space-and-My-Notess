@@ -97,4 +97,5 @@
 //+  CSS dosyasını hazırlayıp istediğimiz jsx dosyasına gidip impot ediyoruz.
 //+  Module CSS ile derlenmiş Javascript vari bir dosya elde ediyoruz. Objeye dönüyor diyebilirz.
 //+  Objeleri classlara çevirirken yeniden isimlendirip, unique hale getirmek için kendi bir değer basıyor ki CSS de girdiğimiz değerler birbirine girmesin- çakışmasın. 
+//+  Özetle module CSS; module.css'de derleyici CSS class'larini alarak bunlari unique olacak sekilde yeniden adlandirir. (Ornek: card_title__XaSde). Bu durumda, global scope problemi ortadan kalktigi icin stillerin baska class tarafindan ezilmesi (overriding) engellenir. CCS module Webpack, Browsify gibi tool'lar ile kullanilabilir.
 //+  
