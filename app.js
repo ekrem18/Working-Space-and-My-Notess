@@ -75,7 +75,7 @@
 //+  projeye js gibi uzantılardan farklı olarak terminalden ulaşabiliyoruz.
 //+  inner HTML olmadan JS içinde doğrudan JSX dediğimiz; görüntüsü func.a benzeyen baya baya fonksiyon gibi ordan aklına gelsin JS-HTML karışımı olan bir blok giriyoruz. bunların da çocukları COMPONENTS
 //+  COMP. aslında özetle; JS fonksiyonu ama bir return'e sahip. ve JSX döndürüyor.
-//+  COMPONENT yazılıosa baş harfi büyük olacak.
+//+  COMPONENT yazılıosa baş harfi büyük olacak. Dosya adı da.
 //+  Component pamaretresi PROPS tur. 
 //+  Comp.ler içerisindeki kodları tek halde göndermeye çalışıyor. Alt alta h1 p vs yazınca çevirmede skntı yaşıyor. Bunu aşmak için <> </> boş fragment le sarmallıyoruz. Ya da  sekmemin etiketi div ise örneğin <div> </div> gibi.
 //+  Bu arada etiketi yazdıktan sonra import etmek için öneri gelmediyse etiketi seçip Ctrl+Space yaparak öneri sorgulanabilir.
@@ -91,5 +91,6 @@
 //+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
 //+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
 //+  {props.name} diyerek name değişkenini atamış oluyorum.
-//? 3.DERS 
-//+     
+//?  3.DERS 
+//+  Aynı seviyede iki component yani sibling e import edilecek farklı props lar varsa ayrı ayrı import etmektense bir üst compt. e import edilerek oradan çekilir. "Props Drilling"
+//+  
