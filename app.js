@@ -104,4 +104,21 @@
 //+  Objeleri classlara çevirirken yeniden isimlendirip, unique hale getirmek için kendi bir değer basıyor ki CSS de girdiğimiz değerler birbirine girmesin- çakışmasın. 
 //+  Özetle module CSS; module.css'de derleyici CSS class'larini alarak bunlari unique olacak sekilde yeniden adlandirir. (Ornek: card_title__XaSde). Bu durumda, global scope problemi ortadan kalktigi icin stillerin baska class tarafindan ezilmesi (overriding) engellenir. CSS module Webpack, Browsify gibi tool'lar ile kullanilabilir.
 //+  farklı dosyalar hatta yolda olsalar dahi index dosyasında birleştiği için bu dosyalar, birbirlerini ezme durumları her zaman mümkün. module css bu işe yarıyor özetle. Dolayısıyla düz css yerine module css ile çalışarak derlemesine izin veriyoruz
-//+  
+//+  Module css doğrudan kullanılabiliyorken, SASS npm i sass gibi bir komutla terminalden önce indirme yapmalıyız.  Node JS varsa yarn add sass kütüphaneisini projeye eklenecek
+//+  <div className={CardStyle.container}>
+//      {data.map((item) => {
+//        const { id, name, job, img, comment } = item
+//        return (                                burdaki return'den sonra wrappper olarak div kullanıldı
+//          <div key={id} className={CardStyle.card}>
+//           <h1>{name}</h1>                        
+//            <h3>{job}</h3>
+//            <p>{comment}</p>
+//            <img src={img} alt="img" />
+//            <div className={CardStyle.buttons}>
+//              <button className={CardStyle.small}>Small</button>
+//             <button className={CardStyle.large}>Large</button>
+//            </div>
+//          </div>
+//        )
+//      })}
+//   </div>
