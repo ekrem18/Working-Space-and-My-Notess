@@ -98,7 +98,8 @@
 //+  Destructure nedir peki? Kutuyu havada-karada açma? örneğin card.jsx dosyasında const Card = ({lang, btn, img}) olarak tanımlama yapıp havada açıp yakalıyorum bilgiyi.
 //+  Componentler arasında props gönder-al mevzuu ile alakalı olarak, key'de yazılanın önemi yok onu biz belirliyoruz. Yeter ki gönderildiği gibi çağırılsın. lang={data} dediysem languages olarak çağırmalıyım
 //+  Peki aynı kalıpları kullanırken sürekli birbirini tekrar eden kodlar mı yazıyoruz? HAyır,react mantığına aykırı. Gelen bilgi bir ARRAY olduğu için İTERASYON yapıyoruz. Ne yapmamız lazım peki? daha öncede dediğimiz şey JSX içerisinde JS yazacaksak { } açarız. ÖR: {data.map()}  For Each kullanmıyoruz. Çünkü For Eaach bünyesinde return barındırmıyor 
-//+  İTERASYON KODUNU YAZIYORUM JSX İÇİNE {data.map((item)=> CARD YAPISI NEYSE BURAYA O)}
+//+  İTERASYON KODUNU YAZIYORUM JSX İÇİNE     { data.map((id, language, img, btnName)  =>   <Card  id={id}  lang={language}  img={img}  btn={btnNsme}   />)}   data kadar dönüyoruz. Card yapısı içeriisnde gerekli olan bilgi hangisiyse onu da map ten sonraki parantezle yakalıyoruz
+//+  
 //+  Module CSS ile derlenmiş Javascript vari bir dosya elde ediyoruz. Objeye dönüyor diyebilirz.
 //+  Objeleri classlara çevirirken yeniden isimlendirip, unique hale getirmek için kendi bir değer basıyor ki CSS de girdiğimiz değerler birbirine girmesin- çakışmasın. 
 //+  Özetle module CSS; module.css'de derleyici CSS class'larini alarak bunlari unique olacak sekilde yeniden adlandirir. (Ornek: card_title__XaSde). Bu durumda, global scope problemi ortadan kalktigi icin stillerin baska class tarafindan ezilmesi (overriding) engellenir. CSS module Webpack, Browsify gibi tool'lar ile kullanilabilir.
