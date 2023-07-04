@@ -107,18 +107,19 @@
 //+  Module css doğrudan kullanılabiliyorken, SASS npm i sass gibi bir komutla terminalden önce indirme yapmalıyız.  Node JS varsa yarn add sass kütüphaneisini projeye eklenecek
 //+  <div className={CardStyle.container}>
 //      {data.map((item) => {
-//        const { id, name, job, img, comment } = item
-//        return (                                burdaki return'den sonra wrappper olarak div kullanıldı
-//          <div key={id} className={CardStyle.card}>
-//           <h1>{name}</h1>                        
+//        const { id, name, job, img, comment } = item   buradaki destructure da burda olmalı return içinde olmaz.
+//        return (                                       burdaki return'den sonra wrappper olarak div kullanıldı
+//          <div key={id} className={CardStyle.card}>    key propu burda veriliyor. çünkü birden fazla olacak olan yapı burdaki div yapısı..
+//            <h1>{name}</h1>                        
 //            <h3>{job}</h3>
 //            <p>{comment}</p>
 //            <img src={img} alt="img" />
 //            <div className={CardStyle.buttons}>
 //              <button className={CardStyle.small}>Small</button>
-//             <button className={CardStyle.large}>Large</button>
+//              <button className={CardStyle.large}>Large</button>
 //            </div>
 //          </div>
 //        )
 //      })}
 //   </div>
+//+  
