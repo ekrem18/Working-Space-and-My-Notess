@@ -121,5 +121,9 @@
 //          </div>
 //        )
 //      })}
-//   </div>
+//   </div> 
+//?  5.DERS EVENTS
+//+  ReactJS, Tarayicilar arasi uyumluluk ve performans artisi gibi sebeplerden oturu Sentetik Event olarak adilandirilan Olaylari kullanir. Sentetik Event, aslinda tarayicinin dogal event'larinin bir sarmalayici (Wrapper) arabirimle ortulmesi ile olusur. Bu sayede, React ortaminda kullanilan event'larin bilindik tarayicilarda sorunsuz calismasini saglanir.
+//+  Eger bir event fonksiyonunun paremetresi olmasi gerekiyorsa bu fonksiyon bir arrow fonks. tarafindan  cagrilmalidir. Aksi takdirde event fonksiyonu event gerceklesmeden cagirilir 
+//+  Bir compo.'in DOMa yeni,den basılmasını sağlayan 2şey var. Yukarıdan aldığı prop varsa ve propta değişiklik varsa yenşden render söz konusu olur. İkincisi; Bu comp.'in içerisinde local bir state varsa ve state'te değişiklik söz konusuysa re-render yapılır. Bunun dışında Component ilk açılışta DOMa basılır sonra basılmaz denilebilir. React mantığı bu
 //+  
