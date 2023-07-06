@@ -139,3 +139,4 @@
 //+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır.
 //+  KeyCode a erişmek için Keyboard Event'larını kullanmamız gerekiyor. Yani mesela input'a sadece yazı girilebilsin istiyorum. input type number olsa yazı giremiyorum, text desem ne varsa girilebiliyor. napıoruz Ascii kodlarından keycode değüerine bakarak numaraları devre dışı bırakabiliriz
 //+  CONDITIONAL RENDERING : koşula bağlı olarak bir elementin gösterip- gösterilmemesi durumuna denir.
+//+  
