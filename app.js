@@ -135,4 +135,6 @@
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
 //+  input a yazılan texte dair her değişikliği anlık olarak görmek ve kullanmak için "onChange" event ini kullanıyoruz.
-//+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz
+//+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz.
+//+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır.
+//+  
