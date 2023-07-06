@@ -134,4 +134,5 @@
 //+  Stateler RAM de tutulduğu için refresh halinde default değere geri döner.
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
-//+  
+//+  input a yazılan texte dair her değişikliği anlık olarak görmek ve kullanmak için "onChange" event ini kullanıyoruz.
+//+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz
