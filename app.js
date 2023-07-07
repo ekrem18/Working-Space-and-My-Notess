@@ -133,7 +133,7 @@
 //+  HOOK Kullanim KURALLARI: 1. İlk olarak import edilmeliler. import { useState } from "react"; 2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir. 3. Hook'lar sadece React Fonksiyonel componentleri icerisinde cagrilmalidir. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.(Custom hook'lar icerisinde bir hook cagrilabilir)
 //+  Stateler RAM de tutulduğu için refresh halinde default değere geri döner.
 //+  "predeploy": "yarn run build",
-//?  6.DERS EVENTS DEVAM ve BOOTSTRAP
+//?  6.DERS EVENTS DEVAM ve BootStrap
 //+  input a yazılan texte dair her değişikliği anlık olarak görmek ve kullanmak için "onChange" event ini kullanıyoruz.
 //+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz.
 //+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır.
