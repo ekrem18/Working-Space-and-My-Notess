@@ -142,4 +142,5 @@
 //?  NBA TW NOTES
 //+  Css ve Bootstrap i import ederken hepsinde kullanacaksak eğer kapsayıcı olan APP.JS üzerinde yapmak mantıklı olan. 
 //+  Flex Wrap verirken işlemesi için genişlik tanımlanmıiş olmalı
-//+  position:relative kapsayıcı div e veriyoruz ki önce ,position:absolute verdiğimizde bu div le sınırlı kalsın
+//+  position:relative kapsayıcı div e veriyoruz ki önce ,position:absolute verdiğimizde bu div le sınırlı kalsın.
+//+  
