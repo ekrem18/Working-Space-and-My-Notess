@@ -132,7 +132,8 @@
 //+  STATE aslında bir React objesidir. 
 //+  Hook bir array döndürüyor.  const [counter , setCounter] = useState()  dersen    counter:başlangıç değeri, ilk indis denebilir --- setCounter: ise bunu değiştiren metod..
 //+  Hook'lar fonksiyonel component'ler icerisinde state'leri kullanmamiza olanak saglayan ozel fonksiyonlardir. React 16.8 versiyonu ile gelmistir ve geldikten sonra Class-componentler'in kullanimi cok azaltmistir.
-//+  HOOK Kullanim KURALLARI: ****1. İlk olarak import edilmeliler.  import { useState } from "react";       *******2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir.     *******3. Hook'lar sadece React Fonksiyonel componentleri icerisinde cagrilmalidir. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.(Custom hook'lar icerisinde bir hook cagrilabilir)
+//+  HOOK Kullanim KURALLARI: ****1. İlk olarak import edilmeliler.  import { useState } from "react";       *******2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir.     *******3. Hook'lar sadece React Fonksiyonel componentleri icerisinde ve Custom hook'lar icerisinde bir hook cagrilabilir. Başka bir Hook içerisinde ya d aComponent içerisinde çağırıyoruz. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.
+//+  
 //+  Stateler RAM de tutulduğu için refresh halinde default değere geri döner.
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
