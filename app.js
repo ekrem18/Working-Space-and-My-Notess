@@ -122,15 +122,16 @@
 //        )
 //      })}
 //   </div> 
-//?  5.DERS EVENTS
-//+  ReactJS, Tarayicilar arasi uyumluluk ve performans artisi gibi sebeplerden oturu Sentetik Event olarak adilandirilan Olaylari kullanir. Sentetik Event, aslinda tarayicinin dogal event'larinin bir sarmalayici (Wrapper) arabirimle ortulmesi ile olusur. Bu sayede, React ortaminda kullanilan event'larin bilindik tarayicilarda sorunsuz calismasini saglanir.
+//?  5.DERS EVENTS, CLASS COMP., STATES
+//+  ReactJS, Tarayicilar arasi uyumluluk ve performans artisi gibi sebeplerden oturu Sentetik Event olarak adilandirilan Olaylari kullanir. Sentetik Event, aslinda tarayicinin dogal event'larinin bir sarmalayici (Wrapper) arabirimle ortulmesi ile olusur. Bu sayede, React ortaminda kullanilan event'larin bilindik tarayicilarda sorunsuz calismasi saglanir.
 //+  Eger bir event fonksiyonunun paremetresi olmasi gerekiyorsa bu fonksiyon bir arrow fonks. tarafindan  cagrilmalidir. Aksi takdirde event fonksiyonu event gerceklesmeden cagirilir 
-//+  Bir compo.'in DOMa yeni,den basılmasını sağlayan 2şey var. Yukarıdan aldığı prop varsa ve propta değişiklik varsa yenşden render söz konusu olur. İkincisi; Bu comp.'in içerisinde local bir state varsa ve state'te değişiklik söz konusuysa re-render yapılır. Bunun dışında Component ilk açılışta DOMa basılır sonra basılmaz denilebilir. React mantığı bu
+//+  ÖR::::  < button onClick={() => alert("click me!")}>  Bu doğru kullanım.        yanlış olan ise    < button onClick{alert("click me!")}>
+//+  Bir compo.'in DOMa yeniden basılmasını sağlayan 2şey var. Yukarıdan aldığı prop varsa ve propta değişiklik varsa yeniden render söz konusu olur. İkincisi; Bu comp.'in içerisinde local bir state varsa ve state'te değişiklik söz konusuysa re-render yapılır. Bunun dışında Component ilk açılışta DOMa basılır sonra basılmaz denilebilir. React mantığı bu
 //+  Message console'da guncellendigini ancak DOM'da guncellenmedigini gorduk. Bunun sebebi REACT'in aksi belirtilmedigi surece elementleri static olarak kabul etmesinden kaynaklanir.React bunu DOM islemlerini minimize etmek icin yapmaktadir. REACT'a hangi elementleri interaktif oldugu belirtilmelidir. React'a elementlerin interaktif oldugunu belirtmek icin state'ler kullanilir. State, elementlerin degisiklik durumlarini tutan nesnelerdir. ReactJs'de state'leri kullanmak icin  2 ayri Component yapisi bulunmaktadir. 1. Statefull Classes (Class Components). 2. Hooks (Functional Components). Biz su ana kadar uygulamalarimizda Fonksiyonel Component'leri kullandik. Yaygin kullanim Fonksiyonel Component'lerdir.
 //+  STATE aslında bir React objesidir. 
 //+  Hook bir array döndürüyor.  const [counter , setCounter] = useState()  dersen    counter:başlangıç değeri, ilk indis denebilir --- setCounter: ise bunu değiştiren metod..
 //+  Hook'lar fonksiyonel component'ler icerisinde state'leri kullanmamiza olanak saglayan ozel fonksiyonlardir. React 16.8 versiyonu ile gelmistir ve geldikten sonra Class-componentler'in kullanimi cok azaltmistir.
-//+  HOOK Kullanim KURALLARI: 1. İlk olarak import edilmeliler. import { useState } from "react"; 2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir. 3. Hook'lar sadece React Fonksiyonel componentleri icerisinde cagrilmalidir. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.(Custom hook'lar icerisinde bir hook cagrilabilir)
+//+  HOOK Kullanim KURALLARI: ****1. İlk olarak import edilmeliler. import { useState } from "react"; *******2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir. *******3. Hook'lar sadece React Fonksiyonel componentleri icerisinde cagrilmalidir. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.(Custom hook'lar icerisinde bir hook cagrilabilir)
 //+  Stateler RAM de tutulduğu için refresh halinde default değere geri döner.
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
