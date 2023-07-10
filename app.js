@@ -135,10 +135,10 @@
 //+  HOOK Kullanim KURALLARI: ****1. İlk olarak import edilmeliler.  import { useState } from "react";       *******2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir.     *******3. Hook'lar sadece React Fonksiyonel componentleri icerisinde ve Custom hook'lar icerisinde bir hook cagrilabilir. Başka bir Hook içerisinde ya d aComponent içerisinde çağırıyoruz. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.
 //+  Stateler-Hook RAM de tutulduğu için refresh halinde default değere geri döner.
 //*+  State tanımlarken object olarak girilmesi de mümkündür. ***********  const[kisi, setKisi] = useState( {name:"Ahmet", age:"30", salary:"50000"} )
-//+  Bu obje içerisindekileri yakalarken de artık doğrudan name demiyoruz. kisi.name ,, kisi.age ,, kisi.salary yazıyoruz
+//*+  Bu obje içerisindekileri yakalarken de artık doğrudan name demiyoruz. kisi.name ,, kisi.age ,, kisi.salary yazıyoruz
 //*+  Bir event tanımlarken;   
 //*+  onClick={()=> setKisi({...kisi, name:"Mehmet"}) }  diyoruz. Spread ile objeyi açıyoruz. objeyi açtıktan sonra değiştirmek istediğimiz değere key-value mantığıyla da bilgiyi giriyoruz. Eğer spread ile açmazsak objenin içerisindeki değiştirmek istediğimiz değer haricinde bütün obje değişikliğe gider..
-//+  
+//+  Eğer objenin tamamını değişitmek ya da silmek gibi bir event içerisine girmek istiyorsak spread yapmaya gerek yok.
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
 //+  input a yazılan texte dair her değişikliği anlık olarak görmek ve kullanmak için "onChange" event ini kullanıyoruz.
