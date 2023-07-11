@@ -142,7 +142,7 @@
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
 //+  Bootstrap React ortamında 2 şekilde kullanılabilir. 1.si klaik class isimleriyle , 2.si "react bootstrap" diyoruz. 
-//*+  """"yarn add npm install react-bootstrap bootstrap""""" diyerek kuruyoruz. CSS başlığı altındaki "import 'bootstrap/dist/css/bootstrap.min.css';"   linki  App veya index js ye import ediyoruz.
+//*+  """"yarn add npm install react-bootstrap bootstrap""""" diyerek kuruyoruz. CSS başlığı altındaki "import 'bootstrap/dist/css/bootstrap.min.css';"   linki  App veya index js ye import ediyoruz. klasik bootstrap sayfası üzerinden işlem yaparken kodu jsx ortamına çevirmemiz lazm.
 //+  
 //+  input a yazılan texte dair her değişikliği anlık olarak görmek ve kullanmak için "onChange" event ini kullanıyoruz.
 //+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz.
