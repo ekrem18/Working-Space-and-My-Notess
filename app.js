@@ -141,6 +141,9 @@
 //+  Eğer objenin tamamını değişitmek ya da silmek gibi bir event içerisine girmek istiyorsak spread yapmaya gerek yok.
 //+  "predeploy": "yarn run build",
 //?  6.DERS EVENTS DEVAM ve BOOTSTRAP
+//+  Bootstrap React ortamında 2 şekilde kullanılabilir. 1.si klaik class isimleriyle , 2.si "react bootstrap" diyoruz. 
+//*+  """"yarn add npm install react-bootstrap bootstrap""""" diyerek kuruyoruz. CSS başlığı altındaki "import 'bootstrap/dist/css/bootstrap.min.css';"   linki  App veya index js ye import ediyoruz.
+//+  
 //+  input a yazılan texte dair her değişikliği anlık olarak görmek ve kullanmak için "onChange" event ini kullanıyoruz.
 //+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz.
 //+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır.
