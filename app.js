@@ -152,6 +152,12 @@
 //+  Yukarıda bahsettiğimiz submit'in default davranışı neydi? Submit ediyor bilgi görünüyor ve refresh ederek formu siliyor. Form silinince elde bir değer kalmadığı için event'in doğuştan gelen bu davranışını engellemek adına "preventDefault " kullanıyoruz.
 //*+ Keyboard Clipboard Notes
 //+  Mesela input'a sadece yazı girilebilsin istiyorum. input type number olsa yazı giremiyorum, text desem ne varsa girilebiliyor. KeyCode a erişmek için Keyboard Event'larını kullanmamız gerekiyor. onKeyDown eventi kullanılıyor. Napıoruz Ascii kodlarından keycode değerine bakarak numaraları devre dışı bırakabiliriz
+//*+  e.keyCode ile ascii kodunu yakaladık. if ile e.keyCode aralığını girdik. Uyarı yazdırdık numara girme diye ancak gene de yazmaya devam eder. Çünkü event'in doğal davranışı budur. Bunu engellemek için e.preventDefault diyoruz. 
+//*+  const handleKeyDown = (e) => {
+    //if (e.keyCode >= 48 && e.keyCode <= 57) {
+    //    alert("Please dont enter a number")
+    //    e.preventDefault()
+//+  
 //+  CONDITIONAL RENDERING : koşula bağlı olarak bir elementin gösterip- gösterilmemesi durumuna denir.
 //?  NBA TW NOTES
 //+  Css ve Bootstrap i import ederken hepsinde kullanacaksak eğer kapsayıcı olan APP.JS üzerinde yapmak mantıklı olan. 
