@@ -148,9 +148,10 @@
 //*+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz. yani input içerisinde onChange={handleUsername}  tanımladım. yukarı çıkıyorum return üstünde ancak compo. içerisinde klarak ""const handleUsername = () => { } ""tanımını yapıyorum.
 //+  Buradan gelen bilgiyi saklamak ve kullanmak için de napıyorz useState oluşturuyoruz. bunu da kullanmak için en yukarda bu stati import {useState} from "react" diyerek çağırıyoruz.
 //+  OnChange event'ı input degeri her degistiginde tetiklenir. Biz de yazdıgımız event handler araciligi ile State'i guncelleyebilmis oluruz.
-//+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır. statik değer verilirse render durumu ortaya çıkıyor. o yüzden "value = {bir state gelir genelde}"
-//+  Yukarıda bahsettiğimiz submit'in default davranılı neydi? Submit ediyor bilgi görünüyor ve refresh ederek formu siliyor. Form silinince elde bir değer kalmadığı için event'in doğuştan gelen bu davranışını engellemek adına "preventDefault " kullanıyoruz.
-//+  KeyCode a erişmek için Keyboard Event'larını kullanmamız gerekiyor. Yani mesela input'a sadece yazı girilebilsin istiyorum. input type number olsa yazı giremiyorum, text desem ne varsa girilebiliyor. napıoruz Ascii kodlarından keycode değüerine bakarak numaraları devre dışı bırakabiliriz
+//+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır. Statik değer verilirse render durumu ortaya çıkıyor. o yüzden "value = {bir state gelir genelde}"
+//+  Yukarıda bahsettiğimiz submit'in default davranışı neydi? Submit ediyor bilgi görünüyor ve refresh ederek formu siliyor. Form silinince elde bir değer kalmadığı için event'in doğuştan gelen bu davranışını engellemek adına "preventDefault " kullanıyoruz.
+//*+ Keyboard Clipboard Notes
+//+  Mesela input'a sadece yazı girilebilsin istiyorum. input type number olsa yazı giremiyorum, text desem ne varsa girilebiliyor. KeyCode a erişmek için Keyboard Event'larını kullanmamız gerekiyor. onKeyDown eventi kullanılıyor. Napıoruz Ascii kodlarından keycode değerine bakarak numaraları devre dışı bırakabiliriz
 //+  CONDITIONAL RENDERING : koşula bağlı olarak bir elementin gösterip- gösterilmemesi durumuna denir.
 //?  NBA TW NOTES
 //+  Css ve Bootstrap i import ederken hepsinde kullanacaksak eğer kapsayıcı olan APP.JS üzerinde yapmak mantıklı olan. 
