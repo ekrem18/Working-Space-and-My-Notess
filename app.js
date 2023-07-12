@@ -157,8 +157,9 @@
     //if (e.keyCode >= 48 && e.keyCode <= 57) {
     //    alert("Please dont enter a number")
     //    e.preventDefault()
-//+  
+//*+ Mouse Events Notes   
 //+  CONDITIONAL RENDERING : koşula bağlı olarak bir elementin gösterip- gösterilmemesi durumuna denir.
+//+  
 //?  NBA TW NOTES
 //+  Css ve Bootstrap i import ederken hepsinde kullanacaksak eğer kapsayıcı olan APP.JS üzerinde yapmak mantıklı olan. 
 //+  Flex Wrap verirken işlemesi için genişlik tanımlanmıiş olmalı
