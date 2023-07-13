@@ -164,7 +164,8 @@
 //+  Flex Wrap verirken işlemesi için genişlik tanımlanmıiş olmalı
 //+  position:relative kapsayıcı div e veriyoruz ki önce ,position:absolute verdiğimizde bu div le sınırlı kalsın.
 //?  APPOINTMENT APP NOTES
-//+  
+//+  Bootstrap pratik img class'ı --> "img-thumbnail" küçültmer ve border veriyor.
+//+  React Bootstrap kullanıyorsam import da gerekli.
 //?  LIFE CYCLE - USE EFFECT METHODS
 //+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icinli fecycle metotlari kullanilabilir. 
 //+  En bilindik lifecycle metodu render() metodudur.
