@@ -166,6 +166,7 @@
 //?  APPOINTMENT APP NOTES
 //+  Bootstrap pratik img class'ı --> "img-thumbnail" küçültmer ve border veriyor.
 //+  React Bootstrap kullanıyorsam import da gerekli.
+//+  onClick'deki herhngi bir değişklik "state"in değişimine, onun da değişimi aşağıdaki "prop"un değişimine, o da "render"a yol açıyor.
 //?  LIFE CYCLE - USE EFFECT METHODS
 //+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icinli fecycle metotlari kullanilabilir. 
 //+  En bilindik lifecycle metodu render() metodudur.
