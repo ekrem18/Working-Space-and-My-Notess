@@ -169,3 +169,14 @@
 //+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icinli fecycle metotlari kullanilabilir. 
 //+  En bilindik lifecycle metodu render() metodudur.
 //+  Bir component'in olusturulmasi (constructor),Bir componentin DOM agacina eklenmesinin hemen sonrasi(componentDidMount) Bir component'in DOM'a basilmasi (render) (Optional) Bir componentin guncellenmesinin hemen sonrasi (componentDidUpdate) Bir component'in DOM agacindan kaldirilmasi sonrasi(componentWillUnmount).
+//+  useEffect Hook unda snippet kullanılıdğında array içerisi dependency array  , first ksımı componentDidMount , second kısmı cleanup func. yani componentWillUnmount ksımıdır.
+//*+ const UseEffectHook = () => {
+   //*useEffect(() => {
+       //* componentDidMount (Dependency Array bos ise)
+       //* componentDidMount + componentDidUpdate (Dependency array bos degilse)
+       //* Dependecny array'Deki state her degistiginde veya ilk render sonrasi bu kod blogu tekrardan calistirilir.
+     //*return () => {
+       //* Cleanup function (componentWillUnmount)
+     //*}
+     //*}, [count]) //? Dependency Array
+//+  
