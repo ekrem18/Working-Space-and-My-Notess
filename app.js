@@ -91,6 +91,9 @@
 //+  PROPS kısaca bir react objesidir. Aynı zamanda child Component e veri gönderme işlemi de denebilir.
 //+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
 //+  {props.name} diyerek name değişkenini atamış oluyorum.
+//?  Proje açılış
+//+  " yarn create react-app . "  
+//+  ""yarn add react-bootstrap bootstrap""
 //?  3.DERS Module CSS & SASS
 //+  Aynı seviyede iki component yani sibling e import edilecek farklı props lar varsa ayrı ayrı import etmektense bir üst compt. e import edilerek oradan çekilir. "Props Drilling"
 //+  JSX de etikete class vermek istiyorsam className vermeliyiz. hatırlatma
