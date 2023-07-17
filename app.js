@@ -78,13 +78,13 @@
 //+  COMPONENT yazılıosa baş harfi büyük olacak. Dosya adı da.
 //+  Component pamaretresi PROPS tur. 
 //+  Comp.ler içerisindeki kodları tek halde göndermeye çalışıyor. Alt alta h1 p vs yazınca çevirmede skntı yaşıyor. Bunu aşmak için <> </> boş fragment le sarmallıyoruz. Ya da  sekmemin etiketi div ise örneğin <div> </div> gibi.
-//+  Bu arada etiketi yazdıktan sonra import etmek için öneri gelmediyse etiketi seçip Ctrl+Space yaparak öneri sorgulanabilir.
+//*+  Bu arada etiketi yazdıktan sonra import etmek için öneri gelmediyse etiketi seçip Ctrl+Space yaparak öneri sorgulanabilir.
 //+  Her COMP içinde bir return barındırıyor. Bu return den sonra JSX kodumuzu yazıp fonk oluşturuyoruz.
 //+  JSX içerisinde JS penceresi açmak istersen {} kullanıyoruz.
-//+  "export const Fonk" diye bir Comp.i export etme yöntemi NAMED export'tur. import ederken import {Fonk} diye çağırmalısın. süslü içine almazsan hata verir.
-//+  "export default" yalnızca bir kere yapılabilir.
+//*+  "export const Fonk" diye bir Comp.i export etme yöntemi NAMED export'tur. import ederken import {Fonk} diye çağırmalısın. süslü içine almazsan hata verir.
+//*+  "export default" yalnızca bir kere yapılabilir.
 //+  Inline CSS yapıyorsak style attribute kullanılarak çift süslü ile key-value yapısı şeklinde style verilebilir. Key'ler camelCase şekline yazılırken, value lar tırnak içerisinde.
-//+  inline CSS benzeri bir yapı da değişken tanımlayarak style işlmei yapmaktır. Ör: bütün p lere etki edecek bir işlem olsun istiyorum. const parStyle diyerek örneğin fontSize, textAlign gibi değerler belirledim. Sonra aşağıda p içerisinde style etiketi ile style ={parStyle} yaparak işi kolaylaştırıyorum. Bu değişkenler global olabilecğei gibi harici bir dosyadan da alınabilir.!
+//+  inline CSS benzeri bir yapı da değişken tanımlayarak style işlemi yapmaktır. Ör: bütün p lere etki edecek bir işlem olsun istiyorum. const parStyle diyerek örneğin fontSize, textAlign gibi değerler belirledim. Sonra aşağıda p içerisinde style etiketi ile style ={parStyle} yaparak işi kolaylaştırıyorum. Bu değişkenler global olabilecğei gibi harici bir dosyadan da alınabilir.!
 //+  CSS dosyaları doğrudan import edilir export edilmelerine gerek yoktur.
 //+  yapı içeirisnde yeni bir değişken oluşturarak da istediğim yerde kullanabiliyorum. Content.jsx de parStyle örneği
 //+  Dahili bir resmi eklemek yapmak için eskiden olduğu gibi yol vererek ekleme imkanımız olmuyor. JSX buna izin vermiyor. Dahili vübir resim eklemek için import apmak gereklidir. Ancak, public kalsöründeki resimler importsuz bir şekilde erişilebilir.
@@ -135,7 +135,7 @@
 //+  STATE aslında bir React objesidir. 
 //*+  Hook bir array döndürüyor.  const [counter , setCounter] = useState()  dersen    counter:başlangıç değeri, ilk indis denebilir --- setCounter: ise bunu değiştiren metod..
 //+  Hook'lar fonksiyonel component'ler icerisinde state'leri kullanmamiza olanak saglayan ozel fonksiyonlardir. React 16.8 versiyonu ile gelmistir ve geldikten sonra Class-componentler'in kullanimi cok azaltmistir.
-//+  HOOK Kullanim KURALLARI: ****1. İlk olarak import edilmeliler.  import { useState } from "react";       *******2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir.     *******3. Hook'lar sadece React Fonksiyonel componentleri icerisinde ve Custom hook'lar icerisinde bir hook cagrilabilir. Başka bir Hook içerisinde ya d aComponent içerisinde çağırıyoruz. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.
+//*+  HOOK Kullanim KURALLARI: ****1. İlk olarak import edilmeliler.  import { useState } from "react";       *******2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir.     *******3. Hook'lar sadece React Fonksiyonel componentleri icerisinde ve Custom hook'lar icerisinde bir hook cagrilabilir. Başka bir Hook içerisinde ya da Component içerisinde çağırıyoruz. Normal Javascript fonksiyonlari icerisinde cagrilmamalidir.
 //+  Stateler-Hook RAM de tutulduğu için refresh halinde default değere geri döner.
 //*+  State tanımlarken object olarak girilmesi de mümkündür. ***********  const[kisi, setKisi] = useState( {name:"Ahmet", age:"30", salary:"50000"} )
 //*+  Bu obje içerisindekileri yakalarken de artık doğrudan name demiyoruz. kisi.name ,, kisi.age ,, kisi.salary yazıyoruz
@@ -148,7 +148,7 @@
 //*+  """"yarn add npm install react-bootstrap bootstrap""""" diyerek kuruyoruz. CSS başlığı altındaki "import 'bootstrap/dist/css/bootstrap.min.css';"   linki  App veya index js ye import ediyoruz. klasik bootstrap sayfası üzerinden işlem yaparken kodu jsx ortamına çevirmemiz lazm.
 //+  Form elşementi içerisidne type ı submit olan bir button varsa, default olarak formu alır gönderir ve sayfayı siler. Dolayısyla bir evevnt tetikler gibi diyebilriz. 
 //+  input a yazılan texte dair her değişikliği "anlık olarak" görmek ve kullanmak için "onChange" event ini kullanıyoruz.
-//*+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz. yani input içerisinde onChange={handleUsername}  tanımladım. yukarı çıkıyorum return üstünde ancak compo. içerisinde klarak ""const handleUsername = () => { } ""tanımını yapıyorum.
+//*+  EventHandler tanımlarken Component içinde return ün üstünde yazıyoruz. yani input içerisinde onChange={handleUsername}  tanımladım. yukarı çıkıyorum return üstünde ancak compo. içerisinde kalarak ""const handleUsername = () => { } ""tanımını yapıyorum.
 //+  Buradan gelen bilgiyi saklamak ve kullanmak için de napıyorz useState oluşturuyoruz. bunu da kullanmak için en yukarda bu stati import {useState} from "react" diyerek çağırıyoruz.
 //+  OnChange event'ı input degeri her degistiginde tetiklenir. Biz de yazdıgımız event handler araciligi ile State'i guncelleyebilmis oluruz.
 //+  Value propu inputlara başlangıç değeri vermemizi sağlar. ve Value'a verilen değer değişken olmalıdır. Statik değer verilirse render durumu ortaya çıkıyor. o yüzden "value = {bir state gelir genelde}"
