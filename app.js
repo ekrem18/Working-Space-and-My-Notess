@@ -197,3 +197,11 @@
 //*+      setTutorials(data)
 //*+      } catch (error) }  
 //+  axios.post(baseURL, {veriler})
+//?  ROUTER
+//+  link verileceği zaman "a href" değil de  "Link to"  olarak kullanılmalı.
+//*+  <Nav />    -------> içerisde bulunan sayfaları düzenlemek için
+//*     <Routes>
+//*       <Route path="/" element={<Home />} />
+//*       <Route path="/instructors" element={<Instructors />} />
+//*       <Route path="*" element={<NotFound />} />
+//*     </Routes> 
