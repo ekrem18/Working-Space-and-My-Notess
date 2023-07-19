@@ -184,4 +184,8 @@
        //* Cleanup function (componentWillUnmount)
      //*}
      //*}, [count]) //? Dependency Array
+//?  LIFE CYCLE-USE EFFECT METHODS DWM
+//+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
+//*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında import axios from "axios"  import ediyoruz
+//+  await func kullanıyorsak async olmalı blok
 //+  
