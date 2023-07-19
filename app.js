@@ -206,3 +206,4 @@
 //*       <Route path="*" element={<NotFound />} />
 //*     </Routes> 
 //+  "active" class için yani örneğin; home linkine bastığımda o sekmedeyken linke style vermek için "NavLink" ile yazmamız gerekiyor.  
+//+  useNavigate() imperative routing için elverişlidir. Yani; fonk. event veya useEffect içerisinde yönlendirme için kullanılabilir.
