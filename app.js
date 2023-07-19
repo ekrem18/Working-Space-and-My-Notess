@@ -196,4 +196,4 @@
 //*+      const {data} = await axios.get(baseURL)
 //*+      setTutorials(data)
 //*+      } catch (error) }  
-//+  
+//+  axios.post(baseURL, {veriler})
