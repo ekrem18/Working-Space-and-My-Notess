@@ -208,4 +208,6 @@
 //+  routes yapoısı içinde routes impotr ediliyor
 //+  "active" class için yani örneğin; home linkine bastığımda o sekmedeyken linke style vermek için "NavLink" ile yazmamız gerekiyor.  
 //+  useNavigate() imperative routing için elverişlidir. Yani; fonk. event veya useEffect içerisinde yönlendirme için kullanılabilir.
+//+  onclick property si ile kullanıma örnek:
+//*+  onClick={()=>navigate(`/people/${id}`)}    buraya absolute path deniyor. ilgili people tıkladığımda navigate ile sayfayı yönlendiriyoruz.
 //+  
