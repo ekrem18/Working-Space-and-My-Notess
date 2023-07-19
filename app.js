@@ -205,3 +205,4 @@
 //*       <Route path="/instructors" element={<Instructors />} />
 //*       <Route path="*" element={<NotFound />} />
 //*     </Routes> 
+//+  "active" class için yani örneğin; home linkine bastığımda o sekmedeyken linke style vermek için "NavLink" ile yazmamız gerekiyor.  
