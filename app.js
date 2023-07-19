@@ -184,8 +184,9 @@
        //* Cleanup function (componentWillUnmount)
      //*}
      //*}, [count]) //? Dependency Array
-//?  LIFE CYCLE-USE EFFECT METHODS DWM
+//?  LIFE CYCLE-USE EFFECT METHODS - Axios DWM
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
-//*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında import axios from "axios"  import ediyoruz
-//+  await func kullanıyorsak async olmalı blok
-//+  
+//*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
+//+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
+//*+  const getTutorials = async () => {
+//*     await axios (BaseURL) }         -------> standart get işlem i için ayrıca belirtmeye gerek yok ancak POST vd için "await axios.get (BaseURL)" denmeli
