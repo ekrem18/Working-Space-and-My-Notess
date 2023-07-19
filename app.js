@@ -189,4 +189,11 @@
 //*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
 //+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
 //*+  const getTutorials = async () => {
-//*     await axios (BaseURL) }         -------> standart get işlem i için ayrıca belirtmeye gerek yok ancak POST vd için "await axios.get (BaseURL)" denmeli
+//*+     await axios (BaseURL) }         -------> standart get işlem i için ayrıca belirtmeye gerek yok ancak POST vd için "await axios.get (BaseURL)" denmeli
+//********** */
+//*+  const getTutorials= async ()=> {
+//*+    try{
+//*+      const {data} = await axios.get(baseURL)
+//*+      setTutorials(data)
+//*+      } catch (error) }  
+//+  
