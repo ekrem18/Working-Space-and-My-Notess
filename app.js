@@ -213,4 +213,5 @@
 //+  onclick property si ile kullanıma örnek:
 //*+  onClick={()=>navigate( ` /people/${id} , {state:person} ` )}    buraya absolute path deniyor. ilgili people tıkladığımda navigate ile sayfayı yönlendiriyoruz.
 //*+  Linkteki parametreyi almak icin useParams Hook'u kullanilabilir. yakalanan id'ye ait güncel veriler fetch yapılabilir  
-//*+  navigate ile gonderilen state'i yakalamak icin useLocation Hook'u kullanilabilir. Bu durumda veri, state ile geldigi icin yeniden fetch yapilmasina gerek kalmaz  
+//*+  navigate ile gonderilen state'i yakalamak icin useLocation Hook'u kullanilabilir. Bu durumda veri, state ile geldigi icin yeniden fetch yapilmasina gerek kalmaz
+//+  .then .catch yapısı içerisinde .finally yazarsak blok doğru da olsa, yanlış da olsa finally mutlaka en sonda gene çalışacaktır. ÖRNEK: "setLoading(true)" ise .then ile şunu şunu yap "false" ise şunu şunu yap diyorum. .finlyy ile de mutlaka şu durum olsun diyorum. blokta sıkıntı yoksa loading anında yükleniyor imajını gösteriyoruz örneğin eğer .finally ile durumu "false"a çevirmezsek imaj döner durur.  
