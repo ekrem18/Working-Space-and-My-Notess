@@ -207,7 +207,9 @@
 //*     </Routes> 
 //+  routes yapoısı içinde routes impotr ediliyor
 //+  "active" class için yani örneğin; home linkine bastığımda o sekmedeyken linke style vermek için "NavLink" ile yazmamız gerekiyor.  
+//+  Navlink kullanıldığında aktif olan link elementine otomatik active class'ı eklenir, bu class stillendirme için kullanılabilir 
 //+  useNavigate() imperative routing için elverişlidir. Yani; fonk. event veya useEffect içerisinde yönlendirme için kullanılabilir.
+//+  Link, NavLink ve Navigate componentleri declarative routing gerceklestirmek icin kullanilir. Ornegin: Link ve NavLink Sayfada gorulebilen, kullanciyla bir etkilesim icerisinde bulunarak yonledirme yapilan bir componentlerdir. 
 //+  onclick property si ile kullanıma örnek:
 //*+  onClick={()=>navigate( ` /people/${id} , {state:person} ` )}    buraya absolute path deniyor. ilgili people tıkladığımda navigate ile sayfayı yönlendiriyoruz.
-//+  
+//+    
