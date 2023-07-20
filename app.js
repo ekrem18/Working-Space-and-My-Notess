@@ -212,4 +212,5 @@
 //+  Link, NavLink ve Navigate componentleri declarative routing gerceklestirmek icin kullanilir. Ornegin: Link ve NavLink Sayfada gorulebilen, kullanciyla bir etkilesim icerisinde bulunarak yonledirme yapilan bir componentlerdir. 
 //+  onclick property si ile kullanıma örnek:
 //*+  onClick={()=>navigate( ` /people/${id} , {state:person} ` )}    buraya absolute path deniyor. ilgili people tıkladığımda navigate ile sayfayı yönlendiriyoruz.
-//+    
+//*+  Linkteki parametreyi almak icin useParams Hook'u kullanilabilir. yakalanan id'ye ait güncel veriler fetch yapılabilir  
+//*+  navigate ile gonderilen state'i yakalamak icin useLocation Hook'u kullanilabilir. Bu durumda veri, state ile geldigi icin yeniden fetch yapilmasina gerek kalmaz  
