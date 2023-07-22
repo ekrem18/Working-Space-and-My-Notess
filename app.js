@@ -226,4 +226,7 @@
 //*      } finally {
 //*        setLoading(false);
 //?  CONTEXT - REDUCER
-//+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor.   
+//+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor. Ancak; 7-8 seviye taşınması durumu oratay çıkarsa pratiklik problemi oluyor.
+//+  Buna alternatif olarak global state kullanılıyor.
+//+  Context'ten veri okumak için "useContext" hookunu kullanıyoruz.
+//+    
