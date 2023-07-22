@@ -225,5 +225,5 @@
 //*        console.log(error);
 //*      } finally {
 //*        setLoading(false);
-//? TW PRODUCT LIST
-//+      
+//?  CONTEXT - REDUCER
+//+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor.   
