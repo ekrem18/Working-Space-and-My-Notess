@@ -225,13 +225,15 @@
 //*        console.log(error);
 //*      } finally {
 //*        setLoading(false);
-
-//*  BAŞLANGIÇ    index.js içerisinde 
+//*  ******* TW PROJE BAŞLANGIÇ ********    
+//+  index.js içerisinde 
 //+  " import {rowserRouter} from "react-router-dom"  import ediyoruz.
 //+  App yi <BrowserRouter><BrowserRouter/> içierisine alıyoruz.
 //+  "Router" gibi bi comp. oluşturup sayfa yapısını oluşturuyoruz.
-//+  sonrasında da header ve navbar yapımız varsa bunları hariç tutarak Routes yapısı içerisine alıyorum.
-//+  
+//+  Sonrasında da header ve navbar yapımız varsa bunları hariç tutarak "Routes" yapısı içerisine alıyorum.
+//+  <Route  path="/" element={ <Home /> } />
+//+  <Route  path="/about" element={ <About/> } />
+//+  SOnrasında ilgili sayfaya-comp.e gidip verilen linkleri "Link to" ya da "NavLink" uzantısıyla düzenliyoruz
 
 //?  CONTEXT - REDUCER
 //+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor. Ancak; 7-8 seviye taşınması durumu oratay çıkarsa pratiklik problemi oluyor.
