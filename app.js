@@ -225,8 +225,17 @@
 //*        console.log(error);
 //*      } finally {
 //*        setLoading(false);
+
+//*  BAŞLANGIÇ    index.js içerisinde 
+//+  " import {rowserRouter} from "react-router-dom"  import ediyoruz.
+//+  App yi <BrowserRouter><BrowserRouter/> içierisine alıyoruz.
+//+  "Router" gibi bi comp. oluşturup sayfa yapısını oluşturuyoruz.
+//+  sonrasında da header ve navbar yapımız varsa bunları hariç tutarak Routes yapısı içerisine alıyorum.
+//+  
+
 //?  CONTEXT - REDUCER
 //+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor. Ancak; 7-8 seviye taşınması durumu oratay çıkarsa pratiklik problemi oluyor.
 //+  Buna alternatif olarak global state kullanılıyor.
 //+  Context'ten veri okumak için "useContext" hookunu kullanıyoruz.
 //+  Global'in dezavantajı; tekrar kullanımı azaltıyor. Gerekli gereksiz heryerde global state kullanımı; gereksiz render'lar artar.  
+//+  
