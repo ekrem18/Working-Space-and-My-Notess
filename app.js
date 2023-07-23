@@ -233,8 +233,8 @@
 //+  Sonrasında da header ve navbar yapımız varsa bunları hariç tutarak "Routes" yapısı içerisine alıyorum.
 //+  <Route  path="/" element={ <Home /> } />
 //+  <Route  path="/about" element={ <About/> } />
-//+  SOnrasında ilgili sayfaya-comp.e gidip verilen linkleri "Link to" ya da "NavLink" uzantısıyla düzenliyoruz
-
+//+  Sonrasında ilgili sayfaya-comp.e gidip verilen linkleri "Link to" ya da "NavLink" uzantısıyla düzenliyoruz
+//+  <NavLink to="/about" >  </ NavLink>
 //?  CONTEXT - REDUCER
 //+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor. Ancak; 7-8 seviye taşınması durumu oratay çıkarsa pratiklik problemi oluyor.
 //+  Buna alternatif olarak global state kullanılıyor.
