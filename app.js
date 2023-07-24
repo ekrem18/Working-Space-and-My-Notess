@@ -240,4 +240,11 @@
 //+  Buna alternatif olarak global state kullanılıyor.
 //+  Context'ten veri okumak için "useContext" hookunu kullanıyoruz.
 //+  Global'in dezavantajı; tekrar kullanımı azaltıyor. Gerekli gereksiz heryerde global state kullanımı; gereksiz render'lar artar.  
+//?  STYLED COMPONENT
+//+  "yarn add style-components"   diyerek kurulum yapılıyor. 
+
+
+
+
+//?  WEB NOTLAR
 //+  
