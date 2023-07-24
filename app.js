@@ -245,6 +245,8 @@
 //+  örneğin bir buton tasarlıyoruz. "Buton.styled.jsx" formatında bir file oluşturup, "import styled from "styled-components" " dedikten sonra CSS ortamındaki formatla yazıyoruz. Snrada "" <Button> </Button> ""  şeklinde App.js içerisinde alıyoruz.
 //+  const DarkButton = styled(Button)   şeklinde bir butondan buton türevliyoruz.
 //+  esca yazarak rafce gibi kısaltma yapabilioz. extension yüklü
+//+  css de padding , margin vs 0 verdiğimiz değerlere karşılıö olarak " import {createGlobalStyle} from "styled-components" " diyoruz. const GlobalStyles = createGlobalStyle diyoruz.
+//+  Ama dikkat edecğimiz bir diğer husus da bu bir default ayar olduğu için parent içeirinde import edilmeli. Örneğin; app.js içerisinde
 
 
 
