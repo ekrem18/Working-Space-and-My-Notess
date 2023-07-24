@@ -242,7 +242,9 @@
 //+  Global'in dezavantajı; tekrar kullanımı azaltıyor. Gerekli gereksiz heryerde global state kullanımı; gereksiz render'lar artar.  
 //?  STYLED COMPONENT
 //+  "yarn add style-components"   diyerek kurulum yapılıyor. 
-//+  
+//+  örneğin bir buton tasarlıyoruz. "Buton.styled.jsx" formatında bir file oluşturup, "import styled from "styled-components" " dedikten sonra CSS ortamındaki formatla yazıyoruz. Snrada "" <Button> </Button> ""  şeklinde App.js içerisinde alıyoruz.
+//+  const DarkButton = styled(Button)   şeklinde bir butondan buton türevliyoruz.
+
 
 
 
