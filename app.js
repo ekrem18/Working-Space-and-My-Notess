@@ -250,3 +250,4 @@
 
 //?  CW Library Notes
 //+  Navbar gibi elemanları; bleki lazım olabilir diye browserrouter içerisine ve fakat routes dışına alıyoruz.
+//+  Browser history sinden faydalkanmak için  Navigate kullanıyoruz
