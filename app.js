@@ -248,9 +248,5 @@
 //+  css de padding , margin vs 0 verdiğimiz değerlere karşılıö olarak " import {createGlobalStyle} from "styled-components" " diyoruz. const GlobalStyles = createGlobalStyle diyoruz.
 //+  Ama dikkat edecğimiz bir diğer husus da bu bir default ayar olduğu için parent içeirinde import edilmeli. Örneğin; app.js içerisinde
 
-
-
-
-
-//?  WEB NOTLAR
-//+  
+//?  CW Library Notes
+//+  Navbar gibi elemanları; bleki lazım olabilir diye browserrouter içerisine ve fakat routes dışına alıyoruz.
