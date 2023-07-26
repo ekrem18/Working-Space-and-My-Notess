@@ -251,3 +251,5 @@
 //?  CW Library Notes
 //+  Navbar gibi elemanları; bleki lazım olabilir diye browserrouter içerisine ve fakat routes dışına alıyoruz.
 //+  Browser history sinden faydalkanmak için  Navigate kullanıyoruz
+//*+ Aslında bir useState'in setter metodu olan fonk.u event olarak kuallanmaya örnek syntax.
+//*+ """" onClick={() => setToggle(!toggle)}>{menuIcon} """" açıksa kapat-kaplıysa aç mantığı ile toggle'ın mebü açması
