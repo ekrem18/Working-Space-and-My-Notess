@@ -253,3 +253,4 @@
 //+  Browser history sinden faydalkanmak için  Navigate kullanıyoruz
 //*+ Aslında bir useState'in setter metodu olan fonk.u event olarak kuallanmaya örnek syntax.
 //*+ """" onClick={() => setToggle(!toggle)}>{menuIcon} """" açıksa kapat-kaplıysa aç mantığı ile toggle'ın mebü açması
+//+  style componentleri oluşturabilmek için eğer önceden yapılan style dosyası mevcutsa mezkur componenti import etmeyi unutmamak lazm.
