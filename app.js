@@ -254,4 +254,4 @@
 //*+ Aslında bir useState'in setter metodu olan fonk.u event olarak kuallanmaya örnek syntax.
 //*+ """" onClick={() => setToggle(!toggle)}>{menuIcon} """" açıksa kapat-kaplıysa aç mantığı ile toggle'ın mebü açması
 //+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
-//+  
+//+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
