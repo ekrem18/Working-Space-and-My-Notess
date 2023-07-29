@@ -267,8 +267,13 @@
 //+  Linkleri kullanarak font alacaksak index.html içerisine almak da bir seçenek. link importa göre daha performanslı çalışıyor
 //+  App.js içeriisndeki ThemeProvider'a vermiş olduğumuz theme object'inin dinamik olması için yapmamız gerekenler: (değişiklik footer da olacak çünkü ikona tıklandığında gerçekleşiyor.) Bunun içinde GlobalStateManagement kullanıyoruz ki her yerden ulaşabilelim Ynai contextAPİ.
 //+  ThemeContext.js dosyasını oluştururken de syntax unutuldu ise de ana yapı değişmediği için eskiş projeler değerlendirilebilir.
-//*+  const ThemeContext = createContext()   oluşturulurken,  bu provider'ın componentini oluşturuyoruz. """"const ThemeContextProvider = ({ children }) => """" gibi bir synatax mevcut. children propunu yakalarken, bu prop  ThemeContextProvider   ile sarmalladığımız yerdeki childlerı yakalıoz.
-//+    
+//*+  const ThemeContext = createContext()   oluşturulurken,  bu provider'ın componentini oluşturuyoruz. """"const ThemeContextProvider = ({ children }) => """" gibi bir synatax mevcut. children propunu yakalarken, bu prop  ThemeContextProvider   ile sarmalladığımız yerdeki child'lerı yakalıoz.
+//*+ const handleClick içerisine uyazdığımz ;
+//*+  if(myTheme === "light"){
+//*+   setMyTheme("dark")
+//*+     }else{
+//*+   setMyTheme("light") }     ile
+//*+  setMyTheme(prev => (prev === "light" ? "dark" : "light"));  aymı işi görüyor
 
 
 //?  TAILWIND INFO
