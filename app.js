@@ -259,6 +259,8 @@
 //+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
 //+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
 //+  AIzaSyDK8Pk4RjSUGEhFiO2mGZ-YqaUGIM8QQtg
+//+  theme için bir şablo9n hazırlarken içeri yazılanın önemi yok ancak çağırırken aynmı şekişlde çağırlmalı. export const lighgtTheme dedikten sonra içerdeki valueların ismi
+//+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı k,i değişiklikler farkedilebilsin ve çalışabilsin
 
 //?  TAILWIND INFO
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
