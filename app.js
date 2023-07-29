@@ -256,7 +256,8 @@
 //+  Browser history sinden faydalkanmak için  Navigate kullanıyoruz
 //*+ Aslında bir useState'in setter metodu olan fonk.u event olarak kuallanmaya örnek syntax.
 //*+ """" onClick={() => setToggle(!toggle)}>{menuIcon} """" açıksa kapat-kaplıysa aç mantığı ile toggle'ın mebü açması
-//+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
+//*+  yarn add styled-components
+//*+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
 //+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
 //+  AIzaSyDK8Pk4RjSUGEhFiO2mGZ-YqaUGIM8QQtg
 //+  theme için bir şablo9n hazırlarken içeri yazılanın önemi yok ancak çağırırken aynmı şekişlde çağırlmalı. export const lighgtTheme dedikten sonra içerdeki valueların ismi
