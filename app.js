@@ -287,3 +287,7 @@
 //+  @tailwind components;
 //+  @tailwind utilities;
 //*+  Run your build process with "npm run start"  --> yarn start
+
+//?  TW FIRE BASE
+//+  yarn add firebase    ile kuuryoruz.  Firebase sitesinden proje oluşturduk.
+//+  
