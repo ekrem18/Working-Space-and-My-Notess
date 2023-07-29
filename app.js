@@ -264,8 +264,11 @@
 //+  theme için bir şablo9n hazırlarken içeri yazılanın önemi yok ancak çağırırken aynmı şekişlde çağırlmalı. export const lighgtTheme dedikten sonra içerdeki valueların ismi
 //+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı ki değişiklikler farkedilebilsin ve çalışabilsin
 //+  Her yerden ulaşmak istediğim, resetleme apabileceğim theme ayarlarını best practice Global.styles.jsx comp.ine tanımlama yapıyorum. öncelikle """"import {createGlobalStyle} from "styled-components"""""   dedikten sonra componenti oluşturmaya başlıyoruz. 
-//+  linklleri kullanarak font alacaksak index.html içerisine almak da bir seçenek. link importa göre daha performanslı çalışıyor
-//+  App.js içeriisndeki ThemeProvider'a vermiş olduğumuz theme object'inin dinamik olması için yapmamız gerekenler: (değişiklik footer da olacak çünkü ikona tıklandığında gerçekleşiyor.) Bunun içinde GlobalStateManagement kullanıyoruz ki her yerden ulaşabilelim
+//+  Linkleri kullanarak font alacaksak index.html içerisine almak da bir seçenek. link importa göre daha performanslı çalışıyor
+//+  App.js içeriisndeki ThemeProvider'a vermiş olduğumuz theme object'inin dinamik olması için yapmamız gerekenler: (değişiklik footer da olacak çünkü ikona tıklandığında gerçekleşiyor.) Bunun içinde GlobalStateManagement kullanıyoruz ki her yerden ulaşabilelim Ynai contextAPİ.
+//+  ThemeContext.js dosyasını oluştururken de syntax unutuldu ise de ana yapı değişmediği için eskiş projeler değerlendirilebilir.
+//*+  const ThemeContext = createContext()   oluşturulurken,  bu provider'ın componentini oluşturuyoruz. """"const ThemeContextProvider = ({ children }) => """" gibi bir synatax mevcut. children propunu yakalarken, bu prop  ThemeContextProvider   ile sarmalladığımız yerdeki childlerı yakalıoz.
+//+    
 
 
 //?  TAILWIND INFO
