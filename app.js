@@ -199,6 +199,7 @@
 //+  axios.post(baseURL, {veriler})
 
 //?  ROUTER
+//*+  yarn add react-router-dom
 //+  link verileceği zaman "a href" değil de  "Link to"  olarak kullanılmalı.
 //*+  <Nav />    -------> içerisde bulunan sayfaları düzenlemek için
 //*     <Routes>
@@ -228,7 +229,7 @@
 //*        setLoading(false);
 //*  ******* TW PROJE BAŞLANGIÇ ********    
 //+  index.js içerisinde 
-//+  " import {rowserRouter} from "react-router-dom"  import ediyoruz.
+//+  " import {BrowserRouter} from "react-router-dom"  import ediyoruz.
 //+  App yi <BrowserRouter><BrowserRouter/> içierisine alıyoruz.
 //+  "Router" gibi bi comp. oluşturup sayfa yapısını oluşturuyoruz.
 //+  Sonrasında da header ve navbar yapımız varsa bunları hariç tutarak "Routes" yapısı içerisine alıyorum.
@@ -274,6 +275,8 @@
 //*+     }else{
 //*+   setMyTheme("light") }     ile
 //*+  setMyTheme(prev => (prev === "light" ? "dark" : "light"));  aymı işi görüyor
+//+  <Route path="/detail/:id" element={<Detail/>} />   id yerine herhangi başka birşey de klullanışabilir. Önemli olan usePĞaramas kullanılırken burda yazılanın çağırılması
+//*+  return user ? <Outlet/> : <Login/>    user varsa child'a git yoksa logine. Ancak burada fonksiiyon bazında değil de componenet bazında gidebileceğimiz için bu ifadeyi <Navigate to ={"/login"/> olarak yazıyoruz. 
 
 
 //?  TAILWIND INFO
