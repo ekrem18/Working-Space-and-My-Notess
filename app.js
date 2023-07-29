@@ -259,5 +259,5 @@
 //+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
 //+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
 
-//?  TW FIREBASE
-//+  
+//?  TAILWIND INFO
+//+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
