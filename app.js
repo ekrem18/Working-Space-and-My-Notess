@@ -261,3 +261,5 @@
 
 //?  TAILWIND INFO
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
+//+  yarn add -D tailwindcss
+//+  npx tailwindcss init      yarn ya da npm farketmio komut:npx
