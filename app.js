@@ -265,6 +265,7 @@
 //+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı ki değişiklikler farkedilebilsin ve çalışabilsin
 //+  Her yerden ulaşmak istediğim, resetleme apabileceğim theme ayarlarını best practice Global.styles.jsx comp.ine tanımlama yapıyorum. öncelikle """"import {createGlobalStyle} from "styled-components"""""   dedikten sonra componenti oluşturmaya başlıyoruz. 
 //+  linklleri kullanarak font alacaksak index.html içerisine almak da bir seçenek. link importa göre daha performanslı çalışıyor
+//+  App.js içeriisndeki ThemeProvider'a vermiş olduğumuz theme object'inin dinamik olması için yapmamız gerekenler: (değişiklik footer da olacak çünkü ikona tıklandığında gerçekleşiyor.) Bunun içinde GlobalStateManagement kullanıyoruz ki her yerden ulaşabilelim
 
 
 //?  TAILWIND INFO
