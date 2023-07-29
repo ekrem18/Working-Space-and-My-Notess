@@ -261,5 +261,12 @@
 
 //?  TAILWIND INFO
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
-//+  yarn add -D tailwindcss
-//+  npx tailwindcss init      yarn ya da npm farketmio komut:npx
+//*+  yarn add -D tailwindcss
+//*+  npx tailwindcss init      yarn ya da npm farketmio komut:npx
+//*+  Add the paths to all of your template files in your tailwind.config.js file.  aağıdan devam
+//+  content: ["./src/**/*.{html,js}"],
+//*+  Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.  
+//+  @tailwind base;
+//+  @tailwind components;
+//+  @tailwind utilities;
+//*+  Run your build process with "npm run start"  --> yarn start
