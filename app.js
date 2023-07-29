@@ -252,16 +252,20 @@
 //+  Ama dikkat edecğimiz bir diğer husus da bu bir default ayar olduğu için parent içeirinde import edilmeli. Örneğin; app.js içerisinde
 
 //?  CW Library Notes
-//+  Navbar gibi elemanları; bleki lazım olabilir diye browserrouter içerisine ve fakat routes dışına alıyoruz.
+//+  Navbar gibi elemanları; belki lazım olabilir diye browserrouter içerisine ve fakat routes dışına alıyoruz.
 //+  Browser history sinden faydalkanmak için  Navigate kullanıyoruz
 //*+ Aslında bir useState'in setter metodu olan fonk.u event olarak kuallanmaya örnek syntax.
 //*+ """" onClick={() => setToggle(!toggle)}>{menuIcon} """" açıksa kapat-kaplıysa aç mantığı ile toggle'ın mebü açması
 //*+  yarn add styled-components
 //*+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
+//-----------------------
 //+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
 //+  AIzaSyDK8Pk4RjSUGEhFiO2mGZ-YqaUGIM8QQtg
 //+  theme için bir şablo9n hazırlarken içeri yazılanın önemi yok ancak çağırırken aynmı şekişlde çağırlmalı. export const lighgtTheme dedikten sonra içerdeki valueların ismi
-//+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı k,i değişiklikler farkedilebilsin ve çalışabilsin
+//+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı ki değişiklikler farkedilebilsin ve çalışabilsin
+//+  Her yerden ulaşmak istediğim, resetleme apabileceğim theme ayarlarını best practice Global.styles.jsx comp.ine tanımlama yapıyorum. öncelikle """"import {createGlobalStyle} from "styled-components"""""   dedikten sonra componenti oluşturmaya başlıyoruz. 
+//+  linklleri kullanarak font alacaksak index.html içerisine almak da bir seçenek. link importa göre daha performanslı çalışıyor
+
 
 //?  TAILWIND INFO
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
