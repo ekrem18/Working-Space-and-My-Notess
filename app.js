@@ -297,4 +297,6 @@
 //+  tailwind componenets kısmından navbar'ı seçiyoruz. HTML kısmını alırsan JS kısmı yok ayarlama gerkiyor. Using React ksımını alıp kopyalşamak daha mantıklı. Bunun içinde 
 //*+  """yarn add @headlessui/react @heroicons/react"""  diyerek terminalde paketi yüklüyoruz. sonrasında docs ta yazdığı şekliyel import ediyoruz
 //+  className= " h-[55px]"    diyerek Tailwind'de spesifik yükseklik kullanabilirm
+//+  Firebase.js dosyası oluşturuluyor. SRC içerisinde out gibi bir folder oluşturulup içerisine atabilirz
+//+  İçerisine girilecek sdk kod bloğunun hub'a gitmesini sitmeiyorsdask proje içerisinde .env dosaysı oluşituruyoruz. (detay: 2.DERS 21.50 civarı) dolayısıyla firebase.js içeriisnde koymuyoruz da karşığına process.env    diye uzantsını atıoz
 //+  
