@@ -296,4 +296,5 @@
 //+  yarn add firebase    ile kuuryoruz.  Firebase sitesinden proje oluşturduk.
 //+  tailwind componenets kısmından navbar'ı seçiyoruz. HTML kısmını alırsan JS kısmı yok ayarlama gerkiyor. Using React ksımını alıp kopyalşamak daha mantıklı. Bunun içinde 
 //*+  """yarn add @headlessui/react @heroicons/react"""  diyerek terminalde paketi yüklüyoruz. sonrasında docs ta yazdığı şekliyel import ediyoruz
+//+  className= " h-[55px]"    diyerek Tailwind'de spesifik yükseklik kullanabilirm
 //+  
