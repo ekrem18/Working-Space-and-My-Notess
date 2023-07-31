@@ -276,7 +276,7 @@
 //*+   setMyTheme("light") }     ile
 //*+  setMyTheme(prev => (prev === "light" ? "dark" : "light"));  aymı işi görüyor
 //+  <Route path="/detail/:id" element={<Detail/>} />   id yerine herhangi başka birşey de klullanışabilir. Önemli olan usePĞaramas kullanılırken burda yazılanın çağırılması
-//*+  return user ? <Outlet/> : <Login/>    user varsa child'a git yoksa logine. Ancak burada fonksiiyon bazında değil de componenet bazında gidebileceğimiz için bu ifadeyi <Navigate to ={"/login"/> olarak yazıyoruz. 
+//*+  return user ? <Outlet/> : <Login/>    user varsa child'a git yoksa logine. Ancak burada fonksiiyon bazında değil de componenet bazında gidebileceğimiz için bu ifadeyi <Navigate to ="/login"/> olarak yazıyoruz. 
 
 
 //?  TAILWIND INFO
@@ -290,7 +290,8 @@
 //+  @tailwind components;
 //+  @tailwind utilities;
 //*+  Run your build process with "npm run start"  --> yarn start
+//+  Tailwind.config.js dosyasına kendi tema ayarlarımızı eklemek için "  theme: extends:  {colors:  { "içine yazıyoruz
 
-//?  TW FIRE BASE
+//?  FIRE BASE & MOVIE APP
 //+  yarn add firebase    ile kuuryoruz.  Firebase sitesinden proje oluşturduk.
 //+  
