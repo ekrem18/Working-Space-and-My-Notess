@@ -299,4 +299,8 @@
 //+  className= " h-[55px]"    diyerek Tailwind'de spesifik yükseklik kullanabilirm
 //+  Firebase.js dosyası oluşturuluyor. SRC içerisinde out gibi bir folder oluşturulup içerisine atabilirz
 //+  İçerisine girilecek sdk kod bloğunun hub'a gitmesini sitmeiyorsdask proje içerisinde .env dosaysı oluşituruyoruz. (detay: 2.DERS 21.50 civarı) dolayısıyla firebase.js içeriisnde koymuyoruz da karşığına process.env    diye uzantsını atıoz
-//+  
+//********** */
+//+  https://fkhadra.github.io/react-toastify/introduction/    linkinden docs incelenebilir.
+//+  toastşfy yüklemesi yapılıyor.
+//+  <ToastContainer/>  ile kullanıyoruz.
+//+    
