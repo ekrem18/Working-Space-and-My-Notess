@@ -303,4 +303,4 @@
 //+  https://fkhadra.github.io/react-toastify/introduction/    linkinden docs incelenebilir.
 //+  toastşfy yüklemesi yapılıyor.
 //+  <ToastContainer/>  ile kullanıyoruz.
-//+    
+//+   route yapısı içerisinde replace prop'unu Navigate içerisinde kullanmalıyız
