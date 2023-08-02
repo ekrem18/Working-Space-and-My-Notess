@@ -261,7 +261,7 @@
 //*+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
 //-----------------------
 //+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
-//+  AIzaSyDK8Pk4RjSUGEhFiO2mGZ-YqaUGIM8QQtg
+
 //+  theme için bir şablo9n hazırlarken içeri yazılanın önemi yok ancak çağırırken aynmı şekişlde çağırlmalı. export const lighgtTheme dedikten sonra içerdeki valueların ismi
 //+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı ki değişiklikler farkedilebilsin ve çalışabilsin
 //+  Her yerden ulaşmak istediğim, resetleme apabileceğim theme ayarlarını best practice Global.styles.jsx comp.ine tanımlama yapıyorum. öncelikle """"import {createGlobalStyle} from "styled-components"""""   dedikten sonra componenti oluşturmaya başlıyoruz. 
