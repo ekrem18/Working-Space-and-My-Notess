@@ -277,6 +277,9 @@
 //*+  setMyTheme(prev => (prev === "light" ? "dark" : "light"));  aymı işi görüyor
 //+  <Route path="/detail/:id" element={<Detail/>} />   id yerine herhangi başka birşey de klullanışabilir. Önemli olan usePĞaramas kullanılırken burda yazılanın çağırılması
 //*+  return user ? <Outlet/> : <Login/>    user varsa child'a git yoksa logine. Ancak burada fonksiiyon bazında değil de componenet bazında gidebileceğimiz için bu ifadeyi <Navigate to ="/login"/> olarak yazıyoruz. 
+//**AIzaSyCehYhuhE70wB06clP8EQgrcOm2nhllG34 */
+//+  Github'da göerünmesini istemediğim değerleri pack.Jsom ile aynı seviyede oluiturduüum .env  ddosyası içerisine   örneğinb REACT_APP_apiKey  ismiyle tanımlıyprum. Gönderilmemesi için d gitignore 'a .env  yi ekliyorum
+
 
 //?  TAILWIND INFO
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
