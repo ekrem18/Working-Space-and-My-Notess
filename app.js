@@ -312,3 +312,5 @@
 //?  MATERIAL UI
 //+  h1-h6 gibi özellikleri comp.in variant'ı olarak veriyoruz
 //+  "sx" prop u ile css style yapabilorz. sx {{color:"blue", backgroundColor:"black"}} gibi
+//+  div elementini stack olarak değerlendirebilirz
+//+  "import {createTheme}..." ardından sx prop'uyla bir rengin farklı tonları seçilebilir. "main, light, dark"
