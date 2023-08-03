@@ -307,4 +307,7 @@
 //+  https://fkhadra.github.io/react-toastify/introduction/    linkinden docs incelenebilir.
 //+  toastşfy yüklemesi yapılıyor.
 //+  <ToastContainer/>  ile kullanıyoruz.
-//+   route yapısı içerisinde replace prop'unu Navigate içerisinde kullanmalıyız
+//+  route yapısı içerisinde replace prop'unu Navigate içerisinde kullanmalıyız
+
+//?  MATERIAL UI
+//+  h1-h6 gibi özellikleri comp.in variant'ı olarak veriyoruz
