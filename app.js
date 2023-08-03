@@ -311,3 +311,4 @@
 
 //?  MATERIAL UI
 //+  h1-h6 gibi özellikleri comp.in variant'ı olarak veriyoruz
+//+  "sx" prop u ile css style yapabilorz. sx {{color:"blue", backgroundColor:"black"}} gibi
