@@ -314,3 +314,13 @@
 //+  "sx" prop u ile css style yapabilorz. sx {{color:"blue", backgroundColor:"black"}} gibi
 //+  div elementini stack olarak değerlendirebilirz
 //+  "import {createTheme}..." ardından sx prop'uyla bir rengin farklı tonları seçilebilir. "main, light, dark"
+
+//?  REDUX
+//+  Akışın çok hızlı değiştiği yerlerde tercih edilebilir. e-commerce gibi
+//+  Bilgiler Store'da saklanıyor
+//+   Context Api                             Redux
+//+  context(create)       ----------   store(create)
+//+  provider sarmallama   ----------   Provider sarmallama
+//+  consume - useContext  ----------   consume - useSelector
+//+  Reducer -opsiyonel    ----------   reducer/despatch - zorunlu 
+//+   
