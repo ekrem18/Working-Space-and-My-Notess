@@ -319,8 +319,9 @@
 //+  Akışın çok hızlı değiştiği yerlerde tercih edilebilir. e-commerce gibi
 //+  Bilgiler Store'da saklanıyor
 //+   Context Api                             Redux
-//+  context(create)       ----------   store(create)
-//+  provider sarmallama   ----------   Provider sarmallama
-//+  consume - useContext  ----------   consume - useSelector
-//+  Reducer -opsiyonel    ----------   reducer/despatch - zorunlu 
+//+  context(create)       -----------------------------------------   store(create)
+//+  provider sarmallama ({provider} from "react-redux")  ----------   Provider sarmallama
+//+  consume - useContext  -----------------------------------------   consume - useSelector
+//+  Reducer -opsiyonel    -----------------------------------------  reducer/despatch - zorunlu 
 //+  JS ortamları için oluştuturlan bişi aslında dolayısıyla React haricinde de kullanılabilir
+//*+  yarn add redux react-redux  ----------------------------------- pnpm install redux react-redux   ile işliyourz
