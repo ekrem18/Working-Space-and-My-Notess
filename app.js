@@ -322,6 +322,9 @@
 //+  context(create)       -----------------------------------------   store(create)
 //+  provider sarmallama ({provider} from "react-redux")  ----------   Provider sarmallama
 //+  consume - useContext  -----------------------------------------   consume - useSelector
-//+  Reducer -opsiyonel    -----------------------------------------  reducer/despatch - zorunlu 
+//+  Reducer -opsiyonel    -----------------------------------------   reducer/despatch - zorunlu 
 //+  JS ortamları için oluştuturlan bişi aslında dolayısıyla React haricinde de kullanılabilir
-//*+  yarn add redux react-redux  ----------------------------------- pnpm install redux react-redux   ile işliyourz
+//*+  yarn add redux react-redux  ----------------------------------   pnpm install redux react-redux   ile işliyourz
+//+  1- Reducer oluştur. 2- index.jsx de store oluştur. 3-provider ile App içinde sarmalla 4-use selector ile statei yakala dispatch ile de ekrana bas
+//+  rxreducer yazışlıdğında reducer için snippet sunuyor
+//+  combineReducers({counterReducer, todoReducer}) syntaxı ile birden fazla reducer'ı birleştirmiş olduk. Bunu da bi değişkene atıyoruz. 
