@@ -323,4 +323,4 @@
 //+  provider sarmallama   ----------   Provider sarmallama
 //+  consume - useContext  ----------   consume - useSelector
 //+  Reducer -opsiyonel    ----------   reducer/despatch - zorunlu 
-//+   
+//+  JS ortamları için oluştuturlan bişi aslında dolayısıyla React haricinde de kullanılabilir
