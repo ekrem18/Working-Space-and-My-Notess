@@ -294,7 +294,7 @@
 //+  @tailwind utilities;
 //*+  Run your build process with "npm run start"  --> yarn start
 //+  Tailwind.config.js dosyasına kendi tema ayarlarımızı eklemek için "  theme: extends:  {colors:  { "içine yazıyoruz
-//+  dark mode yapmak için "tailwind.config.js" e dark mode ekelenecek
+//+  dark mode yapmak için "tailwind.config.js" e  darkMode: "class" eklenecek
 
 //?  FIRE BASE & MOVIE APP
 //+  yarn add firebase    ile kuuryoruz.  Firebase sitesinden proje oluşturduk.
