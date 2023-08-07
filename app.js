@@ -318,7 +318,7 @@
 //?  REDUX
 //+  Akışın çok hızlı değiştiği yerlerde tercih edilebilir. e-commerce gibi
 //+  Bilgiler Store'da saklanıyor
-//+   Context Api                             Redux
+//+   Context Api                                                          Redux
 //+  context(create)       -----------------------------------------   store(create)
 //+  provider sarmallama ({provider} from "react-redux")  ----------   Provider sarmallama
 //+  consume - useContext  -----------------------------------------   consume - useSelector
@@ -330,3 +330,6 @@
 //+  combineReducers({counterReducer, todoReducer}) syntaxı ile birden fazla reducer'ı birleştirmiş olduk. Bunu da bi değişkene atıyoruz. 
 //*+  2.DERS
 //+  pnpm install -->pnpm dev diyerek ders starter ı ayakalanacak
+//+  Slice ile bir global state'in hem action type'lari , hem action creator fonksiyonlarini hem de reducer'i tek bir hamlede olusturabiliriz.
+//+  Olusan action fonksiyonları sliceAdi.actions 'dan destructure edilerek export edilir.
+//+  reducer ise sliceAdi.reducer seklinde export edilmelidir.
