@@ -328,3 +328,5 @@
 //+  1- Reducer oluştur. 2- index.jsx de store oluştur. 3-provider ile App içinde sarmalla 4-use selector ile statei yakala dispatch ile de ekrana bas
 //+  rxreducer yazışlıdğında reducer için snippet sunuyor
 //+  combineReducers({counterReducer, todoReducer}) syntaxı ile birden fazla reducer'ı birleştirmiş olduk. Bunu da bi değişkene atıyoruz. 
+//*+  2.DERS
+//+  pnpm install -->pnpm dev diyerek ders starter ı ayakalanacak
