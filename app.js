@@ -296,7 +296,8 @@
 //+  Tailwind.config.js dosyasına kendi tema ayarlarımızı eklemek için "  theme: extends:  {colors:  { "içine yazıyoruz
 //+  dark mode yapmak için "tailwind.config.js" e  darkMode: "class" eklenecek
 
-//?  FIRE BASE & MOVIE APP
+//?  FIREBASE & MOVIE APP
+//*+  Kurulum-import movieapp 1.ders 2.saat
 //+  yarn add firebase    ile kuuryoruz.  Firebase sitesinden proje oluşturduk.
 //+  tailwind componenets kısmından navbar'ı seçiyoruz. HTML kısmını alırsan JS kısmı yok ayarlama gerkiyor. Using React ksımını alıp kopyalşamak daha mantıklı. Bunun içinde 
 //*+  """yarn add @headlessui/react @heroicons/react"""  diyerek terminalde paketi yüklüyoruz. sonrasında docs ta yazdığı şekliyel import ediyoruz
