@@ -340,3 +340,6 @@
 //+  {Formik} from "formik "
 //+  Formik yapısı içerisinde kullanılşacak olan uyarılar, mesjalar login sayfası için vs Yup kütüphanesini kullanıyoruz. 
 //+  import { object, string, number, date, InferType } from 'yup';   yapıyoruz ve hazır şemayı da customize edebilirz
+//+  loginSchema --> email: email(valid uyarısı için),,required ....password: required,,min(8) ,max(16), matches(/\d+/) ->"en az bir rakam içerimesi" mevzuu, matches(/[A-Z]/) en az bir büyük harf içermesi
+//*+  matches(/[a-z]/, "en az bir küçük harf içermeli")  ÖR yazım
+//+  
