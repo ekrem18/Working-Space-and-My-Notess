@@ -334,3 +334,7 @@
 //+  Slice ile bir global state'in hem action type'lari , hem action creator fonksiyonlarini hem de reducer'i tek bir hamlede olusturabiliriz.
 //+  Olusan action fonksiyonları sliceAdi.actions 'dan destructure edilerek export edilir.
 //+  reducer ise sliceAdi.reducer seklinde export edilmelidir.
+
+//?  STOCK APP NOTES
+//+  Formik pnpm paket yüklenecek
+//+  
