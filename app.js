@@ -337,4 +337,6 @@
 
 //?  STOCK APP NOTES
 //+  Formik pnpm paket yüklenecek
-//+  
+//+  {Formik} from "formik "
+//+  Formik yapısı içerisinde kullanılşacak olan uyarılar, mesjalar login sayfası için vs Yup kütüphanesini kullanıyoruz. 
+//+  import { object, string, number, date, InferType } from 'yup';   yapıyoruz ve hazır şemayı da customize edebilirz
