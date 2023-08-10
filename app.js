@@ -343,3 +343,8 @@
 //+  loginSchema --> email: email(valid uyarısı için),,required ....password: required,,min(8) ,max(16), matches(/\d+/) ->"en az bir rakam içerimesi" mevzuu, matches(/[A-Z]/) en az bir büyük harf içermesi
 //*+  matches(/[a-z]/, "en az bir küçük harf içermeli")  ÖR yazım
 //+  hatırlatma: "Bir hook sadece bir  react componentte ve bir custom hook içerisinde çağrılabilir."
+//*+   2.DERS
+//+  env dosyalarinda genelde tum uygulama icerisinde tekrar tekrar kullanilacak degiskenler (API sifreleri, URL'ler vb. ) saklanilir. Dolayisiyla bir kere tanimlayip tum proje icersinde erisebilmek tekrari azaltmak adina avantaj saglar.
+//+  env degiskenlerine her asamada (dev,prod,test) erisilebilir. Bu dosya github'a pushlandigi icin gizli bilgiler paylasmak dogru olmaz.
+//+  VITE de guvenlik nedeniyle degisken isimlerinin basina VITE_ kelimesi eklenmelidir.
+//*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
