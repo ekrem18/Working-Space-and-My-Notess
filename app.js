@@ -350,3 +350,4 @@
 //+  env degiskenlerine her asamada (dev,prod,test) erisilebilir. Bu dosya github'a pushlandigi icin gizli bilgiler paylasmak dogru olmaz.
 //+  VITE de guvenlik nedeniyle degisken isimlerinin basina VITE_ kelimesi eklenmelidir.
 //*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
+//+  Js Uzantılı bir doya aslında js fonksiyonudur. React componenti değildir. DOlayısıyla hook kullancağım zama burada çağırmam mümkün değil. Bir Hook ya React comp.i içnde veya custom hook içerisinde çağırılabilir. UseNavigate örneğin bir hook olduğu için Js içeriisnde yemez
