@@ -336,6 +336,7 @@
 //+  reducer ise sliceAdi.reducer seklinde export edilmelidir.
 
 //?  STOCK APP NOTES
+//+  REDOC uzantısı admin paneli
 //+  Formik pnpm paket yüklenecek
 //+  {Formik} from "formik "
 //+  Formik yapısı içerisinde kullanılşacak olan uyarılar, mesjalar login sayfası için vs Yup kütüphanesini kullanıyoruz. 
@@ -351,3 +352,6 @@
 //+  VITE de guvenlik nedeniyle degisken isimlerinin basina VITE_ kelimesi eklenmelidir.
 //*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
 //*+  Js Uzantılı bir doya aslında js fonksiyonudur. React componenti değildir. DOlayısıyla hook kullancağım zama burada çağırmam mümkün değil. Bir Hook ya React comp.i içnde veya custom hook içerisinde çağırılabilir. UseNavigate örneğin bir hook olduğu için Js Veya JSX içeriisnde yemez
+//*+   3.DERS
+//+  stock kısmından silinck işlmeler için postman DELETE isteği seçilecek öncelikle. Link yazılırken redoc kısmındaki linkler kullanılıo. Elimizdeki bilgilere göre {id} gerekiyor. 
+//+  AXIOS INSTANCE: tekrarları minimize ederek sbit ayarlar mevcut ise, config'leri bi kere yazıp tekrar kullanmamıza olanak sağlıyor
