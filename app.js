@@ -349,12 +349,13 @@
 //*+   2.DERS ***********************************
 //*+  İlk derstye aldığımız invalid hook uyarısını ortadan kaldırmak için custom hook a çevirdik.Bunun için de gerekli  şekil şartlarından biri de use kullanılmasıdr isimde.
 //*+  Custom Hook'a çevirdikten sonra fonksiyon yapısı değişti. Dolayısıyla export yapısı da değişti. Export etmee şeklimizdeki farklılık ve dosya yapısında ki dğeişiklik için login jsx'te import işleminde de günce3lleme yaptık. 
-//*+  Login.jsx dosyasımızda; yazdığıız custom hook'u import ettikten sonra fonk. içinde açma işlemini yapıyoruz ki aşağaıda kullanabileleim
+//*+  Login.jsx dosyasımızda; yazdığıız custom hook'u import ettikten sonra fonk. içinde açma işlemini yapıyoruz ki aşağaıda kullanabilelim
 //+  env dosyalarinda genelde tum uygulama icerisinde tekrar tekrar kullanilacak degiskenler (API sifreleri, URL'ler vb. ) saklanilir. Dolayisiyla bir kere tanimlayip tum proje icersinde erisebilmek tekrari azaltmak adina avantaj saglar. VITE ile çalıştığımız için env içerisinbde VITE ile başlıyoruz
 //+  env degiskenlerine her asamada (dev,prod,test) erisilebilir. Bu dosya github'a pushlandigi icin gizli bilgiler paylasmak dogru olmaz.
 //+  VITE de guvenlik nedeniyle degisken isimlerinin basina VITE_ kelimesi eklenmelidir.
 //*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
 //*+  Js Uzantılı bir doya aslında js fonksiyonudur. React componenti değildir. DOlayısıyla hook kullancağım zama burada çağırmam mümkün değil. Bir Hook ya React comp.i içnde veya custom hook içerisinde çağırılabilir. UseNavigate örneğin bir hook olduğu için Js Veya JSX içeriisnde yemez
+//*+  400 BAD REQUEST gibi bir hata aldığında console dan detayına bakarak response sekmesi altında gerekli bilgi görünecektir. Toastify a sığmamaaıs ihtimalinden dolayı ui bastırmadık
 //*+   3.DERS
 //+  stock kısmından silinck işlmeler için postman DELETE isteği seçilecek öncelikle. Link yazılırken redoc kısmındaki linkler kullanılıo. Elimizdeki bilgilere göre {id} gerekiyor. 
 //+  AXIOS INSTANCE: tekrarları minimize ederek sbit ayarlar mevcut ise, config'leri bi kere yazıp tekrar kullanmamıza olanak sağlıyor
