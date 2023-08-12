@@ -346,11 +346,11 @@
 //+  loginSchema --> email: email(valid uyarısı için),,required ....password: required,,min(8) ,max(16), matches(/\d+/) ->"en az bir rakam içerimesi" mevzuu, matches(/[A-Z]/) en az bir büyük harf içermesi
 //*+  matches(/[a-z]/, "en az bir küçük harf içermeli")  ÖR yazım
 //+  hatırlatma: "Bir hook sadece bir  react componentte ve bir custom hook içerisinde çağrılabilir."
-//*+   2.DERS
+//*+   2.DERS ***********************************
 //*+  İlk derstye aldığımız invalid hook uyarısını ortadan kaldırmak için custom hook a çevirdik.Bunun için de gerekli  şekil şartlarından biri de use kullanılmasıdr isimde.
 //*+  Custom Hook'a çevirdikten sonra fonksiyon yapısı değişti. Dolayısıyla export yapısı da değişti. Export etmee şeklimizdeki farklılık ve dosya yapısında ki dğeişiklik için login jsx'te import işleminde de günce3lleme yaptık. 
 //*+  Login.jsx dosyasımızda; yazdığıız custom hook'u import ettikten sonra fonk. içinde açma işlemini yapıyoruz ki aşağaıda kullanabileleim
-//+  env dosyalarinda genelde tum uygulama icerisinde tekrar tekrar kullanilacak degiskenler (API sifreleri, URL'ler vb. ) saklanilir. Dolayisiyla bir kere tanimlayip tum proje icersinde erisebilmek tekrari azaltmak adina avantaj saglar.
+//+  env dosyalarinda genelde tum uygulama icerisinde tekrar tekrar kullanilacak degiskenler (API sifreleri, URL'ler vb. ) saklanilir. Dolayisiyla bir kere tanimlayip tum proje icersinde erisebilmek tekrari azaltmak adina avantaj saglar. VITE ile çalıştığımız için env içerisinbde VITE ile başlıyoruz
 //+  env degiskenlerine her asamada (dev,prod,test) erisilebilir. Bu dosya github'a pushlandigi icin gizli bilgiler paylasmak dogru olmaz.
 //+  VITE de guvenlik nedeniyle degisken isimlerinin basina VITE_ kelimesi eklenmelidir.
 //*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
