@@ -355,3 +355,4 @@
 //*+   3.DERS
 //+  stock kısmından silinck işlmeler için postman DELETE isteği seçilecek öncelikle. Link yazılırken redoc kısmındaki linkler kullanılıo. Elimizdeki bilgilere göre {id} gerekiyor. 
 //+  AXIOS INSTANCE: tekrarları minimize ederek sbit ayarlar mevcut ise, config'leri bi kere yazıp tekrar kullanmamıza olanak sağlıyor
+//+  Instance kullancağımz yerde custom Hook olacak.
