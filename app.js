@@ -356,6 +356,7 @@
 //*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
 //*+  Js Uzantılı bir doya aslında js fonksiyonudur. React componenti değildir. DOlayısıyla hook kullancağım zama burada çağırmam mümkün değil. Bir Hook ya React comp.i içnde veya custom hook içerisinde çağırılabilir. UseNavigate örneğin bir hook olduğu için Js Veya JSX içeriisnde yemez
 //*+  400 BAD REQUEST gibi bir hata aldığında console dan detayına bakarak response sekmesi altında gerekli bilgi görünecektir. Toastify a sığmamaaıs ihtimalinden dolayı ui bastırmadık
+//+  Login olduktan sonra /sales sekmesinde hem dashboard'u görüp hem de ansayfanın işlemesi lazım. Dolaysııyla router yapısı içerisişnde private yapının içine nested olarak bir route daha yerleştirip <Home/> yapısını çağırdık fakat bunun da kullanılabilmesi için Dashboard sayfasına <Outlet/> işlemeyi unutmuyıoruz
 //*+   3.DERS
 //+  stock kısmından silinck işlmeler için postman DELETE isteği seçilecek öncelikle. Link yazılırken redoc kısmındaki linkler kullanılıo. Elimizdeki bilgilere göre {id} gerekiyor. 
 //+  AXIOS INSTANCE: tekrarları minimize ederek sbit ayarlar mevcut ise, config'leri bi kere yazıp tekrar kullanmamıza olanak sağlıyor
