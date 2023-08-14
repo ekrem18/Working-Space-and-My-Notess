@@ -359,7 +359,7 @@
 //+  Login olduktan sonra /sales sekmesinde hem dashboard'u görüp hem de ansayfanın işlemesi lazım. Dolaysııyla router yapısı içerisişnde private yapının içine nested olarak bir route daha yerleştirip <Home/> yapısını çağırdık ve index element olarak belirttik. index element bitane olabileceği için diğerlerinin path'ini işlyirıuz fakat bunun da kullanılabilmesi için Dashboard sayfasına <Outlet/> işlemeyi unutmuyıoruz
 //*+ Dolayııs ile yularıda çift basamak/nested route yapısı kuruldu
 //*+   3.DERS
-//+  X[Y] == x.y  ancak köşeli kullanınca Y'bir variable olabilir. Bu yüzen stockSlice i,çindeki bazı yapılarda bu şekilde kullanıldı
+//+  X[Y] == x.y  ancak köşeli kullanınca Y'bir variable olabilir. Bu yüzen stockSlice i,çindeki bazı yapılarda bu şekilde kullanıldı.  X.Y dendiğinde X'in içerisindeki key olan Y olarak arayacaktır.
 //+  stock kısmından silinck işlmeler için postman DELETE isteği seçilecek öncelikle. Link yazılırken redoc kısmındaki linkler kullanılıo. Elimizdeki bilgilere göre {id} gerekiyor. 
 //+  AXIOS INSTANCE: tekrarları minimize ederek sbit ayarlar mevcut ise, config'leri bi kere yazıp tekrar kullanmamıza olanak sağlıyor
 //+  Instance kullancağımz yerde custom Hook olacak.
