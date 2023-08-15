@@ -364,4 +364,6 @@
 //+  AXIOS INSTANCE: tekrarları minimize ederek sbit ayarlar mevcut ise, config'leri bi kere yazıp tekrar kullanmamıza olanak sağlıyor
 //+  Instance kullancağımz yerde custom Hook olacak.
 //+  Card vb yapıları MUI den alıyoruz. Tepede import ediyoruz. 
+//*+  IMPORT MANTIĞI VE DEST. İŞLEMİ İÇİN ÇOK KISA ÖZET 1.33 saatte 
+//*+   4.DERS
 //+  
