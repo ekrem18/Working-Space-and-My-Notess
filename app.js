@@ -365,5 +365,5 @@
 //+  Instance kullancağımz yerde custom Hook olacak.
 //+  Card vb yapıları MUI den alıyoruz. Tepede import ediyoruz. 
 //*+  IMPORT MANTIĞI VE DEST. İŞLEMİ İÇİN ÇOK KISA ÖZET 1.33 saatte 
-//*+   4.DERS
-//+  
+//*+   5.DERS
+//+  Tablo örneğini MUI'dne çekiyoruz. Data x grid için pnpm ile kurulum yapıp, import ediyoruz ve elemanları kullanıyoruz. MUI dökümanlarından takip ediyoruz.
