@@ -366,4 +366,5 @@
 //+  Card vb yapıları MUI den alıyoruz. Tepede import ediyoruz. 
 //*+  IMPORT MANTIĞI VE DEST. İŞLEMİ İÇİN ÇOK KISA ÖZET 1.33 saatte 
 //*+   5.DERS
-//+  Tablo örneğini MUI'dne çekiyoruz. Data x grid için pnpm ile kurulum yapıp, import ediyoruz ve elemanları kullanıyoruz. MUI dökümanlarından takip ediyoruz.
+//+  Product Table örneğini MUI'dne çekiyoruz. Data x grid için pnpm ile kurulum yapıp, import ediyoruz ve elemanları kullanıyoruz. MUI dökümanlarından takip ediyoruz.
+//+  renderCell'de kendi componentlerimiz yazmak iin kullanıyoruz. Gene MUI
