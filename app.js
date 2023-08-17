@@ -370,4 +370,4 @@
 //+  renderCell'de kendi componentlerimiz yazmak iin kullanıyoruz. Gene MUI
 //*+   6.DERS
 //+  Dashbosrd icon ları --> import MonetizationOnIcon from "@mui/icons-material/MonetizationOn"   """"import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"""""import PaymentsIcon from "@mui/icons-material/Payments"""""
-//+  
+//+  Chart'lar için recharts sitesi üzerinden inceleme yapılabilir---> third party bi sistem. 
