@@ -368,7 +368,9 @@
 //*+   5.DERS
 //+  Product Table örneğini MUI'dne çekiyoruz. Data x grid için pnpm ile kurulum yapıp, import ediyoruz ve elemanları kullanıyoruz. MUI dökümanlarından takip ediyoruz.
 //+  renderCell'de kendi componentlerimiz yazmak iin kullanıyoruz. Gene MUI
-//+  X ve Y kolonlarındaki bilgiden bir Z kolonu oluşturmk istiyorsak MUI bunun için Value Formatter' ı yapmış
+//+  X ve Y kolonlarındaki bilgiden bir Z kolonu oluşturmk istiyorsak MUI bunun için Value Formatter' ı yapmış. Name + LastName  den FullName gibi
+//*+  api'Den gelmeyen colum bilgileri icin getActions veya renderCell islevleri kullanilabilir. Bu islevler aslinda isimsiz bir fonksiyon cagirirlar ve bu fonksiyon aldigi parametre (params) ile bir cok veriye (rows,columns gibi) erisebilir. 
+
 //*+   6.DERS
 //+  Dashbosrd icon ları --> import MonetizationOnIcon from "@mui/icons-material/MonetizationOn"   """"import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"""""import PaymentsIcon from "@mui/icons-material/Payments"""""
 //+  Chart'lar için recharts sitesi üzerinden inceleme yapılabilir---> third party bi sistem. 
