@@ -375,3 +375,5 @@
 //+  Dashbosrd icon ları --> import MonetizationOnIcon from "@mui/icons-material/MonetizationOn"   """"import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"""""import PaymentsIcon from "@mui/icons-material/Payments"""""
 //+  Chart'lar için recharts sitesi üzerinden inceleme yapılabilir---> third party bi sistem. 
 //+  Sıralı ama birbirine de bağlı işlemler söz konusuysa; işlemlerden birinde hata olması durumunda diğerlerini de etkileme ihitmalinden ötürü ayrıca gecikmenin gerçekleşmesi ve artması ihtimalin varlığından ötürü promise.all yapısını kullnaıyoruz.
+//*+  TREMOR KURULUMU "pnpm add @tremor/react"
+//+  Githuba puslayıp canlıda skntı yaşamamak içn ufak farklılıklar var. Vite ile oluşturduğumz dosya için vite.config dosyasına girip "build:{outDir: "./build"}"  yazıyorız
