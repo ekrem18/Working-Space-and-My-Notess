@@ -261,7 +261,6 @@
 //*+  style componentleri oluşturabilmek için  """""import styled from "styled-components" """""    importunu yapmak lazm
 //-----------------------
 //+  URL de bulunan ?'den sonraki kısım parametreleri belirtir. & ile ayırıyoruz.oluşturaln APP KEY i de key kısmına koyuorz ve postman ile devam 
-
 //+  theme için bir şablo9n hazırlarken içeri yazılanın önemi yok ancak çağırırken aynmı şekişlde çağırlmalı. export const lighgtTheme dedikten sonra içerdeki valueların ismi
 //+  dark ve light theme ler içerisindeki değişken isimleri aynı olmalı ki değişiklikler farkedilebilsin ve çalışabilsin
 //+  Her yerden ulaşmak istediğim, resetleme apabileceğim theme ayarlarını best practice Global.styles.jsx comp.ine tanımlama yapıyorum. öncelikle """"import {createGlobalStyle} from "styled-components"""""   dedikten sonra componenti oluşturmaya başlıyoruz. 
@@ -277,10 +276,8 @@
 //*+  setMyTheme(prev => (prev === "light" ? "dark" : "light"));  aymı işi görüyor
 //+  <Route path="/detail/:id" element={<Detail/>} />   id yerine herhangi başka birşey de klullanışabilir. Önemli olan usePĞaramas kullanılırken burda yazılanın çağırılması
 //*+  return user ? <Outlet/> : <Login/>    user varsa child'a git yoksa logine. Ancak burada fonksiiyon bazında değil de componenet bazında gidebileceğimiz için bu ifadeyi <Navigate to ="/login"/> olarak yazıyoruz. 
-
 //+  Github'da göerünmesini istemediğim değerleri pack.Jsom ile aynı seviyede oluiturduüum .env  ddosyası içerisine   örneğinb REACT_APP_apiKey  ismiyle tanımlıyprum. Gönderilmemesi için d gitignore 'a .env  yi ekliyorum
 //+  COnsume edip kullanmak için de auth dosyama const APP_KEY = process.env.REACT_APP_apiKey;   tanımlaması yapıyorum
-
 
 //?  TAILWIND INFO
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
@@ -298,15 +295,15 @@
 
 //?  FIREBASE & MOVIE APP
 //*+  Kurulum-import movieapp 1.ders 2.saat
-//+  yarn add firebase    ile kuuryoruz.  Firebase sitesinden proje oluşturduk.
+//+  yarn add firebase    ile kuruyoruz.  Firebase sitesinden proje oluşturduk.
 //+  tailwind componenets kısmından navbar'ı seçiyoruz. HTML kısmını alırsan JS kısmı yok ayarlama gerkiyor. Using React ksımını alıp kopyalşamak daha mantıklı. Bunun içinde 
 //*+  """yarn add @headlessui/react @heroicons/react"""  diyerek terminalde paketi yüklüyoruz. sonrasında docs ta yazdığı şekliyel import ediyoruz
 //+  className= " h-[55px]"    diyerek Tailwind'de spesifik yükseklik kullanabilirm
 //+  Firebase.js dosyası oluşturuluyor. SRC içerisinde out gibi bir folder oluşturulup içerisine atabilirz
-//+  İçerisine girilecek sdk kod bloğunun hub'a gitmesini sitmeiyorsdask proje içerisinde .env dosaysı oluşituruyoruz. (detay: 2.DERS 21.50 civarı) dolayısıyla firebase.js içeriisnde koymuyoruz da karşığına process.env    diye uzantsını atıoz
+//+  İçerisine girilecek sdk kod bloğunun hub'a gitmesini istemiyorsak proje içerisinde .env dosyası oluşturuyoruz. (detay: 2.DERS 21.50 civarı) dolayısıyla firebase.js içerisinde koymuyoruz da karşığına process.env    diye uzantsını atıoz
 //********** */
 //+  https://fkhadra.github.io/react-toastify/introduction/    linkinden docs incelenebilir.
-//+  toastşfy yüklemesi yapılıyor.
+//+  toastify yüklemesi yapılıyor.
 //+  <ToastContainer/>  ile kullanıyoruz.
 //+  route yapısı içerisinde replace prop'unu Navigate içerisinde kullanmalıyız
 
