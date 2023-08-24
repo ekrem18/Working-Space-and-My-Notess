@@ -382,3 +382,5 @@
 //+  Config dosyası içerisinde ts ve app dosyalarının yerlerini değiştmirme hususu ilk ders saat 20.56 
 //+  " let num : number[] = [1] "  number tipinde bir array oluşturma syntax'ı
 //+  Tuples yapısına göre syntax : -sabit sayıda ve tipte içinde birden fazla türden yapı bulunduran array oluşturmaya yardımcı-
+//+  ÖR: "" var employee : [number, stirng][] ""   ""employee= [[1,Steve], [2,Bill]]""
+//+  Yapı içersine yeni eleman eklemek için .push kullanıyoruz
