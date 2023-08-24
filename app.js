@@ -374,3 +374,8 @@
 //+  Sıralı ama birbirine de bağlı işlemler söz konusuysa; işlemlerden birinde hata olması durumunda diğerlerini de etkileme ihitmalinden ötürü ayrıca gecikmenin gerçekleşmesi ve artması ihtimalin varlığından ötürü promise.all yapısını kullnaıyoruz.
 //*+  TREMOR KURULUMU "pnpm add @tremor/react"
 //+  Githuba puslayıp canlıda skntı yaşamamak içn ufak farklılıklar var. Vite ile oluşturduğumz dosya için vite.config dosyasına girip "build:{outDir: "./build"}"  yazıyorız
+
+//?  TYPE SCRIPT
+//+  "npm install -g typescript"  ile kuruyoruz. " tsc --init"  ile de config dosaysını kuruyoruz.
+//+  "noEmitOnError"   hata varsa çıktı vermeme ayarı
+//+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
