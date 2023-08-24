@@ -381,3 +381,4 @@
 //+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
 //+  Config dosyası içerisinde ts ve app dosyalarının yerlerini değiştmirme hususu ilk ders saat 20.56 
 //+  " let num : number[] = [1] "  number tipinde bir array oluşturma syntax'ı
+//+  Tuples yapısına göre syntax : -sabit sayıda ve tipte içinde birden fazla türden yapı bulunduran array oluşturmaya yardımcı-
