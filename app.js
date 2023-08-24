@@ -384,3 +384,4 @@
 //+  ARR Tuples yapısına göre syntax : -sabit sayıda ve tipte içinde birden fazla türden yapı bulunduran array oluşturmaya yardımcı-
 //+  ÖR: "" var employee : [number, stirng][] ""   ""employee= [[1,Steve], [2,Bill]]""
 //+  Yapı içersine yeni eleman eklemek için .push kullanıyoruz
+//+  string enum yazılıyorsa değer number'daki gibi boş bırakılamaz
