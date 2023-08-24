@@ -380,3 +380,4 @@
 //+  "noEmitOnError"   hata varsa çıktı vermeme ayarı
 //+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
 //+  Config dosyası içerisinde ts ve app dosyalarının yerlerini değiştmirme hususu ilk ders saat 20.56 
+//+  " let num : number[] = [1] "  number tipinde bir array oluşturma syntax'ı
