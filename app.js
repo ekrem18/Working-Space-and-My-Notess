@@ -1,4 +1,4 @@
-//?promise SYNTAX 
+//? ***********************************  promise SYNTAX  *********************************** 
 //  let check = true;
 //* const myPromise = new Promise((resolve,reject)=>{
 //      
@@ -28,7 +28,7 @@
 //* PROMISE devamı
 //+ 
 
-//? *************** SYNC & ASYNC     ******************** */
+//? *********************************** SYNC & ASYNC *********************************** 
 //* JS Timing , Event ve http isteklerinde asenkron çalışıyor. Aşağıdaki örnekte de senkron çalışan kod asenkronu bekelmez. 
 // console.log("Ekrm");
 // setTimeout( ()=>{
@@ -84,11 +84,11 @@
 //+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
 //+  {props.name} diyerek name değişkenini atamış oluyorum.
 
-//?  Proje açılış
+//?  *********************************** Proje açılış *********************************** 
 //+  " yarn create react-app . "  
 //+  ""yarn add react-bootstrap bootstrap""
 
-//?  3.DERS Module CSS & SASS
+//?  *********************************** 3.DERS Module CSS & SASS *********************************** 
 //+  Aynı seviyede iki component yani sibling e import edilecek farklı props lar varsa ayrı ayrı import etmektense bir üst compt. e import edilerek oradan çekilir. "Props Drilling"
 //+  JSX de etikete class vermek istiyorsam className vermeliyiz. hatırlatma
 //+  CSS dosyasını hazırlayıp istediğimiz jsx dosyasına gidip impot ediyoruz.
@@ -120,7 +120,7 @@
 //      })}
 //   </div> 
 
-//?  5.DERS EVENTS, CLASS COMP., STATES
+//?  ***********************************  5.DERS EVENTS, CLASS COMP., STATES *********************************** 
 //+  ReactJS, Tarayicilar arasi uyumluluk ve performans artisi gibi sebeplerden oturu Sentetik Event olarak adilandirilan Olaylari kullanir. Sentetik Event, aslinda tarayicinin dogal event'larinin bir sarmalayici (Wrapper) arabirimle ortulmesi ile olusur. Bu sayede, React ortaminda kullanilan event'larin bilindik tarayicilarda sorunsuz calismasi saglanir.
 //+  Eger bir event fonksiyonunun paremetresi olmasi gerekiyorsa bu fonksiyon bir arrow fonks. tarafindan  cagrilmalidir. Aksi takdirde event fonksiyonu event gerceklesmeden cagirilir. Örnek aşağıda
 //*+  ÖR::::  < button onClick={() => alert("click me!")}>  Bu doğru kullanım.        yanlış olan ise    < button onClick{alert("click me!")}>
@@ -139,7 +139,7 @@
 //+  Eğer objenin tamamını değişitmek ya da silmek gibi bir event içerisine girmek istiyorsak spread yapmaya gerek yok.
 //+  "predeploy": "yarn run build",
 
-//?  6.DERS EVENTS DEVAM ve BOOTSTRAP
+//?  ***********************************  6.DERS EVENTS DEVAM ve BOOTSTRAP *********************************** 
 //+  Bootstrap React ortamında 2 şekilde kullanılabilir. 1.si klaik class isimleriyle , 2.si "react bootstrap" diyoruz. 
 //*+  """"yarn add npm install react-bootstrap bootstrap""""" diyerek kuruyoruz. CSS başlığı altındaki "import 'bootstrap/dist/css/bootstrap.min.css';"   linki  App veya index js ye import ediyoruz. klasik bootstrap sayfası üzerinden işlem yaparken kodu jsx ortamına çevirmemiz lazm.
 //+  Form elşementi içerisidne type ı submit olan bir button varsa, default olarak formu alır gönderir ve sayfayı siler. Dolayısyla bir evevnt tetikler gibi diyebilriz. 
@@ -159,17 +159,17 @@
 //*+ Mouse Events Notes   
 //+  CONDITIONAL RENDERING : koşula bağlı olarak bir elementin gösterip- gösterilmemesi durumuna denir.
 
-//?  NBA TW NOTES
+//?  *********************************** NBA TW NOTES *********************************** 
 //+  Css ve Bootstrap i import ederken hepsinde kullanacaksak eğer kapsayıcı olan APP.JS üzerinde yapmak mantıklı olan. 
 //+  Flex Wrap verirken işlemesi için genişlik tanımlanmıiş olmalı
 //+  position:relative kapsayıcı div e veriyoruz ki önce ,position:absolute verdiğimizde bu div le sınırlı kalsın.
 
-//?  APPOINTMENT APP NOTES
+//?  *********************************** APPOINTMENT APP NOTES *********************************** 
 //+  Bootstrap pratik img class'ı --> "img-thumbnail" küçültmer ve border veriyor.
 //+  React Bootstrap kullanıyorsam import da gerekli.
 //+  onClick'deki herhngi bir değişklik "state"in değişimine, onun da değişimi aşağıdaki "prop"un değişimine, o da "render"a yol açıyor.  
 
-//?  LIFE CYCLE-USE EFFECT METHODS
+//?  *********************************** LIFE CYCLE-USE EFFECT METHODS *********************************** 
 //+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icinli fecycle metotlari kullanilabilir. 
 //+  En bilindik lifecycle metodu render() metodudur.
 //+  Bir component'in olusturulmasi (constructor),Bir componentin DOM agacina eklenmesinin hemen sonrasi(componentDidMount) Bir component'in DOM'a basilmasi (render) (Optional) Bir componentin guncellenmesinin hemen sonrasi (componentDidUpdate) Bir component'in DOM agacindan kaldirilmasi sonrasi(componentWillUnmount).
@@ -184,7 +184,7 @@
      //*}
      //*}, [count]) //? Dependency Array
 
-//?  LIFE CYCLE-USE EFFECT METHODS - Axios DWM
+//?  *********************************** LIFE CYCLE-USE EFFECT METHODS - Axios DWM *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
 //*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
 //+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
@@ -198,7 +198,7 @@
 //*+      } catch (error) }  
 //+  axios.post(baseURL, {veriler})
 
-//?  ROUTER
+//?  *********************************** ROUTER *********************************** 
 //*+  yarn add react-router-dom
 //+  link verileceği zaman "a href" değil de  "Link to"  olarak kullanılmalı.
 //*+  <Nav />    -------> içerisde bulunan sayfaları düzenlemek için
@@ -238,13 +238,13 @@
 //+  Sonrasında ilgili sayfaya-comp.e gidip verilen linkleri "Link to" ya da "NavLink" uzantısıyla düzenliyoruz
 //+  <NavLink to="/about" >  </ NavLink>
 
-//?  CONTEXT - REDUCER
+//?  *********************************** CONTEXT - REDUCER *********************************** 
 //+  Prop-Drilling component yapısını desteklediği için aslında react felsefesine uygun. Componentlerin yeniden kullanılabilmesini mümkün kılıyor. Ancak; 7-8 seviye taşınması durumu oratay çıkarsa pratiklik problemi oluyor.
 //+  Buna alternatif olarak global state kullanılıyor.
 //+  Context'ten veri okumak için "useContext" hookunu kullanıyoruz.
 //+  Global'in dezavantajı; tekrar kullanımı azaltıyor. Gerekli gereksiz heryerde global state kullanımı; gereksiz render'lar artar.  
 
-//?  STYLED COMPONENT
+//?  *********************************** STYLED COMPONENT *********************************** 
 //+  "yarn add style-components"   diyerek kurulum yapılıyor. 
 //+  örneğin bir buton tasarlıyoruz. "Buton.styled.jsx" formatında bir file oluşturup, "import styled from "styled-components" " dedikten sonra CSS ortamındaki formatla yazıyoruz. Snrada "" <Button> </Button> ""  şeklinde App.js içerisinde alıyoruz.
 //+  const DarkButton = styled(Button)   şeklinde bir butondan buton türevliyoruz.
@@ -252,7 +252,7 @@
 //+  CSS de padding , margin vs 0 verdiğimiz değerlere karşılıö olarak " import {createGlobalStyle} from "styled-components" " diyoruz. const GlobalStyles = createGlobalStyle diyoruz.
 //+  Ama dikkat edecğimiz bir diğer husus da bu bir default ayar olduğu için parent içeirinde import edilmeli. Örneğin; app.js içerisinde
 
-//?  CW Library Notes
+//?  *********************************** CW Library Notes *********************************** 
 //+  Navbar gibi elemanları; belki lazım olabilir diye browserrouter içerisine ve fakat routes dışına alıyoruz.
 //+  Browser history sinden faydalkanmak için  Navigate kullanıyoruz
 //*+ Aslında bir useState'in setter metodu olan fonk.u event olarak kuallanmaya örnek syntax.
@@ -279,7 +279,7 @@
 //+  Github'da göerünmesini istemediğim değerleri pack.Jsom ile aynı seviyede oluiturduüum .env  ddosyası içerisine   örneğinb REACT_APP_apiKey  ismiyle tanımlıyprum. Gönderilmemesi için d gitignore 'a .env  yi ekliyorum
 //+  COnsume edip kullanmak için de auth dosyama const APP_KEY = process.env.REACT_APP_apiKey;   tanımlaması yapıyorum
 
-//?  TAILWIND INFO
+//?  *********************************** TAILWIND INFO *********************************** 
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
 //*+  yarn add -D tailwindcss
 //*+  npx tailwindcss init      yarn ya da npm farketmio komut:npx
@@ -293,7 +293,7 @@
 //+  Tailwind.config.js dosyasına kendi tema ayarlarımızı eklemek için "  theme: extends:  {colors:  { "içine yazıyoruz
 //+  dark mode yapmak için "tailwind.config.js" e  darkMode: "class" eklenecek
 
-//?  FIREBASE & MOVIE APP
+//?  *********************************** FIREBASE & MOVIE APP *********************************** 
 //*+  Kurulum-import movieapp 1.ders 2.saat
 //+  yarn add firebase    ile kuruyoruz.  Firebase sitesinden proje oluşturduk.
 //+  tailwind componenets kısmından navbar'ı seçiyoruz. HTML kısmını alırsan JS kısmı yok ayarlama gerkiyor. Using React ksımını alıp kopyalşamak daha mantıklı. Bunun içinde 
@@ -307,13 +307,13 @@
 //+  <ToastContainer/>  ile kullanıyoruz.
 //+  route yapısı içerisinde replace prop'unu Navigate içerisinde kullanmalıyız
 
-//?  MATERIAL UI
+//?  *********************************** MATERIAL UI *********************************** 
 //+  h1-h6 gibi özellikleri comp.in variant'ı olarak veriyoruz
 //+  "sx" prop u ile css style yapabilorz. sx {{color:"blue", backgroundColor:"black"}} gibi
 //+  div elementini stack olarak değerlendirebilirz
 //+  "import {createTheme}..." ardından sx prop'uyla bir rengin farklı tonları seçilebilir. "main, light, dark"
 
-//?  REDUX
+//?  *********************************** REDUX *********************************** 
 //+  Akışın çok hızlı değiştiği yerlerde tercih edilebilir. e-commerce gibi
 //+  Bilgiler Store'da saklanıyor
 //+   Context Api                                                          Redux
@@ -332,7 +332,7 @@
 //+  Olusan action fonksiyonları sliceAdi.actions 'dan destructure edilerek export edilir.
 //+  reducer ise sliceAdi.reducer seklinde export edilmelidir.
 
-//?  STOCK APP NOTES
+//?  *********************************** STOCK APP NOTES *********************************** 
 //+  REDOC uzantısı admin paneli
 //+  Formik pnpm paket yüklenecek
 //+  {Formik} from "formik "
@@ -375,12 +375,12 @@
 //*+  TREMOR KURULUMU "pnpm add @tremor/react"
 //+  Githuba puslayıp canlıda skntı yaşamamak içn ufak farklılıklar var. Vite ile oluşturduğumz dosya için vite.config dosyasına girip "build:{outDir: "./build"}"  yazıyorız
 
-//?  TYPE SCRIPT
+//?  *********************************** TYPE SCRIPT *********************************** 
 //+  "npm install -g typescript"  ile kuruyoruz. " tsc --init"  ile de config dosaysını kuruyoruz.
 //+  "noEmitOnError"   hata varsa çıktı vermeme ayarı
 //+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
 //+  Config dosyası içerisinde ts ve app dosyalarının yerlerini değiştmirme hususu ilk ders saat 20.56 
 //+  " let num : number[] = [1] "  number tipinde bir array oluşturma syntax'ı
-//+  Tuples yapısına göre syntax : -sabit sayıda ve tipte içinde birden fazla türden yapı bulunduran array oluşturmaya yardımcı-
+//+  ARR Tuples yapısına göre syntax : -sabit sayıda ve tipte içinde birden fazla türden yapı bulunduran array oluşturmaya yardımcı-
 //+  ÖR: "" var employee : [number, stirng][] ""   ""employee= [[1,Steve], [2,Bill]]""
 //+  Yapı içersine yeni eleman eklemek için .push kullanıyoruz
