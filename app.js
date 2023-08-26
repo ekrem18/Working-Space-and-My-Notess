@@ -387,5 +387,14 @@
 //+  string enum yazılıyorsa değer number'daki gibi boş bırakılamaz.
 //+  mixed yapıda da  yazılabilir. Ancak; değer verilmediğinde number 0'dan başlayıp sırayla gitmesinde bir sıkıntı olmasa da, araya string girdiyse number için tekrar bir değer verilmeli
 //*+  2.DERS
-//+  Intersection yapı türü: kesişim manası olsa da aslında birleşimi ifade ediyor. Obje içine tanımladığın her key'i bildirmen gerektiği manasına geliyor. Eğer hepsini yazamk zorunda olmamalıyım diyorsan key'den sonra ? işareti kullanıyoruz. const car:{ model: string , year?: nunber}  gibi
-//+  
+//*+  Intersection yapı türü: kesişim manası olsa da aslında birleşimi ifade ediyor. Obje içine tanımladığın her key'i bildirmen gerektiği manasına geliyor. Eğer hepsini yazamk zorunda olmamalıyım diyorsan key'den sonra ? işareti kullanıyoruz. const car:{ model: string , year?: nunber}  gibi
+//+  type Intersected_type = Book & Author;
+  // let book1: Intersected_type = {
+  //   book_id: 1234,
+  //   book_name: "Lord of the Rings",
+  //   Author_Id: 1892,
+  //   Author_name: "J. R. R. Tolkien"};
+
+  // let book2: Book ={
+  //   book_id : 1,
+  //   book_name: 'FS }
