@@ -406,3 +406,4 @@
   
 //?  *********************************** NEXT JS *********************************** 
 //+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
+//+  nextjs'de tüm componentler default olarak server componenttir. client component kullanmak için "use-client" direktifini kullanmamız gerekir
