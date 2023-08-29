@@ -410,3 +410,4 @@
 //+  Tailwind background property : "bg-[url('/images/hero.jpg')]"
 //+  next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir. 
 //+  Yönlendirmede link elemanında to değil href kullanıyourz
+//+  Private route yapısı için sayfa oluşturur gibi folder oluşturup (private)  ya da (public) yazarak yapıyı oluşuturuoz
