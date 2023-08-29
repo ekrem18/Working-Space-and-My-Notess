@@ -401,3 +401,8 @@
   //+  FUNCTIONS
   //+  Opsiyonel olarak göndereceğimiz bir bilgi varsa bunu ilk sıraya yazmamak gerekiyor.
   //+  Functions-Overloading : aynı ada ve aynı paramatre sayısına ve fakat farklı paramatrelere sahip fonksiyon yazmamıza yardımcı oluyor
+  //+  INTERFACES
+
+  
+//?  *********************************** NEXT JS *********************************** 
+//+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
