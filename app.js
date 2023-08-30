@@ -404,7 +404,7 @@
   //+  INTERFACES
 
   
-//?  *********************************** NEXT JS *********************************** 
+//?  *********************************** NEXT JS *********************************** yarn dev vs
 //+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
 //+  nextjs'de tüm componentler default olarak server componenttir. client component kullanmak için "use-client" direktifini kullanmamız gerekir
 //+  Tailwind background property : "bg-[url('/images/hero.jpg')]"
@@ -412,3 +412,4 @@
 //+  Yönlendirmede link elemanında to değil href kullanıyourz
 //+  Private route yapısı için sayfa oluşturur gibi folder oluşturup (private)  ya da (public) yazarak yapıyı oluşuturuoz
 //+  app dosyası içinde page.jsx bulunana her dosya route'tur
+//+  layout mantığına dair:   uygulama içinde app seviyesindeki layout içine alacağımız yapı tüm sayfalmarda yer alacak demek oluyor. navbar footer gibi. Nextjs mantığında göre her seferinde bir laypout tanımlamaya gerek olmadan layout dosyası içine yapıyı hazır edersen sıkıntı yok. Alt kalsörlerde de layout hazırlanablir.
