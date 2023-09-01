@@ -415,3 +415,5 @@
 //*+  YARN RUN START dediğimizde build alınmış product ürün çalışırken,  YARN RUN DEV denildiğinde localdeki proje çalışıyor
 //*+    2.DERS
 //+  api yi çekereken axios değil de fetch kullanmamızın sebebi NextJS'in await i derlemesinden kaynaklı.
+//+  next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir.
+//+  Bir diğer fark da useParams hook una gerek kalmadan comp. içinde {params}  ieklinde bir nevi dest. işlemi yapabilirm
