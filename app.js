@@ -417,3 +417,6 @@
 //+  api yi çekereken axios değil de fetch kullanmamızın sebebi NextJS'in await i derlemesinden kaynaklı.
 //+  next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir.
 //+  Bir diğer fark da useParams hook una gerek kalmadan comp. içinde {params}  ieklinde bir nevi dest. işlemi yapabilirm
+//+  metadata objesi ve generateMetadata fonksiyonu sadece Server Componentlerden export edilebilir.
+//+  aplikasyonun herhangi bir yerinde gecikme oluştuğunda otomatik loading.js dosyası render edilir
+//+  Error components must be Client Components.aplikasyonun herhangi bir yerinde hata fırlatıldığında otomatik error.js dosyası render edilir
