@@ -401,8 +401,6 @@
   //+  FUNCTIONS
   //+  Opsiyonel olarak göndereceğimiz bir bilgi varsa bunu ilk sıraya yazmamak gerekiyor.
   //+  Functions-Overloading : aynı ada ve aynı paramatre sayısına ve fakat farklı paramatrelere sahip fonksiyon yazmamıza yardımcı oluyor
-  //+  INTERFACES
-
   
 //?  *********************************** NEXT JS *********************************** yarn dev vs
 //+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
@@ -414,3 +412,6 @@
 //+  app dosyası içinde page.jsx bulunana her dosya route'tur
 //+  layout mantığına dair:   uygulama içinde app seviyesindeki layout içine alacağımız yapı tüm sayfalmarda yer alacak demek oluyor. navbar footer gibi. Nextjs mantığında göre her seferinde bir laypout tanımlamaya gerek olmadan layout dosyası içine yapıyı hazır edersen sıkıntı yok. Alt kalsörlerde de layout hazırlanablir.
 //+  rootlayout default olarak geliyor zaten ve zorulu. alt klasörlerde oluşturulacak olanlar opsiyonel
+//*+  YARN RUN START dediğimizde build alınmış product ürün çalışırken,  YARN RUN DEV denildiğinde localdeki proje çalışıyor
+//*+    2.DERS
+//+  api yi çekereken axios değil de fetch kullanmamızın sebebi NextJS'in await i derlemesinden kaynaklı.
