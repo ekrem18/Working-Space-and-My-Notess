@@ -424,3 +424,12 @@
 
 //?  *********************************** CYPRESS
 //+  install konuları 11.30'da başlıyo lazımsa
+//+  proje açılış "npx cypress open"
+//+  import { defineConfig } from "cypress";
+//export default defineConfig({
+  //watchForFileChanges: false,
+  //defaultCommandTimeout: 10000,
+  //e2e: {
+    //setupNodeEvents(on, config) {
+      // implement node event listeners here     komutunu cyconfgidge eklenmesiyle auto save kapanmış oluyor
+ 
