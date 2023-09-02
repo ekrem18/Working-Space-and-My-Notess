@@ -420,3 +420,7 @@
 //+  metadata objesi ve generateMetadata fonksiyonu sadece Server Componentlerden export edilebilir.
 //+  aplikasyonun herhangi bir yerinde gecikme oluştuğunda otomatik loading.js dosyası render edilir
 //+  Error components must be Client Components.aplikasyonun herhangi bir yerinde hata fırlatıldığında otomatik error.js dosyası render edilir
+
+
+//?  *********************************** CYPRESS
+//+  install konuları 11.30'da başlıyo lazımsa
