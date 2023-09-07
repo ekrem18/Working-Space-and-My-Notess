@@ -431,5 +431,5 @@
   //defaultCommandTimeout: 10000,
   //e2e: {
     //setupNodeEvents(on, config) {
-      // implement node event listeners here     komutunu cyconfgidge eklenmesiyle auto save kapanmış oluyor
+      // implement node event listeners here     komutunu ana root kısmında  "cyconfig"   eklenmesiyle auto save kapanmış oluyor
  
