@@ -10,4 +10,5 @@
 //+  (şart)? "x" : "y"     şeklindekli yapı ternary  olarak geçio
 //+  for ve while loops larına dair anlatım ilk ders son saat
 //+  while ve do-while temlede aynı. while da döngüye girmeyebilir şart sağlanmıyorsa , do while da ise mutlaka girilir.
+//+  arrow func'ta kod tek satırsa süslü ve return yazılması gerekmez.  Global ScopeTur
 //+  
