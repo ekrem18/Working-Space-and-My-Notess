@@ -446,7 +446,10 @@
     // Hedef div öğesini seç
               //var hedefDiv = document.getElementById("myDiv");
     // Eklenecek yeni p öğesini oluştur
-              //var yeniPOlgesi = document.createElement("p");
-              //yeniPOlgesi.textContent = "Bu yeni bir paragraf öğesidir.";
-    // Yeni p öğesini hedef div öğesine ekleyin
-              //hedefDiv.appendChild(yeniPOlgesi);
+              //var yeni = document.createElement("p");
+              //yeni.textContent = "Bu yeni bir paragraf öğesidir.";
+    // Yeni p öğesini hedefDiv öğesine ekleyin
+              //hedefDiv.appendChild(yeni);
+
+//+  "container-fluid" terimi, Bootstrap adlı bir CSS çerçevesinde sıkça kullanılan bir sınıftır. Bu sınıf, bir web sayfasındaki içeriği saran bir konteyner (container) öğesine uygulanır ve içeriği sayfanın tam genişliğine dolduracak şekilde ayarlar. Yani, içeriğin kenarlardan uzaklaşarak tam sayfa genişliğini kaplamasını sağlar. Bootstrap, duyarlı (responsive) web tasarımı oluşturmayı kolaylaştıran bir araçtır. "container-fluid" sınıfı, özellikle mobil cihazlardan masaüstü tarayıcılara kadar farklı ekran boyutlarına sahip kullanıcı cihazlarına uyumlu tasarımlar oluştururken kullanışlıdır. 
+//+  
