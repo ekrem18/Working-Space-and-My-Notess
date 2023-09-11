@@ -243,6 +243,7 @@
 //+  Buna alternatif olarak global state kullanılıyor.
 //+  Context'ten veri okumak için "useContext" hookunu kullanıyoruz.
 //+  Global'in dezavantajı; tekrar kullanımı azaltıyor. Gerekli gereksiz heryerde global state kullanımı; gereksiz render'lar artar.  
+//+  
 
 //?  *********************************** STYLED COMPONENT *********************************** 
 //+  "yarn add style-components"   diyerek kurulum yapılıyor. 
@@ -433,3 +434,10 @@
     //setupNodeEvents(on, config) {
       // implement node event listeners here     komutunu ana root kısmında  "cyconfig"   eklenmesiyle auto save kapanmış oluyor
  
+//?  *********************************** Mix TW
+//* TYPSCRIPT NOT
+//+  TypeScript, JavaScript tabanlı bir programlama dilidir ve JavaScript kodunun üzerine inşa edilmiştir. TypeScript, JavaScript'e güçlü bir şekilde tip belirleme özelliği ekler. Bu, geliştiricilere kodlarını daha güvenli hale getirme, hata ayıklama ve daha iyi belgelendirme yapma yeteneği sağlar. Kısacası, TypeScript, JavaScript kodunun daha sağlam, anlaşılır ve ölçeklenebilir hale getirilmesini sağlayan bir programlama dilidir.
+//+  
+
+//?  *********************************** Proje Notlar
+//+  html type=checkbox birden fazla seçim mümkğünlken radio da tek seçim
