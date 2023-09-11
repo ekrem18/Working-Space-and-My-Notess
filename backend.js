@@ -7,4 +7,7 @@
 //+  JSON şeklinde teknik olarak veri tipi yoktur. Obejct ve array lerin string hali denebilir. 
  /*  let v = '  ' , v bir değişkene sahip ancak verisi yok
     v = null   da ise v bir değişkene sahipse de değişkenin verisi dahi yok manasındadır.  null False gelir.*/
+//+  (şart)? "x" : "y"     şeklindekli yapı ternary  olarak geçio
+//+  for ve while loops larına dair anlatım ilk ders son saat
+//+  while ve do-while temlede aynı. while da döngüye girmeyebilir şart sağlanmıyorsa , do while da ise mutlaka girilir.
 //+  
