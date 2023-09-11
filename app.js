@@ -441,3 +441,4 @@
 
 //?  *********************************** Proje Notlar
 //+  html type=checkbox birden fazla seçim mümkğünlken radio da tek seçim
+//+   bir öğenin Z-INDEX değeri, o öğenin ekranın diğer öğelerine göre ne kadar üstte veya altta görüneceğini belirler. Daha yüksek bir z-index değeri, öğenin daha üstte görünmesini sağlar. Örneğin, bir web sayfasında özel bir açılır pencere (modal) oluşturuyorsanız, z-index'i yüksek bir değere ayarlayarak bu açılır pencerenin diğer sayfa öğelerinin üzerinde görünmesini sağlayabilirsiniz.
