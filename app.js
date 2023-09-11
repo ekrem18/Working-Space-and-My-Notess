@@ -441,4 +441,12 @@
 
 //?  *********************************** Proje Notlar
 //+  html type=checkbox birden fazla seçim mümkğünlken radio da tek seçim
-//+   bir öğenin Z-INDEX değeri, o öğenin ekranın diğer öğelerine göre ne kadar üstte veya altta görüneceğini belirler. Daha yüksek bir z-index değeri, öğenin daha üstte görünmesini sağlar. Örneğin, bir web sayfasında özel bir açılır pencere (modal) oluşturuyorsanız, z-index'i yüksek bir değere ayarlayarak bu açılır pencerenin diğer sayfa öğelerinin üzerinde görünmesini sağlayabilirsiniz.
+//+  bir öğenin Z-INDEX değeri, o öğenin ekranın diğer öğelerine göre ne kadar üstte veya altta görüneceğini belirler. Daha yüksek bir z-index değeri, öğenin daha üstte görünmesini sağlar. Örneğin, bir web sayfasında özel bir açılır pencere (modal) oluşturuyorsanız, z-index'i yüksek bir değere ayarlayarak bu açılır pencerenin diğer sayfa öğelerinin üzerinde görünmesini sağlayabilirsiniz.
+//+  APPENDCHILD; Bir öğenin alt öğelerine bir alt öğe eklemek veya bir öğeyi tamamen başka bir öğeye taşımak için kullanılır. appendChild kullanırken, eklenen öğe, hedef öğenin sonuna eklenir. Örneğin, aşağıdaki JavaScript kodu, bir <div> öğesine yeni bir <p> öğesi eklemek için appendChild'i kullanır:
+    // Hedef div öğesini seç
+              //var hedefDiv = document.getElementById("myDiv");
+    // Eklenecek yeni p öğesini oluştur
+              //var yeniPOlgesi = document.createElement("p");
+              //yeniPOlgesi.textContent = "Bu yeni bir paragraf öğesidir.";
+    // Yeni p öğesini hedef div öğesine ekleyin
+              //hedefDiv.appendChild(yeniPOlgesi);
