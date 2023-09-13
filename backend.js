@@ -18,12 +18,13 @@
 //+  obje içinde tanımlanmış fonksiyona "method" ,
 //+  obje içindeki değişkene "property" deniyor genel tanım olarak.
 //+  "this"  aslında içinde bulunduğumuz objeyi kast ediyorum demektir.  --> return this.brand    gibi
-//+   ARRAY DESTRUCTURING
-/*    const testArray = [ 'value0', 'value1', 'value2', 'value3' ]
+//+  ARRAY DESTRUCTURING
+/*   const testArray = [ 'value0', 'value1', 'value2', 'value3' ]
             const var0 = testArray[0]
             const var1 = testArray[1]
-        Sıralama Önemli!
+    Sıralama Önemli!
             const [ firstItem, secondItem ] = testArray
-        SpreadOperator (En sonda olmak zorunda)
+    SpreadOperator (En sonda olmak zorunda)
             let [ first, second, third, ...others ] = testArray
             const [ ...arr ] = testArray */
+//+  
