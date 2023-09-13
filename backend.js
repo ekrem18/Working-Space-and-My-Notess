@@ -13,3 +13,5 @@
 //+  arrow func'ta kod tek satırsa süslü ve return yazılması gerekmez.  Global ScopeTur
 //?  *********************************** 13.09
 //+  index.js dosyasında çalışırken projeyi açıp olanları görmek için terminale "node index.js" yazıyoruz
+//+  nodemon ile çalıştırıp girdiğimde her seferinde komut girmeme gerek kalmadan otomatik olarak render yapıyo
+//+  
