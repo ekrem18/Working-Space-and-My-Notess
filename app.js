@@ -452,4 +452,10 @@
               hedefDiv.appendChild(yeni); */
 
 //+  "container-fluid" terimi, Bootstrap adlı bir CSS çerçevesinde sıkça kullanılan bir sınıftır. Bu sınıf, bir web sayfasındaki içeriği saran bir konteyner (container) öğesine uygulanır ve içeriği sayfanın tam genişliğine dolduracak şekilde ayarlar. Yani, içeriğin kenarlardan uzaklaşarak tam sayfa genişliğini kaplamasını sağlar. Bootstrap, duyarlı (responsive) web tasarımı oluşturmayı kolaylaştıran bir araçtır. "container-fluid" sınıfı, özellikle mobil cihazlardan masaüstü tarayıcılara kadar farklı ekran boyutlarına sahip kullanıcı cihazlarına uyumlu tasarımlar oluştururken kullanışlıdır. 
-//+  
+//+  const filteredArray = [...coinNameSpans].filter(span => span.innerText == name);       Bu satır, coinNameSpans koleksiyonundaki her <span> öğesini dolaşır ve her birini name değişkeniyle karşılaştırır. Eşleşen öğeleri bir diziye (filteredArray) ekler. Yani, name ile aynı metni içeren <span> öğelerini bulur.
+//+  setTimeout(() => { msgSpan.innerText = ""; }, 3000);:   Bu satır, <span> öğesinin içeriğini 3 saniye (3000 milisaniye) sonra boş bir dize ile değiştirir. Bu, iletiyi geçici olarak gösterdikten sonra kullanıcıya gösterilen iletiyi temizlemek için kullanılır.
+/*   @media screen and (max-width: 768px) {
+    .container {
+      width: 95%;
+  }                                         ekran genişliği 768 pikselden küçük olduğunda (yani, tipik olarak tablet veya mobil cihazlarda) .container sınıfına sahip öğelerin genişliğini %95 olarak ayarlar.  Yani, bu kurallar sadece bu ekran boyutunda veya daha küçük ekranlarda uygulanır. */
+//+    
