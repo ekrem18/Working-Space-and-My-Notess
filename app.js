@@ -462,6 +462,6 @@
     1-- Function Declaration --> function func1(p1, p2) { return p1+p2}   
     2-- Function Expression --> const func2 = function(p1, p2) { return p1* p2 }
     3-- Arrow Function --> const func3 = (p1,p2) => p1+p2
-    4-- Recursive Function  if else
+    4-- Recursive Function  if else */
 //+  const id = e.target.parentElement.id;: Bu satır, tıklanan öğenin id değerini alır. e.target tıklanan öğeyi temsil eder ve parentElement ile bu öğenin üst öğesine (li öğesi) ulaşırız. Bu öğenin id özelliği, tıklanan görevin kimliğini temsil eder.
 //+  task.id != id    Yani, tıklanan öğe (görev) ile karşılaştırılan öğe (task) aynı kimliğe sahip değilse, bu koşul ifadesi doğru olur. 
