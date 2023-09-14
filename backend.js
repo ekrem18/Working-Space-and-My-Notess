@@ -61,3 +61,21 @@
 //+  Public Property : heryerden ulşaılabilir, hertürlü değişkliğe açıktır.  
 //+  _protected Property: oğul class'tan yani extend ettiğim class'tan erişebilirken başka erişim mümkün değil
 //+  #private Property ise yalnızca Vhicle'dan erişebiliyoruz
+/*   Override yapma lütfen:
+    _protectedMethod() {
+        console.log('Vehicle.protectedMethod()')
+        return true
+    }
+
+    #privateMethod() {
+        console.log('Vehicle.privateMethod()')
+        return true
+    }
+
+    getDetails() {
+        console.log('Vehicle.getDetails()')
+        this.#privateMethod()
+        return this.vehicleType + ' is ' + this.privateProp
+        return this.vehicleType + ' is ' + this.#privateProp // Undefined.
+    } */ 
+//+  
