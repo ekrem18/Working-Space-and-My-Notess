@@ -79,4 +79,7 @@
         return this.vehicleType + ' is ' + this.#privateProp // Undefined.
     } */ 
 //+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
+//+  ABSTRACTION: Soyutlama/Modelleme (Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması)
+//+  ENCAPCULLATION: Kapsülleme/Ayrıştırma (Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.)
+//+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
 //+  
