@@ -58,3 +58,6 @@
 } */
 //+  INHERITANCE class'ı en tepede tanımlanan alt class'ları kapsayan bir class'tır.  vehicle -> car -> ford    gibi
 //+  class Car extends Vehicle {}  dendiğinde Car Vehicle'ın tüm özelliklerine erişebilir  
+//+  Public Property : heryerden ulşaılabilir, hertürlü değişkliğe açıktır.  
+//+  _protected Property: oğul class'tan yani extend ettiğim class'tan erişebilirken başka erişim mümkün değil
+//+  #private Property ise yalnızca Vhicle'dan erişebiliyoruz
