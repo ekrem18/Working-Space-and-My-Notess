@@ -60,7 +60,7 @@
 //+  class Car extends Vehicle {}  dendiğinde Car Vehicle'ın tüm özelliklerine erişebilir  
 //+  Public Property : heryerden ulşaılabilir, hertürlü değişkliğe açıktır.  
 //+  _protected Property: oğul class'tan yani extend ettiğim class'tan erişebilirken başka erişim mümkün değil
-//+  #private Property ise yalnızca Vhicle'dan erişebiliyoruz
+//+  #private Property ise yalnızca Vhicle'dan erişebiliyoruz. kendi class'ı dışında erişim mümkün değildir.
 /*   Override yapma lütfen:
     _protectedMethod() {
         console.log('Vehicle.protectedMethod()')
