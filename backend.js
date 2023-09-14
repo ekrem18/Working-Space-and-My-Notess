@@ -17,14 +17,16 @@
 //+  file başına "use strict" yazılırsa kod denetimi daha katı hale gelecek hata görmek olanaklı hale gelecektir.
 //+  obje içinde tanımlanmış fonksiyona "method" ,
 //+  obje içindeki değişkene "property" deniyor genel tanım olarak.
-//+  "this"  aslında içinde bulunduğumuz objeyi kast ediyorum demektir.  --> return this.brand    gibi
+//*+  "this"  aslında içinde bulunduğumuz objeyi kast ediyorum demektir.  -->    return this.brand    gibi. ANCAK, arrow func içine yazılan bir this söz konusuysa, arrow func global çalıştığı için bütün sayfayı temsil eder. Yalnızca içinde bulunduğu block'u değil.   
 //+  ARRAY DESTRUCTURING
 /*   const testArray = [ 'value0', 'value1', 'value2', 'value3' ]
             const var0 = testArray[0]
             const var1 = testArray[1]
     Sıralama Önemli!
-            const [ firstItem, secondItem ] = testArray
-    SpreadOperator (En sonda olmak zorunda)
-            let [ first, second, third, ...others ] = testArray
+            const [ firstItem, secondItem ] = testArra*/
+/*  Spread Operator (En sonda olmak zorunda)
+            let [ first, second, third, ...others ] = testArray  --> testArray içerisindekileri al; 1.endk first, 2.endk second ve kalan ne varsa others olarak değişkene at
             const [ ...arr ] = testArray */
-//+  
+//*+  npm i express --save       ve        npm i nodemon --save-dev           komutları lazım olanlar   
+//*+    
+
