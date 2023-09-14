@@ -30,4 +30,8 @@
 //*+  npm i express --save       ve        npm i nodemon --save-dev           komutları lazım olanlar   
 //+  Rest operator geri kalanaı topalrken , spread ise dağıtmaya yarar. 
 //*+  const newArr =[...testArray, 'new-value', 'new-value2' ]    burada ilk arrayi içine dağıttı yeni dğerler eklendi.    
+/*   const newObj = {
+        ...Car.colors,
+        newKey: 'new-value'}   -->  Burada da daha önceden tanımlanan bir objeden yeni bir obje türetiliyor. Spread operatörü ile yazılarak yeni obje içerisine yeni keyve valular eklendi  */
+//+  
 
