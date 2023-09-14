@@ -78,4 +78,5 @@
         return this.vehicleType + ' is ' + this.privateProp
         return this.vehicleType + ' is ' + this.#privateProp // Undefined.
     } */ 
+//+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
 //+  
