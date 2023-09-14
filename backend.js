@@ -36,5 +36,7 @@
 //+  Object to JSON ------->  const json = JSON.stringify(Car)       ana komut JSON.stringify
 //+  JSON to Object ------->  const newObj2 = JSON.parse( json )     ana komut JSON.parse
 //+  Object to Array ------>  const arr = Object.entries(Car)
+//+  const arr2 = Object.values(Car)   -----> yalnızca value değerlerini almka için
+//+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almka için
 
 
