@@ -39,4 +39,6 @@
 //+  const arr2 = Object.values(Car)   -----> yalnızca value değerlerini almka için
 //+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almka için
 
+//?  *********************************** 14.09
+//+  class'lar soyut instance ise somuttur. class bir şablon gibidir ,instance bunu somutlaştıran örnektir
 
