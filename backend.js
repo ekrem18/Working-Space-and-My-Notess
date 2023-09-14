@@ -33,5 +33,7 @@
 /*   const newObj = {
         ...Car.colors,
         newKey: 'new-value'}   -->  Burada da daha önceden tanımlanan bir objeden yeni bir obje türetiliyor. Spread operatörü ile yazılarak yeni obje içerisine yeni keyve valular eklendi  */
-//+  
+//+  Object to JSON ------->  const json = JSON.stringify(Car)       ana komut JSON.stringify
+//+  JSON to Object ------->  const newObj2 = JSON.parse( json )     ana komut JSON.parse
+
 
