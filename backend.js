@@ -24,9 +24,10 @@
             const var1 = testArray[1]
     Sıralama Önemli!
             const [ firstItem, secondItem ] = testArra*/
-/*  Spread Operator (En sonda olmak zorunda)
-            let [ first, second, third, ...others ] = testArray  --> testArray içerisindekileri al; 1.endk first, 2.endk second ve kalan ne varsa others olarak değişkene at
+/*  REST Operator (En sonda olmak zorunda)
+            let [ first, second, third, ...others ] = testArray  --> testArray içerisindekileri al; 1.endk first, 2.endk second ve kalan ne varsa others olarak değişkene at,   yeni bir array oluşuyor.
             const [ ...arr ] = testArray */
 //*+  npm i express --save       ve        npm i nodemon --save-dev           komutları lazım olanlar   
-//*+    
+//+  Rest operator geri kalanaı topalrken , spread ise dağıtmaya yarar. 
+//*+  const newArr =[...testArray, 'new-value', 'new-value2' ]    burada ilk arrayi içine dağıttı yeni dğerler eklendi.    
 
