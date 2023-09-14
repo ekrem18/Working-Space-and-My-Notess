@@ -40,5 +40,20 @@
 //+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almka için
 
 //?  *********************************** 14.09
-//+  class'lar soyut instance ise somuttur. class bir şablon gibidir ,instance bunu somutlaştıran örnektir
+//+  class'lar soyut instance ise somuttur. class bir şablon-template gibidir ,instance bunu somutlaştıran hayata geçirilenm obje halidir.
+/*      Class Declaration:
+                class PascalNamedClassName { ... }
 
+        Class Expression:
+                const PascalNamedClassName = class {
+        undefinedProperty // Onle definition ('undefined')
+        extraField = 'field-value'
+
+        methodName1() {
+        return this    
+}
+
+        methodName2() {
+        return this.extraField
+} */
+//+  
