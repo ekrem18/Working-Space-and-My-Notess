@@ -38,6 +38,7 @@
 //+  Object to Array ------>  const arr = Object.entries(Car)
 //+  const arr2 = Object.values(Car)   -----> yalnızca value değerlerini almka için
 //+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almka için
+//*+  fonk içinde tanımlanan var değişkeni , değeri globale taşıyabileceği için dışarda kullanmamız mümkün
 
 //?  *********************************** 14.09
 //*+  class'lar soyut instance ise somuttur. class bir şablon-template gibidir , ""instance"" bunu somutlaştıran hayata geçirilenm obje halidir.
@@ -89,4 +90,4 @@
 //+  ABSTRACTION: Soyutlama/Modelleme (Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması)
 //+  ENCAPCULLATION: Kapsülleme/Ayrıştırma (Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.)
 //+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
-//*+  fonk içinde tanımlanan var değişkeni , değeri globale taşıyabileceği için dışarda kullanmamız mümkün
+//+  INHERITANCE yapıda sayı sınırı yok. her zaman bir öncekine bağladığımızda tüm üst-soy yapıya dahil olur.
