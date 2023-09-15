@@ -58,7 +58,7 @@
 /*      const instance = new PascalNamedClassName('parameter-1-value', 'parameter-2-value')
                 console.log( instance )
                 console.log( instance.methodName2() )    --> instance ile türetilen obje içerisinde ' atanan class'ın tüm metod ve propert'lerine erişişm mümkün oluyor.
-                instance.extraField = 'new-value' --------->  burada instance ile class'ın içindeki değişkenin değerini değiştiredebilirzi ancak; class içerisidne değişiklik olmaz, instance'da geçerlidir   */
+                instance.extraField = 'new-value' --------->  burada instance ile class'ın içindeki değişkenin değerini değiştiredebilirzi ancak; class içerisidne değişiklik olmaz, instance'da geçerlidir.  Class isminde bir obje türetiliyor   */
 /*      "new Class" ile obje oluştururken veri göndermek için "CONSTRUCTOR" methodu kullanılır.
                 constructor (parameter1, parameter2 = 'default-value') {
                         this.parameter1 = parameter1 }      */         
