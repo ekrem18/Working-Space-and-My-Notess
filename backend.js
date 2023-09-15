@@ -40,22 +40,29 @@
 //+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almka için
 
 //?  *********************************** 14.09
-//+  class'lar soyut instance ise somuttur. class bir şablon-template gibidir ,instance bunu somutlaştıran hayata geçirilenm obje halidir.
+//+  class'lar soyut instance ise somuttur. class bir şablon-template gibidir , ""instance"" bunu somutlaştıran hayata geçirilenm obje halidir.
 /*      Class Declaration:
                 class PascalNamedClassName { ... }
 
         Class Expression:
                 const PascalNamedClassName = class {
-        undefinedProperty // Onle definition ('undefined')
-        extraField = 'field-value'
+                  undefinedProperty 
+                  extraField = 'field-value'
 
-        methodName1() {
-        return this    
+                methodName1() {
+                  return this    
 }
 
-        methodName2() {
-        return this.extraField
-} */
+                methodName2() {
+                  return this.extraField } */
+/*      const instance = new PascalNamedClassName('parameter-1-value', 'parameter-2-value')
+                console.log( instance )
+                console.log( instance.methodName2() )    --> instance ile türetilen obje içerisinde ' atanan class'ın tüm metod ve propert'lerine erişişm mümkün oluyor.
+                instance.extraField = 'new-value' --------->  burada instance ile class'ın içindeki değişkenin değerini değiştiredebilirzi ancak; class içerisidne değişiklik olmaz, instance'da geçerlidir   */
+/*      "new Class" ile obje oluştururken veri göndermek için "CONSTRUCTOR" methodu kullanılır.
+                constructor (parameter1, parameter2 = 'default-value') {
+                        this.parameter1 = parameter1 }      */         
+//+            
 //+  INHERITANCE class'ı en tepede tanımlanan alt class'ları kapsayan bir class'tır.  vehicle -> car -> ford    gibi
 //+  class Car extends Vehicle {}  dendiğinde Car Vehicle'ın tüm özelliklerine erişebilir  
 //+  Public Property : heryerden ulşaılabilir, hertürlü değişkliğe açıktır.  
