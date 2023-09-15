@@ -92,4 +92,6 @@
 //+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
 //+  INHERITANCE yapıda sayı sınırı yok. her zaman bir öncekine bağladığımızda tüm üst-soy yapıya dahil olur.
 //*+  Polymorphism: Miras aldığımız sınıfın özellik/methodlarını yeniden yazabilme.
-
+//*+  Override: Üst metodla aynı isim ve yapıda yeni bir metod yazma. (ezme / iptal etme / önceliğini alma)
+//*+  Overload: Üst metodla aynı isimde ama farklı yapıda (parametre adet/tip) yeni method oluşturma. (aynı anda ikiside aktif) (JS desteklemez)
+//+  
