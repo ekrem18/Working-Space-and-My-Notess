@@ -91,3 +91,5 @@
 //+  ENCAPCULLATION: Kapsülleme/Ayrıştırma (Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.)
 //+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
 //+  INHERITANCE yapıda sayı sınırı yok. her zaman bir öncekine bağladığımızda tüm üst-soy yapıya dahil olur.
+//*+  Polymorphism: Miras aldığımız sınıfın özellik/methodlarını yeniden yazabilme.
+
