@@ -94,4 +94,8 @@
 //*+  Polymorphism: Miras aldığımız sınıfın özellik/methodlarını yeniden yazabilme.
 //*+  Override: Üst metodla aynı isim ve yapıda yeni bir metod yazma. (ezme / iptal etme / önceliğini alma)
 //*+  Overload: Üst metodla aynı isimde ama farklı yapıda (parametre adet/tip) yeni method oluşturma. (aynı anda ikiside aktif) (JS desteklemez)
-//+  
+//?  *********************************** 14.09 NODE JS
+/*      C  create -> Post
+        R  read ---> Get
+        U  update -> Put
+        D  delete -> Delete  */ 
