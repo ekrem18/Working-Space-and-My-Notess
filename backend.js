@@ -66,6 +66,18 @@
 //+  Class bir şablon mantığıyla oluşiturulduğu için, aynı class'tan türetilen farklı değişken isimlerine atanmış objeler oluşturmamız mümkün oluyor dolayısıyla.          
 //+  INHERITANCE class'ı en tepede tanımlanan alt class'ları kapsayan bir class'tır.  vehicle -> car -> ford    gibi
 //+  class Car extends Vehicle {}  dendiğinde Car Vehicle'ın tüm özelliklerine erişebilir  
+//+  INHERITANCE yapıda sayı sınırı yok. her zaman bir öncekine bağladığımızda tüm üst-soy yapıya dahil olur.
+//*+  Polymorphism: Miras aldığımız sınıfın özellik/methodlarını yeniden yazabilme.
+//*+  Override: Üst metodla aynı isim ve yapıda yeni bir metod yazma. (ezme / iptal etme / önceliğini alma)
+//*+  Overload: Üst metodla aynı isimde ama farklı yapıda (parametre adet/tip) yeni method oluşturma. (aynı anda ikiside aktif) (JS desteklemez)
+/*    getDetails() {  ------->aynı isimli başka bir instancew var. inharitance özelliğinden faydalanarak üst soydan super ile oradaki bilgiye de erişiyoruz, yeni eklenmiş oluyor.
+        return {
+            brand: this.brand,
+            model: this.model,
+            year: this.year,
+            vehicleType: super.getDetails(),              */  
+//*  super(XClass) --> dersem parent'ın CUNSTRUCTOR'ına ulaşıyorum.
+//*  super.getDetails()  -->  gibi bir kullanımda ise parent'ın özelliklerine ulaşıyorum 
 //+  Public Property : heryerden ulşaılabilir, hertürlü değişkliğe açıktır.  
 //+  _protected Property: oğul class'tan yani extend ettiğim class'tan erişebilirken başka erişim mümkün değil
 //+  #private Property ise yalnızca Vhicle'dan erişebiliyoruz. kendi class'ı dışında erişim mümkün değildir.
@@ -89,20 +101,8 @@
 //+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
 //+  ABSTRACTION: Soyutlama/Modelleme (Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması)
 //+  ENCAPCULLATION: Kapsülleme/Ayrıştırma (Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.)
-//+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
-//+  INHERITANCE yapıda sayı sınırı yok. her zaman bir öncekine bağladığımızda tüm üst-soy yapıya dahil olur.
-//*+  Polymorphism: Miras aldığımız sınıfın özellik/methodlarını yeniden yazabilme.
-//*+  Override: Üst metodla aynı isim ve yapıda yeni bir metod yazma. (ezme / iptal etme / önceliğini alma)
-//*+  Overload: Üst metodla aynı isimde ama farklı yapıda (parametre adet/tip) yeni method oluşturma. (aynı anda ikiside aktif) (JS desteklemez)
-/*    getDetails() {  ------->aynı isimli başka bir instancew var. inharitance özelliğinden faydalanarak üst soydan super ile oradaki bilgiye de erişiyoruz, yeni eklenmiş oluyor.
-        return {
-            brand: this.brand,
-            model: this.model,
-            year: this.year,
-            vehicleType: super.getDetails(),              */  
-//*  super(XClass) --> dersem parent'ın CUNSTRUCTOR'ına ulaşıyorum.
-//*  super.getDetails()  -->  gibi bir kullanımda ise parent'ın özelliklerine ulaşıyorum      
-//?  *********************************** 14.09 NODE JS
+//+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?       
+//?  *********************************** 16.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
         U  update -> Put
