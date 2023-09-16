@@ -114,3 +114,5 @@
 /*   ◻ const app = http.createServer( (req, res ) => {
          res.end(" sErver is runnin' ")
 } ).listen (8000, ()=> clg.("server run : http://127.0.0.1:8000"))  */  
+//+  req gönderdiğimizde yularıda clg yapsak gelecek 3temel bilgi :  ***header  ***URL  ***method(get)
+//+  
