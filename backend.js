@@ -110,9 +110,10 @@
      create .gitignore (gitignore.io)   ---> gitignpre dosyamızı kendimiz oluşturup, içeriğini linkten alıyoruz
      $ npm init -y     */
 //+  2.DERS 12.40 Kısa özet sever kurulumu 👍
-//+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. res. ya da ahmet ya da mehmet 2.parametere yani.
+//*+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. res. ya da ahmet ya da mehmet 2.parametere yani.
 /*   ◻ const app = http.createServer( (req, res ) => {
          res.end(" sErver is runnin' ")
 } ).listen (8000, ()=> clg.("server run : http://127.0.0.1:8000"))  */  
 //+  req gönderdiğimizde yularıda clg yapsak gelecek 3temel bilgi :  ***header  ***URL  ***method(get)
 //+  if (req.url == '/') {res.end('main page')} ---->   kullanıcı ana menüye gelmişse ana menü de gibi bi manaya geliyor burası. else if path1  mesela, else 'server is running     gibi devam ettirebilirim , aralarda ****==**** yazıyoruz.  
+//*+  npm i dotenv    ---->  diyerek env ortamındaki verilere erişim sağlamamıza olanak sağlıyor. Dışarıdan içeriye okunmasını istemdiğimiz veriler bilgiler için
