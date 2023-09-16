@@ -100,6 +100,8 @@
             model: this.model,
             year: this.year,
             vehicleType: super.getDetails(),              */  
+//*  super(XClass) --> dersem parent'ın CUNSTRUCTOR'ına ulaşıyorum.
+//*  super.getDetails()  -->  gibi bir kullanımda ise parent'ın özelliklerine ulaşıyorum      
 //?  *********************************** 14.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
