@@ -99,3 +99,5 @@
         R  read ---> Get
         U  update -> Put
         D  delete -> Delete  */ 
+//+  put : komple güncelleme
+//+  patch: kısmi güncelleme
