@@ -102,6 +102,13 @@
 //+  set ile oluşturduğumetodu get method ile okuyabilirim. Değiştirme ayrı, erişip okumak /süslemek de ayrı işlemlerdir.      
 //+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
 //+  Normal şartlarda bir Class'ın içine erişmem için onu bir instance'a aktarmam lazım. Static ile bunu ytapmadan erişmek mümkün oluyor işte
+/*   Direkt class ile erişmek istediklerimizi static ile işaretleriz.
+     Statik property veya methodlara intance ile erişilmez.
+        static staticProp = 'static value'
+     Static methodlarda this ifadesi sadece statikleri çağırır.
+        static staticMethod() {
+            console.log('Static Method çalıştı')
+            return this    }   */
 //+  ABSTRACTION: Soyutlama/Modelleme (Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması)
 //+  ENCAPCULLATION: Kapsülleme/Ayrıştırma (Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.)
 //+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?       
