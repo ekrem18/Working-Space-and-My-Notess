@@ -138,3 +138,13 @@
 //*+  çalışıtğım terminalde "ENV_NAME=ENV_VALUE node index.js"  yazarak   index.js dosyası içerisine dışradan birşey göndermiş oluyorum. Gönderdiğimi yakalamak için "proccess.env.ENV_NAME"  diyorum  (uzun yol)
 //+  .env klasörü açarak KEY = value olarak tanımlayıp, .env gitignore'da olduğu sürece kullanabilirz. APi işlemleri gibi hatırlatma. Ancak bunu kullanabilmem için 
 //+  require("dotenv").config()  ---> bikere alışıtırğ tepeye koyuoprz keyfimize bakıorz; // $ npm i dotenv // https://www.npmjs.com/package/dotenv   
+//?  *********************************** 18.09 NODE JS
+//+  Veri tabanlarında da veri tipleri olur; Numeric , Date/Time, Character/String, Unicode Character/String, Binary, Miscellaneous
+/*   Veritabanı uygulamalarında metinleri tutmak için kullanılan alanlardan iki tanesi Char ve Varchar dır.
+Char veritipi, 0 ile 255 karakter içeren verileri tutabilir.
+Varchar ise 65bine yakın karakterde veri saklayabilir.
+Eğer bir alan için Char tanımlamış sanız, o alanda minimum değer olsa da maksimum değer saklansa da kapladığı boyut değişmez.
+Varchar kullanırsanız sakladığınız verinin büyüklüğü kadar yer kaplar.
+CHAR(10) ve Varchar(10) alanları farklı boyutlarda yer kaplar.
+Char sabit uzunlukta veri tipi olarakta bilinir, Varchar ise değişken uzunlukta veri tipi olarak bilinir.
+Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip Char olmalı, örneğin T.C. Kimlik numaralarının tutulduğu bir alanın tipiniz belirlemeniz gerkiyor, T.C. Kimlik numaraları 11 adet sadece sayılardan oluştuğu için Char kullanmanız uygun olacaktır. */
