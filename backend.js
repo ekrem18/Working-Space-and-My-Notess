@@ -149,4 +149,5 @@ CHAR(10) ve Varchar(10) alanları farklı boyutlarda yer kaplar.
 Char sabit uzunlukta veri tipi olarakta bilinir, Varchar ise değişken uzunlukta veri tipi olarak bilinir.
 Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip Char olmalı, örneğin T.C. Kimlik numaralarının tutulduğu bir alanın tipiniz belirlemeniz gerkiyor, T.C. Kimlik numaraları 11 adet sadece sayılardan oluştuğu için Char kullanmanız uygun olacaktır. */
 //+  Relation types arasında teknik olarak veritabanı oneToMany'den anlar.
+//+  ORM ; OOP kodlarını SQL'e çeviren arabirim gibi. 1.ana özelliği. OOP mantığından çıkmadan data işlemi yapaibilirm
 //+  
