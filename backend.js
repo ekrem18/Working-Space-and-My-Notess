@@ -151,3 +151,4 @@ Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip C
 //+  Relation types arasında teknik olarak veritabanı oneToMany'den anlar.
 //+  ORM ; OOP kodlarını SQL'e çeviren arabirim gibi. 1.ana özelliği. OOP mantığından çıkmadan data işlemi yapaibilirm
 //+  2.ana özellik, proje ortamında SQLite kullanmış olabilirim. Canlıya aldğımda kodlarıma hiç dokunmadan işlem yapabiliyorum ORM sayesinde. Cross Platform
+//+  
