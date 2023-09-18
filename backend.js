@@ -103,7 +103,7 @@
 //+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
 //+  Normal şartlarda bir Class'ın içine erişmem için onu bir instance'a aktarmam lazım. Static ile bunu ytapmadan erişmek mümkün oluyor işte
 /*   Direkt class ile erişmek istediklerimizi static ile işaretleriz.
-     Statik property veya methodlara intance ile erişilmez.
+     Statik property veya methodlara instance ile erişilmez.  Yani Static'ler instance'a aktarılmaz. 
         static staticProp = 'static value'
      Static methodlarda this ifadesi sadece statikleri çağırır.
         static staticMethod() {
