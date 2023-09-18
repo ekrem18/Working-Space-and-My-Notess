@@ -99,7 +99,7 @@
         return this.vehicleType + ' is ' + this.#privateProp // Undefined.
     } */ 
 //+  # ile tanımlanana bir değişken instance olarak kullanmama mümkün değlkne setter metdo ile yani , yeni oluşturacağım set xMethod ile değiştirmem mümkün hale geliyor.
-//+  set ile oluşturduğumetodu get method ile okuyabilirim. Değiştirme ayrı, erişip okumak ayr ıişlemlerdir.
+//+  set ile oluşturduğumetodu get method ile okuyabilirim. Değiştirme ayrı, erişip okumak /süslemek de ayrı işlemlerdir.
 //+      
 //+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
 //+  ABSTRACTION: Soyutlama/Modelleme (Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması)
