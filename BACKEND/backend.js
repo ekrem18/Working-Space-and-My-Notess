@@ -111,7 +111,8 @@
             return this    }   */
 //+  ABSTRACTION: Soyutlama/Modelleme ; Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması
 //+  ENCAPCULLATION: Kapsülleme/Ayrıştırma Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.
-//+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?       
+//+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
+//*  MODULES : JS'de NodeJs'de bir dosya içerisine dosya çağırma komutu "require"  --->  require('./module/index.js')  --> şindex.js default bir dosya ismi olduğu için, js yazmasak ve dahi index.js yazmasak da module içerisindeki index.js'yi arar      
 //?  *********************************** 16.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
