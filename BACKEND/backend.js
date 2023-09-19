@@ -135,7 +135,18 @@
 //     test3: test3, } export array olarak yapılabildiği gibi obje olarak da yapılabilir. importunun da obje yapılması lazım
 //+  Göndereceğim  objedeki keyt ve value'lar aynı isimliyse test1,test2 gibi gönderevbilirzi.   
 //+  module.exports.test1 = function() { } ---> alternatif export 
-//+  
+/*   module.exports = {
+        test1: function() {
+        console.log('test1 çalıştı.')
+    },
+        test2: function() {
+        console.log('test2 çalıştı.')
+    },
+        test3: function() {
+        console.log('test3 çalıştı.')
+    },
+        variable: 'new-value'
+}   */   
 //?  *********************************** 16.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
