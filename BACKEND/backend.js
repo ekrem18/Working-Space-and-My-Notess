@@ -112,7 +112,10 @@
 //+  ABSTRACTION: Soyutlama/Modelleme ; Aynı amaç için kullanılan değişken ve methodları bir class içinde yazıyor olması
 //+  ENCAPCULLATION: Kapsülleme/Ayrıştırma Kodların gizliliği, private attre erişilemiyor olması ve birbirinden bağımsız çalışmaları.
 //+  OOP NEDEN KULLANILMALI? CLASS NEDEN KULLANILMALI?
-//*  MODULES : JS'de NodeJs'de bir dosya içerisine dosya çağırma komutu "require"  --->  require('./module/index.js')  --> şindex.js default bir dosya ismi olduğu için, js yazmasak ve dahi index.js yazmasak da module içerisindeki index.js'yi arar      
+//*  MODULES : JS'de NodeJs'de bir dosya içerisine dosya çağırma komutu "require"  --->  require('./module/index.js')  --> şindex.js default bir dosya ismi olduğu için, js yazmasak ve dahi index.js yazmasak da module içerisindeki index.js'yi arar.
+/*  const test = require('./module/')      
+    test()    ----->    örnek kullanım.. Ancak burda da başka dosyadan import işlemi yaptığımız için kaynaktran export olmalı. komut olarak da module.exports = test */  
+//+       
 //?  *********************************** 16.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
