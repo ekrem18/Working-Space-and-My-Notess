@@ -78,9 +78,9 @@
             vehicleType: super.getDetails(),              */  
 //*  super(XClass) --> dersem parent'ın CUNSTRUCTOR'ına ulaşıyorum.
 //*  super.getDetails()  -->  gibi bir kullanımda ise parent'ın özelliklerine ulaşıyorum 
-//+  Public Property : heryerden ulşaılabilir, hertürlü değişkliğe açıktır.  
+//+  Public Property : heryerden ulşılabilir, hertürlü değişkliğe açıktır.  
 //+  _protected Property: oğul class'tan yani extend ettiğim class'tan erişebilirken başka erişim mümkün değil
-//+  #private Property ise yalnızca Vhicle'dan erişebiliyoruz. kendi class'ı dışında erişim mümkün değildir.
+//+  #private Property ise yalnızca Vehicle'dan erişebiliyoruz. kendi class'ı dışında erişim mümkün değildir.
 /*   Override yapma lütfen:  protected olduğu için denilmekte, korumada şu an
     _protectedMethod() {
         console.log('Vehicle.protectedMethod()')
@@ -167,10 +167,10 @@
         const app = http.createServer((request, response) => {
         response.end('<h1> Welcome to NodeJS Server </h1>') })
     app.listen(8000, () => console.log('Server Runned: http://127.0.0.1:8000'))    --------------> öncelikle http adında bir server oluşturduk. Burada göndewreceğim req ve gelecek res için paramatre tanımladım. ardından sistem işliyorsa response ile gelecek olan cevabı girdim.  localhost'ta 8000 de çalışması için listen dedim.   */       
-//*+  2.DERS 12.40 Kısa özet SERVER KURULUMU 👍
-//*+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. 
+//*+  2.DERS 12.40 Kısa özet SERVER KURULUMU 👍.
 //+  res. ya da req yazımı önemli değil . ahmet ya da mehmet olabilir. Ancak indeks sırası işlev açısıdan gerekli 
-//+  req gönderdiğimizde yularıda clg yapsak gelecek 3temel bilgi :  ***header  ***URL  ***method(get)
+//*+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. response end vermezsek browser sonsuz döngü enzeri bir duruma giriyor.
+//+  req gönderdiğimizde yularıda clg yapsak gelecek 3temel bilgi :  ***header  ***URL  ***method(default method ise get)
 //+  if (req.url == '/') {res.end('main page')} ---->   kullanıcı ana menüye gelmişse ana menü de gibi bi manaya geliyor burası. else if path1  mesela, else 'server is running     gibi devam ettirebilirim , aralarda ****==**** yazıyoruz.  
 //*+  npm i dotenv    ---->  diyerek env ortamındaki verilere erişim sağlamamıza olanak sağlıyor. Dışarıdan içeriye okunmasını istemdiğimiz veriler bilgiler için
 //*+  çalışıtğım terminalde "ENV_NAME=ENV_VALUE node index.js"  yazarak   index.js dosyası içerisine dışradan birşey göndermiş oluyorum. Gönderdiğimi yakalamak için "proccess.env.ENV_NAME"  diyorum  (uzun yol)
