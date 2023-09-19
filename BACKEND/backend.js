@@ -115,7 +115,21 @@
 //*  MODULES : JS'de NodeJs'de bir dosya içerisine dosya çağırma komutu "require"  --->  require('./module/index.js')  --> şindex.js default bir dosya ismi olduğu için, js yazmasak ve dahi index.js yazmasak da module içerisindeki index.js'yi arar.
 /*  const test = require('./module/')      
     test()    ----->    örnek kullanım.. Ancak burda da başka dosyadan import işlemi yaptığımız için kaynaktran export olmalı. komut olarak da module.exports = test */  
-//+       
+/*  const test1 = function() {
+    console.log('test1 çalıştı.')
+}
+    const test2 = function() {
+    console.log('test2 çalıştı.')
+}
+    const test3 = function() {
+    console.log('test3 çalıştı.')
+}
+    module.exports = [
+        test1,
+        test2,
+        test3]        ------------> birden fazla export  */    
+//+   const [ test1, test2, test3 ] = require('./module/') ------> yukarıdakinin importu   
+//+  export array olarak yapılabildiği gibi obje olarak da yapılabilir. importunun da obje yapılması lazım
 //?  *********************************** 16.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
