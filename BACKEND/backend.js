@@ -129,7 +129,11 @@
         test2,
         test3]        ------------> birden fazla export  */    
 //+   const [ test1, test2, test3 ] = require('./module/') ------> yukarıdakinin importu   
-//+  export array olarak yapılabildiği gibi obje olarak da yapılabilir. importunun da obje yapılması lazım
+//+  module.exports = {
+//     test1: test1,
+//     test2: test2,
+//     test3: test3, } export array olarak yapılabildiği gibi obje olarak da yapılabilir. importunun da obje yapılması lazım
+//+  Göndereceğim  objedeki keyt ve value'lar aynı isimliyse test1,test2 gibi gönderevbilirzi.   
 //?  *********************************** 16.09 NODE JS
 /*      C  create -> Post
         R  read ---> Get
