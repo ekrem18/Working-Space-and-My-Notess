@@ -160,9 +160,14 @@
 //+  PUT isteği, belirli bir kaynağı güncellemek veya değiştirmek için kullanılır.Tüm kaynak verilerini güncellemek için kullanılır ve eksik verileri sıfırlar.
 /*   NODEJS
      create index.js
-     create .gitignore (gitignore.io)   ---> gitignpre dosyamızı kendimiz oluşturup, içeriğini linkten alıyoruz
-     $ npm init -y     */
-//+  2.DERS 12.40 Kısa özet sever kurulumu 👍
+     $ npm init -y
+     create .gitignore (gitignore.io)   ---> gitignore dosyamızı kendimiz oluşturup, içeriğini linkten alıyoruz      */
+//+  NodeJS'te server işlemlerimi yapan modulün adı http modulü. bu modulü require ile çağırıyoruz. Built-in modül olduğu için ayrıca yükleme yapmama gerek kalmıyor.
+/*  const http = require('node:http')
+        const app = http.createServer((request, response) => {
+        response.end('<h1> Welcome to NodeJS Server </h1>') })
+    app.listen(8000, () => console.log('Server Runned: http://127.0.0.1:8000'))    --------------> öncelikle http adında bir server oluşturduk. Burada göndewreceğim req ve gelecek res için paramatre tanımladım. ardından sistem işliyorsa response ile gelecek olan cevabı girdim.  localhost'ta 8000 de çalışması için listen dedim.   */       
+//*+  2.DERS 12.40 Kısa özet SERVER KURULUMU 👍
 //*+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. res. ya da ahmet ya da mehmet 2.parametere yani.
 /*   ◻ const app = http.createServer( (req, res ) => {
          res.end(" sErver is runnin' ")
