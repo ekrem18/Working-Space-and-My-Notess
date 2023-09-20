@@ -205,4 +205,8 @@ Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip C
 //+  ORM ; OOP kodlarını SQL'e çeviren arabirim gibi. 1.ana özelliği. OOP mantığından çıkmadan data işlemi yapaibilirm
 //+  2.ana özellik, proje ortamında SQLite kullanmış olabilirim. Canlıya aldğımda kodlarıma hiç dokunmadan işlem yapabiliyorum ORM sayesinde. Cross Platform
 //?  *********************************** 20.09 SQL 
+//+  Özel karakter kullanılmıyorsa LIKE kullanmöa
+//+  SELECT * FROM Customer WHERE Address LIKE '627 Broadway'  --->  627 Broadway bütün olarak aranacak
+//+  SELECT * FROM Customer WHERE Address LIKE '1498 %'  ---> Arama yapacağım adresin tümünü hatırlamıyorum. 1498 ile başlayan bir adres ve bundan sonraki karakter sayısı herşey olabilecek şekilde arama yap diyorum.
+//+  SELECT * FROM Customer WHERE Address LIKE '% langer %'  ---> Başında ne olursa olsun, sonun da kaç karakter varsa da içinde bir yerde ' langer '  geçenleri getir.
 //+  
