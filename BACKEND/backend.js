@@ -224,3 +224,6 @@ WHERE Country IN ('USA', 'Brazil')
 	AND Company NOT NULL 
 ORDER BY Company ASC 
 */ 
+//+  LIMIT komutu ile belli sayıda kayıt getirme komutu
+//+  SELECT * FROM Customer LIMIT 0, 10                      ---> Sıfırıncı kayıttan başla 10 ADET/TANE kayıt getir
+//+  
