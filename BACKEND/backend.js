@@ -228,4 +228,38 @@ ORDER BY Company ASC
 //+  SELECT * FROM Customer LIMIT 0, 10                      ---> Sıfırıncı kayıttan başla 10 ADET/TANE kayıt getir. Ama sıfırdan başlatcaksam LIMIT 10'da denebilir
 //+  SELECT * FROM Customer LIMIT 10, 5                      ---> İlk 10 kaydı getirme, 11den itibaren 5 Tane kayıt getir. 
 //*+  Sadece JOIN yazıyorsa bu default olarak INNER JOIN'dir
-//+  
+//*+  INNER JOIN : Kesişen kayıtları getirir. 
+/*   
+    SELECT *
+    FROM Artist AS art
+    JOIN Album AS alb ON alb.ArtistId=art.ArtistId -- JOIN == INNER JOIN
+    ORDER BY ArtistId ASC, AlbumId ASC
+
+    SELECT c.FirstName, c.LastName, c.Country, i.InvoiceId, i.InvoiceDate, i.Total AS InvoiceTotal
+    FROM Customer AS c
+    INNER JOIN Invoice AS i ON i.CustomerId = c.CustomerId
+    ORDER BY c.CustomerId
+
+    SELECT t.Name Sarki, a.Title Album, m.Name Dosya, g.Name Tur
+    FROM Track t
+    INNER JOIN Album a ON a.AlbumId=t.AlbumId
+    INNER JOIN MediaType m ON t.MediaTypeId=m.MediaTypeId
+    INNER JOIN Genre g ON g.GenreID=t.GenreId               */  
+//*+  LEFT JOIN: Inner joinde kesişen kayıtları göster diyoduk. mesela, faturası olan müşterileri göster gibi. FROM tablodaki BÜTÜN kayıtlar ve JOIN tablodaki KESİŞEN kayıtları getir.
+/*
+    SELECT *
+    FROM Artist AS art
+    LEFT JOIN Album AS alb ON alb.ArtistId=art.ArtistId
+    ORDER BY ArtistId ASC, AlbumId ASC                      */
+//*+  FULL OUTER JOIN -- Her iki tablonun BÜTÜN kayıtlarını göster, Eşleşenleri yanyana göster.
+/*
+    SELECT *
+    FROM Artist AS art
+    FULL OUTER JOIN Album AS alb ON alb.ArtistId=art.ArtistId
+    ORDER BY ArtistId ASC, AlbumId ASC                      */
+//*+  CROSS JOIN -- Her iki tablonun BÜTÜN kayıtlarını göster, İlişki gözetme.
+/*
+    SELECT *
+    FROM Artist AS art
+    CROSS JOIN Album AS alb
+    ORDER BY ArtistId ASC, AlbumId ASC                      */  
