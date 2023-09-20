@@ -227,3 +227,5 @@ ORDER BY Company ASC
 //+  LIMIT komutu ile belli sayıda kayıt getirme komutu
 //+  SELECT * FROM Customer LIMIT 0, 10                      ---> Sıfırıncı kayıttan başla 10 ADET/TANE kayıt getir. Ama sıfırdan başlatcaksam LIMIT 10'da denebilir
 //+  SELECT * FROM Customer LIMIT 10, 5                      ---> İlk 10 kaydı getirme, 11den itibaren 5 Tane kayıt getir. 
+//*+  Sadece JOIN yazıyorsa bu default olarak INNER JOIN'dir
+//+  
