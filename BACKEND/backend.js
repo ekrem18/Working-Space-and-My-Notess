@@ -262,7 +262,8 @@ ORDER BY Company ASC
     SELECT *
     FROM Artist AS art
     CROSS JOIN Album AS alb
-    ORDER BY ArtistId ASC, AlbumId ASC                      */ 
+    ORDER BY ArtistId ASC, AlbumId ASC                      
+*/ 
 /* -Hangi sanatçı hangi albümleri çıkarmıştır. Bir albüme sahip olmayan sanatçıları gösterme. Sadece albüm sahibi olan sanatçıları göster.
     SELECT t1.ArtistId, t1.Name AS sanatci, t2.Title AS album
     FROM Artist AS t1
@@ -274,4 +275,42 @@ ORDER BY Company ASC
     SELECT t1.ArtistId, t1.Name AS sanatci, t2.Title AS album
     FROM Artist AS t1
     LEFT JOIN Album AS t2 ON t2.ArtistId=t1.ArtistId
-    ORDER BY t1.ArtistId  */  
+    ORDER BY t1.ArtistId  */ 
+//*+  FUNCTIONS 
+//+  COUNT Kayıt Sayısı
+/*  SELECT COUNT(*) AS kayitSayisi FROM Customer; -- (*) kullanmak efektif değil. 
+    SELECT COUNT(CustomerId) AS kayitSayisi FROM Customer; -- Herhangi bir sutun ismi kullanmalıyız (PRIMARY)
+    SELECT COUNT(CustomerId) AS kayitSayisi FROM Customer WHERE Country IN ('USA', 'Brazil', 'Denmark');   */
+
+//+  SUM -- Toplam
+/*  SELECT SUM(Total) AS toplam, BillingCountry FROM Invoice; -- Toplam fatura tutarı
+    SELECT SUM(Total) AS toplam FROM Invoice WHERE BillingCountry='USA'; -- Amerikaya kesilen fatura toplamı.
+    SELECT COUNT(InvoiceId) AS adet, SUM(Total) AS toplam FROM Invoice; -- Toplam fatura tutarı             */
+
+//+  AVG -- Ortalama
+//  SELECT AVG(Total) AS ortalama FROM Invoice;
+
+//+  ROUND -- Yuvarlama
+/*  SELECT ROUND(AVG(Total)) AS ortalama FROM Invoice;
+    SELECT ROUND(AVG(Total), 2) AS ortalama FROM Invoice;
+
+    MIN -- En küçük değer -- String de destekler
+    SELECT MIN(Total) AS minTutar FROM Invoice;
+    SELECT MIN(FirstName) FROM Customer;
+
+    MAX -- En büyük değer -- String de destekler
+    SELECT MAX(Total) AS maxTutar FROM Invoice;
+    SELECT MAX(FirstName) FROM Customer;
+
+    LENGTH -- Karakter Sayısı (Kayıt sayısı tek satıra düşürmez)
+    SELECT LENGTH(BillingAddress) AS karakterSayisi FROM Invoice;
+    SELECT LENGTH(Total) AS karakterSayisi FROM Invoice; -- Number veri karakter sayısı */
+  
+/*  GROUP BY -- İşlemleri gruplayarak yap.
+    SELECT COUNT(*) AS kayitSayisi, Country FROM Customer GROUP BY Country;
+    SELECT BillingCountry, COUNT(InvoiceId) AS faturaSayisi FROM Invoice GROUP BY BillingCountry;  -- Hangi ülkeye kaç adet fatura kesildi.
+    SELECT BillingCountry, SUM(Total) AS toplam FROM Invoice GROUP BY BillingCountry; -- Ülkeye göre toplam tutarları ver.
+    SELECT BillingCountry, AVG(Total) AS ortalama FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre ortalama fatura tutarı.
+    SELECT BillingCountry, ROUND(AVG(Total), 2) AS ortalama FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre ortalama fatura tutarı. -- yuvarlanmış
+    SELECT BillingCountry, MIN(Total) AS minimum FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre minimum fatura tutarı.
+    SELECT BillingCountry, MAX(Total) AS maximum FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre maximum fatura tutarı.              */  
