@@ -41,7 +41,7 @@
 //*+  fonk içinde tanımlanan var değişkeni , değeri globale taşıyabileceği için dışarda kullanmamız mümkün
 
 //?  *********************************** 14.09
-//*+  class'lar soyut instance ise somuttur. class bir şablon-template gibidir , ""instance"" bunu somutlaştıran hayata geçirilenm obje halidir.
+//*+  class'lar soyut instance ise somuttur. class bir şablon-template gibidir , ""instance"" bunu somutlaştıran hayata geçiren obje halidir.
 /*      Class Declaration:
                 class PascalNamedClassName { ... }
 
@@ -59,7 +59,7 @@
 /*      const instance = new PascalNamedClassName('parameter-1-value', 'parameter-2-value')
                 console.log( instance )
                 console.log( instance.methodName2() )    --> instance ile türetilen obje içerisinde ' atanan class'ın tüm metod ve propert'lerine erişişm mümkün oluyor.
-                instance.extraField = 'new-value' --------->  burada instance ile class'ın içindeki değişkenin değerini değiştiredebilirzi ancak; class içerisidne değişiklik olmaz, instance'da geçerlidir.  Class isminde bir obje türetiliyor   */
+                instance.extraField = 'new-value' --------->  burada instance ile class'ın içindeki değişkenin değerini değiştiredebilirzi ancak; class içerisiden değişiklik olmaz, instance'da geçerlidir.  Class isminde bir obje türetiliyor   */
 /*      "new Class" ile obje oluştururken veri göndermek için "CONSTRUCTOR" methodu kullanılır.
                 constructor (parameter1, parameter2 = 'default-value') {
                         this.parameter1 = parameter1 }      */         
@@ -186,13 +186,12 @@
         res.write('* Satır3')
         res.end()
         
-    } else if ( req.url == '/api' ) {       
-*/   
+    } else if ( req.url == '/api' ) {       */   
 //*+  npm i dotenv    ---->  diyerek env ortamındaki verilere erişim sağlamamıza olanak sağlıyor. Dışarıdan içeriye okunmasını istemdiğimiz veriler bilgiler için
 //*+  çalışıtğım terminalde "ENV_NAME=ENV_VALUE node index.js"  yazarak   index.js dosyası içerisine dışradan birşey göndermiş oluyorum. Gönderdiğimi yakalamak için "proccess.env.ENV_NAME"  diyorum  (uzun yol)
 //+  .env klasörü açarak KEY = value olarak tanımlayıp, .env gitignore'da olduğu sürece kullanabilirz. APi işlemleri gibi hatırlatma. Ancak bunu kullanabilmem için 
-//+  require("dotenv").config()  ---> bikere alışıtırğ tepeye koyuoprz keyfimize bakıorz; // $ npm i dotenv // https://www.npmjs.com/package/dotenv   
-//?  *********************************** 18.09 NODE JS
+//+  require("dotenv").config()  ---> bikere alışıtırıp tepeye koyuyorz keyfimize bakıorz; // $ npm i dotenv // https://www.npmjs.com/package/dotenv   
+//?  *********************************** 18.09 SQL
 //+  Veri tabanlarında da veri tipleri olur; Numeric , Date/Time, Character/String, Unicode Character/String, Binary, Miscellaneous
 /*   Veritabanı uygulamalarında metinleri tutmak için kullanılan alanlardan iki tanesi Char ve Varchar dır.
 Char veritipi, 0 ile 255 karakter içeren verileri tutabilir.
@@ -205,4 +204,5 @@ Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip C
 //+  Relation types arasında teknik olarak veritabanı oneToMany'den anlar.
 //+  ORM ; OOP kodlarını SQL'e çeviren arabirim gibi. 1.ana özelliği. OOP mantığından çıkmadan data işlemi yapaibilirm
 //+  2.ana özellik, proje ortamında SQLite kullanmış olabilirim. Canlıya aldğımda kodlarıma hiç dokunmadan işlem yapabiliyorum ORM sayesinde. Cross Platform
+//?  *********************************** 20.09 SQL 
 //+  
