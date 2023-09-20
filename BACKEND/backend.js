@@ -324,3 +324,22 @@ SELECT BillingCountry,
 FROM Invoice
 GROUP BY BillingCountry;
 */ 
+
+/* INSERT & UPDATE & DELETE 
+-- INSERT -- Kayıt Ekleme
+INSERT INTO Artist (ArtistId, Name)
+VALUES (276, 'Qadir Adamson');
+
+-- INSERT -- Çoklu Kayıt Ekleme
+INSERT INTO Artist (ArtistId, Name)
+VALUES
+	(277, 'Gümüş G'),
+	(278, 'Mehmet T'),
+	(279, 'Sinan Hoca'); -- En sonda noktalı-virgül.
+
+-- UPDATE -- Kayıt Güncelleme
+UPDATE Artist SET ( Name='Abdullah A.' ) WHERE ArtistId = 276;
+
+-- DELETE -- Kayıt Silme
+DELETE FROM Artist WHERE ArtistId=276;
+*/
