@@ -262,4 +262,16 @@ ORDER BY Company ASC
     SELECT *
     FROM Artist AS art
     CROSS JOIN Album AS alb
-    ORDER BY ArtistId ASC, AlbumId ASC                      */  
+    ORDER BY ArtistId ASC, AlbumId ASC                      */ 
+/* -Hangi sanatçı hangi albümleri çıkarmıştır. Bir albüme sahip olmayan sanatçıları gösterme. Sadece albüm sahibi olan sanatçıları göster.
+    SELECT t1.ArtistId, t1.Name AS sanatci, t2.Title AS album
+    FROM Artist AS t1
+    INNER JOIN Album AS t2 ON t1.ArtistId=t2.ArtistId
+    WHERE t1.Name = 'Led Zeppeli'
+    ORDER BY t1.ArtistId
+
+   -Bütün sanatçıları göster. Hangi sanatçı hangi albüme sahip onu da göster. Ama albüm sahibi olmayan kayıtlara NULL yaz.
+    SELECT t1.ArtistId, t1.Name AS sanatci, t2.Title AS album
+    FROM Artist AS t1
+    LEFT JOIN Album AS t2 ON t2.ArtistId=t1.ArtistId
+    ORDER BY t1.ArtistId  */  
