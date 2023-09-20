@@ -209,5 +209,9 @@ Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip C
 //+  SELECT * FROM Customer WHERE Address LIKE '627 Broadway'  ---> 627 Broadway bütün olarak aranacak
 //+  SELECT * FROM Customer WHERE Address LIKE '1498 %'        ---> Arama yapacağım adresin tümünü hatırlamıyorum. 1498 ile başlayan bir adres ve bundan sonraki karakter sayısı herşey olabilecek şekilde arama yap diyorum.
 //+  SELECT * FROM Customer WHERE Address LIKE '% langer %'    ---> Başında ne olursa olsun, sonun da kaç karakter varsa da içinde bir yerde ' langer '  geçenleri getir. İçinde aramanın tam kaşılığı
+//+  SELECT * FROM Customer WHERE Address LIKE '%rue%';        ---> içinde "rue" geçen kayıtlar.
 //+  SELECT * FROM Customer WHERE Address LIKE '_a_%'          ---> 2.karakteri a olan ve en az 3 karakterli olan adresleri getir.  
-//+  SELECT * FROM Customer WHERE Phone LIKE '+__ 030%'        ---> Ülke kodunu hatırlamıyorum, telefon numarası 030 ile başlayan numaraları getir.  
+//+  SELECT * FROM Customer WHERE Phone LIKE '+__ 030%'        ---> Ülke kodunu hatırlamıyorum, telefon numarası 030 ile başlayan numaraları getir. 
+//+  SELECT * FROM Customer WHERE Phone LIKE '+__ 030%' AND FirstName='Niklas' ---> İsmi Niklas ve telefonu da 030 ile başlayan kimse onu getir. 
+//+  ORDER BY sıralama komutu; ASC ise A-Z'ye 0-9'a, DSC tam tersi
+//+  
