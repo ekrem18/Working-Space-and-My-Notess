@@ -206,7 +206,8 @@ Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip C
 //+  2.ana özellik, proje ortamında SQLite kullanmış olabilirim. Canlıya aldğımda kodlarıma hiç dokunmadan işlem yapabiliyorum ORM sayesinde. Cross Platform
 //?  *********************************** 20.09 SQL 
 //+  Özel karakter kullanılmıyorsa LIKE kullanmöa
-//+  SELECT * FROM Customer WHERE Address LIKE '627 Broadway'  --->  627 Broadway bütün olarak aranacak
-//+  SELECT * FROM Customer WHERE Address LIKE '1498 %'  ---> Arama yapacağım adresin tümünü hatırlamıyorum. 1498 ile başlayan bir adres ve bundan sonraki karakter sayısı herşey olabilecek şekilde arama yap diyorum.
-//+  SELECT * FROM Customer WHERE Address LIKE '% langer %'  ---> Başında ne olursa olsun, sonun da kaç karakter varsa da içinde bir yerde ' langer '  geçenleri getir.
-//+  
+//+  SELECT * FROM Customer WHERE Address LIKE '627 Broadway'  ---> 627 Broadway bütün olarak aranacak
+//+  SELECT * FROM Customer WHERE Address LIKE '1498 %'        ---> Arama yapacağım adresin tümünü hatırlamıyorum. 1498 ile başlayan bir adres ve bundan sonraki karakter sayısı herşey olabilecek şekilde arama yap diyorum.
+//+  SELECT * FROM Customer WHERE Address LIKE '% langer %'    ---> Başında ne olursa olsun, sonun da kaç karakter varsa da içinde bir yerde ' langer '  geçenleri getir. İçinde aramanın tam kaşılığı
+//+  SELECT * FROM Customer WHERE Address LIKE '_a_%'          ---> 2.karakteri a olan ve en az 3 karakterli olan adresleri getir.  
+//+  SELECT * FROM Customer WHERE Phone LIKE '+__ 030%'        ---> Ülke kodunu hatırlamıyorum, telefon numarası 030 ile başlayan numaraları getir.  
