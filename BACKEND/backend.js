@@ -214,4 +214,13 @@ Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip C
 //+  SELECT * FROM Customer WHERE Phone LIKE '+__ 030%'        ---> Ülke kodunu hatırlamıyorum, telefon numarası 030 ile başlayan numaraları getir. 
 //+  SELECT * FROM Customer WHERE Phone LIKE '+__ 030%' AND FirstName='Niklas' ---> İsmi Niklas ve telefonu da 030 ile başlayan kimse onu getir. 
 //+  ORDER BY sıralama komutu; ASC ise A-Z'ye 0-9'a, DSC tam tersi
-//+  
+//+  SELECT * FROM Customer WHERE Country IN ('USA', 'Brazil') AND CustomerId > 12 AND Company NOT NULL ORDER BY Company ASC ---> Country :USA ve Brazil içinde CustomerId'si 12'den büyük olup Company bilgisi bulunan şirketleri A-Z'ye sırala diyoruz
+//*+  SELECT - WHERE - ORDER BY gibi müfredat sırasına göre yazma sırası var.
+/* - Piyasada standartı her satıra ayrı ayrı yazmaktır: Ana komutları her satıra dağıtıyoruz kabaca
+SELECT * 
+FROM Customer 
+WHERE Country IN ('USA', 'Brazil') 
+	AND CustomerId > 12
+	AND Company NOT NULL 
+ORDER BY Company ASC 
+*/ 
