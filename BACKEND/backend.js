@@ -171,7 +171,23 @@
 //+  res. ya da req yazımı önemli değil . ahmet ya da mehmet olabilir. Ancak indeks sırası işlev açısıdan gerekli 
 //*+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. response end vermezsek browser sonsuz döngü enzeri bir duruma giriyor.
 //+  req gönderdiğimizde yukarıda clg yapsak gelecek 3temel bilgi :  ***header  ***URL  ***method(default method ise get)
-//+  if (req.url == '/') {res.end('main page')} ---->   kullanıcı ana menüye gelmişse ana menü de gibi bi manaya geliyor burası. else if path1  mesela, else 'server is running     gibi devam ettirebilirim , aralarda ****==**** yazıyoruz.  
+//+  if (req.url == '/') {res.end('main page')} ---->   kullanıcı ana menüye gelmişse ana menü de gibi bi manaya geliyor burası. else if path1  mesela, else 'server is running     gibi devam ettirebilirim , aralarda ****==**** yazıyoruz.
+/*   http.createServer((req, res) => {
+    if (req.url == '/') {
+
+        res.statusCode = 404 // Default: 200
+        res.statusMessage = 'Not Found' // Default: OK
+
+        res.setHeader('Content-Type', 'text/html')
+        res.setHeader('another-header', 'another-value')
+
+        res.write('* Satır1')
+        res.write('* Satır2')
+        res.write('* Satır3')
+        res.end()
+        
+    } else if ( req.url == '/api' ) {       
+*/   
 //*+  npm i dotenv    ---->  diyerek env ortamındaki verilere erişim sağlamamıza olanak sağlıyor. Dışarıdan içeriye okunmasını istemdiğimiz veriler bilgiler için
 //*+  çalışıtğım terminalde "ENV_NAME=ENV_VALUE node index.js"  yazarak   index.js dosyası içerisine dışradan birşey göndermiş oluyorum. Gönderdiğimi yakalamak için "proccess.env.ENV_NAME"  diyorum  (uzun yol)
 //+  .env klasörü açarak KEY = value olarak tanımlayıp, .env gitignore'da olduğu sürece kullanabilirz. APi işlemleri gibi hatırlatma. Ancak bunu kullanabilmem için 
