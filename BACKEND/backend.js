@@ -313,4 +313,14 @@ ORDER BY Company ASC
     SELECT BillingCountry, AVG(Total) AS ortalama FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre ortalama fatura tutarı.
     SELECT BillingCountry, ROUND(AVG(Total), 2) AS ortalama FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre ortalama fatura tutarı. -- yuvarlanmış
     SELECT BillingCountry, MIN(Total) AS minimum FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre minimum fatura tutarı.
-    SELECT BillingCountry, MAX(Total) AS maximum FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre maximum fatura tutarı.              */  
+    SELECT BillingCountry, MAX(Total) AS maximum FROM Invoice GROUP BY BillingCountry;  -- Ülkeye göre maximum fatura tutarı.              */ 
+/* TEK EKRAN MODELİ
+SELECT BillingCountry, 
+	COUNT(InvoiceId) AS faturaSayisi, 
+	SUM(Total) AS toplam, 
+	MIN(Total) AS minimum, 
+	MAX(Total) AS maximum,
+	ROUND(AVG(Total), 2) AS ortalama
+FROM Invoice
+GROUP BY BillingCountry;
+*/ 
