@@ -343,3 +343,4 @@ UPDATE Artist SET ( Name='Abdullah A.' ) WHERE ArtistId = 276;
 -- DELETE -- Kayıt Silme
 DELETE FROM Artist WHERE ArtistId=276;
 */
+//?  *********************************** 21.09 PostgreSQL 
