@@ -76,3 +76,40 @@ WHERE	AlbumID=1;
 -- SELECT * FROM Customer WHERE Address LIKE '_a_%'; -- 2 karakteri "a" olan ve en az 3 karakter olan.
 -- SELECT * FROM Customer WHERE Phone LIKE '+__ 030%'; -- Ülke kodu bilinmeyen 030 ile başlaya telefonlar.
 -- SELECT * FROM Customer WHERE Phone LIKE '+__ 030%' AND FirstName = 'Niklas'; -- Niklas isimli 030 ile başlayan numaralı kayıtlar.
+
+--//? * ORDER BY - Sıralama
+-- * ASC - A-Z Sıralama
+-- * DESC - Z-A Sıralama
+-- SELECT * FROM Customer ORDER BY Country ASC; -- Normal Sıralama
+-- SELECT * FROM Customer ORDER BY Country; -- Default: ASC
+-- SELECT * FROM Customer ORDER BY Country DESC; -- Ters Sıralama
+-- SELECT * FROM Customer ORDER BY Country ASC, City ASC, LastName ASC; -- Sırasıyla ülke - şehir ve soyisim sırala.
+-- SELECT * FROM Customer ORDER BY Country, City, LastName; -- Sırasıyla ülke - şehir ve soyisim sırala.
+-- SELECT * FROM Customer WHERE Country IN ('USA', 'Brazil') AND CustomerId > 12 AND Company NOT NULL ORDER BY Company ASC
+/* 
+-- Piyasada standartı her satıra ayrı ayrı yazmaktır:
+SELECT * 
+FROM Customer 
+WHERE Country IN ('USA', 'Brazil') 
+	AND CustomerId > 12
+	AND Company NOT NULL 
+ORDER BY Company ASC 
+*/
+
+--//? * LIMIT - Belli sayıda kayıt getir.
+-- SELECT * FROM Customer LIMIT 0, 10;  -- LIMIT kaçıncı kayıttan itibaren, kaç ADET kayıt.
+-- SELECT * FROM Customer LIMIT 5 -- Başlangıç default: 0
+-- SELECT * FROM Customer LIMIT 10, 5;  -- 10. kayıttan sonraki (yani 11. kayıttan itibaren) 5 adet kaydı getir.
+-- SELECT * FROM Customer ORDER BY LastName ASC, FirstName DESC LIMIT 0, 5; -- Sıralamaya göre ilk 5 kayıt.
+-- SELECT * FROM Customer ORDER BY LastName ASC, FirstName DESC LIMIT 5, 5; -- Sıralamaya göre ikinci 5 kayıt.
+
+--//? * SUBQUERY (SELECT IN SELECT) (Nested Query)
+-- SELECT * FROM Album WHERE ArtistId = (SELECT ArtistId FROM Artist WHERE Name = 'Led Zeppeli'); -- Sanatçı ID'sini SubSelect'den aldık.
+-- SELECT AlbumId, Title, (SELECT Name FROM Artist WHERE ArtistId = a.ArtistId) AS Artist FROM Album AS a;
+/*
+-- SubSELECT sorgusunu tablo gibi kullanmak:
+SELECT FirstName, LastName
+FROM (
+	SELECT * FROM Customer WHERE Country = 'USA' AND CustomerId > 22
+) WHERE FirstName LIKE '%a%'
+*/
