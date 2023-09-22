@@ -105,11 +105,11 @@ ORDER BY Company ASC
 
 --//? * SUBQUERY (SELECT IN SELECT) (Nested Query)
 -- SELECT * FROM Album WHERE ArtistId = (SELECT ArtistId FROM Artist WHERE Name = 'Led Zeppeli'); -- Sanatçı ID'sini SubSelect'den aldık.
+--//* Yukarıdakinin izahı : Artistin albümünün gelmesini istiyorum ve fakat ama o artistin id'sini bilmiyorum. = dedikten sonra ; Artist tablosundan ArtistId'yi getir. ama tek hatırladığım Name'i 'Led' . SubSELECT  DEĞİŞİK İZAHLA, Artist tablosundan ismi led olan sanatçının ARTISTID'sini dışarı aktardığın id'den albüm listele. Sorgu cevabuıının birden fazla gelebilecğeini düşünüyorsak = yerine IN yazıyoruz.
 -- SELECT AlbumId, Title, (SELECT Name FROM Artist WHERE ArtistId = a.ArtistId) AS Artist FROM Album AS a;
-/*
--- SubSELECT sorgusunu tablo gibi kullanmak:
+--//* 
+/* -- SubSELECT sorgusunu tablo gibi kullanmak:
 SELECT FirstName, LastName
 FROM (
 	SELECT * FROM Customer WHERE Country = 'USA' AND CustomerId > 22
-) WHERE FirstName LIKE '%a%'
-*/
+) WHERE FirstName LIKE '%a%'  */
