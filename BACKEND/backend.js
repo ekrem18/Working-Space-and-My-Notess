@@ -18,7 +18,7 @@
 //+  obje içinde tanımlanmış fonksiyona "method" ,
 //+  obje içindeki değişkene "property" deniyor genel tanım olarak.
 //*+  "this"  aslında içinde bulunduğumuz objeyi kast ediyorum demektir.  -->    return this.brand    gibi. ANCAK, arrow func içine yazılan bir this söz konusuysa, arrow func global çalıştığı için bütün sayfayı temsil eder. Yalnızca içinde bulunduğu block'u değil.   
-//+  ARRAY DESTRUCTURING
+//*+  ARRAY DESTRUCTURING
 /*   const testArray = [ 'value0', 'value1', 'value2', 'value3' ]
             const var0 = testArray[0]
             const var1 = testArray[1]
@@ -344,3 +344,5 @@ UPDATE Artist SET ( Name='Abdullah A.' ) WHERE ArtistId = 276;
 DELETE FROM Artist WHERE ArtistId=276;
 */
 //?  *********************************** 21.09 PostgreSQL 
+//+  Veritabanı programıdır.
+//+  

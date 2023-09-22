@@ -27,12 +27,12 @@ WHERE	AlbumID=1;
 
 --- --- --- SQL --- --- ---
 
--- * SELECT - Seç getir.
--- * FROM - Hangi tablodan?
+--//? * SELECT - Seç getir.
+--//? * FROM - Hangi tablodan?
 -- SELECT * FROM Album; -- * = Tüm sutunlar.
 -- SELECT AlbumId, Title FROM Album; -- İstediğim sutunları getir. -- Tavsiye edilen yöntem ayrı-ayrı yazmaktır.
 
--- * AS -- Tablo veya Sutunları geçici adlandırmak için kullanılır. -- Lakap Takma
+--//? * AS -- Tablo veya Sutunları geçici adlandırmak için kullanılır. -- Lakap Takma
 -- SELECT 'data' AS baslik; -- Data gönder.
 -- SELECT 1+2  AS sonuc; -- Matematiksel ifade yazdır.
 -- SELECT AlbumId AS numara, Title AS baslik FROM Album; -- Sutun isimlendirme
@@ -46,7 +46,7 @@ WHERE	AlbumID=1;
 -- SELECT DISTINCT City FROM Customer;
 -- SELECT DISTINCT City, Country FROM Customer; -- Bütün sutunlardaki ortak olanları 1 kere getirir.
 
--- * WHERE - Filtreleme
+--//? * WHERE - Filtreleme
 -- SELECT * FROM Customer WHERE Country = 'USA' -- Eşit olanları getir.
 -- SELECT * FROM Customer WHERE Country != 'USA' -- Eşit olMAanları getir.
 -- SELECT * FROM Customer WHERE Country <> 'USA' -- Eşit olMAanları getir.
@@ -55,7 +55,6 @@ WHERE	AlbumID=1;
 -- SELECT * FROM Customer WHERE CustomerId < 20 -- Küçük olanları getir.
 -- SELECT * FROM Customer WHERE CustomerId <= 20 -- KüçükEşit olanları getir.
 -- SELECT * FROM Customer WHERE CustomerId BETWEEN 10 AND 20 -- 10 ile 20 arasında olanları getir. (her ikiside dahil)
-
 -- * WHERE - AND/OR/NOT
 -- * SELECT * FROM table WHERE True OR NOT True
 -- SELECT * FROM Customer WHERE NOT Country = 'USA'
@@ -63,8 +62,17 @@ WHERE	AlbumID=1;
 -- SELECT * FROM Customer WHERE Country = 'USA' OR Country = 'Brazil' OR Country='Denmark';
 -- SELECT * FROM Customer WHERE (Country = 'USA' OR Country = 'Brazil' OR Country='Denmark') AND CustomerId > 25;
 -- SELECT * FROM Customer WHERE (Country = 'USA' OR Country = 'Brazil' OR Country='Denmark') AND (CustomerId BETWEEN 25 AND 27)
-
 -- * WHERE - IN / NOT IN
 -- SELECT * FROM Customer WHERE Country IN ('USA', 'Brazil', 'Denmark');
 -- SELECT * FROM Customer WHERE Country NOT IN ('USA', 'Brazil', 'Denmark');
 -- SELECT * FROM Customer WHERE CustomerID IN (2,3,4,10,11);
+-- * WHERE - LIKE ( _ = SingleChar, % = JokerChar)
+-- SELECT * FROM Customer WHERE Country LIKE 'USA'; -- "USA" olanlar.
+-- SELECT * FROM Customer WHERE Address LIKE '627 Broadway'; -- "627 Broadway" olanlar.
+-- SELECT * FROM Customer WHERE Address LIKE '1498%';  -- "1498" ile başlayan kayıtlar.
+-- SELECT * FROM Customer WHERE Address LIKE '%langer';  -- "langer" ile biten kayıtlar.
+-- SELECT * FROM Customer WHERE Address LIKE '%rue%';  -- içinde "rue" geçen kayıtlar.
+-- SELECT * FROM Customer WHERE Phone LIKE '_55 %'; -- 2. ve 3. karakteri 55 olan kayıtlar.
+-- SELECT * FROM Customer WHERE Address LIKE '_a_%'; -- 2 karakteri "a" olan ve en az 3 karakter olan.
+-- SELECT * FROM Customer WHERE Phone LIKE '+__ 030%'; -- Ülke kodu bilinmeyen 030 ile başlaya telefonlar.
+-- SELECT * FROM Customer WHERE Phone LIKE '+__ 030%' AND FirstName = 'Niklas'; -- Niklas isimli 030 ile başlayan numaralı kayıtlar.
