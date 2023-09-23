@@ -347,4 +347,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Büyük veritabanlarını destekler
 //+  SQL veritabanlarına göre hızlıdır.
 //+  Open SOurce'dur
-//+ 
+//+  Tablolar arası ilişki olmadığı için hızlıdır.
+//+  
