@@ -348,4 +348,6 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  SQL veritabanlarına göre hızlıdır.
 //+  Open SOurce'dur
 //+  Tablolar arası ilişki olmadığı için hızlıdır.
+//+  SQL veritabanlarına göre daha yeni oldukları için güvenli olmayabilir
+//+  Transaction control yapısını desteklemez. Banka hesabı alma-yatırma işlemlerini desteklemez
 //+  
