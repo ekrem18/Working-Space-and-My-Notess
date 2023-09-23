@@ -350,4 +350,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Tablolar arası ilişki olmadığı için hızlıdır.
 //+  SQL veritabanlarına göre daha yeni oldukları için güvenli olmayabilir
 //+  Transaction control yapısını desteklemez. Banka hesabı alma-yatırma işlemlerini desteklemez
-//+  
+//+  Oracle, DBSQ vs vs ne olursa olsun her veritabanı markasının SQL standarı varken NoSQL 'de bu standart yoktur. 
+//+  MongoDB String yapıda olan JSON  dosyasını Binary yapıda BSON dosyasına çeviriyo ve Tablo yewrine döküman kullanıyoruz
