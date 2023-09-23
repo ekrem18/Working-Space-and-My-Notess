@@ -354,4 +354,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  MongoDB String yapıda olan JSON  dosyasını Binary yapıda BSON dosyasına çeviriyo ve Tablo yewrine döküman kullanıyoruz
 //+  Table --> Column --> Row  SQL yapısı iken ;  Collection  --> Document  --> Field 
 //+  (Database)                               // (Veri Kümemiz)
+//*+  MongoDB
 //+  
