@@ -343,6 +343,8 @@ UPDATE Artist SET ( Name='Abdullah A.' ) WHERE ArtistId = 276;
 -- DELETE -- Kayıt Silme
 DELETE FROM Artist WHERE ArtistId=276;
 */
-//?  *********************************** 21.09 PostgreSQL 
-//+  Veritabanı programıdır.
-//+  
+//?  *********************************** 23.09 NoSQL 
+//+  Büyük veritabanlarını destekler
+//+  SQL veritabanlarına göre hızlıdır.
+//+  Open SOurce'dur
+//+ 
