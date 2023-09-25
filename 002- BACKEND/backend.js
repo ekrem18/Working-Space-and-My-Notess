@@ -387,4 +387,12 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  URL tanımlarken ()'in bir manası yok sadece gruplama için kullanabilirz. Ancak \ kullandığımızda özel karakter özeliğini kaybettiğinden  bu da yazılabilir. 
 //+  app.get('abc(x?)123') --> (127.0.0:127/abc(x?)123)   sonrası örneğin abc ve 123 arasında x oladabilir olmayadabilir ikisini de kabul et demek
 //+  app.get('abc*123')     -->  araya gelebileceklerin sınırı yok gibi düşünülebilir. abc123 de kabul
+/* Response Methods 
+    / SendStatus:
+    / Status:
+    / JSON (.send() method already does this converting.)
+    / Download File (Download at browser):
+    / SendFile Content:
+    / Redirect:
+---------------> Detaylar Practice klasörü app.js de*/ 
 //+  
