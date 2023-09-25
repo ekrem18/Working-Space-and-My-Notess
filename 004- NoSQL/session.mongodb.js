@@ -26,8 +26,8 @@
 	// mongodb.com/docs/manual/reference/method/js-collection/
 	show('collections') // $ show collections // $ show tables
 	db.getCollectionNames() // List
-	db.getCollectionInfos() // List
-	db.createCollection('collName') // Create
+	db.getCollectionInfos() // List ,, collectionların detyalarını array içinde alıyoruz
+	db.createCollection('collName') // Create,, ismi parantez içinde olan yeni collection oluşturuyoruz
 	db.collName.renameCollection('collName2') // Update
 	db.collName2.drop() // Drop
 
