@@ -358,7 +358,8 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Mongo için; VsCode veya compass gibi bir yerde mongo terminal ile veritabanaına bağlı olmak/bağlanmak o veritabanının var olduğu manasına gelmez
 //+  Database'ler soyut kavramlar olduğu için aslında var olmayan bir DB'e use komutuyla girip işlem de yapabilirm. Öneli olan içindekiler
 
-//?  *********************************** 25.09 ExpressJS
+//?  *********************************** 25.09 NodeJS Express
 //+  Hızlı, Stable Web app için, Api hatta başka Framework yazmak da mümkn
 //+  Dahili modüller olmadığından import eidlmesi gereken parçalar olabiliyor bu da negatif yön olarak sayılabilir.
-
+//+  MVC: Model Viev Controller ;;;; Crud işleri Model'de,, print işleri View'de ,, bu ikisi arasındaki işlemler Controller'da
+//++
