@@ -355,4 +355,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Table --> Column --> Row  SQL yapısı iken ;  Collection  --> Document  --> Field 
 //+  (Database)                               // (Veri Kümemiz)
 //*+  MongoDB
-//+  
+//+  Mongo için; VsCode veya compass gibi bir yerde mongo terminal ile veritabanaına bağlı olmak/bağlanmak o veritabanının var olduğu manasına gelmez
