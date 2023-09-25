@@ -356,3 +356,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  (Database)                               // (Veri Kümemiz)
 //*+  MongoDB
 //+  Mongo için; VsCode veya compass gibi bir yerde mongo terminal ile veritabanaına bağlı olmak/bağlanmak o veritabanının var olduğu manasına gelmez
+//+  Database'ler soyut kavramlar olduğu için aslında var olmayan bir DB'e use komutuyla girip işlem de yapabilirm. Öneli olan içindekiler
