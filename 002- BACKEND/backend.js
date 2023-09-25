@@ -384,3 +384,7 @@ DELETE FROM Artist WHERE ArtistId=276;
             .post( (req, res) => res.send('post') )   
             .put( (req, res) => res.send('put') )
             .delete( (req, res) => res.send('delete') )     -----> URL tanımladıktan snra tek URL için farklı metod tanımlamaları varsa tek seferde bu tipte yazım kullanılabilir ayrı ayrı yazmıyoruz*/
+//+  URL tanımlarken ()'in bir manası yok sadece gruplama için kullanabilirz. Ancak \ kullandığımızda özel karakter özeliğini kaybettiğinden  bu da yazılabilir. 
+//+  app.get('abc(x?)123') --> (127.0.0:127/abc(x?)123)   sonrası örneğin abc ve 123 arasında x oladabilir olmayadabilir ikisini de kabul et demek
+//+  app.get('abc*123')     -->  araya gelebileceklerin sınırı yok gibi düşünülebilir. abc123 de kabul
+//+  
