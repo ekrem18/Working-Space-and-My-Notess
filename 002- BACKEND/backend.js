@@ -364,3 +364,23 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  MVC: Model Viev Controller ;;;; Crud işleri(Database işleri) Model'de,, print işleri View'de ,, bu ikisi arasındaki işlemler Controller'da
 //*+  Yüklenecek modülleri yükledikten sonra npm init- y ,, npm i express vd sayfada const express = require('express')    ile express modülünü değişkene atadıktan sonra sayfama impot ettim denebilir.  25.09.2023 dersin 20.30'dan snrası gibi
 //+  sayfa structure işlemi tamm olduktan sonra .env dosyası oluşturduk. Sonrasında da gitignore oluşturduk.
+//*+  25.09.2023 tarihli dersin 20.52  güzel ÖZET
+/*    HTTP_Methods & URLs 
+
+        app.get('/', (request, response) => {
+            /run response.send for print-out:
+            response.send( 'Welcome to Express' )
+            response.send({ message: "called in 'get' method." })
+})
+            app.post('/', (request, response) => response.send({ message: "called in 'post' method."}))
+            app.put('/', (request, response) => response.send({ message: "called in 'put' method."}))
+            app.delete('/', (request, response) => response.send({ message: "called in 'delete' method."}))
+        /allow at all methods:
+            app.all('/', (request, response) => response.send({ message: "'all' option allows to all methods."}))
+
+        /app.route('url'):
+        app.route('/route')
+            .get( (req, res) => res.send('get') )
+            .post( (req, res) => res.send('post') )   
+            .put( (req, res) => res.send('put') )
+            .delete( (req, res) => res.send('delete') )     -----> URL tanımladıktan snra tek URL için farklı metod tanımlamaları varsa tek seferde bu tipte yazım kullanılabilir ayrı ayrı yazmıyoruz*/
