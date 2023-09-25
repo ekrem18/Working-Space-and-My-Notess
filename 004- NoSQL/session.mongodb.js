@@ -75,7 +75,7 @@
 	// db.coll.findOne( { filters }, { fields } )
 	// db.coll.find( { filters }, { fields } )
 	db.coll.findOne()
-	db.coll.findOne({ firstName: 'Test' })
+	db.coll.findOne({ firstName: 'Test' })  // Bu kirtewre uyan birkaç tanbe obje olsa da ilk bulduğunu getirir.
 	db.coll.find()
 	db.coll.find({ firstName: 'Test' })
 	db.coll.find({/* all */ }, { _id: false, firstName: true, lastName: true }) // Select Fields
