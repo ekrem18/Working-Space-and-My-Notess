@@ -361,5 +361,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //?  *********************************** 25.09 NodeJS Express
 //+  Hızlı, Stable Web app için, Api hatta başka Framework yazmak da mümkn
 //+  Dahili modüller olmadığından import eidlmesi gereken parçalar olabiliyor bu da negatif yön olarak sayılabilir.
-//+  MVC: Model Viev Controller ;;;; Crud işleri Model'de,, print işleri View'de ,, bu ikisi arasındaki işlemler Controller'da
-//++
+//+  MVC: Model Viev Controller ;;;; Crud işleri(Database işleri) Model'de,, print işleri View'de ,, bu ikisi arasındaki işlemler Controller'da
+//*+  Yüklenecek modülleri yükledikten sonra npm init- y ,, npm i express vd sayfada const express = require('express')    ile express modülünü değişkene atadıktan sonra sayfama impot ettim denebilir.
