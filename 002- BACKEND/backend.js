@@ -364,7 +364,11 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  MVC: Model Viev Controller ;;;; Crud işleri(Database işleri) Model'de,, print işleri View'de ,, bu ikisi arasındaki işlemler Controller'da
 //*+  Yüklenecek modülleri yükledikten sonra npm init- y ,, npm i express vd sayfada const express = require('express')    ile express modülünü değişkene atadıktan sonra sayfama impot ettim denebilir.  25.09.2023 dersin 20.30'dan snrası gibi
 //+  sayfa structure işlemi tamm olduktan sonra .env dosyası oluşturduk. Sonrasında da gitignore oluşturduk.
-//*+  25.09.2023 tarihli dersin 20.52  güzel ÖZET
+//*+  25.09.2023 tarihli dersin 20.51  güzel ÖZET
+//*+  npm init -y modülü     ile      npm i express dotenv    modülerini yükledik
+//*+  express'i      const express = require('express')    --->  ile çağırdık
+//*+  const app = express()    --->  ile de express'i app'e adadık. Bu haliyle app server halini almış oldu.
+//*+  
 /*    HTTP_Methods & URLs 
 
         app.get('/', (request, response) => {
