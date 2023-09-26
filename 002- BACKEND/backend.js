@@ -370,6 +370,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  const app = express()    --->  ile de express'i app'e adadık. Bu haliyle app server halini almış oldu.
 //*+  express framework , app ise server olmuş oldu.
 //*+  dışardan birtakım değişkenler göndermek istediğimiz için .env oluşturduk
+//*+  .env modülünü okuyabilmek için   require('dotenv').config()   --> dotenv modülünü require ettik ve config modülünü çalıştırdım.
 /*    HTTP_Methods & URLs 
 
         app.get('/', (request, response) => {
