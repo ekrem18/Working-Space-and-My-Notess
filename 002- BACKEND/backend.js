@@ -368,7 +368,8 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  npm init -y modülü     ile      npm i express dotenv    modülerini yükledik
 //*+  express'i      const express = require('express')    --->  ile çağırdık
 //*+  const app = express()    --->  ile de express'i app'e adadık. Bu haliyle app server halini almış oldu.
-//*+  
+//*+  express framework , app ise server olmuş oldu.
+//*+  dışardan birtakım değişkenler göndermek istediğimiz için .env oluşturduk
 /*    HTTP_Methods & URLs 
 
         app.get('/', (request, response) => {
