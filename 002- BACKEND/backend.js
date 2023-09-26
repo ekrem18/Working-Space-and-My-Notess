@@ -371,6 +371,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  express framework , app ise server olmuş oldu.
 //*+  dışardan birtakım değişkenler göndermek istediğimiz için .env oluşturduk
 //*+  .env modülünü okuyabilmek için   require('dotenv').config()   --> dotenv modülünü require ettik ve config modülünü çalıştırdım.
+//*+  son olarak da .env'de belirlemiş olduğum değişkenleri ana dosyamıza aldık
 /*    HTTP_Methods & URLs 
 
         app.get('/', (request, response) => {
