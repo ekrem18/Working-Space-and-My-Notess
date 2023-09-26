@@ -364,7 +364,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  MVC: Model Viev Controller ;;;; Crud işleri(Database işleri) Model'de,, print işleri View'de ,, bu ikisi arasındaki işlemler Controller'da
 //*+  Yüklenecek modülleri yükledikten sonra npm init- y ,, npm i express vd sayfada const express = require('express')    ile express modülünü değişkene atadıktan sonra sayfama impot ettim denebilir.  25.09.2023 dersin 20.30'dan snrası gibi
 //+  sayfa structure işlemi tamm olduktan sonra .env dosyası oluşturduk. Sonrasında da gitignore oluşturduk.
-//*+  25.09.2023 tarihli dersin 20.51  güzel ÖZET
+//*+  25.09.2023 tarihli dersin 20.51  güzel ÖZET-aşağıda-
 //*+  npm init -y modülü     ile      npm i express dotenv    modülerini yükledik
 //*+  express'i      const express = require('express')    --->  ile çağırdık
 //*+  const app = express()    --->  ile de express'i app'e adadık. Bu haliyle app server halini almış oldu.
@@ -372,13 +372,13 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  dışardan birtakım değişkenler göndermek istediğimiz için .env oluşturduk
 //*+  .env modülünü okuyabilmek için   require('dotenv').config()   --> dotenv modülünü require ettik ve config modülünü çalıştırdım.
 //*+  son olarak da .env'de belirlemiş olduğum değişkenleri ana dosyamıza aldık
-/*    HTTP_Methods & URLs 
-
+//+  NodeJS'de 'createserver' yapmak yetmiyordu. Bir de bu server'ı dışarıya açma yani ; server'ı port üzerinde yayınlamam gerekiyordu. ExpressJS ile express() ile bu server açılmış oluyor bunu yayınlamak için de bu server'ı atadığımız app değişkenini app.listen(PORT, (req, res)=> 'running'...)   şeklinde kbir iskeletle yayımlamış oluyorum. Server'ı express kurmulş oldu nodejs'den farklı olarak. AŞağıdakiler bunlara örnek
+ /*    HTTP_Methods & URLs 
         app.get('/', (request, response) => {
             /run response.send for print-out:
             response.send( 'Welcome to Express' )
-            response.send({ message: "called in 'get' method." })
-})
+            response.send({ message: "called in 'get' method." })})
+
             app.post('/', (request, response) => response.send({ message: "called in 'post' method."}))
             app.put('/', (request, response) => response.send({ message: "called in 'put' method."}))
             app.delete('/', (request, response) => response.send({ message: "called in 'delete' method."}))
@@ -386,11 +386,11 @@ DELETE FROM Artist WHERE ArtistId=276;
             app.all('/', (request, response) => response.send({ message: "'all' option allows to all methods."}))
 
         /app.route('url'):
-        app.route('/route')
-            .get( (req, res) => res.send('get') )
-            .post( (req, res) => res.send('post') )   
-            .put( (req, res) => res.send('put') )
-            .delete( (req, res) => res.send('delete') )     -----> URL tanımladıktan snra tek URL için farklı metod tanımlamaları varsa tek seferde bu tipte yazım kullanılabilir ayrı ayrı yazmıyoruz*/
+            app.route('/route')
+                .get( (req, res) => res.send('get') )
+                .post( (req, res) => res.send('post') )   
+                .put( (req, res) => res.send('put') )
+                .delete( (req, res) => res.send('delete') )     -----> URL tanımladıktan snra tek URL için farklı metod tanımlamaları varsa tek seferde bu tipte yazım kullanılabilir ayrı ayrı yazmıyoruz*/
 //+  URL tanımlarken ()'in bir manası yok sadece gruplama için kullanabilirz. Ancak \ kullandığımızda özel karakter özeliğini kaybettiğinden  bu da yazılabilir. 
 //+  app.get('abc(x?)123') --> (127.0.0:127/abc(x?)123)   sonrası örneğin abc ve 123 arasında x oladabilir olmayadabilir ikisini de kabul et demek
 //+  app.get('abc*123')     -->  araya gelebileceklerin sınırı yok gibi düşünülebilir. abc123 de kabul
