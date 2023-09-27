@@ -18,3 +18,22 @@ MongoDB veritabanlarıyla etkileşimde bulunmak ve yönetmek için kullanılan b
 
 --pgAdmin (PostgreSQL): pgAdmin, PostgreSQL veritabanlarını yönetmek için kullanılan ücretsiz ve açık kaynaklı bir araçtır. PostgreSQL, güçlü bir açık kaynaklı ilişkisel veritabanı yönetim sistemidir. pgAdmin, PostgreSQL veritabanlarını yönetmenize, sorguları çalıştırmanıza, yedekleme almanıza ve veri modellemesi yapmanıza yardımcı olur.
 ---------------------------------------------------------
+"use strict";
+/* -------------------------------------------------------
+    EXPRESSJS - MIDDLEWARES
+------------------------------------------------------- */
+
+const express = require("express");
+const app = express();
+                                                                --------------------------> maya diyebiliriz. express modülünü çalıştırıp oluşturma ve yayınlama
+require("dotenv").config();
+const PORT = process.env.PORT || 8000;
+
+/* ------------------------------------------------------- */
+//? Middleware functions has must be minimum three parameters. 
+//? Last parameter for next().
+
+
+/* ------------------------------------------------------- */
+app.listen(PORT, () => console.log("Running: http://127.0.0.1:" + PORT));
+---------------------------------------------------------
