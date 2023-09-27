@@ -402,4 +402,6 @@ DELETE FROM Artist WHERE ArtistId=276;
     / SendFile Content:
     / Redirect:
 ---------------> Detaylar Practice klasörü app.js de*/ 
+//?  *********************************** 27.09.2023 MIDDLEWARE
+//+  Req ve Res arasında ki bir veya birden fazla oluşturulabilecek ara katmanlara middleware deniyor. 
 //+  
