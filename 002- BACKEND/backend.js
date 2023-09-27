@@ -407,3 +407,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Incoming Req geldi True gelirse next() komutu ile bir sonraki middlewrae veya aşamaya geçiyorum.  False gelmesi durumunda ise res.send() ile ara katmanlar atlanarak response'a ulaşıyorum.
 //+  1) npm i express dotenv
 //+  2) echo PORT=8000 > .env    --> kısayol env oluşturma
+//*+  ExpressJS yazılanın MIDDLEWARE olduğunu nereden bilecek? Aşağıda
+//+    1-Middleware functions must have three parameters. 
+//+    2-Last parameter for next().
+//+  
