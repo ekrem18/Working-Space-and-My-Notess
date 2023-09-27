@@ -410,4 +410,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  ExpressJS yazılanın MIDDLEWARE olduğunu nereden bilecek? Aşağıda
 //+    1-Middleware functions must have three parameters. 
 //+    2-Last parameter for next().
-//+  
+//+  next()'e gitmeden önce de req ve res parametrelerine veri gönderebilrim
+//+    
