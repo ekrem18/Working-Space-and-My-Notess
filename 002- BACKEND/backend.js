@@ -404,4 +404,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 ---------------> Detaylar Practice klasörü app.js de*/ 
 //?  *********************************** 27.09.2023 MIDDLEWARE
 //+  Req ve Res arasında ki bir veya birden fazla oluşturulabilecek ara katmanlara middleware deniyor. 
-//+  
+//+  Incoming Req geldi True gelirse next() komutu ile bir sonraki middlewrae veya aşamaya geçiyorum.  False gelmesi durumunda ise res.send() ile ara katmanlar atlanarak response'a ulaşıyorum.
