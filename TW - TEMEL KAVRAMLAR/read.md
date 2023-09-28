@@ -23,11 +23,11 @@ MongoDB veritabanlarıyla etkileşimde bulunmak ve yönetmek için kullanılan b
     EXPRESSJS - MIDDLEWARES
 ------------------------------------------------------- */
 
-const express = require("express");
-const app = express();
+const express = require("express");   -->express modülüün çalıştır express değişkenine ata
+const app = express();  --> express server'ını çalıştır bunu app'e ata
                                                                 --------------------------> maya diyebiliriz. express modülünü çalıştırıp oluşturma ve yayınlama
 require("dotenv").config();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8000;   --> yayına aç
 
 /* ------------------------------------------------------- */
 //? Middleware functions has must be minimum three parameters. 
