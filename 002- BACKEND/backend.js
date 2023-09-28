@@ -414,5 +414,6 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  next()  ile bir sonraki fonk. çalıştırabildiğimiz gibi; haricen bir fonksiyon yazıp işbu fonksiyonu parametre gibi çağırırsak URL ile (req, res) arasına yazdığımız fonksiyonlar ile sonraki callback'e geçir diyoruz. 
 /*   if (skip) { 
         next('route')       ---------> skip ile next() sıralamasını bozarak ve arada boşluk bırakarak bir sonraki fonksiyona atlıyoruz. 
-     } else {               ----------Z yazım da şu; if skip varsa route ile bir fonksiyon atlayıp bağımsıza git. Yoksa next()'i çalıştır
+     } else {               ----------Z yazım da şu; if skip varsa route ile bir fonksiyon atlayıp bağımsıza olan fonk.'a git. Yoksa next()'i çalıştır callback'e git
         next() }   */
+//+  
