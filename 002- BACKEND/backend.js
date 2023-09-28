@@ -411,4 +411,8 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+    1-Middleware functions must have three parameters. 
 //+    2-Last parameter for next().
 //+  next()'e gitmeden önce de req ve res parametrelerine veri gönderebilrim
-//+  next()  ile bir sonraki fonk. çalıştırabildiğimiz gibi; haricen bir fonksiyon yazıp işbu fonksiyonu parametre gibi çağırırsak URL ile (req, res) arasına yazdığımız fonksiyonlar ile sonraki callback'e geçir diyoruz.  
+//+  next()  ile bir sonraki fonk. çalıştırabildiğimiz gibi; haricen bir fonksiyon yazıp işbu fonksiyonu parametre gibi çağırırsak URL ile (req, res) arasına yazdığımız fonksiyonlar ile sonraki callback'e geçir diyoruz. 
+/*   if (skip) { 
+        next('route')       ---------> skip ile next() sıralamasını bozarak ve arada boşluk bırakarak bir sonraki fonksiyona atlıyoruz. 
+     } else {               ----------Z yazım da şu; if skip varsa route ile bir fonksiyon atlayıp bağımsıza git. Yoksa next()'i çalıştır
+        next() }   */
