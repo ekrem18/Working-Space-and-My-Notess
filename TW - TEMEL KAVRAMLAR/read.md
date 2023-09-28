@@ -40,3 +40,4 @@ app.listen(PORT, () => console.log("Running: http://127.0.0.1:" + PORT));
 DOSYA KURULUMU
 -- npm init -y
 -- npm i express dotenv    -->  express ve dotenv modüllerini kuruyorum
+-- nodemon DOSYA ADI   --> tracking active
