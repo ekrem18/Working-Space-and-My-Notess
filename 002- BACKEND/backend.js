@@ -446,4 +446,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  Yukarıdaki yapıytı oluşturduk. Ancak; listen dediğimiz yapıda app var. Dolayısıyla router'dan haberdar etmemiz lazım. Bunun için ;
 //*+  app.use(router)    şeklinde bir ekleme yapıyorum. Zira use komutu harici birşeyi içeri aktarmada kullanılıyordu. Burda da onu yapıyoruz.
 //*+  Normalde require için de aynısını diyebiliriz. Bir nevi import komutu gibi çalışıyor. app.use() dediğimiz zaman ise app'nin require'ı gibi diyebiliriz.  
- 
+//*+  const router = require("express").Router() ---> yukarıdaki tanımın kısa hali   
+//+    
