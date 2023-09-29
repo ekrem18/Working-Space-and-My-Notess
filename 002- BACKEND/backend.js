@@ -424,4 +424,4 @@ DELETE FROM Artist WHERE ArtistId=276;
       res.send({
         message: 'Welcome to Home'}) }) */
 //+  app.use(middleFunction1) // default-url = *       -------> URL'de ne olursa olsun manası var
-//+  app.use('/path', middleFunction1) // default-url = * ----> URL'de bir path belirtebiliriz  yazım farkı bu
+//+  app.use('/path', middleFunction1) // default-url = * ----> URL'de bir path belirtebiliriz. Buradaki manası ise /path ile başlayan tüm URL'ler dmeek
