@@ -436,4 +436,8 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  app.use(require('./MWF/index.js'))  seçerek import edebilirm
 //*+  Express next() fonk.'u çalışıtrdığında bir sonraki fonk.na giderken; içindeki parametreleri de beraberinde götürür.
 //?  *********************************** 28.09.2023 ROUTING & ERRORS
+//+  Basit bir URL yönlendirmesi için 
+//+  app.get('/user/:userId', (req, res) => { res.send({ message: 'User Page' }) })  gibi bir kod yazıldığında  const app = express();  tüm express modülünü çalıştırıo olcaz. dolayısıyla gereksiz bir yük söz konusu. Bunun yerine ;
+//*+  const router = express.Router()   diyerek sadece router amaçlı bir değişken/modül tanımlmıi oluyorum
 //+  
+ 
