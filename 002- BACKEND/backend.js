@@ -439,5 +439,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Basit bir URL yönlendirmesi için 
 //+  app.get('/user/:userId', (req, res) => { res.send({ message: 'User Page' }) })  gibi bir kod yazıldığında  const app = express();  tüm express modülünü çalıştırıo olcaz. dolayısıyla gereksiz bir yük söz konusu. Bunun yerine ;
 //*+  const router = express.Router()   diyerek sadece router amaçlı bir değişken/modül tanımlmıi oluyorum
-//+  
+//+    
  
