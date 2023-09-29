@@ -434,3 +434,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  module.exports(mw1, mw2)   şeklinde export ettim.
 //+  Sonrasında asıl dosyama gelip; 
 //*+  app.use(require('./MWF/index.js'))  seçerek import edebilirm
+//*+  Express next() fonk.'u çalışıtrdığında bir sonraki fonk.na giderken; içindeki parametreleri de beraberinde götürür.
