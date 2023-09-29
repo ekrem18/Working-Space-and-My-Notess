@@ -456,5 +456,5 @@ DELETE FROM Artist WHERE ArtistId=276;
         .delete((req, res) => { res.send({ message: 'delete' }) })      ---->   route içinde MW                      */
 //*+  KISA ÖZET -->  const app = express()     kullanımında; app aexpress modülünün tüm özelliklerini çalıştırır.  
 //*+  ROUTER ise yani const router = expressçRouter()  kullanımında ;  express modülünün sadece rout ksımını/ express'in router motorunu çalıştırıyoruz . Tek işi route.
-//+ERRRRRRRROOOOORRS
+//+EEEERRRRRRRROOOORRRRSSSS
 //+      
