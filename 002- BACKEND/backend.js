@@ -419,10 +419,15 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  MW'i fonksiyon olarak tanımladığımızda nasıl ÇAĞIRDIK?  
 //+  app.get('/', [ middleFunction1, middleFunction2 ], (req, res) =>{}    şeklinde yazarak MW çağırdık. get metodu url'den hemn sonra array içinde vey adeğl çağırdık
 //*+  MW'i araya yazmadan başkaca nasıl çağırırız?
-/*   app.use( [ middleFunction1, middleFunction2 ] )
+/*   app.use( [ middleFunction1, middleFunction2 ] )  ------> Array olmadan da çalışabilir bu arada. MW burada herbirini next('route') olarak görüyor
      app.get('/*', (req, res) => {                    ------> app.use fonksiyon çağırma metodur aslında. Burda da bu şikeilde kulalnıyoruz
       res.send({
         message: 'Welcome to Home'}) }) */
 //+  app.use(middleFunction1) // default-url = *       -------> URL'de ne olursa olsun manası var
 //+  app.use('/path', middleFunction1) // default-url = * ----> URL'de bir path belirtebiliriz. Buradaki manası ise /path ile başlayan tüm URL'ler dmeek. /...path/2/abc gibi
-//+  Kısaca MW bir callback olarak () içerisinde 3 parametreden biri gibi kullanılanılabilceği gibi; app.use() ile haricen de çağırılabilir. 
+//+  Kısaca MW bir callback olarak () içerisinde araya yazabildiğimiz gibi; app.use() ile haricen de çağırılabilir. app.get'ten bağımsız onun üstünde çağırılabilir.
+//*+  next() for next Function:
+//*+  next() for next callBackFunction:
+//*+  Middlewares & use():              ---------> MW ÖZET başlıkları 
+//*+  Calling middlewares from file:
+//+  
