@@ -423,4 +423,5 @@ DELETE FROM Artist WHERE ArtistId=276;
      app.get('/*', (req, res) => {                    ------> app.use fonksiyon çağırma metodur aslında. Burda da bu şikeilde kulalnıyoruz
       res.send({
         message: 'Welcome to Home'}) }) */
-//+  
+//+  app.use(middleFunction1) // default-url = *       -------> URL'de ne olursa olsun manası var
+//+  app.use('/path', middleFunction1) // default-url = * ----> URL'de bir path belirtebiliriz  yazım farkı bu
