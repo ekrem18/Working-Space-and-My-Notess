@@ -425,3 +425,4 @@ DELETE FROM Artist WHERE ArtistId=276;
         message: 'Welcome to Home'}) }) */
 //+  app.use(middleFunction1) // default-url = *       -------> URL'de ne olursa olsun manası var
 //+  app.use('/path', middleFunction1) // default-url = * ----> URL'de bir path belirtebiliriz. Buradaki manası ise /path ile başlayan tüm URL'ler dmeek. /...path/2/abc gibi
+//+  Kısaca MW bir callback olarak () içerisinde 3 parametreden biri gibi kullanılanılabilceği gibi; app.use() ile haricen de çağırılabilir. 
