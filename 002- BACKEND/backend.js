@@ -439,5 +439,11 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Basit bir URL yönlendirmesi için 
 //+  app.get('/user/:userId', (req, res) => { res.send({ message: 'User Page' }) })  gibi bir kod yazıldığında  const app = express();  tüm express modülünü çalıştırıo olcaz. dolayısıyla gereksiz bir yük söz konusu. Bunun yerine ;
 //*+  const router = express.Router()   diyerek sadece router amaçlı bir değişken/modül tanımlmıi oluyorum
-//+    
+/*   const router = express.Router()
+        router.get('/', (req, res) => { res.send({ message: 'Home Page' }) })
+        router.get('/about', (req, res) => { res.send({ message: 'About Page' }) })    -----------> ana router yapı
+        router.get('/user/:userId', (req, res) => { res.send({ message: 'User Page' }) })  */    
+//*+  Yukarıdaki yapıytı oluşturduk. Ancak; listen dediğimiz yapıda app var. Dolayısıyla router'dan haberdar etmemiz lazım. Bunun için ;
+//*+  app.use(router)    şeklinde bir ekleme yapıyorum
+//+   
  
