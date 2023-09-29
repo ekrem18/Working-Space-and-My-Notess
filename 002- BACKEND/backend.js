@@ -444,6 +444,6 @@ DELETE FROM Artist WHERE ArtistId=276;
         router.get('/about', (req, res) => { res.send({ message: 'About Page' }) })    -----------> ana router yapı
         router.get('/user/:userId', (req, res) => { res.send({ message: 'User Page' }) })  */    
 //*+  Yukarıdaki yapıytı oluşturduk. Ancak; listen dediğimiz yapıda app var. Dolayısıyla router'dan haberdar etmemiz lazım. Bunun için ;
-//*+  app.use(router)    şeklinde bir ekleme yapıyorum
-//+   
+//*+  app.use(router)    şeklinde bir ekleme yapıyorum. Zira use komutu harici birşeyi içeri aktarmada kullanılıyordu. Burda da onu yapıyoruz.
+//*+  Normalde require için de aynısını diyebiliriz. Bir nevi import komutu gibi çalışıyor. app.use() dediğimiz zaman ise app'nin require'ı gibi diyebiliriz.  
  
