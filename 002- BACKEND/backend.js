@@ -446,5 +446,6 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  Yukarıdaki yapıytı oluşturduk. Ancak; listen dediğimiz yapıda app var. Dolayısıyla router'dan haberdar etmemiz lazım. Bunun için ;
 //*+  app.use(router)    şeklinde bir ekleme yapıyorum. Zira use komutu harici birşeyi içeri aktarmada kullanılıyordu. Burda da onu yapıyoruz.
 //*+  Normalde require için de aynısını diyebiliriz. Bir nevi import komutu gibi çalışıyor. app.use() dediğimiz zaman ise app'nin require'ı gibi diyebiliriz.  
-//*+  const router = require("express").Router() ---> yukarıdaki tanımın kısa hali   
+//*+  const router = require("express").Router() ---> yukarıdaki tanımın kısa hali   <-------------------------------------------------------------------------
 //*+  app.use('/user', require('./routes/user'))   --->burda ise şunu yaptık. aynı dizinde oluşturduğumuz klasör altına user dosyası oluşturduk. Orada route iskeletini oluşturduktan sonra ana dosyamıza çağırdık. Tam da burda user dosyası içerisindeki routes yapısını /user'a bağladık ki user ile alakalı sayfalara yönlendirmiş olduk  
+//+  router.use((req, res, next) => { })  ---->  diyerek router içinde MW kullanabiliriz    
