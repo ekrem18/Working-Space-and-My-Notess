@@ -449,3 +449,12 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  const router = require("express").Router() ---> yukarıdaki tanımın kısa hali   <-------------------------------------------------------------------------
 //*+  app.use('/user', require('./routes/user'))   --->burda ise şunu yaptık. aynı dizinde oluşturduğumuz klasör altına user dosyası oluşturduk. Orada route iskeletini oluşturduktan sonra ana dosyamıza çağırdık. Tam da burda user dosyası içerisindeki routes yapısını /user'a bağladık ki user ile alakalı sayfalara yönlendirmiş olduk  
 //+  router.use((req, res, next) => { })  ---->  diyerek router içinde MW kullanabiliriz    
+/*   router.route('/extra')
+        .get((req, res) => { res.send({ message: 'get' }) })
+        .post((req, res) => { res.send({ message: 'post' }) })
+        .put((req, res) => { res.send({ message: 'put' }) })
+        .delete((req, res) => { res.send({ message: 'delete' }) })      ---->   route içinde MW                      */
+//*+  KISA ÖZET -->  const app = express()     kullanımında; app aexpress modülünün tüm özelliklerini çalıştırır.  
+//*+  ROUTER ise yani const router = expressçRouter()  kullanımında ;  express modülünün sadece rout ksımını/ express'in router motorunu çalıştırıyoruz . Tek işi route.
+//+ERRRRRRRROOOOORRS
+//+      
