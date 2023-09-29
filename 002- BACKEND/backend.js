@@ -430,4 +430,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  next() for next callBackFunction:
 //*+  Middlewares & use():              ---------> MW ÖZET başlıkları 
 //*+  Calling middlewares from file:
-//+  
+//+  aynı dizin içerisinde bulunan bir klasör içerisindeki dosyada yazmış olduğum MW func.'ları   o dosyanın sonuna
+//*+  module.exports(mw1, mw2)   şeklinde export ettim.
+//+  Sonrasında asıl dosyama gelip; 
+//*+  app.use(require('./MWF/index.js'))  seçerek import edebilirm
