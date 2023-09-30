@@ -467,3 +467,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  const {Sequelize, DataTypes } = require('sequelize')     diyoruz . 'sequelize' modelinden Sequelize motorunu al diyoruz. devamında
 //*+  const sequelize = new Sequlieze('sqlite:' + (proccess.env.SQLITE || './db.sqlite3))  diyerek importu tamamlamış olduk     
 //+  bu arada sequelize da tanımladığımız modelleri ; ERD içierisindeki bilgilere göre yapıyoruz. 
+//+  ÖRNEK MODELİ read.me dosyasına yazdım
