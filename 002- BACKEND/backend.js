@@ -465,4 +465,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  SEQUELIZE  yüklemek için "" npm i sequelize sqlite3 ""     komutunu giriyoruz.
 //+  modül yüklemesini yaptıktan sonra import için ise;
 //*+  const {Sequelize, DataTypes } = require('sequelize')     diyoruz
-//+  
+//+    

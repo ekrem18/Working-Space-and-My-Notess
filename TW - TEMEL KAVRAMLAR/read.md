@@ -41,3 +41,6 @@ DOSYA KURULUMU
 -- npm init -y
 -- npm i express dotenv    -->  express ve dotenv modüllerini kuruyorum
 -- nodemon DOSYA ADI   --> tracking active
+---------------------------------------------------------
+/*-----------------------------SEQUELIZE DOCS----------*/
+https://sequelize.org/docs/v6/getting-started/
