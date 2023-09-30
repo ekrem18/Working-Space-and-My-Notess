@@ -472,4 +472,4 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  const sequelize diyerek instance oluşturduktan sonra
 //*+  bu instance ile model oluşturmak için _____"sequelize.define('todo' , {} )"_____ dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
 //*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler
-//+    
+//+  Senkronizasyon 1 kere ve iş üdşünce çalışıtırılacak. DB'e zarar vermemesi için bu şekilde. MongoDB'de bu problem  yok ama unutmamak gerekiyor.      
