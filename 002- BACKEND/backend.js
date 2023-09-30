@@ -468,3 +468,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  const sequelize = new Sequlieze('sqlite:' + (proccess.env.SQLITE || './db.sqlite3))  diyerek importu tamamlamış olduk     
 //+  bu arada sequelize da tanımladığımız modelleri ; ERD içierisindeki bilgilere göre yapıyoruz. 
 //+  ÖRNEK MODELİ read.me dosyasına yazdım
+//+  Sequelize updated vAt ve createdAT'i kendi otomatik oluşturduğu için model içerisine yazmaya gerek kalmıyor.
+//+  
