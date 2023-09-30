@@ -462,3 +462,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
 //+  echo SQLITE=./db.sqlite3 >> .env   ------>diyerek ise .env dosyasının içeriğini güncelliyoruz.
+//*+  SEQUELIZE  yüklemek için "" npm i sequelize sqlite3 ""     komutunu giriyoruz.
+//+  modül yüklemesini yaptıktan sonra import için ise;
+//*+  const {Sequelize, DataTypes } = require('sequelize')     diyoruz
+//+  
