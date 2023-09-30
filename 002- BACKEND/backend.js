@@ -458,3 +458,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  ROUTER ise yani const router = expressçRouter()  kullanımında ;  express modülünün sadece rout ksımını/ express'in router motorunu çalıştırıyoruz . Tek işi route.
 //+EEEERRRRRRRROOOORRRRSSSS
 //+      
+//?  *********************************** 30.09.2023 MODELS
+//+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
