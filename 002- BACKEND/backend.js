@@ -469,4 +469,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  bu arada sequelize da tanımladığımız modelleri ; ERD içierisindeki bilgilere göre yapıyoruz. 
 //+  ÖRNEK MODELİ read.me dosyasına yazdım
 //+  Sequelize updated vAt ve createdAT'i kendi otomatik oluşturduğu için model içerisine yazmaya gerek kalmıyor.
-//+  
+//*+  const sequelize diyerek instance oluşturduktan sonra
+//*+  bu instance ile model oluşturmak için "sequelize.define('todo' , {} )  dediğimde define komutuyla model oluşturuyorum.
