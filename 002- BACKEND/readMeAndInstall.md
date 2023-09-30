@@ -16,3 +16,42 @@
     ➖npm install express --save bu komut express.js'i packetjson'a kaydetmek için kullanılır. Ancak npm in 5.0 sıfır sürümünden sonra otomatik olarak kaydedildiği için ayrıca    save komutuna gerek kalmamıştır.
     ➖let moduleName = require("module") Belirtilen modülü çağırır. Bu komutu çalıştırmak için terminalde "  node   " yazarak js alanına girmiş olmamız gerekir. Çıkmak için  "  .   exit" komutu yazılır.
     ➖moduleName.builtinModules  let moduleName = require("module") komutundan sonra yazdığımızda modülleri listeler. 
+
+
+⭐ÖRNEK MODEL
+sequelize.define('tableName', { columns })
+
+const Todo = sequelize.define('todo', {
+    // https://sequelize.org/docs/v7/models/data-types/
+
+    id: {
+        type: DataTypes.INTEGER,
+        unique: true,
+        allowNull: false, // default: true
+        field_name: 'custom_column_name',
+        comment: 'Description',
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    
+    title: {
+        type: DataTypes.STRING(64), // varchar(64)
+        allowNull: false,
+    },
+    
+    description: DataTypes.TEXT, // ShortHand Using.
+    
+    priority: { // 1: High, 0: Normal, -1: Low
+        type: DataTypes.TINYINT,
+        allowNull: false,
+        defaultValue: 0, // set default value.
+    },
+    
+    isDone: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: false
+    }
+    
+    //? Not need define "createdAt" & "updatedAt" fields.
+})
