@@ -464,5 +464,5 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  echo SQLITE=./db.sqlite3 >> .env   ------>diyerek ise .env dosyasının içeriğini güncelliyoruz.
 //*+  SEQUELIZE  yüklemek için "" npm i sequelize sqlite3 ""     komutunu giriyoruz.
 //+  modül yüklemesini yaptıktan sonra import için ise;
-//*+  const {Sequelize, DataTypes } = require('sequelize')     diyoruz
-//+    
+//*+  const {Sequelize, DataTypes } = require('sequelize')     diyoruz . 'sequelize' modelinden Sequelize motorunu al diyoruz. devamında
+//*+  const sequelize = new Sequlieze('sqlite:' + (proccess.env.SQLITE || './db.sqlite3))  diyerek importu tamamlamış olduk     
