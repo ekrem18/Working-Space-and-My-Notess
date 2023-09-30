@@ -470,5 +470,6 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  ÖRNEK MODELİ read.me dosyasına yazdım
 //+  Sequelize updated vAt ve createdAT'i kendi otomatik oluşturduğu için model içerisine yazmaya gerek kalmıyor.
 //*+  const sequelize diyerek instance oluşturduktan sonra
-//*+  bu instance ile model oluşturmak için "sequelize.define('todo' , {} )  dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
+//*+  bu instance ile model oluşturmak için _____"sequelize.define('todo' , {} )"_____ dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
 //*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler
+//+    

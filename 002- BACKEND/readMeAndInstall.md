@@ -28,7 +28,7 @@ const Todo = sequelize.define('todo', {
         type: DataTypes.INTEGER,
         unique: true,
         allowNull: false, // default: true
-        field_name: 'custom_column_name',
+        field: 'custom_name',
         comment: 'Description',
         primaryKey: true,
         autoIncrement: true,
