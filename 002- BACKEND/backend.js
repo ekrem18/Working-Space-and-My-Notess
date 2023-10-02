@@ -489,6 +489,24 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  Her zaman try-catch ile uğraşmamak adına aslında errorHandler'lar işe yarıyor. ExpressJs'in dahili özelliği denilebilir. 
 //+  const errorHandler = (err, req, res, next) => { }    -----> 4 parametre ile bir değişken tanımlamış olduk aslında. Parametrelerin isimnleri değil ancak SIRALAMALARI ÇOK ÖNEMLİ. 3parametre iken sonuncuyu MW olarak tanımladık, şimdi ise ilk parametre bize errorHandler'ı göstermiş oluyor. Hatayı yakaldığında ilk parametreyle oluyor işimiz.
 //*+  Aynı zamanda buna İşi Hata Yakalamak olan bir MW de diyebilirim   
+//*+  Tanımladığım errorHandler'ın çalışması için app.use() içinde çağırılmalı ve uygulanmalı app.use(errorHandler). aynı zamanda son MW olmalı
+//+  errorHandler ile hatalar tüm hata denetimleri yapılıyor ve JSON formatına dönüyor.
+/*  const errorHandler = (err, req, res, next) => {
+
+    const statusCode = res.errorStatusCode ?? 500
+
+    console.log('errorHandler runned')              ----->  örnek errorHandler Syntax'ı. tanımlama yaptıktan sonra, FE.'ci için daha anlaşılır olabilmesi için de
+                                                    --> daha önce tanımlanan statusCode değişkenini de buraya dahil ettik ki; error:true olduğu durumda 
+    res.status(statusCode).send({                   --> statusCode 200 vermesin
+        error: true, // special data
+        message: err.message, // Error string Message
+        cause: err.cause, // Error optional cause
+        // stack: err.stack // Error Details.
+    })
+}
+app.use(errorHandler) */    
+//+  
+
 //?  *********************************** 30.09.2023 MODELS
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
