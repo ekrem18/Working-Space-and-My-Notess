@@ -461,8 +461,8 @@ DELETE FROM Artist WHERE ArtistId=276;
 /*  app.get('/user/:id', (req, res, next) => {
 
     try {
-        const id = req.params.id ?? 0
-        if (isNaN(id)) {
+        const id = req.params.id ?? 0                  ------->nullish coalescing operatörünü (??) kullanarak bir değişken (id) atanır. Bu operatör, bir değeri kontrol 
+        if (isNaN(id)) {                               --->eder ve bu değer null veya undefined ise belirtilen varsayılan değeri (0 burada) kullanır.
             throw new Error('ID is Not A Number', { cause: 'params.id='+id })
         } else {
             res.send({ 
@@ -470,12 +470,12 @@ DELETE FROM Artist WHERE ArtistId=276;
                 id: id                                   --------->URL/user/9 dediğimde id:9 gelirken 9 yerine abc dersem JSON bir hata yerine bana HTML sayfası döndürüyor.
                                                         --> Hata yönetimini daha anlaşılır olmak için yapıyoruz. JSON formatında işlem yapacağız.
             })                                          --> Bu try bloğu gelirse catch error yakala. Clg ile yazdır. Cause ise bunun sebebinin yazdırma opsiyonu
-        }                           
+        }                                               --> Bu sayede hata yönetimini el alarak HTML yazmasından kurtuldum. 
     } catch (err) {
-
-        console.log('try-catch runned')
-        next(err) // Go to errorHandler()
-
+                                                         --------->catch bloğu, try bloğundaki kodlarda bir hata oluştuğunda çalışır. Ancak, next(err) ifadesiyle birlikte 
+        console.log('try-catch runned')                 -->yorumlanır. next(err) ifadesi, hatayı Express.js'teki bir hata işleyiciye (error handler) yönlendirir. 
+        next(err) // Go to errorHandler()               -->Yorumlanmış satır, şu anda devre dışı bırakılmış durumda çünkü next(err) ifadesi çalıştırıldığında, kontrol 
+                                                        -->akışı zaten bir sonraki middleware'e geçmiş olacağından bu satır çalışmayacaktır. (res.send yorumda normalde)
         res.send({ 
             error: true, 
             message: err.message,
