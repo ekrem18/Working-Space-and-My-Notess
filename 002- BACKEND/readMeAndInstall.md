@@ -55,3 +55,5 @@ const Todo = sequelize.define('todo', {
     
     //? Not need define "createdAt" & "updatedAt" fields.
 })
+
+
