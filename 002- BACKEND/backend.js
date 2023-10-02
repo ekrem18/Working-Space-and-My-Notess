@@ -457,6 +457,19 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  KISA ÖZET -->  const app = express()     kullanımında; app aexpress modülünün tüm özelliklerini çalıştırır.  
 //*+  ROUTER ise yani const router = expressçRouter()  kullanımında ;  express modülünün sadece rout ksımını/ express'in router motorunu çalıştırıyoruz . Tek işi route.
 //+EEEERRRRRRRROOOORRRRSSSS
+//*+  npm i express-async-handler
+/*  app.get('/user/:id', (req, res) => {
+        const id = req.params.id ?? 0                                --------->URL/user/9 dediğimde id:9 gerlirken 9 yerine abc dersem object bir hata yerine bana HTML
+        if (isNaN(id)) {                                                  --> sayfası döndürüyor. Hata yönetimini daha anlaşılır olmak için yapıyoruz.
+            res.statusCode = 400
+            throw new Error('ID is Not A Number', { cause: 'params.id='+id })  
+    } else {
+            res.send({ 
+                error: false, 
+                id: id
+        })
+    }
+}) */
 //+  MW olan 3 parametreyi 4'e çıkartırsak bu artık hata yakalyıcı olduğu manasına geliyor. ErrorHandler  
 //+  Ve bu ErrorHandler'lar kodlamanın sonunda yer almalı
 //+   
