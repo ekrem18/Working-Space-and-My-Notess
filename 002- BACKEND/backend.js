@@ -508,7 +508,10 @@ app.use(errorHandler) */
 //+  asenkron bir yapıda sorun varsa bunun tespiti ve beknemesi için ben await kullanırım. Oluşan sorunu da catch ile yakalarım. catch'e de next parametresini veririmk i errorHandler'ım aktif olsun   
 //*+  npm i express-async-handler    ---> her seferinde bu yazımla uğraşmamak için bu modül yükelenerek expreess yardımı alınabilir
 //*+  yükleme yapıldıktan sonra da   ---> const asyncHandler = require('express-async-handler')      unutmuyoruz
-
+/*    app.get('/async', asyncHandler(async (req, res, next) => {
+        res.errorStatusCode = 400                     --------------> Yukarıda yazdığımız fonksiyonu asyncHandler dedikten sonra parametre olarak yazıyoruz
+        throw new Error('Created error in async-func')
+})) */
 //?  *********************************** 30.09.2023 MODELS
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
