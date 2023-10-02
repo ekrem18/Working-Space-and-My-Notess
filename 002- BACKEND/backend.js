@@ -485,8 +485,9 @@ DELETE FROM Artist WHERE ArtistId=276;
 
 })*/
 //+  MW olan 3 parametreyi 4'e çıkartırsak bu artık hata yakalyıcı olduğu manasına geliyor. ErrorHandler  
-//+  Ve bu ErrorHandler'lar kodlamanın sonunda yer almalı
-//+   
+//+  Ve bu errorHandler'lar kodlamanın sonunda yer almalı.
+//+  Her zaman try-catch ile uğraşmamak adına aslında errorHandler'lar işe yarıyor. ExpressJs'in dahili özelliği denilebilir. 
+//+  const errorHandler = (err, req, res, next) => { }    -----> 4 parametre ile bir değişken tanımlamış olduk aslında. Parametrelerin isimnleri değil ancak SIRALAMALARI ÇOK ÖNEMLİ. 3parametre iken sonuncuyu MW olarak tanımladık, şimdi ise ilk parametre bize errorHandler'ı göstermiş oluyor.
 //?  *********************************** 30.09.2023 MODELS
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
