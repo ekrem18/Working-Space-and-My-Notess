@@ -505,7 +505,8 @@ DELETE FROM Artist WHERE ArtistId=276;
     })
 }
 app.use(errorHandler) */    
-//+  
+//+  Asenkron bir fonk içinde asenkron başka bir fonk kullanacaksak bunu await ile yaparız ki; karmaşa kalksın. Await bunun için var. catch içerisinde de calolback kullanabilirim sadece. Ancak catch(next) dediğimde zaten next bir callback olduğundan sorun oluşmaz
+//+    
 
 //?  *********************************** 30.09.2023 MODELS
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
