@@ -507,7 +507,7 @@ app.use(errorHandler) */
 //+  Asenkron bir fonk içinde asenkron başka bir fonk kullanacaksak bunu await ile yaparız ki; karmaşa kalksın. Await bunun için var. catch içerisinde de calolback kullanabilirim sadece. Ancak catch(next) dediğimde zaten next bir callback olduğundan sorun oluşmaz
 //+  asenkron bir yapıda sorun varsa bunun tespiti ve beknemesi için ben await kullanırım. Oluşan sorunu da catch ile yakalarım. catch'e de next parametresini veririmk i errorHandler'ım aktif olsun   
 //*+  npm i express-async-handler    ---> her seferinde bu yazımla uğraşmamak için bu modül yükelenerek expreess yardımı alınabilir
-//+  
+//*+  yükleme yapıldıktan sonra da   ---> const asyncHandler = require('express-async-handler')      unutmuyoruz
 
 //?  *********************************** 30.09.2023 MODELS
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
