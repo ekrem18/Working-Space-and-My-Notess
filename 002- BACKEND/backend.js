@@ -457,7 +457,6 @@ DELETE FROM Artist WHERE ArtistId=276;
 //*+  KISA ÖZET -->  const app = express()     kullanımında; app aexpress modülünün tüm özelliklerini çalıştırır.  
 //*+  ROUTER ise yani const router = expressçRouter()  kullanımında ;  express modülünün sadece rout ksımını/ express'in router motorunu çalıştırıyoruz . Tek işi route.
 //+EEEERRRRRRRROOOORRRRSSSS
-//*+  npm i express-async-handler
 /*  app.get('/user/:id', (req, res, next) => {
 
     try {
@@ -507,6 +506,8 @@ DELETE FROM Artist WHERE ArtistId=276;
 app.use(errorHandler) */    
 //+  Asenkron bir fonk içinde asenkron başka bir fonk kullanacaksak bunu await ile yaparız ki; karmaşa kalksın. Await bunun için var. catch içerisinde de calolback kullanabilirim sadece. Ancak catch(next) dediğimde zaten next bir callback olduğundan sorun oluşmaz
 //+  asenkron bir yapıda sorun varsa bunun tespiti ve beknemesi için ben await kullanırım. Oluşan sorunu da catch ile yakalarım. catch'e de next parametresini veririmk i errorHandler'ım aktif olsun   
+//*+  npm i express-async-handler    ---> her seferinde bu yazımla uğraşmamak için bu modül yükelenerek expreess yardımı alınabilir
+//+  
 
 //?  *********************************** 30.09.2023 MODELS
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
