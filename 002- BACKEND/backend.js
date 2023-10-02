@@ -527,7 +527,7 @@ app.use(errorHandler) */
 //*+  bu instance ile model oluşturmak için _____"sequelize.define('todo' , {} )"_____ dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
 //*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler
 //+  Senkronizasyon 1 kere ve iş üdşünce çalışıtırılacak. DB'e zarar vermemesi için bu şekilde. MongoDB'de bu problem  yok ama unutmamak gerekiyor.      
-//?  *********************************** 02.10.2023 MODELS & SEQUELIZE
+//?  *********************************** 02.10.2023 MODELS & SEQUELIZE & CRUD
 //+  CRUD işlemlerinde örneğin Updat eyapacağım işlemde komut olarak;
 //+  router.put('/:id', async (req, res) => { const data = await Todo.update(req.body, { where: { id: req.params.id } }) } yazdığımızda bu filtreleme işleminde eşleşen kaç tane varsa ona etki eder. Çünkü update MAN'dir One değil. Diğerleri için de geçerli bu.
 //+  
