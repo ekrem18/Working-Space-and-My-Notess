@@ -525,7 +525,7 @@ app.use(errorHandler) */
 //+  Sequelize updated vAt ve createdAT'i kendi otomatik oluşturduğu için model içerisine yazmaya gerek kalmıyor.
 //*+  const sequelize diyerek instance oluşturduktan sonra
 //*+  bu instance ile model oluşturmak için _____"sequelize.define('todo' , {} )"_____ dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
-//*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler
+//*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler/kolon isimleri
 //+  Senkronizasyon 1 kere ve iş üdşünce çalışıtırılacak. DB'e zarar vermemesi için bu şekilde. MongoDB'de bu problem  yok ama unutmamak gerekiyor.      
 //?  *********************************** 02.10.2023 MODELS & SEQUELIZE & CRUD
 //+  CRUD işlemlerinde örneğin Updat eyapacağım işlemde komut olarak;
