@@ -414,7 +414,7 @@ DELETE FROM Artist WHERE ArtistId=276;
 //+  next()  ile bir sonraki fonk. çalıştırabildiğimiz gibi; haricen bir fonksiyon yazıp işbu fonksiyonu parametre gibi çağırırsak URL ile (req, res) arasına yazdığımız fonksiyonlar ile sonraki callback'e geçir diyoruz. 
 /*   if (skip) { 
         next('route')       ---------> skip ile next() sıralamasını bozarak ve arada boşluk bırakarak bir sonraki fonksiyona atlıyoruz. 
-     } else {               ----------> yazım da şu; if skip true ise ; route'aq gider yani callback olabilir. next() çalışırsa sonraki bağımsız fonk.a gider
+     } else {               ----------> yazım da şu; if skip true ise ; route'a gider yani callback olabilir. next() çalışırsa sonraki bağımsız fonk.a gider
         next() }   */
 //*+  MW'i fonksiyon olarak tanımladığımızda nasıl ÇAĞIRDIK?  
 //+  app.get('/', [ middleFunction1, middleFunction2 ], (req, res) =>{}    şeklinde yazarak MW çağırdık. get metodu url'den hemn sonra array içinde vey adeğl çağırdık
