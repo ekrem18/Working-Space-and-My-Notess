@@ -511,7 +511,7 @@ app.use(errorHandler) */
 /*    app.get('/async', asyncHandler(async (req, res, next) => {
         res.errorStatusCode = 400                     --------------> Yukarıda yazdığımız fonksiyonu asyncHandler dedikten sonra parametre olarak yazıyoruz
         throw new Error('Created error in async-func') })) */ 
-//?  *********************************** 30.09.2023 MODELS
+//?  *********************************** 30.09.2023 MODELS & SEQUELIZE
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
 //+  echo SQLITE=./db.sqlite3 >> .env   ------>diyerek ise .env dosyasının içeriğini güncelliyoruz.
