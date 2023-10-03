@@ -26,9 +26,9 @@ const Todo = sequelize.define('todo', {
     // https://sequelize.org/docs/v7/models/data-types/
 
     id: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.INTEGER,   --------------> doğrudan string yapamıyorum . DataType'tan çekiyoruz
         unique: true,
-        allowNull: false, // default: true
+        allowNull: false, // default: true   ----> Boş olabilir mi? diyorum
         field: 'custom_column_name',
         comment: 'Description',
         primaryKey: true,
