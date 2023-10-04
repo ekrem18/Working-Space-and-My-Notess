@@ -553,6 +553,6 @@ app.use(errorHandler) */
 //*+  npm init -y
 //*+  npm i express dotenv express-async-errors 
 //*+  npm i mongoose  <---------
-//*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI
+//*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI  <-------------------<----------------------------<
 //+  Sequelize'da bulunan define yerine schema kullanıyoruz.
-//+  
+//!+  blogModal ve controller 'da aynı şeyin export edilmesi mevzuu?  
