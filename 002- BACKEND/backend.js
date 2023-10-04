@@ -522,7 +522,8 @@ app.use(errorHandler) */
 //*+  const sequelize = new Sequlieze('sqlite:' + (proccess.env.SQLITE || './db.sqlite3))  diyerek importu tamamlamış olduk     
 //+  Bu arada sequelize da tanımladığımız modelleri ; ERD içierisindeki bilgilere göre yapıyoruz. 
 //+  ÖRNEK MODELİ read.me dosyasına yazdım
-//+  MODEL dediğimiz DataBase tarafında ki TABLE'dır. ilk parametre table'ın ismiyken diğerleri satırları veriyor.
+//*+  MODEL dediğimiz DataBase tarafında ki TABLE'dır. ilk parametre table'ın ismiyken diğerleri satırları veriyor.
+//*+  sequelize.define('tableName', { columns })   --------------> syntax ım bu
 //+  Sequelize updated vAt ve createdAT'i kendi otomatik oluşturduğu için model içerisine yazmaya gerek kalmıyor.
 //*+  const sequelize diyerek instance oluşturduktan sonra
 //*+  bu instance ile model oluşturmak için _____"sequelize.define('todo' , {} )"_____ dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
