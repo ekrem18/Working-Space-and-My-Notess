@@ -513,6 +513,7 @@ app.use(errorHandler) */
         throw new Error('Created error in async-func') })) */ 
 //?  *********************************** 30.09.2023 MODELS & SEQUELIZE
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
+//+  Başka bie deyişle; SEQUELIZE, bana hem model kurma imkanı veren hem de ORM ile çalışma imkanı veren popüler bri modül.
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
 //+  echo SQLITE=./db.sqlite3 >> .env   ------>diyerek ise .env dosyasının içeriğini güncelliyoruz.
 //*+  SEQUELIZE  yüklemek için "" npm i sequelize sqlite3 ""     komutunu giriyoruz.
@@ -528,6 +529,6 @@ app.use(errorHandler) */
 //*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler/kolon isimleri
 //+  Senkronizasyon 1 kere ve iş üdşünce çalışıtırılacak. DB'e zarar vermemesi için bu şekilde. MongoDB'de bu problem  yok ama unutmamak gerekiyor.      
 //?  *********************************** 02.10.2023 MODELS & SEQUELIZE & CRUD
-//+  CRUD işlemlerinde örneğin Updat eyapacağım işlemde komut olarak;
+//+  CRUD işlemlerinde örneğin Update yapacağım işlemde komut olarak;
 //+  router.put('/:id', async (req, res) => { const data = await Todo.update(req.body, { where: { id: req.params.id } }) } yazdığımızda bu filtreleme işleminde eşleşen kaç tane varsa ona etki eder. Çünkü update MAN'dir One değil. Diğerleri için de geçerli bu.
 //+  
