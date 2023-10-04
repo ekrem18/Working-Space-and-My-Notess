@@ -528,8 +528,9 @@ app.use(errorHandler) */
 //*+  const sequelize diyerek instance oluşturduktan sonra
 //*+  bu instance ile model oluşturmak için _____"sequelize.define('todo' , {} )"_____ dediğimde define komutuyla model oluşturuyorum.   !!!!!!!!-------!!!!!
 //*+  modelde ilk parametre modelin adı, objenin içerisindekiler de erd'ye göre belirlediğimiz içerikler/kolon isimleri
-//+  Modeli oluşturduktan sonra modelin database'e aktarmama gerekiyor. Bunu da senkronizasyon ile yapıyorum. 
+//+  Modeli oluşturduktan sonra modeli database'e aktarmam gerekiyor. Bunu da senkronizasyon ile yapıyorum. Senkronizasyon ile Database'i oluşturuyoruz.
 //+  Senkronizasyon 1 kere ve işimizin düşütüğü zaman(ör: güncelleme durumları vs) çalışıtırılacak. DB'e zarar vermemesi için bu şekilde. MongoDB'de bu problem  yok ama unutmamak gerekiyor.      
+//+  Senkronizasyon ile oluşturduğum veritabanından sonra ; modeli veritabanına bağlamam gerekiyor. Bunu ise sequelize.authenticate()  ile yapıyoruz
 //?  *********************************** 02.10.2023 MODELS & SEQUELIZE & CRUD
 //+  CRUD işlemlerinde örneğin Update yapacağım işlemde komut olarak;
 //+  router.put('/:id', async (req, res) => { const data = await Todo.update(req.body, { where: { id: req.params.id } }) } yazdığımızda bu filtreleme işleminde eşleşen kaç tane varsa ona etki eder. Çünkü update MAN'dir One değil. Diğerleri için de geçerli bu.
