@@ -533,5 +533,24 @@ app.use(errorHandler) */
 //+  Senkronizasyon ile oluşturduğum veritabanından sonra ; modeli veritabanına bağlamam gerekiyor. Bunu ise sequelize.authenticate()  ile yapıyoruz
 //?  *********************************** 02.10.2023 MODELS & SEQUELIZE & CRUD 
 //+  CRUD işlemlerinde örneğin Update yapacağım işlemde komut olarak;
-//+  router.put('/:id', async (req, res) => { const data = await Todo.update(req.body, { where: { id: req.params.id } }) } yazdığımızda bu filtreleme işleminde eşleşen kaç tane varsa ona etki eder. Çünkü update MANY'dir One değil. Diğerleri için de geçerli bu.
-//+  
+/*   router.put('/:id', async (req, res) => {
+         const data = await Todo.update(req.body, { where: { id: req.params.id } }) } 
+     yazdığımızda bu filtreleme işleminde eşleşen kaç tane varsa ona etki eder. Çünkü update MANY'dir One değil. Diğerleri için de geçerli bu. */
+//?  *********************************** 04.10.2023 MONGOOSE
+/*  .env
+    .gitignore
+    index.js
+    readme.md
+    src/
+        errorHandler.js
+        dbConnection.js
+        models/
+            blogModel.js
+        controllers/
+            blogController.js
+        routes/
+            blogRoute.js */  
+//*+  npm init -y
+//*+  npm i express dotenv express-async-errors 
+//*+  npm i mongoose  <---------
+//+    
