@@ -556,3 +556,4 @@ app.use(errorHandler) */
 //*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI  <-------------------<----------------------------<
 //+  Sequelize'da bulunan define yerine schema kullanıyoruz.
 //!+  blogModal ve controller 'da aynı şeyin export edilmesi mevzuu?  
+//+  
