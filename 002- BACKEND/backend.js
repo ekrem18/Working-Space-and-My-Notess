@@ -545,7 +545,7 @@ app.use(errorHandler) */
         errorHandler.js
         dbConnection.js
         models/
-            blogModel.js
+            blogModel.js     ----->A) şema dendiğinde model düşünebilirz. yazmaya const mongoose = require('mongoose')
         controllers/
             blogController.js
         routes/
@@ -554,3 +554,5 @@ app.use(errorHandler) */
 //*+  npm i express dotenv express-async-errors 
 //*+  npm i mongoose  <---------
 //*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI
+//+  Sequelize'da bulunan define yerine schema kullanıyoruz.
+//+  
