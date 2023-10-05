@@ -536,7 +536,7 @@ app.use(errorHandler) */
 /*   router.put('/:id', async (req, res) => {
          const data = await Todo.update(req.body, { where: { id: req.params.id } }) } 
      yazdığımızda bu filtreleme işleminde eşleşen kaç tane varsa ona etki eder. Çünkü update MANY'dir One değil. Diğerleri için de geçerli bu. */
-//?  *********************************** 04.10.2023 MONGOOSE
+//?  *********************************** 04.10.2023 MONGOOSE & MODEL
 /*  .env
     .gitignore
     index.js
@@ -556,4 +556,5 @@ app.use(errorHandler) */
 //*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI  <-------------------<----------------------------<
 //+  Sequelize'da bulunan define yerine schema kullanıyoruz.
 //!+  blogModal ve controller 'da aynı şeyin export edilmesi mevzuu?  
-//+  
+//?  *********************************** 05.10.2023 USER MODEL
+//+  ömür yoksa session, varsa cookies    
