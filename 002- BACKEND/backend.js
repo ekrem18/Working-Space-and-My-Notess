@@ -554,7 +554,6 @@ app.use(errorHandler) */
 //*+  npm i express dotenv express-async-errors 
 //*+  npm i mongoose  <---------
 //*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI  <-------------------<----------------------------<
-//+  Sequelize'da bulunan define yerine schema kullanıyoruz.
-//!+  blogModal ve controller 'da aynı şeyin export edilmesi mevzuu?  
-//?  *********************************** 05.10.2023 USER MODEL
-//+  ömür yoksa session, varsa cookies    
+//+  Sequelize'da bulunan define yerine schema kullanıyoruz. 
+//?  *********************************** 09.10.2023 PERSONEL API
+//+  
