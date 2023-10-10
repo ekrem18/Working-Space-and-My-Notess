@@ -555,6 +555,12 @@ app.use(errorHandler) */
 //*+  npm i mongoose  <---------
 //*+  model --> controller --> router ----> index'e aktarıyoruz     YAZIM SIRASI  <-------------------<----------------------------<
 //+  Sequelize'da bulunan define yerine schema kullanıyoruz. 
+//!   const search = req.query?.search || {}   sorulacak NOT
+
+for (let key in search) search[key] = {$regex: search[key], $options: 'i'}
+const data =await BlogPost.find(search)
+
+
 //?  *********************************** 09.10.2023 PERSONEL API
 //+  Controller içinde update metoduy için ya<ıyorum. update genel olarak 2parametre alır. xx.updateOne({neyi update ediyorum}, {ne ile update ediyorum}). ancak 2.paraöetreye req.body gibi bir parametre giriyorsak zaten JSON bilgi geleceği için {kullanmamıza gerek kalmıyor.}
 //+  
