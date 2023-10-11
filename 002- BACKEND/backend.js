@@ -567,3 +567,4 @@ const data =await BlogPost.find(search)
 //?  *********************************** 11.10.2023 JWT
 //*+  const accessToken = jwt.sign(accessData, process.env.SECRET_KEY, { expiresIn: '30m' })    SYNTAX --> data.key.expire
 //+  Kullanıcı girişlerinde sıkıntılı bir durum gördüm örneğin. JWT sistemi kullandığımız için SECRET_KEY yenilense herkes çıkış yapmış olacağı için sistemi yeniden başlatmış olacağız diyebiliriz.
+//+  
