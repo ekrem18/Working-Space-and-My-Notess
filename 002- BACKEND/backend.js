@@ -564,3 +564,6 @@ const data =await BlogPost.find(search)
 //?  *********************************** 09.10.2023 PERSONEL API
 //+  Controller içinde update metodu için yazıyorum. update genel olarak 2parametre alır. xx.updateOne({neyi update ediyorum}, {ne ile update ediyorum}). ancak 2.paraöetreye req.body gibi bir parametre giriyorsak zaten JSON bilgi geleceği için {kullanmamıza gerek kalmıyor.}
 //+  
+//?  *********************************** 11.10.2023 JWT
+//*+  const accessToken = jwt.sign(accessData, process.env.SECRET_KEY, { expiresIn: '30m' })    SYNTAX --> data.key.expire
+//+  Kullanıcı girişlerinde sıkıntılı bir durum gördüm örneğin. JWT sistemi kullandığımız için SECRET_KEY yenilense herkes çıkış yapmış olacağı için sistemi yeniden başlatmış olacağız diyebiliriz.
