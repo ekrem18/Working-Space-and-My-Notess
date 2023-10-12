@@ -568,3 +568,10 @@ const data =await BlogPost.find(search)
 //*+  const accessToken = jwt.sign(accessData, process.env.SECRET_KEY, { expiresIn: '30m' })    SYNTAX --> data.key.expire
 //+  Kullanıcı girişlerinde sıkıntılı bir durum gördüm örneğin. JWT sistemi kullandığımız için SECRET_KEY yenilense herkes çıkış yapmış olacağı için sistemi yeniden başlatmış olacağız diyebiliriz.
 //+  
+//?  *********************************** 11.10.2023 LOGGING & DOCUMANTATION
+//+  logging syntax  : ':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"'
+/* Write logs to file oluşturma
+    const fs = require('node:fs')
+    app.use(morgan('combined', {
+     stream: fs.createWriteStream('access.log', { flags: 'a' })})) */
+//+  
