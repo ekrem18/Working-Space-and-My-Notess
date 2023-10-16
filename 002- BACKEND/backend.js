@@ -577,5 +577,6 @@ const data =await BlogPost.find(search)
      stream: fs.createWriteStream('access.log', { flags: 'a' })})) */
 //*+  SWAGGER     
 //*+  Swagger dökümanını manuel olarak tek tek yapmak yerine swagger.js şeklinde bir dosya oluşturarak içerisinde 'swagger-autogen' şeklinde bir değişken tanımlayarak modülü çağırdık. Bu; JSON'ı otomatik olarak oluşturan modelden faydalanmış oldum. Bu değişken içerisine son olarak route'ları parametre gibi verdik ve hepsini taradı. Sonrasında sagger.json dosyasnı oluşturdu. Bunu oluşturduktan sonra ise; index dosyası içerisinde MW alanında 'swagger-ui-express' modülden faydalandık ve bunu bir değişkene atadık. Bu modülün görevi; openapi foramtında tanımlanmış swagger.json'ı  swaggerui documentation'a çeviriyor. Sonrasında da başlıklar taglemeler vs geliyor
+//*+  Her bir değişiklik sonrasında NODE SWAGGER komutunu terminalde unutmuyoruz
 //?  *********************************** 14.10.2023 PIZZA API
 //+  
