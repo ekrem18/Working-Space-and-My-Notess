@@ -483,10 +483,10 @@ DELETE FROM Artist WHERE ArtistId=276;
     }
 
 })*/
-//+  MW olan 3 parametreyi 4'e çıkartırsak bu artık hata yakalyıcı olduğu manasına geliyor. ErrorHandler  
-//+  Ve bu errorHandler'lar kodlamanın sonunda yer almalı.
+//*+  ERROR HANDLER , MW olan 3 parametreyi 4'e çıkartırsak bu artık hata yakalayıcı olduğu manasına geliyor. ErrorHandler  
+//*+  Ve bu errorHandler'lar kodlamanın sonunda yer almalı.
 //+  Her zaman try-catch ile uğraşmamak adına aslında errorHandler'lar işe yarıyor. ExpressJs'in dahili özelliği denilebilir. 
-//+  const errorHandler = (err, req, res, next) => { }    -----> 4 parametre ile bir değişken tanımlamış olduk aslında. Parametrelerin isimnleri değil ancak SIRALAMALARI ÇOK ÖNEMLİ. 3parametre iken sonuncuyu MW olarak tanımladık, şimdi ise ilk parametre bize errorHandler'ı göstermiş oluyor. Hatayı yakaldığında ilk parametreyle oluyor işimiz.
+//+  const errorHandler = (err, req, res, next) => { }    -----> 4 parametre ile bir değişken tanımlamış olduk aslında. Parametrelerin isimleri değil ancak SIRALAMALARI ÇOK ÖNEMLİ. 3parametre iken sonuncuyu MW olarak tanımladık, şimdi ise ilk parametre bize errorHandler'ı göstermiş oluyor. Hatayı yakaldığında ilk parametreyle oluyor işimiz.
 //*+  Aynı zamanda buna İşi Hata Yakalamak olan bir MW de diyebilirim   
 //*+  Tanımladığım errorHandler'ın çalışması için app.use() içinde çağırılmalı ve uygulanmalı app.use(errorHandler). aynı zamanda son MW olmalı
 //+  errorHandler ile hatalar tüm hata denetimleri yapılıyor ve JSON formatına dönüyor.
@@ -579,4 +579,6 @@ const data =await BlogPost.find(search)
 //*+  Swagger dökümanını manuel olarak tek tek yapmak yerine swagger.js şeklinde bir dosya oluşturarak içerisinde 'swagger-autogen' şeklinde bir değişken tanımlayarak modülü çağırdık. Bu; JSON'ı otomatik olarak oluşturan modelden faydalanmış oldum. Bu değişken içerisine son olarak route'ları parametre gibi verdik ve hepsini taradı. Sonrasında sagger.json dosyasnı oluşturdu. Bunu oluşturduktan sonra ise; index dosyası içerisinde MW alanında 'swagger-ui-express' modülden faydalandık ve bunu bir değişkene atadık. Bu modülün görevi; openapi foramtında tanımlanmış swagger.json'ı  swaggerui documentation'a çeviriyor. Sonrasında da başlıklar taglemeler vs geliyor
 //*+  Her bir değişiklik sonrasında NODE SWAGGER komutunu terminalde unutmuyoruz
 //?  *********************************** 14.10.2023 PIZZA API
+//*+  MONGOOSE KULLANIMINA DAİR; Mongoose, MongoDB ile Node.js uygulamaları arasında veri tabanı etkileşimini yönetmek için kullanılan bir ODM (Object Data Modeling) kütüphanesidir. MongoDB, NoSQL tabanlı bir veri tabanıdır ve Mongoose, bu tür bir veri tabanı ile etkileşimde bulunmayı kolaylaştırır. 
+//*+  Mongoose, MongoDB'deki verileri JavaScript nesnelerine dönüştürmeyi ve tersini yapmayı (nesneleri MongoDB belgelerine dönüştürmeyi) sağlar. Bu, veritabanını daha programatik ve JavaScript dostu bir şekilde yönetmeye yardımcı olur
 //+  
