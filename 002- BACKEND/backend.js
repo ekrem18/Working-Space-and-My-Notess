@@ -581,4 +581,5 @@ const data =await BlogPost.find(search)
 //?  *********************************** 14.10.2023 PIZZA API
 //*+  MONGOOSE KULLANIMINA DAİR; Mongoose, MongoDB ile Node.js uygulamaları arasında veri tabanı etkileşimini yönetmek için kullanılan bir ODM (Object Data Modeling) kütüphanesidir. MongoDB, NoSQL tabanlı bir veri tabanıdır ve Mongoose, bu tür bir veri tabanı ile etkileşimde bulunmayı kolaylaştırır. 
 //*+  Mongoose, MongoDB'deki verileri JavaScript nesnelerine dönüştürmeyi ve tersini yapmayı (nesneleri MongoDB belgelerine dönüştürmeyi) sağlar. Bu, veritabanını daha programatik ve JavaScript dostu bir şekilde yönetmeye yardımcı olur
-//+  
+//+  İki Nokta (:): Genellikle nesne literallerinde (object literals) ve switch-case yapılarında kullanılır. Nesne literallerinde, bir nesnenin özelliklerini ve değerlerini belirtmek için kullanılır.
+//+  Eşittir (=): Değişkenlere değer atamak, fonksiyonlara parametre göndermek gibi yerlerde kullanılır. 
