@@ -586,4 +586,4 @@ const data =await BlogPost.find(search)
 //! GetModelList?
 //!isLogin  nerden alıyoruz nerde kullanıyoruz?
 //?  *********************************** 19.10.2023 FLIGHT API
-//+  FlightSchema.pre('init', function(document){}    Veritabanımda tutmamı gerektirmeyen ancak özlelikle de FE için ekrana basılmadan model'ime müdashale etmeyen son değişkliklerin gözlemlenmesi için kullanılan özellik PRE
+//+  FlightSchema.pre('init', function(document){}    Veritabanımda tutmamı gerektirmeyen ancak özlelikle de FE için ekrana basılmadan model'ime müdashale etmeyen son değişkliklerin gözlemlenmesi için kullanılan özellik PRE-INIT
