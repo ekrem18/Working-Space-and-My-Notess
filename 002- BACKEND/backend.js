@@ -585,5 +585,6 @@ const data =await BlogPost.find(search)
 //+  Eşittir (=): Değişkenlere değer atamak, fonksiyonlara parametre göndermek gibi yerlerde kullanılır. 
 //! GetModelList?
 //!isLogin  nerden alıyoruz nerde kullanıyoruz?
+//! await - async
 //?  *********************************** 19.10.2023 FLIGHT API
 //+  FlightSchema.pre('init', function(document){}    Veritabanımda tutmamı gerektirmeyen ancak özlelikle de FE için ekrana basılmadan model'ime müdashale etmeyen son değişkliklerin gözlemlenmesi için kullanılan özellik PRE-INIT
