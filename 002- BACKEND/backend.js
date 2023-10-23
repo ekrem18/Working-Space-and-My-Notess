@@ -583,3 +583,7 @@ const data =await BlogPost.find(search)
 //*+  Mongoose, MongoDB'deki verileri JavaScript nesnelerine dönüştürmeyi ve tersini yapmayı (nesneleri MongoDB belgelerine dönüştürmeyi) sağlar. Bu, veritabanını daha programatik ve JavaScript dostu bir şekilde yönetmeye yardımcı olur
 //+  İki Nokta (:): Genellikle nesne literallerinde (object literals) ve switch-case yapılarında kullanılır. Nesne literallerinde, bir nesnenin özelliklerini ve değerlerini belirtmek için kullanılır.
 //+  Eşittir (=): Değişkenlere değer atamak, fonksiyonlara parametre göndermek gibi yerlerde kullanılır. 
+//! GetModelList?
+//!isLogin  nerden alıyoruz nerde kullanıyoruz?
+//?  *********************************** 19.10.2023 FLIGHT API
+//+  FlightSchema.pre('init', function(document){}    Veritabanımda tutmamı gerektirmeyen ancak özlelikle de FE için ekrana basılmadan model'ime müdashale etmeyen son değişkliklerin gözlemlenmesi için kullanılan özellik PRE
