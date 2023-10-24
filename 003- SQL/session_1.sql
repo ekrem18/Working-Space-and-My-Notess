@@ -29,7 +29,7 @@ WHERE	AlbumID=1;
 
 --//? * SELECT - Seç getir.
 --//? * FROM - Hangi tablodan?
--- SELECT * FROM Album; -- * = Tüm sutunlar.
+-- SELECT * FROM Album; --  = Tüm sutunlar.
 -- SELECT AlbumId, Title FROM Album; -- İstediğim sutunları getir. -- Tavsiye edilen yöntem ayrı-ayrı yazmaktır.
 
 --//? * AS -- Tablo veya Sutunları geçici adlandırmak için kullanılır. -- Lakap Takma
