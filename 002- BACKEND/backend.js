@@ -513,7 +513,7 @@ app.use(errorHandler) */
         throw new Error('Created error in async-func') })) */ 
 //?  *********************************** 30.09.2023 MODELS & SEQUELIZE
 //+  ORM denilen sistemde veritabanından bağımısız çalışma imkanı sağlıyor. OOP'den SQL'e çevirebiliyor diyebiliriz.  Sequelize  is ebu imkanı sağlayan modül
-//+  Başka bie deyişle; SEQUELIZE, bana hem model kurma imkanı veren hem de ORM ile çalışma imkanı veren popüler bri modül. postgre vs uğraşmamak adıona da sequelite3 ile testleri yapıyoruz.
+//*+  Başka bie deyişle; SEQUELIZE, bana hem model kurma imkanı veren hem de ORM ile çalışma imkanı veren popüler bri modül. postgre vs uğraşmamak adıona da sequelite3 ile testleri yapıyoruz.
 //+  echo PORT = 8000 > .env            ------>diyerek komutla env dosyası oluşturuyorduk
 //+  echo SQLITE=./db.sqlite3 >> .env   ------>diyerek ise .env dosyasının içeriğini güncelliyoruz.
 //*+  SEQUELIZE  yüklemek için "" npm i sequelize sqlite3 ""     komutunu giriyoruz.
