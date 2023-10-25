@@ -10,20 +10,20 @@
 //+  (şart)? "x" : "y"     şeklindekli yapı ternary  olarak geçio
 //+  for ve while loops larına dair anlatım ilk ders son saat
 //+  while ve do-while temelde aynı. while da döngüye girmeyebilir şart sağlanmıyorsa , do while da ise mutlaka girilir.
-//+  arrow func'ta kod tek satırsa süslü ve return yazılması gerekmez.  Global ScopeTur
+//+  arrow func'ta kod tek satırsa süslü ve return yazılması gerekmez.  Global Scope'tur
 //?  *********************************** 13.09
 //+  index.js dosyasında çalışırken projeyi açıp olanları görmek için terminale "node index.js" yazıyoruz
 //+  nodemon ile çalıştırıp girdiğimde her seferinde komut girmeme gerek kalmadan otomatik olarak render yapıyo
 //+  file başına "use strict" yazılırsa kod denetimi daha katı hale gelecek hata görmek olanaklı hale gelecektir.
-//+  obje içinde tanımlanmış fonksiyona "method" ,
-//+  obje içindeki değişkene "property" deniyor genel tanım olarak.
+//*+  obje içinde tanımlanmış fonksiyona "method" ,
+//*+  obje içindeki değişkene "property" deniyor genel tanım olarak.
 //*+  "this"  aslında içinde bulunduğumuz objeyi kast ediyorum demektir.  -->    return this.brand    gibi. ANCAK, arrow func içine yazılan bir this söz konusuysa, arrow func global çalıştığı için bütün sayfayı temsil eder. Yalnızca içinde bulunduğu block'u değil.   
 //*+  ARRAY DESTRUCTURING
 /*   const testArray = [ 'value0', 'value1', 'value2', 'value3' ]
-            const var0 = testArray[0]
+            const var0 = testArray[0]   --------------------------> var0 = value0   var1= value1   olmuş oldu
             const var1 = testArray[1]
     Sıralama Önemli!
-            const [ firstItem, secondItem ] = testArra*/
+            const [ firstItem, secondItem ] = testArray */
 /*  REST Operator (En sonda olmak zorunda)
             let [ first, second, third, ...others ] = testArray  --> testArray içerisindekileri al; 1.endk first, 2.endk second ve kalan ne varsa others olarak değişkene at,   yeni bir array oluşuyor.
             const [ ...arr ] = testArray */
