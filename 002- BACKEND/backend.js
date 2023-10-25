@@ -63,14 +63,14 @@
 /*      "new Class" ile obje oluştururken veri göndermek için "CONSTRUCTOR" methodu kullanılır.
                 constructor (parameter1, parameter2 = 'default-value') {
                         this.parameter1 = parameter1 }      */         
-//+  Class bir şablon mantığıyla oluşiturulduğu için, aynı class'tan türetilen farklı değişken isimlerine atanmış objeler oluşturmamız mümkün oluyor dolayısıyla.          
+//+  Class bir şablon mantığıyla oluşturulduğu için, aynı class'tan türetilen farklı değişken isimlerine atanmış objeler oluşturmamız mümkün oluyor dolayısıyla.          
 //+  INHERITANCE class'ı en tepede tanımlanan alt class'ları kapsayan bir class'tır.  vehicle -> car -> ford    gibi
-//+  class Car extends Vehicle {}  dendiğinde Car Vehicle'ın tüm özelliklerine erişebilir  
+//*+  class Car extends Vehicle {}  dendiğinde Car Vehicle'ın tüm özelliklerine erişebilir  
 //+  INHERITANCE yapıda sayı sınırı yok. her zaman bir öncekine bağladığımızda tüm üst-soy yapıya dahil olur.
 //*+  Polymorphism: Miras aldığımız sınıfın özellik/methodlarını yeniden yazabilme.
 //*+  Override: Üst metodla aynı isim ve yapıda yeni bir metod yazma. (ezme / iptal etme / önceliğini alma)
 //*+  Overload: Üst metodla aynı isimde ama farklı yapıda (parametre adet/tip) yeni method oluşturma. (aynı anda ikiside aktif) (JS desteklemez)
-/*    getDetails() {  ------->aynı isimli başka bir instancew var. inharitance özelliğinden faydalanarak üst soydan super ile oradaki bilgiye de erişiyoruz, yeni eklenmiş oluyor.
+/*    getDetails() {  ------->aynı isimli başka bir instance var. inharitance özelliğinden faydalanarak üst soydan super ile oradaki bilgiye de erişiyoruz, yeni eklenmiş oluyor.
         return {
             brand: this.brand,
             model: this.model,
@@ -98,8 +98,8 @@
         return this.vehicleType + ' is ' + this.privateProp
         return this.vehicleType + ' is ' + this.#privateProp // Undefined.
     } */ 
-//+  # ile tanımlanana bir değişken instance olarak kullanmam mümkün değilken setter metod ile yani , yeni oluşturacağım set xMethod ile değiştirmem mümkün hale geliyor.
-//+  set ile oluşturduğumetodu get method ile okuyabilirim. Değiştirme ayrı, erişip okumak /süslemek de ayrı işlemlerdir.      
+//+  # ile tanımlanan bir değişken instance olarak kullanmam mümkün değilken setter metod ile yani , yeni oluşturacağım set xMethod ile değiştirmem mümkün hale geliyor.
+//+  set ile oluşturduğum metodu get method ile okuyabilirim. Değiştirme ayrı, erişip okumak /süslemek de ayrı işlemlerdir.      
 //+  "STATIC" KEYWORD: Class'dan direkt erişim. (Instance erişemez.) Direkt class ile erişmek istediklerimizi static ile işaretleriz.
 //+  Normal şartlarda bir Class'ın içine erişmem için onu bir instance'a aktarmam lazım. Static ile bunu ytapmadan erişmek mümkün oluyor işte
 /*   Direkt class ile erişmek istediklerimizi static ile işaretleriz.
@@ -154,10 +154,10 @@
         D  delete -> Delete  */ 
 //+  put : komple güncelleme
 //+  patch: kısmi güncelleme
-//+  GET isteği, belirli bir kaynağı almak için kullanılır. Örneğin: web sayfalarını veya veriyi almak için kullanılır.
-//+  POST isteği, belirli bir kaynağa yeni veri eklemek için kullanılır. Genellikle form verilerini veya JSON verilerini sunucuya göndermek için kullanılır.
-//+  PATCH isteği, belirli bir kaynağı güncellemek için kullanılır, ancak yalnızca değiştirilmesi gereken verileri içerir. Diğer verileri etkilemez 
-//+  PUT isteği, belirli bir kaynağı güncellemek veya değiştirmek için kullanılır.Tüm kaynak verilerini güncellemek için kullanılır ve eksik verileri sıfırlar.
+//*+  GET isteği, belirli bir kaynağı almak için kullanılır. Örneğin: web sayfalarını veya veriyi almak için kullanılır.
+//*+  POST isteği, belirli bir kaynağa yeni veri eklemek için kullanılır. Genellikle form verilerini veya JSON verilerini sunucuya göndermek için kullanılır.
+//*+  PATCH isteği, belirli bir kaynağı güncellemek için kullanılır, ancak yalnızca değiştirilmesi gereken verileri içerir. Diğer verileri etkilemez 
+//*+  PUT isteği, belirli bir kaynağı güncellemek veya değiştirmek için kullanılır. Tüm kaynak verilerini güncellemek için kullanılır ve eksik verileri sıfırlar.
 /*   NODEJS
      create index.js
      $ npm init -y
@@ -166,7 +166,7 @@
 /*  const http = require('node:http')
         const app = http.createServer((request, response) => {
         response.end('<h1> Welcome to NodeJS Server </h1>') })
-    app.listen(8000, () => console.log('Server Runned: http://127.0.0.1:8000'))    --------------> öncelikle http adında bir server oluşturduk. Burada göndewreceğim req ve gelecek res için paramatre tanımladım. ardından sistem işliyorsa response ile gelecek olan cevabı girdim.  localhost'ta 8000 de çalışması için listen dedim.   */       
+    app.listen(8000, () => console.log('Server Runned: http://127.0.0.1:8000'))    --------------> öncelikle http adında bir server oluşturduk. Burada göndereceğim req ve gelecek res için paramatre tanımladım. ardından sistem işliyorsa response ile gelecek olan cevabı girdim.  localhost'ta 8000 de çalışması için listen dedim.   */       
 //*+  2.DERS 12.40 Kısa özet SERVER KURULUMU 👍.
 //+  res. ya da req yazımı önemli değil . ahmet ya da mehmet olabilir. Ancak indeks sırası işlev açısıdan gerekli 
 //*+  response.end vermek zorundayız bu arada noktayı sonlandırmamız lazım. response end vermezsek browser sonsuz döngü enzeri bir duruma giriyor.
@@ -187,7 +187,7 @@
         res.end()
         
     } else if ( req.url == '/api' ) {       */   
-//*+  npm i dotenv    ---->  diyerek env ortamındaki verilere erişim sağlamamıza olanak sağlıyor. Dışarıdan içeriye okunmasını istemdiğimiz veriler bilgiler için
+//*+  npm i dotenv    ---->  diyerek env ortamındaki verilere erişim sağlamamıza olanak sağlıyor. Dışarıdan içeriye okunmasını istemediğimiz veriler bilgiler için
 //*+  çalışıtğım terminalde "ENV_NAME=ENV_VALUE node index.js"  yazarak   index.js dosyası içerisine dışradan birşey göndermiş oluyorum. Gönderdiğimi yakalamak için "proccess.env.ENV_NAME"  diyorum  (uzun yol)
 //+  .env klasörü açarak KEY = value olarak tanımlayıp, .env gitignore'da olduğu sürece kullanabilirz. APi işlemleri gibi hatırlatma. Ancak bunu kullanabilmem için 
 //+  require("dotenv").config()  ---> bikere alışıtırıp tepeye koyuyorz keyfimize bakıorz; // $ npm i dotenv // https://www.npmjs.com/package/dotenv   
@@ -196,11 +196,11 @@
 /*   Veritabanı uygulamalarında metinleri tutmak için kullanılan alanlardan iki tanesi Char ve Varchar dır.
 Char veritipi, 0 ile 255 karakter içeren verileri tutabilir.
 Varchar ise 65bine yakın karakterde veri saklayabilir.
-Eğer bir alan için Char tanımlamış sanız, o alanda minimum değer olsa da maksimum değer saklansa da kapladığı boyut değişmez.
-Varchar kullanırsanız sakladığınız verinin büyüklüğü kadar yer kaplar.
+Eğer bir alan için Char tanımlanmışsa, o alanda minimum değer olsa da maksimum değer saklansa da kapladığı boyut değişmez.
+Varchar kullanırsan sakladığın verinin büyüklüğü kadar yer kaplar.
 CHAR(10) ve Varchar(10) alanları farklı boyutlarda yer kaplar.
 Char sabit uzunlukta veri tipi olarakta bilinir, Varchar ise değişken uzunlukta veri tipi olarak bilinir.
-Devamlı benzer veya aynı verilerle çalışıyorsanız seçmeniz gereken tip Char olmalı, örneğin T.C. Kimlik numaralarının tutulduğu bir alanın tipiniz belirlemeniz gerkiyor, T.C. Kimlik numaraları 11 adet sadece sayılardan oluştuğu için Char kullanmanız uygun olacaktır. */
+Devamlı benzer veya aynı verilerle çalışıyorsan seçmeniz gereken tip Char olmalı, örneğin T.C. Kimlik numaralarının tutulduğu bir alanın tipiniz belirlemen gerkiyor, T.C. Kimlik numaraları 11 adet sadece sayılardan oluştuğu için Char kullanmanız uygun olacaktır. */
 //+  Relation types arasında teknik olarak veritabanı oneToMany'den anlar.
 //+  ORM ; OOP kodlarını SQL'e çeviren arabirim gibi. 1.ana özelliği. OOP mantığından çıkmadan data işlemi yapaibilirm
 //+  2.ana özellik, proje ortamında SQLite kullanmış olabilirim. Canlıya aldğımda kodlarıma hiç dokunmadan işlem yapabiliyorum ORM sayesinde. Cross Platform
