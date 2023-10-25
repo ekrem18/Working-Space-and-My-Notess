@@ -28,16 +28,16 @@
             let [ first, second, third, ...others ] = testArray  --> testArray içerisindekileri al; 1.endk first, 2.endk second ve kalan ne varsa others olarak değişkene at,   yeni bir array oluşuyor.
             const [ ...arr ] = testArray */
 //*+  npm i express --save       ve        npm i nodemon --save-dev           komutları lazım olanlar   
-//+  Rest operator geri kalanaı topalrken , spread ise dağıtmaya yarar. 
-//*+  const newArr =[...testArray, 'new-value', 'new-value2' ]    burada ilk arrayi içine dağıttı yeni dğerler eklendi.    
+//+  Rest operator geri kalanı toplarken , spread ise dağıtmaya yarar. 
+//*+  const newArr =[...testArray, 'new-value', 'new-value2' ]    burada ilk arrayi içine dağıttı yeni değerler eklendi.    
 /*   const newObj = {
         ...Car.colors,
-        newKey: 'new-value'}   -->  Burada da daha önceden tanımlanan bir objeden yeni bir obje türetiliyor. Spread operatörü ile yazılarak yeni obje içerisine yeni keyve valular eklendi  */
-//+  Object to JSON ------->  const json = JSON.stringify(Car)       ana komut JSON.stringify
-//+  JSON to Object ------->  const newObj2 = JSON.parse( json )     ana komut JSON.parse
-//+  Object to Array ------>  const arr = Object.entries(Car)
-//+  const arr2 = Object.values(Car)   -----> yalnızca value değerlerini almka için
-//+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almka için
+        newKey: 'new-value'}   -->  Burada da daha önceden tanımlanan bir objeden yeni bir obje türetiliyor. Spread operatörü ile yazılarak yeni obje içerisine yeni key ve valular eklendi  */
+//*+  Object to JSON ------->  const json = JSON.stringify(Car)       ana komut JSON.stringify
+//*+  JSON to Object ------->  const newObj2 = JSON.parse( json )     ana komut JSON.parse
+//*+  Object to Array ------>  const arr = Object.entries(Car)
+//+  const arr2 = Object.values(Car)   -----> yalnızca value değerlerini almak için
+//+  const arr3 = Object.keys(Car)     -----> yalnızca key değerlerini almak için
 //*+  fonk içinde tanımlanan var değişkeni , değeri globale taşıyabileceği için dışarda kullanmamız mümkün
 
 //?  *********************************** 14.09
