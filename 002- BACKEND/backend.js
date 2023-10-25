@@ -589,3 +589,6 @@ const data =await BlogPost.find(search)
 //?  *********************************** 19.10.2023 FLIGHT API
 //+  FlightSchema.pre('init', function(document){}    Veritabanımda tutmamı gerektirmeyen ancak özlelikle de FE için ekrana basılmadan model'ime müdashale etmeyen son değişkliklerin gözlemlenmesi için kullanılan özellik PRE-INIT
 //*+  const emailRegexCheck   =   /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+//?  *********************************** 19.10.2023 RENT A CAR
+//+  Validate işlemleri sonucu True/False döner
+//+  
