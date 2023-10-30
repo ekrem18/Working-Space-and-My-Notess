@@ -597,3 +597,6 @@ const data =await BlogPost.find(search)
 //+  model hazırlanırken "index:true" dediğimizde hızlandırma sağlıyoruz. Sorgulama yapılan fieldName'lere verilmesi mantıklı olan
 //+  Token hazırlanırken model oluturulsa da controller ve route hazırlama zorunluluğumuz yok otomatik oluşturalacağı için. Anccak; admin mauel olarak da müdahale edebilsin diye yazıyoruz
 //! user modeli içerisinde passwordEncypt yapısı
+//! sync konusu
+//!isPublish test ? 
+//! objectID ve ref
