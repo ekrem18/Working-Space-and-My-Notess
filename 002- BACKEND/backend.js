@@ -608,3 +608,4 @@ const data =await BlogPost.find(search)
         transform: function () { return this.price * this.quantity }, // for UPDATE  
         Bu bir model, create ederken default kullanabilsem de update ederken kullanamayacağım için transform kullanıyorum. DB üzeerinde bir hesaplama yapacaksam bu şablon kullanılabilir 
 */ 
+//+  Access-Allow-Origin Hatası CORSE hatasıdır
