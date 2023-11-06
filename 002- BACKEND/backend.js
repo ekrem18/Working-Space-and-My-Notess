@@ -614,3 +614,4 @@ const data =await BlogPost.find(search)
 
 //?  *********************************** 19.10.2023 TEMPLATE & TODO APP
 //+  Browser'da bütün işlmeler GET'tir. Sadece FORM işlemleri POST'tur. Dolayısıyla diğer işlmeleri de gerçekleştirebilememiz için route yapısı değşiyor api'nin
+//*+  Modeldeki (js) fieldName'le ile Form'daki(ejs) name'ler aynı olmak zorunda
