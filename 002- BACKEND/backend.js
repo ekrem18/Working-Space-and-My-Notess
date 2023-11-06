@@ -610,3 +610,7 @@ const data =await BlogPost.find(search)
 */ 
 //+  Access-Allow-Origin Hatası CORSE hatasıdır
 //!  satış esnasında verilen uyarı-hata svs abckend'den çekilebilir
+//! authantication mw bakılabilir
+
+//?  *********************************** 19.10.2023 TEMPLATE & TODO APP
+//+  Browser'da bütün işlmeler GET'tir. Sadece FORM işlemleri POST'tur. Dolayısıyla diğer işlmeleri de gerçekleştirebilememiz için route yapısı değşiyor api'nin
