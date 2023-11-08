@@ -617,3 +617,5 @@ const data =await BlogPost.find(search)
 //+  Browser'da bütün işlmeler GET'tir. Sadece FORM işlemleri POST'tur. Dolayısıyla diğer işlmeleri de gerçekleştirebilememiz için route yapısı değşiyor api'nin
 //*+  Modeldeki (js) fieldName'le ile Form'daki(ejs) name'ler aynı olmak zorunda
 //+  ejs dosyası içinde klasik manada bildiğimiz html dosyası var ancak template mtoruna da hizmet ediyor.
+//?  *********************************** 19.10.2023 BLOG APP & TODO APP
+//+  ejs template kullanıyorsak kullanıcı oturum kontrolünü session-cookie ile yapacağım. JWT kullanma imkanım kalmıyor. JWT api tarafında var
