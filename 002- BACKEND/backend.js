@@ -619,3 +619,6 @@ const data =await BlogPost.find(search)
 //+  ejs dosyası içinde klasik manada bildiğimiz html dosyası var ancak template mtoruna da hizmet ediyor.
 //?  *********************************** 19.10.2023 BLOG APP & TODO APP
 //+  ejs template kullanıyorsak kullanıcı oturum kontrolünü session-cookie ile yapacağım. JWT kullanma imkanım kalmıyor. JWT api tarafında var
+//+  ejs.delimiter = '*'  dersen <* *> olarak güncellniyor
+//+  openDelimiter ve closeDelimiter ise açılış kapanışı değiştirebiliyorum. {% ... %}
+//+  
