@@ -621,4 +621,11 @@ const data =await BlogPost.find(search)
 //+  ejs template kullanıyorsak kullanıcı oturum kontrolünü session-cookie ile yapacağım. JWT kullanma imkanım kalmıyor. JWT api tarafında var
 //+  ejs.delimiter = '*'  dersen <* *> olarak güncellniyor
 //+  openDelimiter ve closeDelimiter ise açılış kapanışı değiştirebiliyorum. {% ... %}
-//+  
+//+  const ejs = require('ejs')
+//+  <% templateCodes %>
+//+  default delimiter: '%'
+//+  ejs.delimiter = '*' //  <* ... *>
+//+  default openDelimiter: '<'
+//+  ejs.openDelimiter = '{' // {% ...
+//+  default closeDelimiter: '>'
+//+  ejs.closeDelimiter = '}' // ... %}
