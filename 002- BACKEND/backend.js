@@ -587,10 +587,10 @@ const data =await BlogPost.find(search)
 //! isLogin  nerden alıyoruz nerde kullanıyoruz?
 //! await - async
 //! deletedcount hazır mı geliyor
-//?  *********************************** 19.10.2023 FLIGHT API
+//?  *********************************** 21.10.2023 FLIGHT API
 //+  FlightSchema.pre('init', function(document){}    Veritabanımda tutmamı gerektirmeyen ancak özlelikle de FE için ekrana basılmadan model'ime müdashale etmeyen son değişkliklerin gözlemlenmesi için kullanılan özellik PRE-INIT
 //*+  const emailRegexCheck   =   /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-//?  *********************************** 19.10.2023 RENT A CAR
+//?  *********************************** 25.10.2023 RENT A CAR
 //+  Validate işlemleri sonucu True/False döner
 //*+  Simple Token mantığında; her kullanıcının tek token'ı oluyor. Token olmayan kullanıcı login olamıyor. token silindiğinde oto. logout olmuş oluyor.
 //*+  JWT'ten farklı olarak token'la beraber bilgi taşınmadığı için daha güvenli, de denebilir.
@@ -601,7 +601,7 @@ const data =await BlogPost.find(search)
 //! user modeli içerisinde passwordEncypt yapısı
 //! sync konusu
 //! objectID ve ref
-//?  *********************************** 19.10.2023 STOCK API
+//?  *********************************** 01.11.2023 STOCK API
 /*  price_total: { 
         type: Number,
         default: function () { return this.price * this.quantity }, // for CREATE           
@@ -613,12 +613,12 @@ const data =await BlogPost.find(search)
 //! authantication mw bakılabilir
 //!  purchases update model bilgiler gelmiyor
 
-//?  *********************************** 19.10.2023 TEMPLATE & TODO APP
+//?  *********************************** 06.11.2023 TEMPLATE & TODO APP
 //+  Browser'da bütün işlmeler GET'tir. Sadece FORM işlemleri POST'tur. Dolayısıyla diğer işlmeleri de gerçekleştirebilememiz için route yapısı değşiyor api'nin
 //*+  Modeldeki (js) fieldName'le ile Form'daki(ejs) name'ler aynı olmak zorunda
 //+  VsCode ile çalışırken ejs uzantılı dosya oluşturuyoruz ancak ejs uzantısı aslında bir HTML içerikli dosydır. Espri template motoru bunu tanıması için yapılır.
 //+  ejs dosyası içinde klasik manada bildiğimiz html dosyası var ancak template mtoruna da hizmet ediyor.
-//?  *********************************** 19.10.2023 BLOG APP & TODO APP
+//?  *********************************** 08.11.2023 BLOG APP & TODO APP
 //+  ejs template kullanıyorsak kullanıcı oturum kontrolünü session-cookie ile yapacağım. JWT kullanma imkanım kalmıyor. JWT api tarafında var
 //+  ejs.delimiter = '*'  dersen <* *> olarak güncellniyor
 //+  openDelimiter ve closeDelimiter ise açılış kapanışı değiştirebiliyorum. {% ... %}
