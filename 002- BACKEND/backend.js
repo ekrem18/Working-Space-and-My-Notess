@@ -630,3 +630,4 @@ const data =await BlogPost.find(search)
 //+  ejs.openDelimiter = '{' // {% ...
 //+  default closeDelimiter: '>'
 //+  ejs.closeDelimiter = '}' // ... %}
+//!   {% for (let category of categories ) { %} HTML CODEs  {% } %}  yapının sıralınışı aç-kapalar?
