@@ -624,12 +624,9 @@ const data =await BlogPost.find(search)
 //+  openDelimiter ve closeDelimiter ise açılış kapanışı değiştirebiliyorum. {% ... %}
 //+  const ejs = require('ejs')
 //+  <% templateCodes %>
-//+  default delimiter: '%'
 //+  ejs.delimiter = '*' //  <* ... *>
-//+  default openDelimiter: '<'
-//+  ejs.openDelimiter = '{' // {% ...
-//+  default closeDelimiter: '>'
-//+  ejs.closeDelimiter = '}' // ... %}
+//+  ejs.openDelimiter = '{' 
+//+  ejs.closeDelimiter = '}'
 //!   {% for (let category of categories ) { %} HTML CODEs  {% } %}  yapının sıralınışı aç-kapalar?
 //?  *********************************** 08.11.2023 TEMPLATE & PIZZA APP
 //*+  Template dosyalarının hepsinde geçerli olacak bir dğeişken tanımlama işini """ users.local """  ile yapıyorum. Örneğin Controller'da users.local.user dediğimde template dosyaları içine ayrıca user verisini çağırmam gerekmiyor.
