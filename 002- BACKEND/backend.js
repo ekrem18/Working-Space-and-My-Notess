@@ -618,7 +618,7 @@ const data =await BlogPost.find(search)
 //*+  Modeldeki (js) fieldName'le ile Form'daki(ejs) name'ler aynı olmak zorunda
 //+  VsCode ile çalışırken ejs uzantılı dosya oluşturuyoruz ancak ejs uzantısı aslında bir HTML içerikli dosydır. Espri template motoru bunu tanıması için yapılır.
 //+  ejs dosyası içinde klasik manada bildiğimiz html dosyası var ancak template mtoruna da hizmet ediyor.
-//?  *********************************** 08.11.2023 BLOG APP & TODO APP
+//?  *********************************** 08.11.2023 TEMPLATE & BLOG APP
 //+  ejs template kullanıyorsak kullanıcı oturum kontrolünü session-cookie ile yapacağım. JWT kullanma imkanım kalmıyor. JWT api tarafında var
 //+  ejs.delimiter = '*'  dersen <* *> olarak güncellniyor
 //+  openDelimiter ve closeDelimiter ise açılış kapanışı değiştirebiliyorum. {% ... %}
@@ -631,3 +631,5 @@ const data =await BlogPost.find(search)
 //+  default closeDelimiter: '>'
 //+  ejs.closeDelimiter = '}' // ... %}
 //!   {% for (let category of categories ) { %} HTML CODEs  {% } %}  yapının sıralınışı aç-kapalar?
+//?  *********************************** 08.11.2023 TEMPLATE & PIZZA APP
+//*+  Template dosyalarının hepsinde geçerli olacak bir dğeişken tanımlama işini """ users.local """  ile yapıyorum. Örneğin Controller'da users.local.user dediğimde template dosyaları içine ayrıca user verisini çağırmam gerekmiyor.
