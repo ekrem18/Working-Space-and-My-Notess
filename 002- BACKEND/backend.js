@@ -630,3 +630,4 @@ const data =await BlogPost.find(search)
 //!   {% for (let category of categories ) { %} HTML CODEs  {% } %}  yapının sıralınışı aç-kapalar?
 //?  *********************************** 08.11.2023 TEMPLATE & PIZZA APP
 //*+  Template dosyalarının hepsinde geçerli olacak bir dğeişken tanımlama işini bir MW içinde """ res.local """  ile yapıyorum. Örneğin MW'de res.local.user dediğimde template dosyaları içine ayrıca user verisini çağırmam gerekmiyor.
+//+  ._id ile .id arasında object ve string olması farkı var. çağırırken dikkat etmek gerekiyor
