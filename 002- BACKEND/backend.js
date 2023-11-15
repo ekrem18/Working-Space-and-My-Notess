@@ -643,4 +643,6 @@ const data =await BlogPost.find(search)
 //+  8-gitignore içeirisindeki .env satırını da yoruma aldım ki bağlantı gitsin
 //+  9-yayına hazırladığım dosyada .env içerisidneki bağlantı linki sonuna örneğin/stockAPI dedim ve sync ederek bilgilerimi çektim
 //+  10-index içerisinde app.listen dediğim yerde 2.parametre olan değişkeni siliyorum(.env içindeki HOST ) 
-//+  
+//+  11-app.use(require('cors')())  diyerek cors ayarlarını default yapıyorum
+//+  12-logger MW ni pasife alıyorum ve index.js içerisidne 3tane işlem yapmış oldum
+//+  13-deploy ettiğimizde built-in modüller çalışmayabilir. Dolayısıyla; "node:" search ederek node: 'yı siliyoruz. (node:fs) ---> (fs)
