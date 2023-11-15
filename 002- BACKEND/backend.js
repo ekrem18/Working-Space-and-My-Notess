@@ -631,3 +631,12 @@ const data =await BlogPost.find(search)
 //?  *********************************** 08.11.2023 TEMPLATE & PIZZA APP
 //*+  Template dosyalarının hepsinde geçerli olacak bir dğeişken tanımlama işini bir MW içinde """ res.local """  ile yapıyorum. Örneğin MW'de res.local.user dediğimde template dosyaları içine ayrıca user verisini çağırmam gerekmiyor.
 //+  ._id ile .id arasında object ve string olması farkı var. çağırırken dikkat etmek gerekiyor
+//! permission da problem
+//?  *********************************** 2023 DEPLOY KILAVUZ
+//+  1-mongoDB üzerinde database oluşturmam gerekiyor. zira canlıya aldığımızda artık local adresi değil cloud sistemini kullanıyoruz
+//+  2-mongoDB mailim vscode ile aynı
+//+  3-DB varsa veya olşuturacaksam, link almam gerekiyor. DB sekmesi içerisinde 'connect'e girdiğimde compass vb seçeneklerde mongodb+srv: gibi çıkanı kopyalıyoruz
+//+  4-Bu linki canlıya alacağım dosyanın .env içerisineki MONGODB= value'su olarak yapıştırıyorum.
+//+  5-Kodun içerisinde bir password isteyecek. Onu da soldaki security sekmesinden edit diip yenileyedebilirim ya d aolanı yapıştırıyorum.
+//+  6-DB IP bağlantı hatası verebilir. Bunu da soldaki 'security' sekmesi içerisinde 'Network Access' de ip adresini 0.0.0.0 yada 0.0.0.0/0 olarak değiştiriyorum
+//+  7-Kod içerisinde bağlantımı kontrol ettiğimde DB connected benzeri yazımı görürsem bağlanmış oluyorum
