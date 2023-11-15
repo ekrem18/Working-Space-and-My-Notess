@@ -649,3 +649,5 @@ const data =await BlogPost.find(search)
 //+  14-iki yerde node: vardı ve built-in yazmadığım için lock.json içeirisinde de yer almalı. dolayısıyla sildiğim paketleri ör; "npm i fs crypto" yaptım
 //+  15-deploy ettim çalıştı
 //+  16-bu arada vercel.json dosyası oluşturulabilir sorun çıkması durumunda bakıyoruz
+//+  17-vercel'de deploy işlemi başarılı olduktan sonra frontend dosyam içerisindeki .env'de bulunan VITE_BASE_URL'e domain'i yapıştırıyorum.
+//+  18-
