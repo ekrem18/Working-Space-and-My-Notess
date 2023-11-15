@@ -637,6 +637,6 @@ const data =await BlogPost.find(search)
 //+  2-mongoDB mailim vscode ile aynı
 //+  3-DB varsa veya olşuturacaksam, link almam gerekiyor. DB sekmesi içerisinde 'connect'e girdiğimde compass vb seçeneklerde mongodb+srv: gibi çıkanı kopyalıyoruz
 //+  4-Bu linki canlıya alacağım dosyanın .env içerisineki MONGODB= value'su olarak yapıştırıyorum.
-//+  5-Kodun içerisinde bir password isteyecek. Onu da soldaki security sekmesinden edit diip yenileyedebilirim ya d aolanı yapıştırıyorum.
+//+  5-Kodun içerisinde bir password isteyecek. Onu da soldaki security sekmesinden 'Database Access' diip yenileyedebilirim ya d aolanı yapıştırıyorum.
 //+  6-DB IP bağlantı hatası verebilir. Bunu da soldaki 'security' sekmesi içerisinde 'Network Access' de ip adresini 0.0.0.0 yada 0.0.0.0/0 olarak değiştiriyorum
 //+  7-Kod içerisinde bağlantımı kontrol ettiğimde DB connected benzeri yazımı görürsem bağlanmış oluyorum
