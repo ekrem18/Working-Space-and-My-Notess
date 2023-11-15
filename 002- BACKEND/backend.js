@@ -646,3 +646,5 @@ const data =await BlogPost.find(search)
 //+  11-app.use(require('cors')())  diyerek cors ayarlarını default yapıyorum
 //+  12-logger MW ni pasife alıyorum ve index.js içerisidne 3tane işlem yapmış oldum
 //+  13-deploy ettiğimizde built-in modüller çalışmayabilir. Dolayısıyla; "node:" search ederek node: 'yı siliyoruz. (node:fs) ---> (fs)
+//+  14-iki yerde node: vardı ve built-in yazmadığım için lock.json içeirisinde de yer almalı. dolayısıyla sildiğim paketleri ör; "npm i fs crypto" yaptım
+//+  
