@@ -651,3 +651,5 @@ const data =await BlogPost.find(search)
 //+  16-bu arada vercel.json dosyası oluşturulabilir sorun çıkması durumunda bakıyoruz
 //+  17-vercel'de deploy işlemi başarılı olduktan sonra frontend dosyam içerisindeki .env'de bulunan VITE_BASE_URL'e domain'i yapıştırıyorum.
 //+  18-
+//?  *********************************** 15.11.2023 DOCKER
+//+  
