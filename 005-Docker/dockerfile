@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Dosyaları Aktar: COPY local inImage
 # COPY hello.js /app
-COPY . .
+COPY . .                        (nokta nokta kullanmanın esprisi kısalığının yanında bulunduğum yerdeki tüm dosyaları kopyala)
 
 # After build (when image to container):
 # docker run imagename
