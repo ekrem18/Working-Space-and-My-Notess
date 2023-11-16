@@ -73,7 +73,7 @@
     # Image'leri sil (kullanılmayanlar):
     $ docker image prune -f -a
     
-    # Image tag ekle/değiştir:
+    # Image tag ekle/değiştir  kopyala-yapıştır gibi:
     $ docker tag <imagename> <newimagename>
 
     # Image'den Container aç:
@@ -97,7 +97,7 @@
     $ docker rm <containername>
     $ docker rm <containername> -f
     
-    # Container'leri sil (kullanılmayanlar):
+    # Container'leri sil (kullanılmayanlar stop konumunda olanlar):
     $ docker container prune -f
 
     # Interaktif modda aç:
