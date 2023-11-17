@@ -125,3 +125,4 @@
  //+  "docker pull ekrem18/backend"  diyerek image'i repodan çekiyorum
  //+  "docker run -d -p 8000:8000 --name backend1 ekrem18/backend" dedim container ' a çevirdim ve aktif ettim. (deamon modda çalıştır, 8000 port'una al içerdeki8000'le senkronize et, backend1 adını ver hangi dosyayı ekrem18/backend)
  //+  "docker run -d -p 3000:5173 --name frontend1 ekrem18/frontend" edim container ' a çevirdim ve aktif ettim. (deamon modda çalıştırdım portu 3000' çektşm ancak işçerdeki 5173e bağladım ismini değiştirdim kaydettim)
+ //+  "docker run -d -p 80:5173 --name frontend80 ekrem18/frontend"   dersem 80 default http portu olduğu için localhost yazsam bile url olarak uygulama çalışır
