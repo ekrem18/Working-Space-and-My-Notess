@@ -111,10 +111,16 @@
  //+  docker run -p 8000:8000 --name backend backend   ---> -p dediğimiz PORT u ifade ediyor. dışardaki port : içerdeki port
  //+  dışardaki port : localhost'tan sonra gelen PORT .  
  //+  içerdeki port : ise Expose ettiğim PORT
- //+   docker build ./backend -t backend                  ----> ör image yapma
- //+   docker run --name backedn -p 7000:8000 backend     ----> backend image'ını backend container'ına çevir ve URL'de 7000 Port'unda çalıştır
- //+   docker run -d -p 8000:8000 --name backend backend  ----> terminali meşgul etmeden arka planda çalışması için container' bu şekilde oluşturdurm 
- //+   docker ps        dedikten sonra container isimlerini listeledim
- //+   "docker stop backend"     diyerek durdurup    "docker start backend"  diyerek çalıştırdım
+ //+  docker build ./backend -t backend                  ----> ör image yapma
+ //+  docker run --name backedn -p 7000:8000 backend     ----> backend image'ını backend container'ına çevir ve URL'de 7000 Port'unda çalıştır
+ //+  docker run -d -p 8000:8000 --name backend backend  ----> terminali meşgul etmeden arka planda çalışması için container' bu şekilde oluşturdurm 
+ //+  docker ps        dedikten sonra container isimlerini listeledim
+ //+  "docker stop backend"     diyerek durdurup    "docker start backend"  diyerek çalıştırdım
  //+  docker build ./frontend -t frontend   ----> ./frontend dosyam içerisinden oluşturulacak frontend imajını oluşturuom
  //+  2dosyada hazır olduktan sorna docker dektop açıksa ve login olmuşsam "docker login " diyerek vscode terminalde de login oluyorum
+ //+  hub docker'a push yapacağım zaman 
+ "docker push kullanıcıİsmi/projeİsmi"  şeklinde göndermem gerekiyor. Ancak saedec proje ismi önüne kullanıcı ismini yazmaıs yeterli değil zira o şekilde proje bulamaz. O nedenle dosya isimlerini değiştirmeme gerekiyor.
+ //+  image ismi ise " docker tag öncekiİsim yeniİsim"  şeklinde olmalı
+ //+!  "docker system prune -a -f"   ile docker extension üzerinde ne var ne yok siliniyor.
+ //+  "docker pull ekrem18/backend"  diyerek image'i repodan çekiyorum
+ //+  "docker run -d -p 8000:8000 --name backend1 ekrem18/backend" dedim container ' a çevirdim ve aktif ettim. (deamon modda çalıştır, 8000 port'una al içerdeki8000'le senkronize et, backend1 adını ver hangi dosyayı ekrem18/backend)
