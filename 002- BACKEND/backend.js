@@ -654,3 +654,5 @@ const data =await BlogPost.find(search)
 //+  18-frontend'i de deploy ediyorum ve bitiyor
 //?  *********************************** 15.11.2023 DOCKER
 //+  Projeyi image dosyası haline çeviriyoruz. Onun da çalışabilmesi içn container halini alması gerekiyor.
+//+  http portu 80 , https portu 443 
+//+  
