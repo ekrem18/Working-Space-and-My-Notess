@@ -116,3 +116,4 @@
  //+   docker run -d -p 8000:8000 --name backend backend  ----> terminali meşgul etmeden arka planda çalışması için container' bu şekilde oluşturdurm 
  //+   docker ps        dedikten sonra container isimlerini listeledim
  //+   "docker stop backend"     diyerek durdurup    "docker start backend"  diyerek çalıştırdım
+ //+  docker build ./frontend -t frontend   ----> ./frontend dosyam içerisinden oluşturulacak frontend imajını oluşturuom
