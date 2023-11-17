@@ -107,3 +107,12 @@
     $ exit
 
 ```
+
+ //+  docker run -p 8000:8000 --name backend backend   ---> -p dediğimiz PORT u ifade ediyor. dışardaki port : içerdeki port
+ //+  dışardaki port : localhost'tan sonra gelen PORT .  
+ //+  içerdeki port : ise Expose ettiğim PORT
+ //+   docker build ./backend -t backend                  ----> ör image yapma
+ //+   docker run --name backedn -p 7000:8000 backend     ----> backend image'ını backend container'ına çevir ve URL'de 7000 Port'unda çalıştır
+ //+   docker run -d -p 8000:8000 --name backend backend  ----> terminali meşgul etmeden arka planda çalışması için container' bu şekilde oluşturdurm 
+ //+   docker ps        dedikten sonra container isimlerini listeledim
+ //+   "docker stop backend"     diyerek durdurup    "docker start backend"  diyerek çalıştırdım
