@@ -653,4 +653,4 @@ const data =await BlogPost.find(search)
 //+  18-vercel'de deploy işlemi başarılı olduktan sonra frontend dosyam içerisindeki .env'de bulunan VITE_BASE_URL'e domain'i yapıştırıyorum.
 //+  18-frontend'i de deploy ediyorum ve bitiyor
 //?  *********************************** 15.11.2023 DOCKER
-//+  
+//+  Projeyi image dosyası haline çeviriyoruz. Onun da çalışabilmesi içn container halini alması gerekiyor.
