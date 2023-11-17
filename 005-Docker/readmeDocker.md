@@ -117,3 +117,4 @@
  //+   docker ps        dedikten sonra container isimlerini listeledim
  //+   "docker stop backend"     diyerek durdurup    "docker start backend"  diyerek çalıştırdım
  //+  docker build ./frontend -t frontend   ----> ./frontend dosyam içerisinden oluşturulacak frontend imajını oluşturuom
+ //+  2dosyada hazır olduktan sorna docker dektop açıksa ve login olmuşsam "docker login " diyerek vscode terminalde de login oluyorum
