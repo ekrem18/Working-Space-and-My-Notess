@@ -655,4 +655,5 @@ const data =await BlogPost.find(search)
 //?  *********************************** 15.11.2023 DOCKER
 //+  Projeyi image dosyası haline çeviriyoruz. Onun da çalışabilmesi içn container halini alması gerekiyor.
 //+  http portu 80 , https portu 443 
-//+  
+//?  *********************************** 18.11.2023 RECAP
+//+  OOP2, SQL
