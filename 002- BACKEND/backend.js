@@ -609,8 +609,8 @@ const data =await BlogPost.find(search)
         Bu bir model, create ederken default kullanabilsem de update ederken kullanamayacağım için transform kullanıyorum. DB üzeerinde bir hesaplama yapacaksam bu şablon kullanılabilir 
 */ 
 //+  Access-Allow-Origin Hatası CORSE hatasıdır
-//!  satış esnasında verilen uyarı-hata svs backend'den çekilebilir
-//! authantication mw bakılabilir
+//!  satış esnasında verilen uyarı-hata vs backend'den çekilebilir
+//!  authantication mw bakılabilir
 //!  purchases update model bilgiler gelmiyor
 
 //?  *********************************** 06.11.2023 TEMPLATE & TODO APP
