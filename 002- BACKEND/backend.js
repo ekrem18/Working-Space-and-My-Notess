@@ -611,7 +611,6 @@ const data =await BlogPost.find(search)
 //+  Access-Allow-Origin Hatası CORSE hatasıdır
 //!  satış esnasında verilen uyarı-hata vs backend'den çekilebilir
 //!  authantication mw bakılabilir
-//!  purchases update model bilgiler gelmiyor
 
 //?  *********************************** 06.11.2023 TEMPLATE & TODO APP
 //+  Browser'da bütün işlmeler GET'tir. Sadece FORM işlemleri POST'tur. Dolayısıyla diğer işlmeleri de gerçekleştirebilememiz için route yapısı değşiyor api'nin

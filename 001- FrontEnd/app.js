@@ -279,6 +279,7 @@
 //*+  return user ? <Outlet/> : <Login/>    user varsa child'a git yoksa logine. Ancak burada fonksiiyon bazında değil de componenet bazında gidebileceğimiz için bu ifadeyi <Navigate to ="/login"/> olarak yazıyoruz. 
 //+  Github'da göerünmesini istemediğim değerleri pack.Jsom ile aynı seviyede oluiturduüum .env  ddosyası içerisine   örneğinb REACT_APP_apiKey  ismiyle tanımlıyprum. Gönderilmemesi için d gitignore 'a .env  yi ekliyorum
 //+  COnsume edip kullanmak için de auth dosyama const APP_KEY = process.env.REACT_APP_apiKey;   tanımlaması yapıyorum
+//+  
 
 //?  *********************************** TAILWIND INFO *********************************** 
 //+  anasayfada Framework Guides  sekmesinden create react talimatlarını uyguluyoruz
