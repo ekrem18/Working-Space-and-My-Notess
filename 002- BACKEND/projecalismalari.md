@@ -12,7 +12,7 @@ Stringler, yeni roller eklediğinizde daha esnek bir yapı sağlar ve bu rolleri
     Sonuç olarak, rol temsilini integer veya string olarak seçmek, uygulamanızın gereksinimlerine ve gelecekteki genişleme planlarına bağlıdır. 
 Genellikle sabit ve sınırlı bir set içindeyse integer, daha geniş ve değişken ise string kullanmak daha uygundur.
 
-##
+## ObjectId & ref
 -mongoose.Schema.Types.ObjectId türü, MongoDB veritabanındaki belgeler arasında benzersiz bir referans sağlamak için kullanılan bir türdür.
 -genellikle ilişkisel veritabanlarındaki "foreign key" (yabancı anahtar) kavramına benzer bir işlevi yerine getirir.
 -ref vermen gerekir
