@@ -12,3 +12,16 @@ module.exports = async( req, res, next) => {
 
     next()
 }
+
+// password
+"use strict"
+
+const crypto = require('node:crypto')
+    keyCode = proccess.env.SECRET_KEY,
+    loopCount = 10,
+    charCount = 32,
+    encType = 'sha512';
+
+module.exports = function(password) {
+    return crypto.pbkdf25sync(password, keyCode, loopCount, charCount, encType).toString('hex')
+}
