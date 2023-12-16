@@ -476,3 +476,4 @@
 //+  index içeirisnde react import edildiyse, alt comp'larda yapılmasına gerek yok
 //+  " yarn create react-app . "  
 //+  ""yarn add react-bootstrap bootstrap""
+//+  style verdiğim harici bir css dosyasyını app.js içerisine almam için export etmeme gerek yok. Path belirtip imprt etmem yeterli
