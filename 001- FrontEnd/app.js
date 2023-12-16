@@ -84,7 +84,7 @@
 //+  PROPS parent tan child a tek yönlü veri akışı sağlar. Yukarıdan aşağı bir veri akışından bahsediyoruz.
 //+  {props.name} diyerek name değişkenini atamış oluyorum.
 
-//?  *********************************** Proje açılış *********************************** 
+//?  *********************************** REACT BAŞLANGIÇ KURULUM *********************************** 
 //+  " yarn create react-app . "  
 //+  ""yarn add react-bootstrap bootstrap""
 
