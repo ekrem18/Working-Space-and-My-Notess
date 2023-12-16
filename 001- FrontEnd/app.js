@@ -474,3 +474,5 @@
 //+  Componenetleri iterasyon içeririsine alıp defalarca kullanmam mümkün. for, map, filter gibi
 //+  Component parametresi PROPS tur
 //+  index içeirisnde react import edildiyse, alt comp'larda yapılmasına gerek yok
+//+  " yarn create react-app . "  
+//+  ""yarn add react-bootstrap bootstrap""
