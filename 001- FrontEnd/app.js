@@ -478,3 +478,6 @@
 //+  ""yarn add react-bootstrap bootstrap""
 //+  style verdiğim harici bir css dosyasyını app.js içerisine almam için export etmeme gerek yok. Path belirtip imprt etmem yeterli
 //+  public klasöründe bulunan resim vs herhangi birşeye ana dizinde olduğu için doğrudan erişim mümkün olsa da; örneğin src içerisinde bulunan bir resme ulaşmam için import etmem gerekiyor.
+//+  PROPS dediğimiz yapı parent --> child 'a tek yönlü gider
+//*+  SASS*************************  
+//+  
