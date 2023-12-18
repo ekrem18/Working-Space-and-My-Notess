@@ -480,4 +480,4 @@
 //+  public klasöründe bulunan resim vs herhangi birşeye ana dizinde olduğu için doğrudan erişim mümkün olsa da; örneğin src içerisinde bulunan bir resme ulaşmam için import etmem gerekiyor.
 //+  PROPS dediğimiz yapı parent --> child 'a tek yönlü gider
 //*+  SASS*************************  
-//+  
+//+  paket yükleniyor. _variables , _styles gibi dosyala oluturuluyor ve app.scss içerisinde birleştirilebilir.
