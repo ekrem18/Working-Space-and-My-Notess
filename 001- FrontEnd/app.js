@@ -485,3 +485,9 @@
 //+  Event yazdık onClick={abc}   bıraktın. ancak abc(xyz) şeklinde değer vermek istersen arrow func ile yazmalısın. onClick={ () => abc(xyz)}
 //+  React her türlü bilgiyi değişkliği render edip doma basmaz. Bu mantıklka çalıştığı için modüler ve hızlıdır diyebiliriz. Ancak burada çalışmasını istediğimiz alanlarda da state dediğimiz durum ortaya çıkıyor. Event düzenlenmiş değerini almış olsa dahi her zaman basılmaz state ile güncelleme ve basmasını isteyebiliriz. 
 //+  State ler ve Prop lar değişirse Component ancak o zaman render olur
+//*+  STATES - HOOKS
+//*   Hook Kullanim Kurallari:
+//+  1. İlk olarak import edilmeliler. import { useState } from "react";
+//+  2. Hook'lar ust seviyede kullanilmalidir. Yani Hook'lar bir dongunun, kosul cumleciginin ve icice fonksiyonlarin icerisinde kullanilmamalidir.
+//+  3. Hook'lar sadece React Fonksiyonel componentleri icerisinde cagrilmalidir.Normal Javascript fonksiyonlari icerisinde cagrilmamalidir. (Custom hook'lar icerisinde bir hook cagrilabilir)  
+//+  
