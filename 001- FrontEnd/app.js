@@ -482,4 +482,5 @@
 //*+  SASS  
 //+  paket yükleniyor. _variables , _styles gibi dosyala oluturuluyor ve app.scss içerisinde birleştirilebilir.
 //*+  EVENTS
+//+  Event yazdık onClick={abc}   bıraktın. ancak abc(xyz) şeklinde değer vermek istersen arrow func ile yazmalısın. onClick={ () => abc(xyz)}
 //+  React her türlü bilgiyi değişkliği render edip doma basmaz. Bu mantıklka çalıştığı için modüler ve hızlıdır diyebiliriz. Ancak burada çalışmasını istediğimiz alanlarda da state dediğimiz durum ortaya çıkıyor. Event düzenlenmiş değerini almış olsa dahi her zaman basılmaz state ile güncelleme ve basmasını isteyebiliriz. 
