@@ -470,7 +470,7 @@
 //+  task.id != id    Yani, tıklanan öğe (görev) ile karşılaştırılan öğe (task) aynı kimliğe sahip değilse, bu koşul ifadesi doğru olur. 
 
 //?  *********************************** GENEL TEKRAR ***********************************
-//*+  COMPONENTS*************************
+//*+  COMPONENTS
 //+  Componenetleri iterasyon içeririsine alıp defalarca kullanmam mümkün. for, map, filter gibi
 //+  Component parametresi PROPS tur
 //+  index içeirisnde react import edildiyse, alt comp'larda yapılmasına gerek yok
@@ -479,5 +479,7 @@
 //+  style verdiğim harici bir css dosyasyını app.js içerisine almam için export etmeme gerek yok. Path belirtip imprt etmem yeterli
 //+  public klasöründe bulunan resim vs herhangi birşeye ana dizinde olduğu için doğrudan erişim mümkün olsa da; örneğin src içerisinde bulunan bir resme ulaşmam için import etmem gerekiyor.
 //+  PROPS dediğimiz yapı parent --> child 'a tek yönlü gider
-//*+  SASS*************************  
+//*+  SASS  
 //+  paket yükleniyor. _variables , _styles gibi dosyala oluturuluyor ve app.scss içerisinde birleştirilebilir.
+//*+  EVENTS
+//+  React her türlü bilgiyi değişkliği render edip doma basmaz. Bu mantıklka çalıştığı için modüler ve hızlıdır diyebiliriz. Ancak burada çalışmasını istediğimiz alanlarda da state dediğimiz durum ortaya çıkıyor. Event düzenlenmiş değerini almış olsa dahi her zaman basılmaz state ile güncelleme ve basmasını isteyebiliriz. 
