@@ -27,3 +27,9 @@ Genellikle sabit ve sınırlı bir set içindeyse integer, daha geniş ve deği�
 -BOOLEAN:
 -DATE:
 -ENUM:
+
+## { paranoid: false } seçeneği, 
+-"paranoid" özelliğin devre dışı bırakılmasını ifade eder. Sequelize'de "paranoid" özelliği, bir kaydın silinmesi durumunda gerçekten veritabanından silinmek yerine sadece işaretlenmesini sağlar. { paranoid: false } kullanılarak silinmiş (paranoid olarak işaretlenmiş) kayıtlar da sorguya dahil edilir.
+
+## findAndCountAll fonksiyonu,
+- belirtilen filtre koşullarına uyan kayıtları bulur ve bu kayıtların sayısını ve kendilerini içeren bir sonuç nesnesini döndürür.
