@@ -16,3 +16,14 @@ Genellikle sabit ve sınırlı bir set içindeyse integer, daha geniş ve deği�
 -mongoose.Schema.Types.ObjectId türü, MongoDB veritabanındaki belgeler arasında benzersiz bir referans sağlamak için kullanılan bir türdür.
 -genellikle ilişkisel veritabanlarındaki "foreign key" (yabancı anahtar) kavramına benzer bir işlevi yerine getirir.
 -ObjectId ile çalışıyorsam nereden kullanacağıma dair ref vermen gerekir
+
+## Sequelize, Node.js tabanlı bir ORM (Object-Relational Mapping) kütüphanesidir ve yaygın veri tipleri şunlardır:
+-STRING:
+-CHAR: Belirli bir uzunluğa sahip karakter dizileri için kullanılır.
+-TEXT: Uzun metinler için kullanılır.
+-INTEGER:Tamsayı değerleri için kullanılır.
+-BIGINT:Büyük tamsayı değerleri için kullanılır.
+-FLOAT:Kayan noktalı sayılar için kullanılır.
+-BOOLEAN:
+-DATE:
+-ENUM:
