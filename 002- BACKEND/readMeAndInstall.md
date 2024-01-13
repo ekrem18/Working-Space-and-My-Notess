@@ -16,7 +16,7 @@
     ➖npm install express --save bu komut express.js'i packetjson'a kaydetmek için kullanılır. Ancak npm in 5.0 sıfır sürümünden sonra otomatik olarak kaydedildiği için ayrıca    save komutuna gerek kalmamıştır.
     ➖let moduleName = require("module") Belirtilen modülü çağırır. Bu komutu çalıştırmak için terminalde "  node   " yazarak js alanına girmiş olmamız gerekir. Çıkmak için  "  .   exit" komutu yazılır.
     ➖moduleName.builtinModules  let moduleName = require("module") komutundan sonra yazdığımızda modülleri listeler. 
-     ➖npm i express-async-handler  hata ayıklama/yönetme modülü
+    ➖npm i express-async-handler  hata ayıklama/yönetme modülü
 
 
 ⭐ÖRNEK MODEL
