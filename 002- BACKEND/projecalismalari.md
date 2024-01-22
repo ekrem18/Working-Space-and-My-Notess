@@ -33,3 +33,7 @@ Genellikle sabit ve sınırlı bir set içindeyse integer, daha geniş ve deği�
 
 ## findAndCountAll fonksiyonu,
 - belirtilen filtre koşullarına uyan kayıtları bulur ve bu kayıtların sayısını ve kendilerini içeren bir sonuç nesnesini döndürür.
+
+## UNIT TEST Vitest vs JEST
+-Vitest ve Jest arasındaki seçim büyük ölçüde proje gereksinimlerinize ve mevcut geliştirme yığınınıza bağlıdır. Vitest, modern ve hızlı bir yaklaşım sunarak Vite kullanan veya yerel ES modül desteği gerektiren projeler için cazip bir seçenek haline gelir. Jest, olgunluğu ve kapsamlı ekosistemi ile çok çeşitli JavaScript projeleri için güvenilir bir seçim olmaya devam etmektedir.
+-Vitest download 3.5mil/weekly iken jest over 20mil/weekly.  jest çok büyük bir ekosisteme sahip. vitest ise daha hızlı ve vite ile oluşturulan projlerde daha mantıklı olabilir
