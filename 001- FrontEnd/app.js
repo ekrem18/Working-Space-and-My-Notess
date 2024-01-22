@@ -171,9 +171,12 @@
 //+  onClick'deki herhngi bir değişklik "state"in değişimine, onun da değişimi aşağıdaki "prop"un değişimine, o da "render"a yol açıyor.  
 
 //?  *********************************** LIFE CYCLE-USE EFFECT METHODS *********************************** 
-//+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icinli fecycle metotlari kullanilabilir. 
+//+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icin lifecycle metotlari kullanilabilir. 
 //+  En bilindik lifecycle metodu render() metodudur.
-//+  Bir component'in olusturulmasi (constructor),Bir componentin DOM agacina eklenmesinin hemen sonrasi(componentDidMount) Bir component'in DOM'a basilmasi (render) (Optional) Bir componentin guncellenmesinin hemen sonrasi (componentDidUpdate) Bir component'in DOM agacindan kaldirilmasi sonrasi(componentWillUnmount).
+//+  Bir component'in olusturulmasi (constructor),Bir componentin DOM agacina eklenmesinin hemen sonrasi(componentDidMount),, Bir component'in DOM'a basilmasi (render) (Optional) Bir componentin guncellenmesinin hemen sonrasi (componentDidUpdate),, Bir component'in DOM agacindan kaldirilmasi sonrasi(componentWillUnmount).
+//+  componentDidMount --> ilk render sonrası hemen çağırılan ve bir kereye mahsus yapılacak ieyler için kullanılabilir. Api'den veri çekme gibi
+//+  componentDidUpdate--> ilk render haricinde; bi component gğncellendiğinde çalıştırılacak olan metod. hava durumu uygulamamda hava 40dereceyi aştığında bildirim yollaamk gibi.
+//+  
 //+  useEffect Hook unda snippet kullanılıdğında array içerisi dependency array  , first ksımı componentDidMount , second kısmı cleanup func. yani componentWillUnmount kısmıdır.
 //*+ const UseEffectHook = () => {
    //*useEffect(() => {
