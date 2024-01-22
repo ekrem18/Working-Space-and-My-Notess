@@ -44,3 +44,8 @@ DOSYA KURULUMU
 ---------------------------------------------------------
 /*-----------------------------SEQUELIZE DOCS----------*/
 https://sequelize.org/docs/v6/getting-started/
+---------------------------------------------------------
+BRANCH SİLME
+-- git branch -a         to see the branches you’ve created
+-- git branch -d branch-name 
+-- git branch -D branch-name.     hard delete
