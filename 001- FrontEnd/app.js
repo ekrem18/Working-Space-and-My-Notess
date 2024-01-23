@@ -180,7 +180,15 @@
 //+  componentWillUnmount --> bir component kaldırıldıktan sonra yapılacak temizlik işlemleri için kullanılır. Network isteklerinin iptali/ kaldırılması gibi
 //*+  BURAYA KADAR Kİ OLAN KONU ASLINDA CLASS COMPONENTS İÇN GEÇERLİ. FUNC İÇİN İSE USE EFFECT HOOK KULLANILIYOR
 //?  *************USE EFFECT HOOK
+//+  UseEffect Hook'u fonksiyonel componentler'de yan etkileri(side effect) gerceklestirmek icin kullanilir.
 //+  useEffect Hook unda snippet kullanılıdğında array içerisi dependency array  , first ksımı componentDidMount , second kısmı cleanup func. yani componentWillUnmount kısmıdır.
+//+  useEffect(() => {
+//    first
+//   return () => {                   --------->> syntax
+//    second
+//} }, 
+//[third])
+
 //*+ const UseEffectHook = () => {
    //*useEffect(() => {
        //* componentDidMount (Dependency Array bos ise)
