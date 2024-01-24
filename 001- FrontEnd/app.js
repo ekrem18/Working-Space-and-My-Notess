@@ -202,7 +202,7 @@
 //+  Dependency Array boş bıkrakılırsa, first olan kısım bi kere çalışır ancak, yukarıdaki gibi bişiler yazıldığında değişken her değiştiğinde render alınacak
 //+  Fetch, async-await, localStorage, setTimeout ve setInterval()   gibi işlemler için mount mantığı yani Dependency array boş bırakılır
 
-//?  *********************************** LIFE CYCLE-USE EFFECT METHODS - Axios DWM *********************************** 
+//?  *********************************** LIFE CYCLE-USE EFFECT METHODS - AXIOS DVM *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
 //*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
 //+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
