@@ -200,6 +200,7 @@
      //*}, [count]) //? Dependency Array
 
 //+  Dependency Array boş bıkrakılırsa, first olan kısım bi kere çalışır ancak, yukarıdaki gibi bişiler yazıldığında değişken her değiştiğinde render alınacak
+//+  Fetch, async-await, localStorage, setTimeout ve setInterval()   gibi işlemler için mount mantığı yani Dependency array boş bırakılır
 
 //?  *********************************** LIFE CYCLE-USE EFFECT METHODS - Axios DWM *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
