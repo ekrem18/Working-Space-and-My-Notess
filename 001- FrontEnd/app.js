@@ -170,7 +170,7 @@
 //+  React Bootstrap kullanıyorsam import da gerekli.
 //+  onClick'deki herhngi bir değişklik "state"in değişimine, onun da değişimi aşağıdaki "prop"un değişimine, o da "render"a yol açıyor.  
 
-//?  *********************************** LIFE CYCLE-USE EFFECT METHODS *********************************** 
+//?  *********************************** RC.11 LIFE CYCLE-USE EFFECT METHODS *********************************** 
 //*+  LifeCycle methods -->  Mounting , Updating , Unmounting   şeklinde 3ana başlıkta toplayabiliriz
 //+  Lifecycle metotlari componentlerin DOM'da varoldugu sure boyunca uzerinde islem yapmamizi imkan saglayan ozel React metotlaridir. Ornegin bir component olusturuldugunda, DOM'a basildiginda,guncellendiginde veya DOM'dan kaldirildiginda bir seyler yapmak icin lifecycle metotlari kullanilabilir. 
 //+  En bilindik lifecycle metodu render() metodudur.
@@ -201,6 +201,8 @@
 
 //+  Dependency Array boş bıkrakılırsa, first olan kısım bi kere çalışır ancak, yukarıdaki gibi bişiler yazıldığında değişken her değiştiğinde render alınacak
 //+  Fetch, async-await, localStorage, setTimeout ve setInterval()   gibi işlemler için mount mantığı kullanılır.  yani Dependency array boş bırakılır
+//*+  fetch() metodu içine URL yazılır..
+//+  
 
 //?  *********************************** LIFE CYCLE-USE EFFECT METHODS - AXIOS DVM *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
