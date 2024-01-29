@@ -207,7 +207,7 @@
 
 //?  *********************************** RC12 USE EFFECT METHODS - AXIOS  *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
-//*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
+//*+  AXIOS ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
 //+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
 //*+  const getTutorials = async () => {
 //*+     await axios (BaseURL) }         -------> standart get işlem i için ayrıca belirtmeye gerek yok ancak POST vd için "await axios.get (BaseURL)" denmeli
