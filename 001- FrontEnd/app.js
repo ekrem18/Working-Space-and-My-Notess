@@ -447,6 +447,9 @@
 //?  *********************************** WorkShop
 //+  React ten farklı olarak Server-Side'da çalışıyor.
 //+  Route yapısı da farklı. Ayrı bir route tanımlaması yapılmasına gerek kalmıyor.
+//+  İnteraktivite gerektiren işlemler, client-side işlemler denilebilir yaani life cycle methods --> useState, useEffect, useReducer NextJs'de kullanılamıyor.
+//+  Custom Hook'lar da nextJs'de kullanılamıyor
+//+  
 
 
 //?  *********************************** CYPRESS
