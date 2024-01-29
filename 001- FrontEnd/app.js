@@ -204,7 +204,7 @@
 //*+  fetch() metodu içine URL yazılır..
 //*+  OPTIONAL CHAINING -> userData?. picture?.large  -> ? kullanarak "varsa" diyorum .    
 
-//?  *********************************** LIFE CYCLE-USE EFFECT METHODS - AXIOS DVM *********************************** 
+//?  *********************************** RC12 USE EFFECT METHODS - AXIOS  *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
 //*+  axios yöntemi ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
 //+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
