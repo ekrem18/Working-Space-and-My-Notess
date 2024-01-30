@@ -450,7 +450,7 @@
 //+  İnteraktivite gerektiren işlemler, client-side işlemler denilebilir yaani life cycle methods --> useState, useEffect, useReducer NextJs'de kullanılamıyor.
 //+  Custom Hook'lar da nextJs'de kullanılamıyor
 //+  app içerisine tanımlanan bir dosya varsa ve içinde de component tanımlanıyorsa bu dosya doğrudan route tanımlamış gibi oluyor.
-//+  error.jsx,  layout.jsx,  loading.jsx  ve  page.jsx   gibi isimli dosylar tanımlı ve kayıtlı olduğu için otomatik tanımlı geliyorlar. içindeki comp. doğrduan çalışıyor.
+//+  app klasörü içerisinde     error.jsx,  layout.jsx,  loading.jsx  ve  page.jsx   gibi isimli dosylar tanımlı ve kayıtlı olduğu için otomatik tanımlı geliyorlar. içindeki comp. doğrduan çalışıyor.
 
 //?  *********************************** CYPRESS
 //+  install konuları 11.30'da başlıyo lazımsa
@@ -465,8 +465,7 @@
  
 //?  *********************************** Mix TW
 //* TYPSCRIPT NOT
-//+  TypeScript, JavaScript tabanlı bir programlama dilidir ve JavaScript kodunun üzerine inşa edilmiştir. TypeScript, JavaScript'e güçlü bir şekilde tip belirleme özelliği ekler. Bu, geliştiricilere kodlarını daha güvenli hale getirme, hata ayıklama ve daha iyi belgelendirme yapma yeteneği sağlar. Kısacası, TypeScript, JavaScript kodunun daha sağlam, anlaşılır ve ölçeklenebilir hale getirilmesini sağlayan bir programlama dilidir.
-//+  
+//+  TypeScript, JavaScript tabanlı bir programlama dilidir ve JavaScript kodunun üzerine inşa edilmiştir. TypeScript, JavaScript'e güçlü bir şekilde tip belirleme özelliği ekler. Bu, geliştiricilere kodlarını daha güvenli hale getirme, hata ayıklama ve daha iyi belgelendirme yapma yeteneği sağlar. Kısacası, TypeScript, JavaScript kodunun daha sağlam, anlaşılır ve ölçeklenebilir hale getirilmesini sağlayan bir programlama dilidir. 
 
 //?  *********************************** Proje Notlar
 //+  html type=checkbox birden fazla seçim mümkğünlken radio da tek seçim
