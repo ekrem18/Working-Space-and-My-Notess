@@ -449,8 +449,8 @@
 //+  Route yapısı da farklı. Ayrı bir route tanımlaması yapılmasına gerek kalmıyor.
 //+  İnteraktivite gerektiren işlemler, client-side işlemler denilebilir yaani life cycle methods --> useState, useEffect, useReducer NextJs'de kullanılamıyor.
 //+  Custom Hook'lar da nextJs'de kullanılamıyor
-//+  
-
+//+  app içerisine tanımlanan bir dosya varsa ve içinde de component tanımlanıyorsa bu dosya doğrudan route tanımlamış gibi oluyor.
+//+  error.jsx,  layout.jsx,  loading.jsx  ve  page.jsx   gibi isimli dosylar tanımlı ve kayıtlı olduğu için otomatik tanımlı geliyorlar. içindeki comp. doğrduan çalışıyor.
 
 //?  *********************************** CYPRESS
 //+  install konuları 11.30'da başlıyo lazımsa
