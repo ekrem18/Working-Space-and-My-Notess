@@ -218,6 +218,7 @@
 //*+      setTutorials(data)
 //*+      } catch (error) }  
 //+  axios.post(baseURL, {veriler})
+//+  
 
 //?  *********************************** ROUTER *********************************** 
 //*+  yarn add react-router-dom
