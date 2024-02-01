@@ -205,7 +205,7 @@
 //*+  OPTIONAL CHAINING -> userData?. picture?.large  -> ? kullanarak "varsa" diyorum . 
 //*+  AXIOS kullanımı için axios kütüphanesini yükleyip import etmemiz gerekiyor.    
 
-//?  *********************************** RC12 USE EFFECT METHODS - AXIOS  *********************************** 
+//?  *********************************** RC.12 USE EFFECT METHODS - AXIOS  *********************************** 
 //+  GET ile bilgiyi çekiyoruz, POST ile gönderiyoruz Submit diyebilirsin, PUT-PATCH ile editliyoruz.
 //*+  AXIOS ile bilgi çekmek için öncelikle yüklenmesi gerekiyor. "yarn add axios"  . sonrasında "import axios from "axios" "  import ediyoruz
 //+  axios ile bilgi çekeceksem yöntemlerden biri de await.  await kullanıyorsam fonksiyonum async olmalı
@@ -218,7 +218,7 @@
 //*+      setTutorials(data)
 //*+      } catch (error) }  
 //+  axios.post(baseURL, {veriler})
-//+  
+//*+  BOOTSTRAP in kendisini kullanacaksak scriptlerini de index.html' eklememiz gerekiyor ancak REACT BOOTSTRAP comp yapısında olduğu için npm ile yükleyip import edildiğinde scripte gerek duymuyor  
 
 //?  *********************************** ROUTER *********************************** 
 //*+  yarn add react-router-dom
