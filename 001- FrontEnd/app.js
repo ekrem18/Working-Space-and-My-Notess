@@ -219,6 +219,9 @@
 //*+      } catch (error) }  
 //+  axios.post(baseURL, {veriler})
 //*+  BOOTSTRAP in kendisini kullanacaksak scriptlerini de index.html' eklememiz gerekiyor ancak REACT BOOTSTRAP comp yapısında olduğu için npm ile yükleyip import edildiğinde scripte gerek duymuyor  
+//?  *************RC.12,5 
+//+  
+
 
 //?  *********************************** ROUTER *********************************** 
 //*+  yarn add react-router-dom
