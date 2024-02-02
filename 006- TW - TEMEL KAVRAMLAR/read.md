@@ -51,3 +51,7 @@ BRANCH SİLME
 -- git branch -D branch-name.        hard delete
 *******
 -- git push origin -d branch-name    Delete a Remote Branch
+---------------------------------------------------------
+DEV BRANCH ile ilişki
+-- git checkout kendi_branch         kendi branch'ınıza geçiş 
+-- git pull origin dev               dev branch'ından güncellemeleri al
