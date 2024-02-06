@@ -56,3 +56,6 @@ BRANCH SİLME
 DEV BRANCH ile ilişki
 -- git checkout kendi_branch         kendi branch'ınıza geçiş 
 -- git pull origin dev               dev branch'ından güncellemeleri al
+---------------------------------------------------------
+--  PARANOID:TRUE olarak belirtilmişse, ORM aracı silinmiş kayıtları sorgulamalarda otomatik olarak filtreleyecektir. Yani, uygulama bu kayıtları görmeyecek veya işlemeyecek şekilde davranacaktır.
+--  PARANOID:FALSE olarak belirtilmişse, silinmiş kayıtlar da sorgulamalarda gözükecek ve işlenecektir.
