@@ -50,6 +50,7 @@ BRANCH SİLME
 -- git branch -d branch-name 
 -- git branch -D branch-name.        hard delete
 *******
+-- git fetch -p                       senkronize etmek için kullanıyoruz
 -- git push origin -d branch-name    Delete a Remote Branch
 ---------------------------------------------------------
 DEV BRANCH ile ilişki
