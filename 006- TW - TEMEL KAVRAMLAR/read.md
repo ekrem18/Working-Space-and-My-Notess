@@ -59,3 +59,8 @@ DEV BRANCH ile ilişki
 ---------------------------------------------------------
 --  PARANOID:TRUE olarak belirtilmişse, ORM aracı silinmiş kayıtları sorgulamalarda otomatik olarak filtreleyecektir. Yani, uygulama bu kayıtları görmeyecek veya işlemeyecek şekilde davranacaktır.
 --  PARANOID:FALSE olarak belirtilmişse, silinmiş kayıtlar da sorgulamalarda gözükecek ve işlenecektir.
+---------------------------------------------------------
+TEMEL STATUS KODLARI
+-- " email required " ve " provide token "      gibi durumlar için --> 400
+-- " user isn't active "                        gibi durumlar için --> 403
+-- " verify e-mail " ve " invalid password "    gibi durumlar için --> 401  kullandım
