@@ -54,7 +54,7 @@ BRANCH SİLME
 -- git push origin -d branch-name    Delete a Remote Branch
 ---------------------------------------------------------
 DEV BRANCH ile ilişki
--- git checkout kendi_branch         kendi branch'ınıza geçiş 
+-- git checkout kendi_branch         kendi branch'ına geçiş 
 -- git pull origin dev               dev branch'ından güncellemeleri al
 ---------------------------------------------------------
 --  PARANOID:TRUE olarak belirtilmişse, ORM aracı silinmiş kayıtları sorgulamalarda otomatik olarak filtreleyecektir. Yani, uygulama bu kayıtları görmeyecek veya işlemeyecek şekilde davranacaktır.
