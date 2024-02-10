@@ -18,7 +18,6 @@ MongoDB veritabanlarıyla etkileşimde bulunmak ve yönetmek için kullanılan b
 
 --pgAdmin (PostgreSQL): pgAdmin, PostgreSQL veritabanlarını yönetmek için kullanılan ücretsiz ve açık kaynaklı bir araçtır. PostgreSQL, güçlü bir açık kaynaklı ilişkisel veritabanı yönetim sistemidir. pgAdmin, PostgreSQL veritabanlarını yönetmenize, sorguları çalıştırmanıza, yedekleme almanıza ve veri modellemesi yapmanıza yardımcı olur.
 ---------------------------------------------------------
-"use strict";
 /* -------------------------------------------------------
     EXPRESSJS - MIDDLEWARES
 ------------------------------------------------------- */
