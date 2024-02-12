@@ -35,14 +35,20 @@ const PORT = process.env.PORT || 8000;   --> yayına aç
 
 /* ------------------------------------------------------- */
 app.listen(PORT, () => console.log("Running: http://127.0.0.1:" + PORT));
+
+
 ---------------------------------------------------------
 DOSYA KURULUMU
 -- npm init -y
 -- npm i express dotenv    -->  express ve dotenv modüllerini kuruyorum
 -- nodemon DOSYA ADI   --> tracking active
+
+
 ---------------------------------------------------------
 /*-----------------------------SEQUELIZE DOCS----------*/
 https://sequelize.org/docs/v6/getting-started/
+
+
 ---------------------------------------------------------
 BRANCH SİLME
 -- git branch -a                     to see the branches you’ve created
@@ -51,13 +57,19 @@ BRANCH SİLME
 *******
 -- git fetch -p                      remote ve local branchler için senkronize etmek için kullanıyoruz
 -- git push origin -d branch-name    Delete a Remote Branch
+
+
 ---------------------------------------------------------
 DEV BRANCH ile ilişki
 -- git checkout kendi_branch         kendi branch'ına geçiş 
 -- git pull origin dev               dev branch'ından güncellemeleri al
+
+
 ---------------------------------------------------------
 --  PARANOID:TRUE olarak belirtilmişse, ORM aracı silinmiş kayıtları sorgulamalarda otomatik olarak filtreleyecektir. Yani, uygulama bu kayıtları görmeyecek veya işlemeyecek şekilde davranacaktır.
 --  PARANOID:FALSE olarak belirtilmişse, silinmiş kayıtlar da sorgulamalarda gözükecek ve işlenecektir.
+
+
 ---------------------------------------------------------
 TEMEL STATUS KODLARI
 -- " email required " ve " provide token "      gibi durumlar için --> 400
