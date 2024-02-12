@@ -658,3 +658,4 @@ const data =await BlogPost.find(search)
 //?  *********************************** JS NOTLAR
 //+  Post-increment: Değerin atanmadan sonra artırılması.
 //+  Pre-increment: Değerin atanmadan önce artırılması.
+//+  let a = 1; let b = a++; console.log(a, b);  ---> 2, 1
