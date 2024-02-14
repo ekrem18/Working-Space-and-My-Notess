@@ -72,6 +72,9 @@ DEV BRANCH ile ilişki
 
 ---------------------------------------------------------
 TEMEL STATUS KODLARI
--- " email required " ve " provide token "      gibi durumlar için --> 400
--- " user isn't active "                        gibi durumlar için --> 403
--- " verify e-mail " ve " invalid password "    gibi durumlar için --> 401  kullandım
+-- " email required " ve " provide token "      gibi durumlar için --> 400 Bad Request
+-- " user isn't active "                        gibi durumlar için --> 403 Forbidden
+-- " verify e-mail " ve " invalid password "    gibi durumlar için --> 401 Unauthorized  kullandım
+-- 402 Payment Required 
+-- 404 Not Found
+
