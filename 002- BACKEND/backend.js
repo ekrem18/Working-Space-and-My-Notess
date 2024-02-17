@@ -569,7 +569,7 @@ const data =await BlogPost.find(search)
 //+  Kullanıcı girişlerinde sıkıntılı bir durum gördüm örneğin. JWT sistemi kullandığımız için SECRET_KEY yenilense herkes çıkış yapmış olacağı için sistemi yeniden başlatmış olacağız diyebiliriz.
 /*   router.route('/')
         .get(permissions.isLogin , department.list)    --> Başkaca bir dosyada oluşturmuş olduğum MW'i route dosyasına import ettikten sonra permissions değişkenine atatdım. Mw'ler app.use ile kullanılabildiği gibi parametre gibi de fonksiyon içerisinde de kullanılabiliyordu. Dolayısı ile permissions değişkeni içerisindeki isLogin koduna bakarak kontrolünü yap geçerse next() ile department.list'i görüntüle. geçmezse nanay */    
-//?  *********************************** 11.10.2023 LOGGING & DOCUMANTATION
+//?  *********************************** 11.10.2023 LOGGING & DOCUMANTATION & SWAGGER
 //+  logging syntax  : ':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"'
 /* Write logs to file oluşturma
     const fs = require('node:fs')
