@@ -442,7 +442,7 @@
 //+  rootlayout default olarak geliyor zaten ve zorunlu. Alt klasörlerde oluşturulacak olanlar opsiyonel
 //*+  YARN RUN START dediğimizde build alınmış product ürün çalışırken,  YARN RUN DEV denildiğinde localdeki proje çalışıyor
 //*+    2.DERS
-//+  ROUTE ile ilgili olarak; genel dizin app klasörm altında yapacağım herahngi bir klasör otomatik olarak route yolunu vermiş oluyor
+//*+  ROUTE ile ilgili olarak; genel dizin app klasörm altında yapacağım herahngi bir klasör otomatik olarak route yolunu vermiş oluyor. App içerisine bir klasör açmaz da jsx tamnımlarsam otomatik tanımlanmış bir navbar, footer oluşabilir.
 //+  api yi çekerken axios değil de fetch kullanmamızın sebebi NextJS'in await i derlemesinden kaynaklı.
 //+  next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir.
 //+  Bir diğer fark da useParams hook una gerek kalmadan comp. içinde {params}  ieklinde bir nevi dest. işlemi yapabilirm
