@@ -439,10 +439,11 @@
 //+  Private route yapısı için sayfa oluşturur gibi folder oluşturup (private)  ya da (public) yazarak yapıyı oluşuturuoz
 //+  app dosyası içinde page.jsx bulunana her dosya route'tur
 //+  layout mantığına dair:   uygulama içinde app seviyesindeki layout içine alacağımız yapı tüm sayfalmarda yer alacak demek oluyor. navbar footer gibi. Nextjs mantığında göre her seferinde bir laypout tanımlamaya gerek olmadan layout dosyası içine yapıyı hazır edersen sıkıntı yok. Alt kalsörlerde de layout hazırlanablir.
-//+  rootlayout default olarak geliyor zaten ve zorulu. alt klasörlerde oluşturulacak olanlar opsiyonel
+//+  rootlayout default olarak geliyor zaten ve zorunlu. Alt klasörlerde oluşturulacak olanlar opsiyonel
 //*+  YARN RUN START dediğimizde build alınmış product ürün çalışırken,  YARN RUN DEV denildiğinde localdeki proje çalışıyor
 //*+    2.DERS
-//+  api yi çekereken axios değil de fetch kullanmamızın sebebi NextJS'in await i derlemesinden kaynaklı.
+//+  ROUTE ile ilgili olarak; genel dizin app klasörm altında yapacağım herahngi bir klasör otomatik olarak route yolunu vermiş oluyor
+//+  api yi çekerken axios değil de fetch kullanmamızın sebebi NextJS'in await i derlemesinden kaynaklı.
 //+  next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir.
 //+  Bir diğer fark da useParams hook una gerek kalmadan comp. içinde {params}  ieklinde bir nevi dest. işlemi yapabilirm
 //+  metadata objesi ve generateMetadata fonksiyonu sadece Server Componentlerden export edilebilir.
