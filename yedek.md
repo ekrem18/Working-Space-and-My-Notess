@@ -1,3 +1,4 @@
 -- users içerisinde PUT yaparken address adres yazılırsa günmcellemiyor ancak 202 gönderiyor.
 -- DELETE işleminde `The user named ${user.name} has been deleted.` hatasında undefined name geliyor.
+-- swagger Update email değiştirildi
 -- 
