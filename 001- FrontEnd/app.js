@@ -436,7 +436,7 @@
 //+  next/link arka planda sayfayı önceden fetch edilir. Bu, client tarafı gezintilerin performansını iyileştirmek için kullanışlıdır. Görünüm alanındaki herhangi bir <Link />  önceden yüklenecektir.
 //+  Yönlendirmede link elemanında to değil href kullanıyourz
 //+  Private route yapısı için sayfa oluşturur gibi folder oluşturup (private)  ya da (public) yazarak yapıyı oluşuturuoz
-//+  app dosyası içinde page.jsx bulunana her dosya route'tur
+//+  app dosyası içinde page.jsx bulunan her dosya route'tur
 //+  layout mantığına dair:   uygulama içinde app seviyesindeki layout içine alacağımız yapı tüm sayfalmarda yer alacak demek oluyor. navbar footer gibi. Nextjs mantığında göre her seferinde bir laypout tanımlamaya gerek olmadan layout dosyası içine yapıyı hazır edersen sıkıntı yok. Alt kalsörlerde de layout hazırlanablir.
 //+  rootlayout default olarak geliyor zaten ve zorunlu. Alt klasörlerde oluşturulacak olanlar opsiyonel
 //*+  YARN RUN START dediğimizde build alınmış product ürün çalışırken,  YARN RUN DEV denildiğinde localdeki proje çalışıyor
