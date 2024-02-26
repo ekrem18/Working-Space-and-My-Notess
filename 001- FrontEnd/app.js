@@ -451,10 +451,11 @@
 //+  aplikasyonun herhangi bir yerinde gecikme oluştuğunda otomatik loading.js dosyası render edilir
 //+  Error components must be Client Components.aplikasyonun herhangi bir yerinde hata fırlatıldığında otomatik error.js dosyası render edilir
 //*+  authantication işlemleri ile ilgili fonksiyon yazarken export { handler as GET, handler as POST } şeklinde iki yöntem içinde olmalı
+//+  
 //?  *********************************** WorkShop
 //+  React ten farklı olarak Server-Side'da çalışıyor.
 //+  Route yapısı da farklı. Ayrı bir route tanımlaması yapılmasına gerek kalmıyor.
-//+  İnteraktivite gerektiren işlemler, client-side işlemler denilebilir yaani life cycle methods --> useState, useEffect, useReducer NextJs'de kullanılamıyor.
+//+  İnteraktivite gerektiren işlemler, client-side işlemler denilebilir yani life cycle methods --> useState, useEffect, useReducer NextJs'de kullanılamıyor.
 //+  Custom Hook'lar da nextJs'de kullanılamıyor
 //+  app içerisine tanımlanan bir dosya varsa ve içinde de component tanımlanıyorsa bu dosya doğrudan route tanımlamış gibi oluyor.
 //+  app klasörü içerisinde     error.jsx,  layout.jsx,  loading.jsx  ve  page.jsx   gibi isimli dosylar tanımlı ve kayıtlı olduğu için otomatik tanımlı geliyorlar. içindeki comp. doğrduan çalışıyor.

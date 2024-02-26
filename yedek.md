@@ -10,3 +10,7 @@
 -- Purchase oluşturulurken supplier kısmında shoul D eksik
 -- Purchase is not associated to PurchaseAccount!  geçemedim
 -- product oluşuturulurken materails byük olmak zorunda? 
+-- sale date formatı yanlış girildiğindeki hata mesajı çirkin/default """"""""""""  timestamp with time zone tipi için geçersiz giriş sözdizimi: \"Invalid date\"
+-- tırnak içine almamaıza gerek var mı sayısal değerleri ; sidecontact gbi?
+-- production olmadı
+-- vehicle driverID oluşturma
