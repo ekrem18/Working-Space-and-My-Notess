@@ -377,7 +377,7 @@
 //+  env dosyalarinda genelde tum uygulama icerisinde tekrar tekrar kullanilacak degiskenler (API sifreleri, URL'ler vb. ) saklanilir. Dolayisiyla bir kere tanimlayip tum proje icersinde erisebilmek tekrari azaltmak adina avantaj saglar. VITE ile çalıştığımız için env içerisinbde VITE ile başlıyoruz
 //+  env degiskenlerine her asamada (dev,prod,test) erisilebilir. Bu dosya github'a pushlandigi icin gizli bilgiler paylasmak dogru olmaz.
 //+  VITE de guvenlik nedeniyle degisken isimlerinin basina VITE_ kelimesi eklenmelidir.
-//*+  bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
+//*+  Bir env degiskenini okumak icin """  import.meta.env.degiskenAdi"""   seklinde erisim yapilir.
 //*+  Js Uzantılı bir doya aslında js fonksiyonudur. React componenti değildir. DOlayısıyla hook kullancağım zama burada çağırmam mümkün değil. Bir Hook ya React comp.i içnde veya custom hook içerisinde çağırılabilir. UseNavigate örneğin bir hook olduğu için Js Veya JSX içeriisnde yemez
 //*+  400 BAD REQUEST gibi bir hata aldığında console dan detayına bakarak response sekmesi altında gerekli bilgi görünecektir. Toastify a sığmamaaıs ihtimalinden dolayı ui bastırmadık
 //+  Login olduktan sonra /sales sekmesinde hem dashboard'u görüp hem de ansayfanın işlemesi lazım. Dolaysııyla router yapısı içerisişnde private yapının içine nested olarak bir route daha yerleştirip <Home/> yapısını çağırdık ve index element olarak belirttik. index element bitane olabileceği için diğerlerinin path'ini işlyirıuz fakat bunun da kullanılabilmesi için Dashboard sayfasına <Outlet/> işlemeyi unutmuyıoruz

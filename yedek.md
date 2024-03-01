@@ -1,7 +1,7 @@
 ++-- users içerisinde PUT yaparken address adres yazılırsa günmcellemiyor ancak 202 gönderiyor.
 ++-- DELETE işleminde `The user named ${user.name} has been deleted.` hatasında undefined name geliyor.
 ++-- swagger Update email değiştirildi
--- RESET PASSWORD için, password hatırlnamıyorsa body de istenmesi mantıklı mı?
+++-- RESET PASSWORD için, password hatırlnamıyorsa body de istenmesi mantıklı mı?
 -- FORGET PASSWORD kısmnında message: `Email has been sent to ${email}.`    son nokta kalkmalı mı
 -- update alanlarına dair nler olmalı? olmalı mı?
 *******************************
