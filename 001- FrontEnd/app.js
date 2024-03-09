@@ -365,7 +365,7 @@
 //+  {Formik} from "formik "
 //+  Formik yapısı içerisinde kullanılşacak olan uyarılar, mesjalar login sayfası için vs Yup kütüphanesini kullanıyoruz.
 //+  import { object, string, number, date, InferType } from 'yup';   yapıyoruz ve hazır şemayı da customize edebilirz
-//*+  FORMİK initialValues: text-fieldların(input) başlangıç statetin veriyoruz. validationSchema: third-party kütüphaneyle validaysonlar yazılıyor, onSubmit: callback func yazıp suybmit gerçekleitiğinde neler yapılacak bu yazılır
+//*+  FORMIK initialValues: text-fieldların(input) başlangıç statetin veriyoruz. validationSchema: third-party kütüphaneyle validaysonlar yazılıyor, onSubmit: callback func yazıp suybmit gerçekleitiğinde neler yapılacak bu yazılır
 //+  form != Form ,  Form comp/elementi Formik'ten gelen FOrm
 //+  loginSchema --> email: email(valid uyarısı için),,required ....password: required,,min(8) ,max(16), matches(/\d+/) ->"en az bir rakam içerimesi" mevzuu, matches(/[A-Z]/) en az bir büyük harf içermesi
 //*+  matches(/[a-z]/, "en az bir küçük harf içermeli")  ÖR yazım
