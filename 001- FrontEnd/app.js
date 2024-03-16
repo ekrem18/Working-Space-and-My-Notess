@@ -406,17 +406,22 @@
 //+  Typescript için yazılan kodun compile edilmesi gerekiyor JS'ye ki browser'da görebilelim
 //+  Hataların canlıya çıkmadan görülmesine yarıyor. Runtime aşamasında görüyoruz.
 //*+  "npm install -g typescript"  ile kuruyoruz. 
-//*+  " tsc --init"  ile de config dosyasını kuruyoruz. Bu dosyada karşımıza çıkan ayarlamaları yapabilirz.Örneğin Js ES5-6 hangisi olacaksa. strinct mod açık kapalı gibi
-//+  "noEmitOnError"   hata varsa çıktı vermeme ayarı
-//+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
+//*+  " tsc --init"  ile de config dosyasını kuruyoruz. Bu dosyada karşımıza çıkan ayarlamaları yapabilirz.Örneğin Js ES5-6 hangisi olacaksa. strict mod açık kapalı gibi
+//+  dosya uzantısı .ts
+//+  "noEmitOnError"  konfig ayarı; hata varsa çıktı vermeme ayarı
+//+  terminale ts yazarak compile ediyoruz
+//+  TypeScript dosyasında en sık kullanılan komutların çıktısını aldım
 //+  Config dosyası içerisinde ts ve app dosyalarının yerlerini değiştmirme hususu ilk ders saat 20.56
 //+  " let num : number[] = [1] "  number tipinde bir array oluşturma syntax'ı
 //+  ARR Tuples yapısına göre syntax : -sabit sayıda ve tipte içinde birden fazla türden yapı bulunduran array oluşturmaya yardımcı-
-//+  ÖR: "" var employee : [number, stirng][] ""   ""employee= [[1,Steve], [2,Bill]]""
+//+  ÖR: "" var employee : [number, string][] ""   ""employee= [[1,Steve], [2,Bill]]""
 //+  Yapı içersine yeni eleman eklemek için .push kullanıyoruz
 //+  string enum yazılıyorsa değer number'daki gibi boş bırakılamaz.
 //+  mixed yapıda da  yazılabilir. Ancak; değer verilmediğinde number 0'dan başlayıp sırayla gitmesinde bir sıkıntı olmasa da, araya string girdiyse number için tekrar bir değer verilmeli
 //*+  2.DERS
+//+  number gönderdiğimiz ancak string çıktı verilen durumlar olabilir. Çözmek için;
+//*+  document.getElementById('input')! as HTMLInputElement  eklemesini yapıyoruz. 
+//+  number'a dönüştürmek için value nun başına + koy
 //*+  INTERSECTION yapı türü: kesişim manası olsa da aslında birleşimi ifade ediyor. Obje içine tanımladığın her key'i bildirmen gerektiği manasına geliyor. Eğer hepsini yazamk zorunda olmamalıyım diyorsan key'den sonra ? işareti kullanıyoruz. const car:{ model: string , year?: nunber}  gibi
 //+  type Intersected_type = Book & Author;
 // let book1: Intersected_type = {
