@@ -405,7 +405,7 @@
 //?  *********************************** TYPE SCRIPT ***********************************
 //+  Typescript için yazılan kodun compile edilmesi gerekiyor JS'ye ki browser'da görebilelim
 //+  Hataların canlıya çıkmadan görülmesine yarıyor. Runtime aşamasında görüyoruz.
-//+  "npm install -g typescript"  ile kuruyoruz. " tsc --init"  ile de config dosaysını kuruyoruz.
+//*+  "npm install -g typescript"  ile kuruyoruz. " tsc --init"  ile de config dosyasını kuruyoruz.
 //+  "noEmitOnError"   hata varsa çıktı vermeme ayarı
 //+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
 //+  Config dosyası içerisinde ts ve app dosyalarının yerlerini değiştmirme hususu ilk ders saat 20.56
