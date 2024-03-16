@@ -421,6 +421,7 @@
 //*+  2.DERS
 //+  number gönderdiğimiz ancak string çıktı verilen durumlar olabilir. Çözmek için;
 //*+  document.getElementById('input')! as HTMLInputElement  eklemesini yapıyoruz. 
+//*+  TYPE ANNOTATION : tip belirleme diyebilirz. ----> var message : string = "Hello world"
 //+  number'a dönüştürmek için value nun başına + koy
 //*+  INTERSECTION yapı türü: kesişim manası olsa da aslında birleşimi ifade ediyor. Obje içine tanımladığın her key'i bildirmen gerektiği manasına geliyor. Eğer hepsini yazamk zorunda olmamalıyım diyorsan key'den sonra ? işareti kullanıyoruz. const car:{ model: string , year?: nunber}  gibi
 //+  type Intersected_type = Book & Author;
