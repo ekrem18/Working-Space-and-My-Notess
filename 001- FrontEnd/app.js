@@ -403,6 +403,7 @@
 //+  Githuba puslayıp canlıda skntı yaşamamak içn ufak farklılıklar var. Vite ile oluşturduğumz dosya için vite.config dosyasına girip "build:{outDir: "./build"}"  yazıyorız
 
 //?  *********************************** TYPE SCRIPT ***********************************
+//+  Typescript için yazılan kodun compile edilmesi gerekiyor JS'ye ki browser'da görebilelim
 //+  "npm install -g typescript"  ile kuruyoruz. " tsc --init"  ile de config dosaysını kuruyoruz.
 //+  "noEmitOnError"   hata varsa çıktı vermeme ayarı
 //+  TypeScript dosyasoında en sık kullanılan komutların çıktısını aldım
