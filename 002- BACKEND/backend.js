@@ -609,6 +609,7 @@ const data =await BlogPost.find(search)
         Bu bir model, create ederken default kullanabilsem de update ederken kullanamayacağım için transform kullanıyorum. DB üzeerinde bir hesaplama yapacaksam bu şablon kullanılabilir 
 */ 
 //+  Access-Allow-Origin Hatası CORSE hatasıdır
+//+  Daha önce bu hatayı aldığımda mondb db kısmında bağlantı reset yapmam gerekti
 //!  satış esnasında verilen uyarı-hata vs backend'den çekilebilir
 //!  authantication mw bakılabilir
 
