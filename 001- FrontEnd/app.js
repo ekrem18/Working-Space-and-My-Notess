@@ -427,6 +427,7 @@
 //+  array tanımlaması yaparken içeriğinde ne olduğu önemli değlse any olarak yapmamız mümkünken number olarak da ayarlayabiliriz. 
 //*+  let num : number[] = [1,2,3,4,5,6,7,8,9]    gibi
 //+  let myTuple : [number, boolean, string] --> tuple'ın esprisi içeriğindeki her değer unique'tir. tür belirlemesini bu şekilde yapablirm. Sabit sayıda, sabit değer atıyorum. Ve sıralama da önemli. 
+//+  let arrTuple : [number, boolean][]; şeklinde tanım da mümkün---> arrTuple = [[1,Ekrem], [2,Almira]] gibi
 //+  type Intersected_type = Book & Author;
 // let book1: Intersected_type = {
 //   book_id: 1234,
