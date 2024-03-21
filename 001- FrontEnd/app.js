@@ -424,6 +424,8 @@
 //*+  TYPE ANNOTATION : tip belirleme diyebilirz ve zorunlu değildir ----> var message : string = "Hello world"
 //+  number'a dönüştürmek için value nun başına + koy
 //*+  INTERSECTION yapı türü: kesişim manası olsa da aslında birleşimi ifade ediyor. Obje içine tanımladığın her key'i bildirmen gerektiği manasına geliyor. Eğer hepsini yazamk zorunda olmamalıyım diyorsan key'den sonra ? işareti kullanıyoruz. const car:{ model: string , year?: number}  gibi
+//+  array tanımlaması yaparken içeriğinde ne olduğu önemli değlse any olarak yapmamız mümkünken number olarak da ayarlayabiliriz. 
+//*+  let num : number[] = [1,2,3,4,5,6,7,8,9]    gibi
 //+  
 //+  type Intersected_type = Book & Author;
 // let book1: Intersected_type = {
