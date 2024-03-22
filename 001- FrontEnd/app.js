@@ -441,6 +441,8 @@
 //+  FUNCTIONS
 //+  Opsiyonel olarak göndereceğimiz bir bilgi varsa bunu ilk sıraya yazmamak gerekiyor.
 //+  Functions-Overloading : aynı ada ve aynı paramatre sayısına ve fakat farklı paramatrelere sahip fonksiyon yazmamıza yardımcı oluyor
+//*+  3.DERS
+//+    
 
 //?  *********************************** NEXT JS *********************************** yarn dev vs
 //+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
