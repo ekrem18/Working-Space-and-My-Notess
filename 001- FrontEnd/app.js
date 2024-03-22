@@ -428,22 +428,16 @@
 //*+  let num : number[] = [1,2,3,4,5,6,7,8,9]    gibi
 //+  let myTuple : [number, boolean, string] --> tuple'ın esprisi içeriğindeki her değer unique'tir ancak python da bu böyle. Burda unique olmasından ziyade biçim önemli. tür belirlemesini bu şekilde yapablirm. Sabit sayıda, sabit değer atıyorum. Ve sıralama da önemli.
 //+  let arrTuple : [number, boolean][]; şeklinde tanım da mümkün---> arrTuple = [[1,Ekrem], [2,Almira]] gibi
-//+  type Intersected_type = Book & Author;
-// let book1: Intersected_type = {
-//   book_id: 1234,
-//   book_name: "Lord of the Rings",
-//   Author_Id: 1892,
-//   Author_name: "J. R. R. Tolkien"};
-
-// let book2: Book ={
-//   book_id : 1,
-//   book_name: 'FS }
-//+  FUNCTIONS
-//+  Opsiyonel olarak göndereceğimiz bir bilgi varsa bunu ilk sıraya yazmamak gerekiyor.
-//+  Functions-Overloading : aynı ada ve aynı paramatre sayısına ve fakat farklı paramatrelere sahip fonksiyon yazmamıza yardımcı oluyor
 //*+  3.DERS
 //+  typlerdan any ile istediğimiz atamayı yapabilir ve hata almayız. Ancak TS'in avantajını da es geçmiş oluyoruz.
 //+  Bununla beraber UNKNOWN type'ını da seçebiliriz. Burda da şöyle bir durum oluyor: let c : unknown =5 dediğimde tipi unknown ancak değeri 5 olarak atıyor. Devamında let  d : number = c dersem hata veeriyor. Önüne geçmek için let d: number =c as number diyerek problem biter
+//+  UNION TYPE & TYPE NARROWING
+//+  Paramatre ile gelen string de olabilir, number da olabilir. function checkNumber (n:(string | number)) : string {...}   union type bu..
+//*+  String Literals dediğimiz konuda da sadece type değil artık içeriğe de müdahale ediyoruz.
+/*  type pet = "cat" | "dog" ; 
+      let pet1 : pet = "cat"   olabilirken 
+      let pet2 : pet = "horse"  olamıyor*/
+//+  
 
 //?  *********************************** NEXT JS *********************************** yarn dev vs
 //+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
