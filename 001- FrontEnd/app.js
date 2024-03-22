@@ -405,7 +405,7 @@
 //?  *********************************** TYPE SCRIPT ***********************************
 //+  Typescript için yazılan kodun compile edilmesi gerekiyor JS'ye ki browser'da görebilelim
 //+  Hataların canlıya çıkmadan görülmesine yarıyor. Runtime aşamasında görüyoruz.
-//*+  "npm install -g typescript"  ile kuruyoruz. 
+//*+  "npm install -g typescript"  ile kuruyoruz.
 //*+  " tsc --init"  ile de config dosyasını kuruyoruz. Bu dosyada karşımıza çıkan ayarlamaları yapabilirz.Örneğin Js ES5-6 hangisi olacaksa. strict mod açık kapalı gibi
 //+  dosya uzantısı .ts
 //+  "noEmitOnError"  konfig ayarı; hata varsa çıktı vermeme ayarı
@@ -420,13 +420,13 @@
 //+  mixed yapıda da  yazılabilir. Ancak; değer verilmediğinde number 0'dan başlayıp sırayla gitmesinde bir sıkıntı olmasa da, araya string girdiyse number için tekrar bir değer verilmeli
 //*+  2.DERS
 //+  number gönderdiğimiz ancak string çıktı verilen durumlar olabilir. Çözmek için;
-//*+  document.getElementById('input')! as HTMLInputElement  eklemesini yapıyoruz. 
+//*+  document.getElementById('input')! as HTMLInputElement  eklemesini yapıyoruz.
 //*+  TYPE ANNOTATION : tip belirleme diyebilirz ve zorunlu değildir ----> var message : string = "Hello world"
 //+  number'a dönüştürmek için value nun başına + koy
 //*+  INTERSECTION yapı türü: kesişim manası olsa da aslında birleşimi ifade ediyor. Obje içine tanımladığın her key'i bildirmen gerektiği manasına geliyor. Eğer hepsini yazamk zorunda olmamalıyım diyorsan key'den sonra ? işareti kullanıyoruz. const car:{ model: string , year?: number}  gibi
-//+  array tanımlaması yaparken içeriğinde ne olduğu önemli değlse any olarak yapmamız mümkünken number olarak da ayarlayabiliriz. 
+//+  array tanımlaması yaparken içeriğinde ne olduğu önemli değlse any olarak yapmamız mümkünken number olarak da ayarlayabiliriz.
 //*+  let num : number[] = [1,2,3,4,5,6,7,8,9]    gibi
-//+  let myTuple : [number, boolean, string] --> tuple'ın esprisi içeriğindeki her değer unique'tir ancak python da bu böyle. Burda unique olmasından ziyade biçim önemli. tür belirlemesini bu şekilde yapablirm. Sabit sayıda, sabit değer atıyorum. Ve sıralama da önemli. 
+//+  let myTuple : [number, boolean, string] --> tuple'ın esprisi içeriğindeki her değer unique'tir ancak python da bu böyle. Burda unique olmasından ziyade biçim önemli. tür belirlemesini bu şekilde yapablirm. Sabit sayıda, sabit değer atıyorum. Ve sıralama da önemli.
 //+  let arrTuple : [number, boolean][]; şeklinde tanım da mümkün---> arrTuple = [[1,Ekrem], [2,Almira]] gibi
 //+  type Intersected_type = Book & Author;
 // let book1: Intersected_type = {
@@ -442,7 +442,8 @@
 //+  Opsiyonel olarak göndereceğimiz bir bilgi varsa bunu ilk sıraya yazmamak gerekiyor.
 //+  Functions-Overloading : aynı ada ve aynı paramatre sayısına ve fakat farklı paramatrelere sahip fonksiyon yazmamıza yardımcı oluyor
 //*+  3.DERS
-//+    
+//+  typlerdan any ile istediğimiz atamayı yapabilir ve hata almayız. Ancak TS'in avantajını da es geçmiş oluyoruz.
+//+  Bununla beraber UNKNOWN type'ını da seçebiliriz. Burda da şöyle bir durum oluyor: let c : unknown =5 dediğimde tipi unknown ancak değeri 5 olarak atıyor. Devamında let  d : number = c dersem hata veeriyor. Önüne geçmek için let d: number =c as number diyerek problem biter
 
 //?  *********************************** NEXT JS *********************************** yarn dev vs
 //+  Route yapısı oluşturulurken sayfa uzantısını dinamik hale getirmek için []  içine yazıyoruz.
@@ -466,7 +467,7 @@
 //+  aplikasyonun herhangi bir yerinde gecikme oluştuğunda otomatik loading.js dosyası render edilir
 //+  Error components must be Client Components.aplikasyonun herhangi bir yerinde hata fırlatıldığında otomatik error.js dosyası render edilir
 //*+  authantication işlemleri ile ilgili fonksiyon yazarken export { handler as GET, handler as POST } şeklinde iki yöntem içinde olmalı
-//+  
+//+
 //?  *********************************** WorkShop
 //+  React ten farklı olarak Server-Side'da çalışıyor.
 //+  Route yapısı da farklı. Ayrı bir route tanımlaması yapılmasına gerek kalmıyor.
