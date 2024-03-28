@@ -461,7 +461,6 @@
 //+  aplikasyonun herhangi bir yerinde gecikme oluştuğunda otomatik loading.js dosyası render edilir
 //+  Error components must be Client Components.aplikasyonun herhangi bir yerinde hata fırlatıldığında otomatik error.js dosyası render edilir
 //*+  authantication işlemleri ile ilgili fonksiyon yazarken export { handler as GET, handler as POST } şeklinde iki yöntem içinde olmalı
-//+
 //?  *********************************** WorkShop
 //+  React ten farklı olarak Server-Side'da çalışıyor.
 //+  Route yapısı da farklı. Ayrı bir route tanımlaması yapılmasına gerek kalmıyor.
